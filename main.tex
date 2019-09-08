@@ -98,7 +98,7 @@
 \setlist{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
 
 \unitlength=1mm
-\linespread{1.1}
+\linespread{1.05}
 
 \usetikzlibrary{decorations.markings,calc}
 
@@ -242,16 +242,16 @@ In it's core the protocol is minimalistic and can be expresses in the following 
 
 \begin{enumerate}[nosep]
 \item Compute genesis of cyber protocol based on the distribution rules defined by this paper
-\item Def knowledge graph state
+\item Define knowledge graph state
 \item Take cyberlinks
 \item Check the validity of signatures
 \item Check the validity of CIDv1
-\item Check bandwidth limit
+\item Check the bandwidth limit
 \item If signatures, bandwidth limit, and CIDv1 are valid then apply cyberlinks
 \item Every round calculate cyber•rank deltas for the knowledge graph
 \end{enumerate}
 
-Rest of paper discuss rationale and details of proposed protocol.
+Rest of paper discusses the rationale and details of the proposed protocol.
 
 \titleSection{Knowledge graph}\label{knowledge graph}
 
@@ -262,30 +262,29 @@ Content addresses are essentially web3 links. Instead of using non-obvious and m
 \begin{lstlisting}
 https://github.com/cosmos/cosmos/blob/master/WHITEPAPER.md
 \end{lstlisting}
-we can use pretty much exact thing:
+we can, pretty much, use the exact thing:
 \begin{lstlisting}
 Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
 \end{lstlisting}
 
-Using content addresses for building a knowledge graph we get \linkred{https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est}{so much needed} superpowers of \linkgreen{https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps}{ipfs} - \linkgreen{https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR}{like} p2p protocols for a search engine:
+Using content addresses for building a knowledge graph we get \linkred{https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est}{the so much needed} superpowers of \linkgreen{https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps}{ipfs} - \linkgreen{https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR}{like} p2p protocols for a search engine:
 
 \begin{itemize}
-\item mesh-network future proof
-\item interplanetary
-\item tolerant
-\item accessible
-\item technology agnostic
+\item future proof for mesh-networks
+\item interplanetary accesability
+\item censorship resistance
+\item independance on technology
 \end{itemize}
 
-Web agents generate our knowledge graph. Web3 agents include itself to the knowledge graph by transacting only once. Thereby they prove the existence of private keys for content addresses of revealed public keys. Using this basic proof mechanics consensus computer could have provable differentiation between subjects and objects in a knowledge graph.
+Web agents generate our knowledge graph. Agents include itself to the knowledge graph with just one transaction. Thereby, they prove the existence of their private keys for content addresses of the revealed public keys. Using this basic proof mechanics consensus computer could have provable differentiation between subjects and objects in a knowledge graph.
 
-Our \code{cyber} implementation is based on \linkred{https://github.com/cosmos/cosmos-sdk}{cosmos-sdk} identities and \linkred{https://github.com/multiformats/cid#cidv0}{cidv0} content addresses.
+Our \code{cyber} implementation is based on \linkred{https://github.com/cosmos/cosmos-sdk}{cosmos-sdk} identities and \linkred{https://github.com/multiformats/cid#cidv0}{cidv1} content addresses.
 
 Web agents generate a knowledge graph by applying \code{cyberlinks}.
 
 \titleSection{Cyberlinks}\label{cyberlinks}
 
-To understand cyberlinks, we need to understand the difference between \code{URL link} aka hyperlink and \code{IPFS link}. \code{URL link} points to the location of content, but \code{IPFS link} point to the content itself. The difference in web architecture based on location links and content links is drastical, hence require new approaches.
+To understand cyberlinks, we need to understand the difference between \code{URL link} aka hyperlink and \code{IPFS link}. A URL link points to the location of content, whether  IPFS link points to the content itself. The difference of web architecture based on location links and content links is drastical, hence it requires a new approach.
 
 \code{Cyberlink} is an approach to link two content addresses or \code{IPFS links} semantically:
 
@@ -295,17 +294,17 @@ QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH
 Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
 \end{lstlisting}
 
-This \code{cyberlink} means that cyberd presentation on cyberc0n is referencing Cosmos whitepaper. A concept of \code{cyberlink} is a convention around simple semantics of communication format in any peer to peer network:
+This cyberlink means that cyberd presentation on cyberc0n is referencing Cosmos whitepaper. A concept of cyberlink is a convention around simple semantics of communication format in any peer to peer network:
 
 \begin{lstlisting}
   <content-address x>.<content-address z>
 \end{lstlisting}
 
-You can see that \code{cyberlink} represents a link between two links. Easy peasy!
+You can see that cyberlink represents a link between two links. Easy peasy!
 
-Cyberlink is a simple yet powerful semantic construction for building a predictive model of the universe. That is, using \code{cyberlinks} instead of \code{hyperlinks} gives us superpowers inaccessible for previous architectures of general purpose search engines.
+Cyberlink is a simple yet powerful semantic construction for building a predictive model of the universe. That is, using cyberlinks instead of hyperlinks gives us the superpowers that were inaccessible to previous architectures of general-purpose search engines.
 
-Cyberlinks can be extended, e.g. can form link chains if exist a series of two cyberlinks from one agent in which the second link in the first cyberlink is equal to the first link in the second cyberlink:
+Cyberlinks can be extended, e.g. they can form link chains if exist a series of two cyberlinks from one agent in which the second link in the first cyberlink is equal to the first link in the second cyberlink:
 
 \begin{lstlisting}
 <content-address x>.<content-address z>
@@ -314,12 +313,12 @@ Cyberlinks can be extended, e.g. can form link chains if exist a series of two c
 
 \begin{Figure}
     \centering
-    \includegraphics[width=0.7\textwidth]{linkchain.jpg}
+    \includegraphics[width=0.5\textwidth]{linkchain.jpg}
 \end{Figure}
 
-If web3 agents expand native \code{IPFS links} with something semantically richer as
+If agents expand native \code{IPFS links} with something semantically richer as
 \linkred{https://github.com/cybercongress/cyb/blob/dev/docs/dura.md}{DURA}
-links than web3 agents can easier reach consensus on the rules for program execution. Indeed, \code{DURA} protocol is a proper implementation of a cyberlink concept.
+links than web3 agents can easier reach consensus on the rules for program execution.
 
 \linkred{https://github.com/cybercongress/cyberd}{cyber} implementation of \code{cyberlinks} based on \linkred{https://github.com/cybercongress/cyb/blob/dev/docs/dura.md}{DURA} specification is available in \linkred{https://github.com/cybercongress/.cyber}{.cyber} app of browser \linkred{https://github.com/cybercongress/cyb}{cyb}.
 
@@ -327,12 +326,12 @@ Based on \code{cyberlinks} we can compute the relevance of subjects and objects 
 
 \titleSection{Notion of consensus computer}\label{notion of consensus computer}
 
-Consensus computer is an abstract computing machine that emerges from agents interactions. A consensus computer has a capacity in terms of fundamental computing resources such as memory and computing. To interact with agents, a computer needs a bandwidth. Ideal consensus computer is a computer in which:
+Consensus computer is an abstract computing machine that emerges from agents interactions. A consensus computer has the capacity in terms of fundamental computing resources, such as memory and computing. To interact with agents, a computer needs bandwidth. Ideal consensus computer is a computer in which:
 \\
 \begin{lstlisting}
 the sum of all computations and memory available for individuals
 is equal to
-the sum of all verified computations and memory of a *consensus computer*
+the sum of all verified computations and memory of a consensus computer
 \end{lstlisting}
 
 We know that:
@@ -341,18 +340,16 @@ We know that:
 verifications of computations < (computations + verifications of computations)
 \end{lstlisting}
 
-Hence we will not be able to achieve an ideal consensus computer ever. CAP theorem and scalability trilemma also prove this statement. However, this theory can work as a performance indicator of a consensus computer.
+Hence we will never be able to achieve an ideal consensus computer. The CAP theorem and the scalability trilemma also add proof to this statement. However, this theory can work as a performance indicator of a consensus computer. After 6 years of investments into consensus computers, we realize that \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint} consensus has a good balance between the coolness required for our task and the readiness for production. So, we decide to implement the \code{cyber} protocol using Tendermint, which is very close to Cosmos Hub setting.
 
-After 6 years of investments into consensus computers, we find out that \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint} consensus has a good balance between coolness for our task and readiness for production. So we decide to implement the \code{cyber} protocol using Tendermint which is very close to Cosmos Hub setting.
-
-The \code{cyber} implementation is a 64-bit tendermint consensus computer of the relevance for 64-byte string space that is as far from ideal at least as 1/146, because we have 146 validators who verify the same computation using the knowledge graph of the same size.
+The \code{cyber} implementation is a 64-bit tendermint consensus computer of the relevance for 64-byte string space that is as far from ideal at least as 1/146. This is because we have 146 validators who verify the same computation using the knowledge graph of the same size.
 
 \begin{Figure}
   \centering
-  \includegraphics[width=0.9\textwidth]{computer.png}
+  \includegraphics[width=0.7\textwidth]{computer.png}
 \end{Figure}
 
-We must bind computational, storage and bandwidth supply of consensus computer with maximized demand on queries. Computation and storage in case of basic relevance machine can be easily predicted based on bandwidth, but bandwidth requires a limiting mechanism.
+We must bind the computation, storage and bandwidth supply of the consensus computer with a maximized demand for queries. Computation and storage in case of a basic relevance machine can be easily predicted based on bandwidth, but bandwidth requires a limiting mechanism.
 
 \titleSection{Relevance machine}\label{relevance-machine}
 
