@@ -32,6 +32,7 @@
 \usepackage{listings}
 \usepackage{fancyhdr}
 \usepackage{svg}
+\usepackage{datetime}
 
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{enumerate}
@@ -200,10 +201,10 @@
 \title{\fontsize{16}{17}\selectfont\textnormal{\MakeLowercase{\play{cyber: \uppercase{C}omputing the knowledge from web3}}}}
 \author{\fontsize{8}{9}\selectfont{
     \MakeLowercase{
-    @xhipster, @litvintech
+    @xhipster \& @litvintech work in progress as of \today
     }
-   }
   }
+}
 
 \begin{document}
 \maketitle
@@ -581,9 +582,13 @@ During the implementation of proposed architecture, we realize at least 3 key be
 \item search snippets must not be static but can be interactive, eg. \code{.cyber} can deliver your current balance.
 \end{itemize}
 
-\titleSection{Approach toward distribution}\label{Approach toward distribution}
+\titleSection{Deployment}\label{Approach toward distribution}
 
-So we decide to create 2 tokens: THC and CYB:
+Overall the deployment process is the following:
+
+Chart
+
+we decide to create 2 tokens: THC and CYB:
 
 \begin{itemize}
 \item THC (pronounce as tech) is a creative cyber proto substance. THC being an Ethereum ERC-20 compatible token have utility value in form of control cyber•Foundation (Aragon DAO) ETH from auction proceeds. THC was emitted during the creation of cyber•Foundation as Aragon organization. Creative power of THC came from ability to receive 1 CYB per each 1 THC for locking it during cyber•Auction.
@@ -620,7 +625,6 @@ We want give ability to evaluate proposed approach for as much agents as possibl
 
 Key purpose of this gift is that every account in Genesis would be able to make at least 1 cyberlink in 24 hour if the network is unloaded. That is why we decide to make distribution curve a bit more even and radically change it to quadratic. So we distribute CYB proportionally to square root from each balance of the snapshots. But because quadratic scheme is easy to game we calculate amount of distributed CYB on the blocks before this fact become known.
 
-\titleSection{Game of Links}\label{gol}
 Game of links is a game between cyber•Congress and Cosmos stakehodlers for the place in Genesis. The game is finished if both of the following criteria met:
 \begin{itemize}
 \item 146 validators in consensus during 10k blocks
@@ -636,18 +640,15 @@ Key idea is the better Game of Links performs the more percent of the network Co
 Chart
 
 \item 30 TCYB allocated for the incentive scheme.
+\end{itemize}
 
 All remaining CYB allocated to cyber•Congress
-
-\titleSection{Game of Thrones}\label{got}
 
 Game of Thrones - is a game between ATOM and ETH hodlers for being the greatest. As a result of 21-day auction after Genesis, every community earn 10\% of CYB. In order to make the game run smoothly we concisely adding arbitrage opportunity in the form of significant discount to ATOM holders because the system needs provably professional validators and delegators at the beginning and basically for free.
 
 We can describe the discount in the following terms: Currently buying power of all ATOMs against all ETHs based on current caps is about 1/24. Given that 10\% of CYB will be distributed based on donation in ATOMs and 10\% of CYB will be distributed based on donations in ETHs the discount for every ATOM donation during Game of Thrones is about 24x which is significant enough to encourage participation based on arbitrage opportunity during the first 21 days of Genesis auction and stimulate the price of ATOMs as appreciation for all cosmic community.
 
 Distribution of CYB happens after the end of the Game of Thrones by cyber•Congress.
-
-\titleSection{cyber•Auction}\label{cyberauction}
 
 cyber•Auction starts after the end of the Game of Thrones and lasts 500 rounds 23 hours each. Every round participants trade for 1 000 000 000 000 THC. During this phase, CYBs are continuously distributed based on vested THC untill the end of auction. Vested THC gives ability to receive CYB accordingly and vote in cyber•Foundation. After the end of distribution participants will be able to unlock THC and use them as they wish, e.g. transfer, trade, etc. As a result of auction community will have access to all raised ETH under Aragon organization.
 
@@ -658,7 +659,7 @@ The following rules apply for CYBs under cyber•Auction multisig:
 \item after the end of cyber•Auction, all remaining CYBs must be provably burned
 \end{itemize}
 
-\titleSection{cyber•Foundation}\label{joint-goal}
+\titleSection{THC}\label{thc}
 
 The goal of creating an alternative to a Google-like structure requires extraordinary effort of different groups. So we decide to set up cyber•Foundation as a fund managed via decentralized engine such as Aragon DAO filled with ETH and managed by agents who participated in initial distribution. This approach will allow safeguarding from excessive market dumping of native platform CYB tokens in the first years of work, thereby ensuring stable development. Additionally, this allows to diversify underlying platform and extend the protocol to other consensus computing architecture should the need arise.
 
@@ -687,7 +688,7 @@ All decisions by cyber•Foundation will be executed based on THC votes. The fol
 \item Vote duration: 500 hours
 \end{itemize}
 
-\titleSection{Genesis}\label{genesis}
+\titleSection{CYB}\label{cyb}
 
 Genesis of \code{cyber} protocol contains 1 000 000 000 000 000 CYB (one petacyb or 1 PCYB) broken down as follows:
 
@@ -705,9 +706,7 @@ Genesis of \code{cyber} protocol contains 1 000 000 000 000 000 CYB (one petacyb
  \includesvg[width=1\textwidth]{CYB.svg}
 \end{Figure}
 
-\titleSection{Discussing parameters}\label{params}
-
-To be done...
+Parametrs and inflation forecast to be done...
 
 After Genesis CYB tokens can be created only by validators based on staking and slashing parameters. The basic consensus is that newly created CYB tokens are at the disposal of stakeholders, but initially distributed to validators as they do the essential work to make relevance machine run both regarding energy consumed for computation and cost for storage capacity.
 
