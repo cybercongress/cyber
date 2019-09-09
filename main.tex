@@ -759,25 +759,13 @@ To be done...
 
 There is no currently such thing as the maximum amount of CYB due to continuous inflation paid to validators. Currently, CYB is implemented using 64int so the creation of more CYB makes significantly more expensive compute state changes and rank. We expect that lifetime monetary strategy must be established by the governance system after complete initial distribution of CYB and activation of smart contract functionality.
 
+We suggest that the knowledge graph could be created using the following methods:
 
-\titleSection{Learning the beast}\label{Learning the Graph}
+\titleSection{Apps}\label{Applications of knowledge graph}
 
 We assume that the proposed algorithms do not guarantee high quality knowledge by default. Like a child it needs to be learned in order to live well. Protocol itself provides only one simple tool: the ability to create a cyberlink with a certain weight between two content addresses.
 
 Analysis of the semantic core, behavioral factors, anonymous data about the interests of agents and other tools that determine the quality of the search can be done in smart contracts and off-chain applications, such as web3 browsers, decentralized social networks and content platforms. So it is the goal of the community and agents to build an initial knowledge graph and maintain it to provide the most relevant search.
-
-We suggest that the knowledge graph could be created using the following methods:
-
-\begin{itemize}
-\item agents can use different applications, like \linkred{https://github.com/cybercongress/cyb-virus}{cyb.virus} chrome extension, in which agents save their content or content they like to IPFS and link it with relevant keywords
-\item validators and search enthusiasts use automatic scripts to create and index for popular resources, like Wikipedia or transfer and edit current search result from Google and other search engines
-\item In the process of information search by agent in open source application (like cyb web3 browser or any other), application itself analyzes current rank, the semantic core of the content, the behavior of the agent, when searching and viewing content  (agent transitions between content, bounce rate, viewing time and others). Based on this data and using the balance of agent CYB tokens, the application automatically or with agent input links content. Agents will choose which open source application to use for search and how it will affect the rank. In this case, creating a knowledge graph ceases to be a black box and becomes absolutely transparent. Data about the agents search queries and their behavior remain on their devices, ensuring anonymity. This data can be synced between devices by agent's private instance of the \code{cyber} chain.
-\item Existing search engines, such as Google, use thousands of professional assessors to improve the quality of search rank. Validators have the maximum economic interest in the entire protocol and can voluntarily allocate part of their commission in CYB tokens on smart contract to pay for professional search assessors. Each validator can provide an application for assessor to make a search more relevant. Application index all transactions and stores information about changes of weights in the knowledge graph. Assessors receive assignments to check the relevance of cyberlinks and, if necessary, they increase cyberlinks weight. The validator automatically checks for increased or decreased cyberlink weights with which assessor has worked. If the assessor increased the weight of the link and the final weight due to the actions of the other agents also increased, then the cyberlink was more relevant and the assessor receives a reward from validator.
-\end{itemize}
-
-We are confident that the measures described above will allow us to build an effective search, created by people for people, without the need to transfer their personal data to intermediaries like Google and Facebook.
-
-\titleSection{Apps}\label{Applications of knowledge graph}
 
 In general we distinguish three application types of knowledge graphs:
 \begin{itemize}
