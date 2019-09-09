@@ -583,22 +583,6 @@ During the implementation of proposed architecture, we realize at least 3 key be
 
 \titleSection{Approach toward distribution}\label{Approach toward distribution}
 
-While designing the initial distribution structure for Cyber protocol we aimed to achieve the following goals:
-
-\begin{itemize}
-\item Develop provable and transparent distribution in accordance with best industry practices
-\item Allow equal participation irrespectively of political, regulatory or any other restrictions which may be imposed by outside agents
-\item Prevent attacks on privacy such as installment of KYC requirements
-\item Spread distribution in time to grant equal access to initial distribution without any limitations such as hard caps or any other restrictions for the most of agents
-\item Honour genesis Cosmos investors for the development of technology which made possible simplified development of Cyber protocol
-\item Attract the most professional validators from Cosmos ecosystem for bootstrapping the network
-\item Allow easy early access for active agents of Ethereum ecosystem in order to accelerate the growth of the knowledge graph and solve chicken and egg problem
-\item Decentralize management of auction donations starting from day 0
-\item Honour 30 months of cyber•Congress R\&D and community behind it
-\item Avoid using proof-of-work schemes due to environment considerations
-\item Make distribution games enjoyable and fun for participants
-\end{itemize}
-
 So we decide to create 2 tokens: THC and CYB:
 
 \begin{itemize}
@@ -692,8 +676,8 @@ Burn and mint rights must be revoked after allocation.
 All decisions by cyber•Foundation will be executed based on THC votes. The following parameters will be applied during deployment:
 
 \begin{itemize}
-\item Support: 51\%
-\item Quorum: starts from 10\%. Then gradually increases by the decision of cyber•Foundation
+\item Support: 67\%
+\item Quorum: 51\%
 \item Vote duration: 500 hours
 \end{itemize}
 
@@ -735,16 +719,7 @@ Distribution of CYB happens after the end of the Game of Thrones by cyber•Cong
 
 \titleSection{cyber•Auction}\label{cyberauction}
 
-Post Genesis stage called cyber•Auction starts after the end of the Game of Thrones and lasts 500 rounds 23 hours each. Every round participants trade for 1 000 000 000 000 THC. During this phase, CYBs are continuously distributed based on THC sent to individual transferable locker contracts. Locked THC gives ability to receive CYB accordingly and vote in cyber•Foundation. After the end of distribution participants will be able to unlock THC and use them as they wish, e.g. transfer, trade, etc.
-
-The role of cyber•Auction is twofold:
-
-\begin{itemize}
-\item  It creates non-exlusive long lasting and provable game of initial distribution without necessity to spend energy on proof of work. It is crucial that early knowledge graph were created in some sense fairly by engaged community which was formed during a non-exclusive game.
-\item  As a result of auction community will have access to all raised resources under Aragon organization. We believe in a true decentralized nature of the thing we created so we do not want to grab all the money from the funding as we already funded the creation of the system ourselves and we kindly ask fair 100 000 000 000 000  THC cut for pre-genesis investors, founders and developers. Competing with Google is challenging and will be more viable if community will sits on the bag of ever-growing ETH. Given current growth rate of ETH this bag can be very compelling in some years after launch. Also this bag can be the source of alternative implementation of the protocol if Cosmos based system will fail, or in the cased the community just want to diversify technology involved, e.g. ETH2, Polkadot or whatever.
-\end{itemize}
-
-After Genesis CYB tokens can be created only by validators based on staking and slashing parameters. The basic consensus is that newly created CYB tokens are at the disposal of stakeholders, but initially distributed to validators as they do the essential work to make relevance machine run both regarding energy consumed for computation and cost for storage capacity.
+cyber•Auction starts after the end of the Game of Thrones and lasts 500 rounds 23 hours each. Every round participants trade for 1 000 000 000 000 THC. During this phase, CYBs are continuously distributed based on vested THC untill the end of auction. Vested THC gives ability to receive CYB accordingly and vote in cyber•Foundation. After the end of distribution participants will be able to unlock THC and use them as they wish, e.g. transfer, trade, etc. As a result of auction community will have access to all raised ETH under Aragon organization.
 
 The following rules apply for CYBs under cyber•Auction multisig:
 
@@ -756,6 +731,8 @@ The following rules apply for CYBs under cyber•Auction multisig:
 \titleSection{Discussing parameters}\label{params}
 
 To be done...
+
+After Genesis CYB tokens can be created only by validators based on staking and slashing parameters. The basic consensus is that newly created CYB tokens are at the disposal of stakeholders, but initially distributed to validators as they do the essential work to make relevance machine run both regarding energy consumed for computation and cost for storage capacity.
 
 There is no currently such thing as the maximum amount of CYB due to continuous inflation paid to validators. Currently, CYB is implemented using 64int so the creation of more CYB makes significantly more expensive compute state changes and rank. We expect that lifetime monetary strategy must be established by the governance system after complete initial distribution of CYB and activation of smart contract functionality.
 
