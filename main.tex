@@ -353,7 +353,7 @@ We must bind the computation, storage and bandwidth supply of the consensus comp
 
 \titleSection{Relevance machine}\label{relevance-machine}
 
-We define relevance machine as a machine that transition knowledge graph state based on the will of agents to learn the knowledge graph. The will is projected on every agent's cyberlink. The more agents will learn the knowledge graph the more valuable the knowledge becomes. Based on this projections a relevance between content pieces can be computed. Relevance machine enables simple construction for search question querying and answers delivering.
+We define relevance machine as a machine that transition knowledge graph state based on the will of agents to learn the knowledge graph. The will is projected on every agent's cyberlink. The more agents will learn the knowledge graph, the more valuable the knowledge becomes. Based on these projections a relevance between content pieces can be computed. Relevance machine enables simple construction for search question querying and answers delivering.
 
 One property of a relevance machine is crucial: it must have inductive reasoning property or follows the blackbox principle.
 
@@ -362,43 +362,33 @@ She must be able to interfere predictions without any knowledge about objects
 except who cyberlinked, when cyberlinked and what was cyberlinked
 \end{lstlisting}
 
-If we assume that a consensus computer must have some information about linked objects the complexity of such model growth unpredictably, hence a computer requirements for memory and computations. Thanks to content addressing the relevance machine following the blackbox principle do not need to store the data but can effectively operate on it. That is, deduction of meaning inside the consensus computer is expensive thus our design depends on the blindness assumption. Instead of deducting a meaning inside the consensus computer we design a system in which meaning extraction is incentivized because agents need CYB to compute relevance.
+If we assume that a consensus computer must have some information about linked objects the complexity of such model will growth unpredictably, hence a computer's requirements for memory and computations. Thanks to a content addressing, the relevance machine which follows the blackbox principle do not need to store the data but can effectively operate on it. That is, the deduction of meaning inside the consensus computer is expensive. Thus, our design depends on the blindness assumption. Instead of deducting a meaning inside the consensus computer, we design a system in which meaning extraction is incentivized because agents need CYB to express the will based on which a relevance machine can compute rank.
 
-In case of cyber protocol the will is expressed in the amount of CYB tokens. However, proposed mechanics of CYB tokens work not only as spam protection but as the economic regulation mechanism to align the ability of validators to process knowledge graph and market demand for processing.
-
-A simple rule prevents abuse by agents: one content address can be voted by a token only once. So it does not matter for ranking from how much accounts you voted. The only sum of their balances matters.
+In the center of the spam protection system is an assumption that write operations can be executed only by those who have a vested interest in the evolutionary success of a relevance machine. Every 1\% of effective stake in consensus computer gives the ability to use 1\% of possible network bandwidth and computing capabilities. A simple rule prevents abuse by agents: one content address can be voted by a token only once.
 
 \begin{lstlisting}
-  bandwidth stake = active stake + bonded stake, where:
-    bonded stake - stake, that deducted from your account tokens and put as deposit to take part in consensus
-    active stake - stake, currently available for direct transfer or not-bonded stake
+  EffectiveStake = active stake + bonded stake, where:
+    BondedStake - stake, that deducted from your account tokens and put as a deposit to take part in consensus
+    ActiveStake - stake, currently available for direct transfer or not-bonded stake
 \end{lstlisting}
 
-There are only two ways to change account bandwidth stake: direct token transfers and bonding operations.
+There are only two ways to change account effective stake: direct token transfers and bonding operations.
 
-In the center of the spam protection system is an assumption that write operations can be executed only by those who have a vested interest in the evolutionary success of a relevance machine. Every 1\% of stake in consensus computer gives the ability to use 1\% of possible network bandwidth and computing capabilities.
-
-We would love to discuss the problem of vote buying mainly. Vote buying by itself is not such bad. The problem with vote buying appears in the systems where voting affects the allocation of inflation in the system like \linkgreen{http://ipfs.io/ipfs/QmepU77tqMAHHuiSASUvUnu8f8ENuPF2Kfs97WjLn8vAS3}{Steem}
-or any fiat system. So vote buying can become easily profitable for adversary employing a zero-sum game without a necessity to add value. Our original idea of a decentralized search was based on this approach, but we reject this idea removing incentive on consensus level for knowledge graph formation completely. In our setting in which every participant must bring some value to the system to affect predictive model vote buying become NP-hard problem hence is useful for the system.
-
-Cyber uses a very simple bandwidth model. The main goal of that model is to reduce daily network growth to given constant. Thus, here we introduce \code{resource credits}, or RC. Each message type has assigned RC cost. There is constant \code{DesirableNetworkBandwidthForRecoveryPeriod} determining desirable for \code{RecoveryPeriod} spent RC value. \code{RecoveryPeriod} is defining how fast agent can recover their bandwidth from 0 to agent's max bandwidth. An agent has maximum RC proportional to his stake by the formula:
+Cyber uses a very simple bandwidth model. The main goal of that model is to reduce daily network growth to given constant because validators must have the ability to forecast investments into infrastructure. Thus, here we introduce \code{ResourceCredits}, or RC. Each message type has assigned RC cost. There is constant \code{DesirableBandwidth} determining desirable for \code{RecoveryWindow} spent RC value. The recovery period is defining how fast agent can recover their bandwidth from 0 to agent's max bandwidth. An agent has maximum RC proportional to his effective stake by the formula:
 
 \begin{lstlisting}
-  agent_max_rc = bandwidth_stake * DesirableNetworkBandwidthForRecoveryPeriod
+  AgentMaxRC = EffectiveStake * DesirableBandwidth
 \end{lstlisting}
 
-There is a period \code{AdjustPricePeriod} summing how much RS was spent for that period\\ \code{AdjustPricePeriodTotalSpent}. Also, there is constant \code{AdjustPricePeriodDesiredSpent}, used to calculate network loading.
+There is a period \code{PriceAdjustWindow} summing how much RS was spent for that period\\ \code{AdjustPricePeriodTotalSpent}. Also, there is constant \code{AdjustPricePeriodDesiredSpent}, used to calculate network loading.
 
-\code{AdjustPricePeriodTotalSpent / AdjustPricePeriodDesiredSpent} ratio is called fractional reserve ratio. If network usage is low, fractional reserve ratio adjust message cost (by simple multiplication) to allow agent with a lower stake to do more transactions. If resource demand increase, fractional reserve ratio goes \code{>1} thus increase messages cost and limiting final tx count for some long-term period (RC recovery will be \code{<} then RC spending).
+\code{AdjustPricePeriodTotalSpent / AdjustPricePeriodDesiredSpent} ratio is called fractional reserve ratio. If network usage is low, fractional reserve ratio adjust message cost to allow agent with a lower stake to do more transactions. If resource demand increase, fractional reserve ratio goes \code{>1} thus increase messages cost and limiting final tx count for some long-term period (RC recovery will be \code{<} then RC spending).
 
-As nobody uses all possessed bandwidth, we can safely use up to 100x fractional reserves with 2-minute recalculation target. This mechanics offers a discount for cyberlinking thus effectively maximizing demand for it. Proposed design needs demand for full bandwidth in order the relevance becomes valuable.
+As nobody uses all possessed bandwidth, we can safely use up to 100x fractional reserves with 2-minute recalculation target. This mechanics offers a discount for cyberlinking, thus effectively maximizing demand for it. You see, that the proposed design needs demand for full bandwidth in order the relevance becomes valuable.
 
-Human intelligence organized in a way to prune none-relevant and none-important memories with time has passed. The same way can do relevance machine. Also, one useful property of relevance machine is that it needs to store neither past state, nor full current state to remain useful, or more precisely: \verb|relevant|. So relevance machine can implement \linkgreen{https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb}{aggressive pruning strategies} such as pruning all history of knowledge graph formation or forgetting links that become non-relevant.
+Human intelligence is organized in such a way, that the pruning of none-relevant, and none-important memories passes with time. The same can be applied to the relevance machine. Another useful property of the relevance machine is that it needs to store neither the past state, nor the full current state in order to remain useful. Or more precisely: \verb|relevant|. So relevance machine can implement \linkgreen{https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb}{aggressive pruning strategies} such as pruning all history of knowledge graph formation or forgetting links that become less relevant.
 
-
-
-
-\code{cyber} implementation of relevance machine is based on the most straightforward mechanism which is called cyber•Rank.
+As a result, implemented cybernomics of CYB tokens works not only as will expression and spam protection but as the economic regulation mechanism to align the ability of validators to process knowledge graph and market demand for processing. \code{cyber} implementation of relevance machine is based on the most straightforward mechanism, which is called cyber•Rank.
 
 \titleSection{cyber•Rank}\label{cyberRank}
 
@@ -418,7 +408,10 @@ We understand that the ranking mechanism will always remain a red herring. That 
 
 cyber•Rank hides two design decisions which are of paramount importance: (1) it accounts only current will of agents and (2) encourages rank inflation of cyberlinks. The first property ensures that cyber•Ranks can not be gamed. If an agent decides to transfer CYB out of the account, relevance machine adjusts all cyberlinks from this account according to the current will. And vice versa, if an agent transfer CYB into the account all cyberlinks expressed from this account immediately gain more relevance. The second property is important in order to not stuck in the past. As new cyberlinks continuously arrive, they dilute all existing ranks proportionally. So this property prevents a situation in which new, better content has a lower rank because it was submitted years ago. We expect these design decisions enables a better inference quality for the fresh content in the long tail of knowledge graph.
 
-The current implementation of the relecance machine is based on Cuda. She can answer and deliver relevant results for any given search request in a 64 byte CID space. However, it is not enough, to build a network of domain-specific relevance machines, it is not enough. Consensus computers must have the ability to prove relevance to each other.
+We would love to discuss the problem of vote buying mainly. Vote buying by itself is not such bad. The problem with vote buying appears in systems where voting affects the allocation of the inflation in that system. For example, \linkgreen{http://ipfs.io/ipfs/QmepU77tqMAHHuiSASUvUnu8f8ENuPF2Kfs97WjLn8vAS3}{Steem}
+or any fiat state-based system. Vote buying can become easily profitable for adversary that employs a zero-sum game, without a necessity to add value. Our original idea of a decentralized search was based on this approach. But, we have rejected that idea, removing the incentive on consensus level for the knowledge graph formation. In our setting, in which every participant must bring some value to the system to affect predictive model, vote buying become NP-hard problem hence is useful for the system.
+
+The current implementation of the relevance machine is based on Cuda. She can answer and deliver relevant results for any given search request in a 64 byte CID space. However, it is not enough, to build a network of domain-specific relevance machines, it is not enough. Consensus computers must have the ability to prove relevance to each other.
 
 \titleSection{Proof of relevance}\label{Proof of relevance}
 
