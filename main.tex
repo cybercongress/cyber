@@ -37,6 +37,14 @@
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{enumerate}
 \usepackage[normalem]{ulem}
+
+\usepackage{fullpage}
+\usepackage{times}
+\usepackage{fancyhdr,graphicx,amsmath,amssymb}
+\usepackage[ruled]{algorithm2e}
+\usepackage{setspace}
+
+
 \pagestyle{fancy}
 \fancyhead{}
 \lhead{}\chead{}\rhead{}
@@ -401,9 +409,54 @@ Eventually, the relevance machine needs to find (1) a deterministic algorithm, t
 
 After \linkred{https://arxiv.org/pdf/1709.09002.pdf}{some research}, we found that we can not find the silver bullet here. So, we decided to find a more basic bulletproof way that will bootstrap the network: \linkred{http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf}{the rank} from which Larry and Sergey have bootstrapped a previous network. The key problem with the original PageRank is that it is not resistant to sybil attacks. However, token-weighted PageRank limited by token-weighted bandwidth do not have inherent problems, such as naive PageRank, and is resistant to sybil attacks. For the time being, we will call it cyber•Rank until something better emerge. The following algorithm applied for the implementation at Genesis:
 
-\begin{lstlisting}
-  An algorithm goes here
-\end{lstlisting}
+
+$$ CIDs \ V, cyberlinks \ E, Agents \ A $$
+$$agents(e): E \rightarrow 2^{A}$$
+$$stake(a): A \rightarrow {\rm I\!R}^+ $$
+$$rank(v, t): V \times {\rm I\!N} \rightarrow {\rm I\!R} $$
+$$weight(e) = \sum\limits_{a \in agents(e)}{stake(a)}$$
+$$rank(v, t + 1) = \frac{1 - d}{N} + d\sum\limits_{u \in V, (u, v) \in E}{\frac{weight(u, v)}{\sum_{w \in V, (u, w) \in E}{weight(u, w)}}rank(v, t)} $$
+$$rank(v) = \lim\limits_{t \rightarrow \infty} rank(v, t)$$
+\begin{algorithm}
+\SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
+
+\Input{Set of CIDs $V$; \\ Set of cyberlinks $E$; \\ Set of agents $A$; \\ Cyberlink authors $ agents(e) $; \\ Stake of each agent $ stake(a) $; \\Tolerance $\epsilon$; \\ Damping factor $d$}
+\Output{$\textbf{R}$, computed value of $rank(v)$ for each node from $V$}
+
+\BlankLine
+Initialize $\textbf{R}_{v}$ with zeros for all $v \in V$\;
+Initialize $E$ with value $\epsilon$ + 1\;
+
+\BlankLine
+$N_{\emptyset} \leftarrow |\{v|v \in V \land (\nexists u, u \in V, (u, v) \in E )\}|$ \;
+$R_{0} \leftarrow (1 + d \cdot N_{\emptyset} / |V|) \cdot (1 - d) / |V| $ \;
+
+\BlankLine
+\While{$E > \epsilon$}{
+\For{$v \in V$}{
+$S \leftarrow 0$\;
+
+\For{$u \in V, (u, v) \in E$}{
+\setstretch{1.35}
+$W_{uv} \leftarrow \sum_{a \in agents(u, v)}stake(a)$ \;
+$W_{u} \leftarrow \sum_{w \in V, (u, w) \in E}\sum_{a' \in agents(u, w)}stake(a')$ \;
+$S \leftarrow S + W_{uv} \cdot \textbf{R}_{u} / W_{u}$ \;
+}
+
+$\textbf{R}'_v \leftarrow d \cdot S + R_{0}$ \;
+
+}
+
+\BlankLine
+$E \leftarrow \max\limits_v(|\textbf{R}_v - \textbf{R}'_v|)$ \;
+Update $\textbf{R}_{v}$ with $\textbf{R}'_{v}$ for all $v \in V$\;
+
+}
+
+\caption{cyberRank algorithm v1.0}\label{algo_disjdecomp}
+\end{algorithm}\
+
+
 
 We understand that the ranking mechanism will always remain a red herring. That is why we expect to rely on on-chain governance mechanism in order to define a winning one. We suppose that the network can switch from one algorithm to another not based on subjective opinion, but based on economic a/b testing through hard spoons of domain-specific relevance machines.
 
