@@ -245,7 +245,7 @@ The emergence of \linkgreen{https://ipfs.io/ipfs/Qmf3eHU9idMUZgx6MKhCsFPWL24X9pD
 
 \linkgreen{https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6}{The conventional architecture of search engines} is a process in which one entity process and rank all the shit. This approach suffers from one difficult, but a particular problem, that still has not been solved, even by the brilliant Google scientists: \linkgreen{https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9}{adversarial examples problem}. The problem that Google acknowledges, is that it is rather hard to algorithmically reason, whether or not this particular sample is adversarial. That is - independently of how cool the learning technology itself is. Obviously, a cryptoeconomic approach can change beneficiaries in the game. Thus the approach effectively removes possible sybil attack vectors and the necessity to make a decision on example crawling and meaning extraction from one entity to the whole world. Learning sybil-resistant model will probably lead to orders of magnitude more predictive results.
 
-\titleSection{Cyber protocol}\label{cyber protocol}
+\titleSection{Cyber protocol}\label{cyber-protocol}
 
 In it's core the protocol is minimalistic and can be expresses in the following steps:
 
@@ -262,7 +262,7 @@ In it's core the protocol is minimalistic and can be expresses in the following 
 
 Rest of paper discusses the rationale and details of the proposed protocol.
 
-\titleSection{Knowledge graph}\label{knowledge graph}
+\titleSection{Knowledge graph}\label{knowledge-graph}
 
 We represent a knowledge graph as a weighted graph of directed links between content addresses, or content identifications, or CIDs, or simply ipfs hashes. In this paper, we will use them as synonyms.
 
@@ -593,7 +593,7 @@ In our relevance for commons \code{cyber} implementation proof of relevance root
 
 \titleSection{Speed}\label{speed-performance}
 
-We need speedy confirmation times to make it feels like the usual web app. It is a strong architecture requirement that shapes an economic topology and scalability of the cyber protocol. Proposed blockchain design is based on \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint consensus} algorithm with 146 validators and has very fast 3 second finality time. Average confirmation time close to 1 second make complex blockchain interactions almost invisible for agents.
+We need speedy confirmation times to make it feels like the usual web app. It is a strong architecture requirement that shapes an economic topology and scalability of the cyber protocol. Proposed blockchain design is based on \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint consensus} algorithm with 146 validators and has fast 3 second finality time. Average confirmation time close to 1 second make complex blockchain interactions almost invisible for agents.
 
 We denote one specific cyberd property in the context of a speed. Rank computation being the part of consensus happens in parallel to transaction validation in rounds. Round is a consensus variable defined by stakeholders. From the start one round is set to 100 blocks. Practically that means that every 300 seconds the network must come to the agreement on the root hash of the knowledge graph. That is, every cyberlink submitted become a part of the knowledge graph almost instantly while acquiring rank with an average of 150 seconds. In the early days of Google rank was recomputed every week or so. We believe agents will be happy to observe ranking change in real time, but decide to launch the network with an assumption that this will be enough. It is expected that with the development of the cyber protocol the round speed due to competition between validators must go down. We are aware of some mechanics to make she work order of magnitude faster:
 \begin{itemize}
@@ -605,11 +605,11 @@ We denote one specific cyberd property in the context of a speed. Rank computati
 But it needs more time to put all of this into production.
 
 \titleSection{Scalability}\label{scalability}
-We need an architecture which allows us to scale an idea to orders of magnitude that of Google. Let us say that our node implementation based on \code{cosmos-sdk} can process 10k transactions per second. Thus every day at least 8.64 million agents can submit 100 cyberlinks each and impact results simultaneously. That is enough to verify all assumptions in the wild but not enough to say that it will works at the Internet scale. Given current sate of the art research we can safely state that the is no consensus technology exist which allow to scale one particular blockchain to the size we need. So we introduce a concept of domain specific knowledge graphs. You can either launch your own domain-specific search engine by forking cyberd which is focused on the \textit{common public knowledge}, or plug cyberd as a module in existing chain, e.g. Cosmos Hub. Inter-blockchain communication protocol introduce concurrent mechanism of syncing state between relevance machines. So in our search architecture, domain-specific relevance machine can learn from common knowledge.
+We need an architecture which allows us to scale an idea to orders of magnitude that of Google. Let us say that our node implementation based on \code{cosmos-sdk} can process 10k transactions per second. Thus every day at least 8.64 million agents can submit 100 cyberlinks each and impact results simultaneously. That is enough to verify all assumptions in the wild but not enough to say that it will works at the Internet scale. Given current sate of the art research we can safely state that the is no consensus technology exist which allow to scale one particular blockchain to the size we need. So we introduce a concept of domain specific knowledge graphs. You can either launch your own domain-specific search engine by forking cyberd which is focused on the \textit{common public knowledge}, or plug cyberd as a module in existing chain, e.g. Cosmos Hub. Inter-blockchain communication protocol introduce concurrent mechanism of syncing state between relevance machines. So in our search architecture, domain-specific relevance machine can learn from common knowledge as well as common knowledge relevance machine can learn from domain-specific.
 
 \titleSection{Browzers}\label{In-browser implementation}
 
-We wanted to imagine how that could work in a web3 browser. To our disappointment we \linkred{https://github.com/cybercongress/cyb/blob/master/docs/comparison.md}{were not able} to find the web3 browser that can showcase the coolness of the proposed approach in action. That is why we decide to develop the web3 browser \linkred{https://github.com/cybercongress/cyb/blob/master/docs/cyb.md}{cyb} that has sample application .cyber for interacting with \code{cyber://} protocol.
+We wanted to imagine how the scheme we descrive could work in a web3 browser. To our disappointment we \linkred{https://github.com/cybercongress/cyb/blob/master/docs/comparison.md}{were not able} to find the web3 browser that can showcase the coolness of the proposed approach in action. That is why we decide to develop the web3 browser \linkred{https://github.com/cybercongress/cyb/blob/master/docs/cyb.md}{cyb} that has sample application .cyber for interacting with \code{cyber://} protocol.
 
 \begin{Figure}
   \medskip
@@ -635,42 +635,40 @@ During the implementation of proposed architecture, we realize at least 3 key be
 \item search snippets must not be static but can be interactive, eg. \code{.cyber} can deliver your current balance.
 \end{itemize}
 
-\titleSection{Deployment}\label{Approach toward distribution}
+\titleSection{Deployment}\label{deployment}
 
-Overall the deployment process is the following:
-
-Chart
-
-we decide to create 2 tokens: THC and CYB:
+Due to technical limitations we have to bootstrap an ecosystem using 2 tokens: THC and CYB
 
 \begin{itemize}
-\item THC (pronounce as tech) is a creative cyber proto substance. THC being an Ethereum ERC-20 compatible token have utility value in form of control cyber•Foundation (Aragon DAO) ETH from auction proceeds. THC was emitted during the creation of cyber•Foundation as Aragon organization. Creative power of THC came from ability to receive 1 CYB per each 1 THC for locking it during cyber•Auction.
+\item THC (pronounce as tech) is a creative cyber proto substance. THC being an Ethereum ERC-20 compatible token have utility value in form of control cyber•Foundation (Aragon DAO) ETH from auction proceeds. THC was emitted during the creation of cyber•Foundation as Aragon organization. Creative power of THC came from ability to receive 1 CYB per each 1 THC for locking it during Game of Thrones and cyber•Auction.
 \item CYB is native token of sovereign Cyber protocol under Tendermint consensus algorithm. It's has 3 primary uses: (1) is a staking for consensus, (2) is bandwidth limiting for submitting links and (3) expression of the will for computing cyber•rank.
 \end{itemize}
 
 Both tokens remain functional and will track value independently due to very different utility nature.
 
-Overall distribution process is the following:
+Overall the deployment process is the following:
 
 \begin{enumerate}
  \item cyber•Congress deploy cyber•Foundation and organize Game of Links
- \item Community satisfy requirements of the Game of Links
+ \item Community participate in the Game of Links
  \item cyber•Congress deploy contracts for Game of Thrones and cyber•Auction
  \item Community propose a Genesis block with results of the Game of Links
- \item Community participate in the Game of Thrones during 21 day after Genesis. ETH donors stake THC to get CYB
+ \item Community participate in the Game of Thrones during 20 day after Genesis. ETH donors stake THC to get CYB
  \item cyber•Congress distribute CYB tokens after the Game of Thrones
  \item Community participate in the cyber•Auction during 500 rounds after the Game of Thrones. Donors stake THC to get CYB
  \item cyber•Congress distribute CYB tokens continuously during cyber•Auction
  \item cyber•Congress burns remaining CYB tokens and report on the end of initial distribution
 \end{enumerate}
 
-cyber•Congress is an entity which developed cyber protocol. But in the context of the cyber future cyber•Congress has 2 roles:
+cyber•Congress is an entity which developed cyber protocol. It has 2 key roles:
 \begin{enumerate}
- \item Deploy and execute initial distribution program which is impossible to automate. Because there is no trustless infrastructure for message passing from ETH to ATOM and back cyber•Congress introduce single point of failure in the initial distribution scheme. We decide to send CYB based on THC staking manually because we feel that now is right time to launch the network we created and we believe that ongoing auction is very important for initial distribution. Even if cyber•Congress fail to deliver its obligations in terms of distribution due to some reasons we hope the community will be able to fork out the network and distribute CYB as been promised, happily that every operation is designed provable and transparent. All operations will be executed using official cyber•Congress 2-of-3 multisigs.
- \item Support the develop of cyber protocol until the community take over on development. Up to 15\% of CYB will be distributed based on donations in ATOMs during Game of Links and Game of Thrones. All ATOM donations routed to cyber•Congress multisig and become its property. The role of ATOM donations is the following: thanks to ATOM we want to secure lifetime commitment of cyber•Congress in the development of Cosmos and Cyber ecosystems. e.g. ATOM donations will allow cyber•Congress to use staking rewards for continuous funding of the Cyber protocol without the necessity to dump CYBs
+ \item Deploy and execute initial distribution program which is impossible to automate. Because there is no trustless infrastructure for message passing from ETH to ATOM and back cyber•Congress introduce single point of failure in the initial distribution scheme. We decide to send CYB based on THC staking manually because we feel that now is right time to launch the network we created and we believe that ongoing auction is very important for initial distribution. Even if cyber•Congress fail to deliver this obligation due to some reasons we hope the community will be able to fork out the network and distribute CYB as been promised, happily that every operation is designed provable and transparent. All operations will be executed using official cyber•Congress 2-of-3 multisigs.
+ \item Support the develop of cyber protocol until the community take over on development. Up to 15\% of CYB will be distributed based on donations in ATOMs during Game of Links and Game of Thrones. All ATOM donations routed to cyber•Congress multisig and become its property. The role of ATOM donations is the following: thanks to ATOM we want to secure commitment of cyber•Congress in the development of Cosmos and Cyber ecosystems. e.g. ATOM donations will allow cyber•Congress to use staking rewards for continuous funding of the Cyber protocol without the necessity to dump CYBs
 \end{enumerate}
 
-We want give ability to evaluate proposed approach for as much agents as possible but without adding complexity such as KYC and captcha. That is why we give away 10\% of CYB in Genesis to Ethereum and 2\% to Cosmic community. The following rules are applied in order to reproduce the Genesis:
+\titleSection{Gift}\label{gift}
+
+We want give ability to evaluate proposed approach for as much agents as possible but without adding complexity such as KYC and captcha. That is why we give away 9\% of CYB in Genesis to Ethereum and 1\% to Cosmic community. The following rules are applied in order to reproduce the Genesis:
 \begin{itemize}
 \item Every account in Ethereum foundation network with at least 1 outgoing transaction which is not the contract and holds more than 0.2 ETH at block 8080808
 \item Every non-zero account in Cosmos hub-2 network at block 1110000
@@ -678,34 +676,19 @@ We want give ability to evaluate proposed approach for as much agents as possibl
 
 Key purpose of this gift is that every account in Genesis would be able to make at least 1 cyberlink in 24 hour if the network is unloaded. That is why we decide to make distribution curve a bit more even and radically change it to quadratic. So we distribute CYB proportionally to square root from each balance of the snapshots. But because quadratic scheme is easy to game we calculate amount of distributed CYB on the blocks before this fact become known.
 
-Game of links is a game between cyber•Congress and Cosmos stakehodlers for the place in Genesis. The game is finished if both of the following criteria met:
+\titleSection{Distribution Gamez}\label{gamez}
+Overall the distribution process is split into 3 games for different purposes of network deployment:
 \begin{itemize}
-\item 146 validators in consensus during 10k blocks
-\item 500000 ATOM donated or 90 days passed
+\item Game of Links is for early believers and Genesis validators
+\item Game of Thrones is for speculants
+\item cyber•Auction is for any web agent
 \end{itemize}
 
-Key idea is the better Game of Links performs the more percent of the network Cosmos hodler acquire, the more payouts participants have. Overall 100 TCYB is allocated to the Game of Links broken down as follows:
+Game of links - is a game between cyber•Congress and Cosmos stakehodlers for the place in Genesis. The game is finished if either 600000 ATOM donated or 90 days passed since the start of the take off funding. Key idea is the better Game of Links performs the more percent of the network Cosmos hodler acquire, the more payouts participants in disciplines have. Depending on results up to 100 TCYB is allocated to the Game of Links. All remaining after the game CYBs allocated to cyber•Congress. Detailed document will be published with rules and provision of the game.
 
-\begin{itemize}
-\item 10 TCYB allocated evenly to each validator in the final validator set for reaching the full validator set
-\item Up to 60 TCYB allocated for donators during GoL according to the following formula:
+Game of Thrones - is a game between ATOM and ETH hodlers for being the greatest. As a result of 21-day auction after Genesis, every community earn 10\% of CYB. In order to make the game run smoothly we concisely adding arbitrage opportunity in the form of significant discount to ATOM holders because the system needs provably professional validators and delegators at the beginning and basically for free. We can describe the discount in the following terms: Currently buying power of all ATOMs against all ETHs based on current caps is about 1/24. Given that 10\% of CYB will be distributed based on donation in ATOMs and 10\% of CYB will be distributed based on donations in ETHs the discount for every ATOM donation during Game of Thrones is about 24x which is significant enough to encourage participation based on arbitrage opportunity during the first 21 days of Genesis auction and stimulate the price of ATOMs as appreciation for all cosmic community. Distribution of CYB happens after the end of the Game of Thrones by cyber•Congress.
 
-Chart
-
-\item 30 TCYB allocated for the incentive scheme.
-\end{itemize}
-
-All remaining CYB allocated to cyber•Congress
-
-Game of Thrones - is a game between ATOM and ETH hodlers for being the greatest. As a result of 21-day auction after Genesis, every community earn 10\% of CYB. In order to make the game run smoothly we concisely adding arbitrage opportunity in the form of significant discount to ATOM holders because the system needs provably professional validators and delegators at the beginning and basically for free.
-
-We can describe the discount in the following terms: Currently buying power of all ATOMs against all ETHs based on current caps is about 1/24. Given that 10\% of CYB will be distributed based on donation in ATOMs and 10\% of CYB will be distributed based on donations in ETHs the discount for every ATOM donation during Game of Thrones is about 24x which is significant enough to encourage participation based on arbitrage opportunity during the first 21 days of Genesis auction and stimulate the price of ATOMs as appreciation for all cosmic community.
-
-Distribution of CYB happens after the end of the Game of Thrones by cyber•Congress.
-
-cyber•Auction starts after the end of the Game of Thrones and lasts 500 rounds 23 hours each. Every round participants trade for 1 000 000 000 000 THC. During this phase, CYBs are continuously distributed based on vested THC untill the end of auction. Vested THC gives ability to receive CYB accordingly and vote in cyber•Foundation. After the end of distribution participants will be able to unlock THC and use them as they wish, e.g. transfer, trade, etc. As a result of auction community will have access to all raised ETH under Aragon organization.
-
-The following rules apply for CYBs under cyber•Auction multisig:
+cyber•Auction starts after the end of the Game of Thrones and lasts 500 rounds 23 hours each. Every round participants trade for 1 000 000 000 000 THC. During this phase, CYBs are continuously distributed based on vested THC untill the end of auction. Vested THC gives ability to receive CYB accordingly and vote in cyber•Foundation. After the end of distribution participants will be able to unlock THC and use them as they wish, e.g. transfer, trade, etc. As a result of auction community will have access to all raised ETH under Aragon organization. The following rules apply for CYBs under cyber•Auction multisig:
 
 \begin{itemize}
 \item will not delegate its stake and as result will remain as passive stake until become distributed
@@ -721,9 +704,9 @@ While choosing token for donations we followed three main criteria: the token mu
 Prior to \hyperlink{genesis}{Genesis} cyber•Foundation mints 700 000 000 000 000 THC (seven hundred terathc) broken down as follows:
 
 \begin{itemize}
-\item 500 000 000 000 000 THC is allocated to cyber•Auction contract
-\item 100 000 000 000 000 THC is allocated to Game of Thrones contract
-\item 100 000 000 000 000 THC is allocated to cyber•Congress contract
+\item 600 000 000 000 000 THC is allocated to cyber•Auction
+\item 100 000 000 000 000 THC is allocated to Game of Thrones
+\item 100 000 000 000 000 THC is allocated to cyber•Congress
 \end{itemize}
 
 \begin{Figure}
@@ -746,11 +729,10 @@ All decisions by cyber•Foundation will be executed based on THC votes. The fol
 Genesis of \code{cyber} protocol contains 1 000 000 000 000 000 CYB (one petacyb or 1 PCYB) broken down as follows:
 
 \begin{itemize}
-\item 700 000 000 000 000 CYB for participants of cyber•Congress, the Game of Thrones in ETH and the cyber•Auction who stake THC until the end of cyber•Auction
-\item 90 000 000 000 000 CYB as a gift for Ethereum community
-\item 10 000 000 000 000 CYB as a gift for Cosmos community
+\item 700 000 000 000 000 CYB for those who stake THC until the end of cyber•Auction: participants of cyber•Congress, the Game of Thrones in ETH and the cyber•Auction
+\item 100 000 000 000 000 CYB as a gift for Ethereum and Cosmos community
 \item 100 000 000 000 000 CYB for participants of the Game of Links
-\item 100 000 000 000 000 CYB for participant of the Game of Thrones in ATOM
+\item 100 000 000 000 000 CYB for participants of the Game of Thrones in ATOM
 
 \end{itemize}
 
@@ -759,19 +741,15 @@ Genesis of \code{cyber} protocol contains 1 000 000 000 000 000 CYB (one petacyb
  \includesvg[width=1\textwidth]{CYB.svg}
 \end{Figure}
 
-Parametrs and inflation forecast to be done...
-
-After Genesis CYB tokens can be created only by validators based on staking and slashing parameters. The basic consensus is that newly created CYB tokens are at the disposal of stakeholders, but initially distributed to validators as they do the essential work to make relevance machine run both regarding energy consumed for computation and cost for storage capacity.
+After Genesis CYB tokens can be created only by validators based on staking and slashing parameters. The basic consensus is that newly created CYB tokens are at the disposal of stakeholders.
 
 There is no currently such thing as the maximum amount of CYB due to continuous inflation paid to validators. Currently, CYB is implemented using 64int so the creation of more CYB makes significantly more expensive compute state changes and rank. We expect that lifetime monetary strategy must be established by the governance system after complete initial distribution of CYB and activation of smart contract functionality.
 
-We suggest that the knowledge graph could be created using the following methods:
+Starting parametrs of inflation will be defined during tests and simualtion...
 
-\titleSection{Apps}\label{Applications of knowledge graph}
+\titleSection{Apps}\label{apps}
 
-We assume that the proposed algorithms do not guarantee high quality knowledge by default. Like a child it needs to be learned in order to live well. Protocol itself provides only one simple tool: the ability to create a cyberlink with a certain weight between two content addresses.
-
-Analysis of the semantic core, behavioral factors, anonymous data about the interests of agents and other tools that determine the quality of the search can be done in smart contracts and off-chain applications, such as web3 browsers, decentralized social networks and content platforms. So it is the goal of the community and agents to build an initial knowledge graph and maintain it to provide the most relevant search.
+We assume that the proposed algorithm do not guarantee high quality knowledge by default. Like a child it needs to be learned in order to live well. Protocol itself provides only one simple tool: the ability to create a cyberlink with a certain weight between two content addresses. Analysis of the semantic core, behavioral factors, anonymous data about the interests of agents and other tools that determine the quality of the search can be done in smart contracts and off-chain applications, such as web3 browsers, decentralized social networks and content platforms. So it is the goal of the community and agents to build an initial knowledge graph and maintain it to provide the most relevant search.
 
 In general we distinguish three application types of knowledge graphs:
 \begin{itemize}
@@ -779,6 +757,8 @@ In general we distinguish three application types of knowledge graphs:
 \item Onchain apps. Can be run by the consensus computer in exchange for gas
 \item Offchain apps. Can be implemented using knowledge graph as input in any execution environment
 \end{itemize}
+
+The following imaginable list of apps can combine mentioned above types:
 
 \code{Web3 browsers}. In reality browser and search are inseparable. It is hard to imagine the emergence of a full-blown web3 browser which is based on web2 search. Currently, there are several efforts for developing browsers around blockchains and distributed tech. Among them are Beaker, \sout{Mist}, Brave, and Metamask. All of them suffer trying to embed web2 in web3. Our approach is a bit different. We consider web2 as the unsafe subset of web3. So we develop a web3 browser Cyb showcasing the cyber approach to answer questions better and deliver content faster.
 
@@ -846,7 +826,6 @@ We foresee the demand for the following protocol features community could work o
 
 \begin{itemize}
 \item cyber•Rank scaling
-\item Onchain parametrization
 \item Onchain upgrades
 \item IBC
 \item Universal oracle
@@ -863,7 +842,7 @@ We foresee the demand for the following protocol features community could work o
 We define and implement a protocol for provable communications of consensus computers on relevance.
 The protocol is based on a simple idea of content defined knowledge graphs which are generated by web3 agents using cyberlinks.
 Cyberlinks are processed by a consensus computer using a concept we call relevance machine.
-\code{cyber} consensus computer is based on \code{CIDv0} and uses \code{go-ipfs} and \code{cosmos-sdk} as a foundation. IPFS provides significant benefits regarding resources consumption. CIDv0 as primary objects are robust in its simplicity. For every CIDv0 cyber•rank is computed by a consensus computer with no single point of failure. Cyber•rank is CYB weighted PageRank with economic protection from sybil attacks and selfish voting. Every round merkle root of the rank tree is published so every computer can prove to any computer a relevance value for a given CID. Sybil resistance is based on bandwidth limiting. Embedded ability to execute programs offer inspiring apps. Starting primary goal is the indexing of peer-to-peer systems with self-authenticated data either stateless, such as IPFS, Swarm, DAT, Git, BitTorrent, or stateful such as Bitcoin, Ethereum and other blockchains and tangles. Proposed semantics of linking offers a robust mechanism for predicting meaningful relations between objects by a consensus computer itself. The source code of a relevance machine is open source. Every bit of data accumulated by a consensus computer is available for everybody if the one has resources to process it. The performance of proposed software implementation is sufficient for seamless agent interactions. Scalability of proposed implementation is enough to index all self-authenticated data that exist today and serve it to millions of web3 agents. The blockchain is managed by a decentralized autonomous organization which functions under Tendermint consensus algorithm with standard governance module. Thought a system provides necessary utility to offer an alternative for conventional search engines it is not limited to this use case either. The system is extendable for numerous applications and, e.g. makes it possible to design economically rational self-owned robots that can autonomously understand objects around them.
+\code{cyber} consensus computer is based on \code{CIDv1} and uses \code{go-ipfs} and \code{cosmos-sdk} as a foundation. IPFS provides significant benefits regarding resources consumption. CIDv1 as primary objects are robust in its simplicity. For every CID cyber•rank is computed by a consensus computer with no single point of failure. Cyber•rank is CYB weighted PageRank with economic protection from sybil attacks and selfish voting. Every round merkle root of the rank tree is published so every computer can prove to any computer a relevance value for a given CID. Sybil resistance is based on bandwidth limiting. Embedded ability to execute programs offer inspiring apps. Starting primary goal is the indexing of peer-to-peer systems with self-authenticated data either stateless, such as IPFS, Swarm, DAT, Git, BitTorrent, or stateful such as Bitcoin, Ethereum and other blockchains and tangles. Proposed semantics of linking offers a robust mechanism for predicting meaningful relations between objects by a consensus computer itself. The source code of a relevance machine is open source. Every bit of data accumulated by a consensus computer is available for everybody if the one has resources to process it. The performance of proposed software implementation is sufficient for seamless agent interactions. Scalability of proposed implementation is enough to index all self-authenticated data that exist today and serve it to millions of web3 agents. The blockchain is managed by a decentralized autonomous organization which functions under Tendermint consensus algorithm with standard governance module. Thought a system provides necessary utility to offer an alternative for conventional search engines it is not limited to this use case either. The system is extendable for numerous applications and, e.g. makes it possible to design economically rational self-owned robots that can autonomously understand objects around them.
 
 \titleSection{References}\label{References}
 \begin{multicols}{2}
