@@ -246,7 +246,7 @@ The emergence of \linkgreen{https://ipfs.io/ipfs/Qmf3eHU9idMUZgx6MKhCsFPWL24X9pD
 
 \linkgreen{https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6}{The current architecture of search engines} is a system where one entity processes all the shit. This approach suffers from one challenging and a distinct problem, that has yet to be solved, even by the brilliant Google scientists: \linkgreen{https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9}{the adversarial example problem}. The problem that Google acknowledges, is that it is rather difficult to algorithmically reason, whether or not a particular sample is adversarial. This is inconsiderate of how awesome the learning technology in itself is. A crypto-economical approach can change beneficiaries within that game. Consequently, this approach will effectively remove possible Sybil-attack vectors. It removes the necessity to hard-code model crawling, and the meaning extraction from a single entity to the whole world. Learning Sybil-resistant models will probably lead to orders of magnitude of more predictive results.
 
-\titleSection{Cyber protocol}\label{Cyber protocol}
+\titleSection{Cyber protocol}\label{cyber-protocol}
 
 In its core the protocol is very minimalistic and can be expressed in the following steps:
 
@@ -263,7 +263,7 @@ In its core the protocol is very minimalistic and can be expressed in the follow
 
 The rest of this document discusses the rationale and the details of the proposed protocol.
 
-\titleSection{Knowledge graph}\label{knowledge graph}
+\titleSection{Knowledge graph}\label{knowledge-graph}
 
 We represent a knowledge graph as a weighted graph of direct links between content addresses or content identifications (or CIDs) or simply - IPFS hashes. In this document, we will use the above as synonyms.
 
@@ -413,6 +413,42 @@ $$rank(v, t + 1) = \frac{1 - d}{N} + d\sum\limits_{u \in V, (u, v) \in E}{\frac{
 $$rank(v) = \lim\limits_{t \rightarrow \infty} rank(v, t)$$
 \begin{algorithm}
 \SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
+
+\Input{Set of CIDs $V$; \\ Set of cyberlinks $E$; \\ Set of agents $A$; \\ Cyberlink authors $ agents(e) $; \\ Stake of each agent $ stake(a) $; \\Tolerance $\epsilon$; \\ Damping factor $d$}
+\Output{$\textbf{R}$, computed value of $rank(v)$ for each node from $V$}
+
+\BlankLine
+Initialize $\textbf{R}_{v}$ with zeros for all $v \in V$\;
+Initialize $E$ with value $\epsilon$ + 1\;
+
+\BlankLine
+$N_{\emptyset} \leftarrow |\{v|v \in V \land (\nexists u, u \in V, (u, v) \in E )\}|$ \;
+$R_{0} \leftarrow (1 + d \cdot N_{\emptyset} / |V|) \cdot (1 - d) / |V| $ \;
+
+\BlankLine
+\While{$E > \epsilon$}{
+\For{$v \in V$}{
+$S \leftarrow 0$\;
+
+\For{$u \in V, (u, v) \in E$}{
+\setstretch{1.35}
+$W_{uv} \leftarrow \sum_{a \in agents(u, v)}stake(a)$ \;
+$W_{u} \leftarrow \sum_{w \in V, (u, w) \in E}\sum_{a' \in agents(u, w)}stake(a')$ \;
+$S \leftarrow S + W_{uv} \cdot \textbf{R}_{u} / W_{u}$ \;
+}
+
+$\textbf{R}'_v \leftarrow d \cdot S + R_{0}$ \;
+
+}
+
+\BlankLine
+$E \leftarrow \max\limits_v(|\textbf{R}_v - \textbf{R}'_v|)$ \;
+Update $\textbf{R}_{v}$ with $\textbf{R}'_{v}$ for all $v \in V$\;
+
+}
+
+\caption{cyberRank algorithm v1.0}\label{algo_disjdecomp}
+\end{algorithm}\
 
 \Input{Set of CIDs $V$; \\ Set of cyberlinks $E$; \\ Set of agents $A$; \\ Cyberlink authors $ agents(e) $; \\ Stake of each agent $ stake(a) $; \\Tolerance $\epsilon$; \\ Damping factor $d$}
 \Output{$\textbf{R}$, computed value of $rank(v)$ for each node from $V$}
@@ -660,7 +696,7 @@ Generally, we distinguish three types of applications for knowledge graphs:
 
 The following imaginable list of apps can combine the above mentioned types:
 
-\code{Web3 browsers}. In reality, browser and search are inseparable. It is hard to imagine the emergence of a full-blown web3 browser based on a web2 search. Currently, there are several efforts for developing browsers around blockchains and distributed technologies. Amongst these, are Beaker, \sout{Mist}, Brave, and Metamask. All of them suffer by trying to embed web2 into web3. Our approach is different. We consider web2 as the unsafe subset of web3. Therefore we have developed an own web3 browser - 'Cyb', showcasing the cyber approach to satisfying inquiries better, and delivering content quicker.
+\code{Web3 browsers}. In reality browser and search are inseparable. It is hard to imagine the emergence of a full-blown web3 browser which is based on web2 search. Currently, there are several efforts for developing browsers around blockchains and distributed tech. Among them are Beaker, \sout{Mist}, Brave, and Metamask. All of them suffer trying to embed web2 in web3. Our approach is a bit different. We consider web2 as the unsafe subset of web3. So we develop a web3 browser Cyb showcasing the cyber approach to answer questions better and deliver content faster.
 
 \code{Programmable semantics}. Currently, the most popular keywords in the gigantic semantic core of Google, are keywords of apps such as Youtube, Facebook, GitHub, etc. However, the developers of those successful apps have very limited ability to explain to Google how to structure search results in a better manner. The cyber approach gives this power back to developers. Developers are now able to target specific semantics cores and index their apps as they wish.
 
