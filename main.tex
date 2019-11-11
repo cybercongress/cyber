@@ -12,7 +12,7 @@
 \usepackage{subfig}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage[a4paper,width=155mm,top=20mm,bottom=20mm]{geometry}
+\usepackage{geometry}
 \usepackage{textcomp}
 \usepackage{booktabs}
 \usepackage{array}
@@ -50,6 +50,14 @@
 \lhead{}\chead{}\rhead{}
 \renewcommand*{\thepage}{\large{\arabic{page}}}
 \setlength{\footskip}{1cm}
+
+\geometry{
+    a4paper,
+    top=20mm,
+    bottom=20mm,
+    left=20mm,
+    right=20mm,
+}
 
 \graphicspath{{images/}}
 
