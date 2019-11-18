@@ -1,5 +1,4 @@
 \documentclass[8pt,oneside]{amsart}
-%\usepackage{tweaklist}
 \usepackage{ragged2e}
 \usepackage[utf8x]{inputenc}
 \usepackage{url}
@@ -33,17 +32,17 @@
 \usepackage{fancyhdr}
 \usepackage{svg}
 \usepackage{datetime}
-
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{enumerate}
 \usepackage[normalem]{ulem}
-
 \usepackage{fullpage}
 \usepackage{times}
 \usepackage{fancyhdr,graphicx,amsmath,amssymb}
 \usepackage[ruled]{algorithm2e}
 \usepackage{setspace}
-
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\usepackage{polyglossia}
 
 \pagestyle{fancy}
 \fancyhead{}
@@ -65,9 +64,6 @@
 \renewcommand{\labelitemi}{---}
 \renewcommand{\labelenumi}{\theenumii}
 \renewcommand{\theenumii}{\theenumi}
-\usepackage{fontspec}
-\usepackage{xltxtra}
-\usepackage{polyglossia}
 \setromanfont[
 ]{Play-Regular.ttf}
 
@@ -96,10 +92,12 @@
 \makeatletter
 
 \renewcommand\thesubsection{\arabic{subsection}. }
-\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
-                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
-                                     {0ex \@plus .2ex}%
-                                     {\play\Large}}% from \large
+\renewcommand\subsection{\@startsection{subsection}
+                                    {2}{\z@}
+                                    {-3.25ex\@plus -1ex \@minus -.2ex}
+                                    {0ex \@plus .2ex}
+                                    {\play\Large}
+                        }
 \makeatother
 
 \newcommand{\titleSection}[1]{\subsection{#1}}
@@ -170,7 +168,6 @@
   belowskip=5pt,
 }
 
-
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
@@ -178,10 +175,8 @@
   \tikz[baseline=(tocancel.base)]{
     \node[inner sep=0pt,outer sep=0pt] (tocancel) {#1};
     \draw[black] (tocancel.south west) -- (tocancel.north east);
-   }%
- }%
-
-
+   }
+ }
 
 \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
 \newcommand*\eg{e.g.\@\xspace}
@@ -197,21 +192,13 @@
   \list{}{\leftmargin2.1cm \rightmargin\leftmargin}
   {\par\noindent{\normalfont\abstractname.}}
   \item\relax
-}{%
+}{
 
   \endlist \par\bigskip
 }
 
 \setlist{nosep,leftmargin=6ex}
 
-% \renewcommand*{\ttdefault}
-% \EverySelectfont{%
-% \fontdimen2\font=0.4em% interword space
-% \fontdimen3\font=0.2em% interword stretch
-% \fontdimen4\font=0.1em% interword shrink
-% \fontdimen7\font=0.1em% extra space
-% \hyphenchar\font=`\-% to allow hyphenation
-% }
 \usepackage{tgcursor}
 
 \title{\fontsize{16}{17}\selectfont\textnormal{\MakeLowercase{\play{cyber: \uppercase{C}omputing the knowledge from web3}}}}
@@ -238,7 +225,7 @@
 }
 
 \begin{abstract}
-A consensus computer allows for the computing of provably relevant answers without the opinionated BlackBox intermediaries, such as: Google, Amazon or Facebook. Stateless, content-addressable peer-to-peer communication networks, such as IPFS, and stateful consensus computers such as Ethereum, are only able to provide part of the solution needed to obtain akin answers. But, there are at least 3 problems associated with the above-mentioned implementations. Of course, the first problem is the subjective nature of relevance. The second problem is the difficulty in scaling consensus computers for over-sized knowledge graphs. The third problem lies in the lack of quality among such knowledge graphs. They will be prone to various surface attacks, such as: Sybil attacks, and the self-indulgent behaviour of the interacting agents. In this document, we define a protocol for provable consensus computing of relevance in-between IPFS objects, which are based on the Tendermint consensus of cyber•rank, which is itself - computed on GPU. Also, we outline the design for the initial distribution games, based on our previous experience. We believe that a minimalistic architecture of the protocol is critical for the formation of ‘a network of domain-specific knowledge’ in consensus computers. As a result of our work, some applications never to have existed before - will emerge. We expand this work with our vision of possible features and potential applications.
+A consensus computer allows for the computing of provably relevant answers without the opinionated blackbox intermediaries, such as Google, Amazon or Facebook. Stateless, content-addressable peer-to-peer communication networks, such as IPFS, and stateful consensus computers such as Ethereum, are only able to provide part of the solution needed to obtain akin answers. But, there are at least 3 problems associated with the above-mentioned implementations. Of course, the first problem is the subjective nature of relevance. The second problem is the difficulty in scaling consensus computers for over-sized knowledge graphs. The third problem lies in the lack of quality among such knowledge graphs. They will be prone to various surface attacks, such as: sybil attacks, and the selfish behaviour of the interacting agents. In this document, we define a protocol for provable consensus computing of relevance in-between IPFS objects, which are based on the Tendermint consensus of cyber•rank, which is itself - computed on GPU in consensus. As proof-of-stake consensus does not help with initial distribution we outline the design for the distribution games. We believe that a minimalistic architecture of the protocol is critical for the formation of a network of domain-specific knowledge consensus computers. As a result of our work, some applications never to have existed before - will emerge. We expand this work with our vision of possible features and potential applications.
 \end{abstract}
 
 \titleSection{The Great Web}\label{The Great Web}
