@@ -74,9 +74,9 @@
 \newfontfamily{\PlayBold}[Path=./, Scale=1]{Play-Bold.ttf}
 
 \definecolor{black}{rgb}{0,0,0}
-\definecolor{red}{RGB}{245,0,87}
-\definecolor{green}{RGB}{118,250,3}
-\definecolor{blue}{RGB}{3,190,166}
+\definecolor{red}{RGB}{255,23,68}
+\definecolor{green}{RGB}{0,230,118}
+\definecolor{blue}{RGB}{41,121,255}
 \definecolor{yellow}{RGB}{255,234,0}
 
 \newcommand{\linkred}[2]{\href{#1}{\color{red}{#2}}}
@@ -201,7 +201,7 @@
 
 \usepackage{tgcursor}
 
-\title{\fontsize{16}{17}\selectfont\textnormal{\MakeLowercase{\play{cyber: \uppercase{C}omputing the knowledge from web3}}}}
+\title{\fontsize{16}{17}\selectfont\textnormal{\MakeLowercase{\play{cyber: \uppercase{C}omputing the knowledge of the \uppercase{G}reat \uppercase{W}eb}}}}
 \author{\fontsize{8}{9}\selectfont{
     \MakeLowercase{
     @xhipster \& @litvintech work in progress as of \today
@@ -228,40 +228,45 @@
 A consensus computer allows for the computing of provably relevant answers without the opinionated blackbox intermediaries, such as Google, Amazon or Facebook. Stateless, content-addressable peer-to-peer communication networks, such as IPFS, and stateful consensus computers such as Ethereum, are only able to provide part of the solution needed to obtain akin answers. But, there are at least 3 problems associated with the above-mentioned implementations. Of course, the first problem is the subjective nature of relevance. The second problem is the difficulty in scaling consensus computers for over-sized knowledge graphs. The third problem lies in the lack of quality among such knowledge graphs. They will be prone to various surface attacks, such as: sybil attacks, and the selfish behaviour of the interacting agents. In this document, we define a protocol for provable consensus computing of relevance in-between IPFS objects, which are based on the Tendermint consensus of cyber•rank, which is itself - computed on GPU in consensus. As proof-of-stake consensus does not help with initial distribution we outline the design for the distribution games. We believe that a minimalistic architecture of the protocol is critical for the formation of a network of domain-specific knowledge consensus computers. As a result of our work, some applications never to have existed before - will emerge. We expand this work with our vision of possible features and potential applications.
 \end{abstract}
 
-\titleSection{The Great Web}\label{The Great Web}
+\titleSection{The Great Web}\label{great-web}
 
-Original protocols of the Internet, such as: TCP/IP, DNS, URL, and HTTP/S have brought the web to a stale point, where it is located as of now. Considering all the benefits that these protocols have produced for the initial development of the web; along with them, they have brought significant obstacles to the table. Globality - being a vital property of the web is under a real threat since its inception. The speed of the connection keeps degrading while the network itself keeps growing. Other issues include ubiquitous government interventions into user-privacy and user-security.
+Original protocols of the Internet, such as: TCP/IP, DNS, URL, and HTTP/S have brought the web to a stale point, where it is located as of now. Considering all the benefits that these protocols have produced for the initial development of the web, along with them, they have brought significant obstacles to the table. Globality - being a vital property of the web is under a real threat since its inception. The speed of the connection keeps degrading while the network itself keeps growing, and because of ubiquitous government interventions. The isuue of privacy become existential threat for human rights.
 
-One property, not evident in the beginning, becomes important with everyday usage of the Internet: the ability to exchange permanent links, thus, they \linkgreen{https://ipfs.io/ipfs/QmNhaUrhM7KcWzFYdBeyskoNyihrpHvUEBQnaddwPZigcN}{would not break after time had passed}. Reliance on the architecture of ‘one at a time ISP’, allows governments to effectively censor packets. It is the last straw to be pulled out of the traditional web-stack, for every engineer that is concerned about the future of our children.
+One property, not evident in the beginning, becomes important with everyday usage of the Internet: the ability to exchange permanent links, thus, they \linkgreen{https://ipfs.io/ipfs/QmNhaUrhM7KcWzFYdBeyskoNyihrpHvUEBQnaddwPZigcN}{would not break after time had passed}. Reliance on the architecture of one at a time ISP, allows governments to effectively censor packets. It is the last straw to be pulled out of the traditional web-stack, for every engineer that is concerned about the future of our children.
 
-Other properties, while might not be so critical, are very desirable: offline and real-time connection. The average internet user, whilst ‘offline’, should still have the ability to carry on working with the state that they already possess. After acquiring a connection they should be able to sync with the global state and to continue to verify the validity of their state in real-time. Currently, these properties are only offered on the application level, while we believe that such properties should be integrated into lower-level protocols.
+Other properties, while might not be so critical, are very desirable: offline and real-time connection. The average internet user, whilst offline, should still have the ability to carry on working with the state that they already possess. After acquiring a connection they should be able to sync with the global state and to continue to verify the validity of their state in real-time. Currently, these properties are only offered on the application level, while we believe that such properties should be integrated into lower-level protocols.
 
-The emergence of \linkgreen{https://ipfs.io/ipfs/Qmf3eHU9idMUZgx6MKhCsFPWL24X9pDUi2ECqyH8UtBAMQ}{a brand-new web-stack} creates an opportunity for a superior Internet. The community calls it: web 3.0. We call it: The Great Web. We believe that various types of low-level communications should be immutable and should not alter for decades, e.g. immutable content links. They seem very promising at removing the problems of the conventional protocol stack; they add better speed and a more accessible connection to the new web. However, as it happens with any concept that offers something unique - new problems also emerge. One such concern is 'general-purpose search'. The existing general-purpose search engines are restrictive and centralized databases that everybody is forced to trust. These search engines were designed primarily for client-server architectures, based on TCP/IP, DNS, URL, and HTTP/S protocols. ‘The Great Web’ creates a challenge and an opportunity for a search engine based on emerging technologies and is designed specifically for these purposes. Surprisingly, permissionless blockchain architecture allows building a general-purpose search engine in a way inaccessible to previous architecture.
+The emergence of \linkgreen{https://ipfs.io/ipfs/Qmf3eHU9idMUZgx6MKhCsFPWL24X9pDUi2ECqyH8UtBAMQ}{a brand-new web-stack} creates an opportunity for a superior Internet. The community calls it: web3. We call it The Great Web. We believe that various types of low-level communications should be immutable and should not alter for decades, e.g. immutable content links. They seem very promising at removing the problems of the conventional protocol stack. They add better speed and a more accessible connection to the new web. However, as it happens with any concept that offers something unique - new problems also emerge. One such concern is general-purpose search. The existing general-purpose search engines are restrictive and centralized databases that everybody is forced to trust. These search engines were designed primarily for client-server architectures, based on TCP/IP, DNS, URL, and HTTP/S protocols. The Great Web creates a challenge and an opportunity for a search engine which is based on emerging technologies and is designed specifically for these purposes. Surprisingly, permissionless blockchain architecture allows building a general-purpose search engine in a way inaccessible to previous architecture.
 
-\titleSection{On the adversarial examples problem}\label{On the adversarial examples problem}
+\titleSection{On the adversarial examples problem}\label{adversarial-examples}
 
-\linkgreen{https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6}{The current architecture of search engines} is a system where one entity processes all the shit. This approach suffers from one challenging and a distinct problem, that has yet to be solved, even by the brilliant Google scientists: \linkgreen{https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9}{the adversarial examples problem}. The problem that Google acknowledges, is that it is rather difficult to algorithmically reason, whether or not a particular sample is adversarial. This is inconsiderate of how awesome the learning technology in itself is. A crypto-economical approach can change beneficiaries within that game. Consequently, this approach will effectively remove possible Sybil-attack vectors. It removes the necessity to hard-code model crawling and the meaning extraction from a single entity to the whole world. Learning Sybil-resistant models will probably lead to orders of magnitude of more predictive results.
+\linkgreen{https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6}{The current architecture of search engines} is a system where one entity processes all the shit. This approach suffers from one challenging and a distinct problem, that has yet to be solved, even by the brilliant Google scientists: \linkgreen{https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9}{the adversarial examples problem}. The problem that Google acknowledges, is that it is rather difficult to algorithmically reason, whether or not a particular sample is adversarial. This is inconsiderate of how awesome the learning technology in itself is. A crypto-economical approach can change beneficiaries within that game. Consequently, this approach will effectively remove possible sybil attack vectors. It removes the necessity to hard-code model crawling and the meaning extraction from a single entity to the whole world. Learning sybil resistant model will probably lead to orders of magnitude more predictive results.
 
-\titleSection{Cyber protocol}\label{Cyber protocol}
+\titleSection{Cyber protocol}\label{cyber-protocol}
 
 In its core the protocol is very minimalistic and can be expressed by the following steps:
 
 \begin{enumerate}[nosep]
-\item Computing the genesis of cyber-protocol, based on the distribution rules defined by this paper
-\item Defining the state of the knowledge graph
-\item Gathering cyberlinks
-\item Checking the validity of the signatures
-\item Checking the validity of CIDv1
-\item Checking the bandwidth limit
-\item If the signatures, the bandwidth limit and CIDv1 are all valid - applying cyberlinks
-\item Calculating cyber•rank deltas every round for the knowledge graph
+\item Compute the genesis of cyber protocol based on the distribution gamez
+\item Define the state of the knowledge graph
+\item Gather cyberlinks
+\item Check the validity of the signatures
+\item Check the validity of CIDv1
+\item Check the bandwidth limit
+\item If the signatures, the bandwidth limit and CIDv1 are all valid - apply cyberlinks
+\item Calculate cyber•rank deltas every round for the knowledge graph
 \end{enumerate}
 
 The rest of this document discusses the rationale and the details of the proposed protocol.
 
-\titleSection{Knowledge graph}\label{Knowledge graph}
+\titleSection{Knowledge graph}\label{knowledge-graph}
 
-We represent a knowledge graph as a weighted graph of direct links between content addresses or content identifications (or CIDs) or simply - IPFS hashes. In this document, we will use the above as synonyms.
+We represent a knowledge graph as a weighted graph of directed links between content addresses, or content identificators, or CIDs, or IPFS hashes, or simply - ipfs links. In this document, we will use the above as synonyms.
+
+\begin{Figure}
+    \centering
+    \includegraphics[width=1\textwidth]{knowledge-graph.png}
+\end{Figure}
 
 Content addresses are essentially web3 links. Instead of using the unclear and mutable:
 \begin{lstlisting}
@@ -272,7 +277,7 @@ we can use the exact object itself:
 Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
 \end{lstlisting}
 
-By using content addresses to build the knowledge graph we gain \linkred{https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est}{the so much needed} superpowers of \linkgreen{https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps}{IPFS} - \linkgreen{https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR}{like} the P2P protocols desired for a search engine:
+By using content addresses to build the knowledge graph we gain \linkred{https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est}{the so much needed} superpowers of \linkgreen{https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps}{IPFS} - \linkgreen{https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR}{like} the p2p protocols desired for a search engine:
 
 \begin{itemize}
 \item mesh-network futureproof
@@ -281,17 +286,17 @@ By using content addresses to build the knowledge graph we gain \linkred{https:/
 \item technological independence
 \end{itemize}
 
-Our knowledge graph is generated by web-agents. The agents add themselves to the knowledge graph with the help of a single transaction. Thereby, they prove the existence of their private keys for content addresses of their revealed public keys. By using these mechanics, a consensus computer could achieve provable differentiation between subjects and objects on a knowledge graph.
+Our knowledge graph is generated by the great web agents. The agents add themselves to the knowledge graph with the help of a single transaction. Thereby, they prove the existence of their private keys for content addresses of their revealed public keys. By using these mechanics, a consensus computer could achieve provable differentiation between subjects and objects in a knowledge graph.
 
 Our \code{cyber} implementation is based on \linkred{https://github.com/cosmos/cosmos-sdk}{cosmos-SDK} identities, and \linkred{https://github.com/multiformats/cid#cidv0}{CIDV1} content addresses.
 
-Web-agents produce the knowledge graph by applying \code{cyberlinks}.
+Agents produce the knowledge graph by applying \code{cyberlinks}.
 
-\titleSection{Cyberlinks}\label{Cyberlinks}
+\titleSection{Cyberlinks}\label{cyberlinks}
 
-To understand how cyberlinks function we need to understand the difference between a \code{URL link} (aka a hyperlink) and between an \code{IPFS link}. A URL link points to the location of the content, whether an IPFS link points to the content itself. The difference between web-architecture based on location links and content links is a drastic one and hence requires a unique approach.
+To understand how cyberlinks function we need to understand the difference between a URL link (aka hyperlink) and between an IPFS link. A URL link points to the location of the content, whether an IPFS link points to the content itself. The difference between web architecture based on location links and content links is a drastic one and hence requires a unique approach.
 
-\code{Cyberlink} is an approach to link two content addresses or \code{IPFS links} semantically:
+{Cyberlink} is an approach to link two content addresses or {ipfs links} semantically:
 
 \begin{lstlisting}
 QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH
@@ -299,11 +304,12 @@ QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH
 Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
 \end{lstlisting}
 
-The above cyberlink means that the cyberd presentation during cyberc0n is referencing to the Cosmos white paper. The concept of cyberlinks is a convention around simple semantics of a communication format in any P2P network:
+The above cyberlink means that the cyberd presentation during cyberc0n is referencing to the Cosmos white paper. The concept of cyberlinks is a convention around simple semantics of a communication format in any p2p network:
 
-\begin{lstlisting}
-  <content-address X>.<content-address Z>
-\end{lstlisting}
+\begin{Figure}
+    \centering
+    \includegraphics[width=1\textwidth]{cyberlink.png}
+\end{Figure}
 
 You can see that a cyberlink represents a link between the two links above. Easy peasy!
 
@@ -311,27 +317,22 @@ Cyberlink is a simple, yet a powerful semantic construction for building a predi
 
 Cyberlinks can be extended, i.e. they can form linkchains if there are two or more cyberlinks in existence from one agent, where the second link in the first cyberlink is equal to the first link in the second cyberlink:
 
-\begin{lstlisting}
-<content-address X>.<content-address X>
-<content-address X>.<content-address A>
-\end{lstlisting}
-
 \begin{Figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{linkchain.jpg}
+    \includegraphics[width=1\textwidth]{linkchain.png}
 \end{Figure}
 
-If the web-agents wish to expand native \code{IPFS links} with something semantically richer, for example:
+If an agents wish to expand native ipfs links with something semantically richer, for example:
 \linkred{https://github.com/cybercongress/cyb/blob/dev/docs/dura.md}{DURA}
-links, then the web3-agents will be able to reach consensus more naturally on execution rules of a specific program.
+links, then the agents will be able to reach consensus more naturally on execution rules of a specific program.
 
-\linkred{https://github.com/cybercongress/cyberd}{cyber} implementation of \code{cyberlinks} is based on the \linkred{https://github.com/cybercongress/cyb/blob/dev/docs/dura.md}{DURA} specification, which is available in the \linkred{https://github.com/cybercongress/.cyber}{.cyber} app of the new web3-browser \linkred{https://github.com/cybercongress/cyb}{cyb}.
+\linkred{https://github.com/cybercongress/cyberd}{cyber} implementation of {cyberlinks} is based on the \linkred{https://github.com/cybercongress/cyb/blob/dev/docs/dura.md}{DURA} specification, which is available in the \linkred{https://github.com/cybercongress/.cyber}{.cyber} app of the new web3-browser \linkred{https://github.com/cybercongress/cyb}{cyb}.
 
-Based on \code{cyberlinks} we can compute the relevance of subjects and objects within the knowledge graph. This is why we need a consensus computer.
+Based on cyberlinks we can compute the relevance of subjects and objects within the knowledge graph. This is why we need a consensus computer.
 
 \titleSection{The notion of a consensus computer}\label{The notion of a consensus computer}
 
-A consensus computer is an abstract computing machine that emerges from the interaction of agents. A consensus computer has the capacity in terms of fundamental computing resources, such as: memory and computing. To interact with agents a computer needs bandwidth. An ideal consensus computer is a computer where:
+A consensus computer is an abstract computing machine that emerges from the interaction of agents. A consensus computer has the capacity in terms of fundamental computing resources: memory and computing. To interact with agents a computer needs bandwidth. An ideal consensus computer is a computer where:
 \\
 \begin{lstlisting}
 the sum of all computations and memory available to all individuals
@@ -345,26 +346,52 @@ We know that:
 verifications of computations < (computations + verifications of computations)
 \end{lstlisting}
 
-Hence, we will never be able to achieve an ideal consensus computer. The CAP theorem and the scalability trilemma append more proof to this statement. Yet, this theory can work as a performance indicator for a consensus computer. After 6 years of investing into consensus computers, we have come to realize that the \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint} consensus has a good balance between coolness required for our task and the readiness for production. Therefore, we have decided to implement  \code{cyber} protocol with the use of the Tendermint consensus, which has very close settings to the Cosmos Hub.
+Hence, we will never be able to achieve an ideal consensus computer. The CAP theorem and the scalability trilemma append more proof to this statement. Yet, this theory can work as a performance indicator for a consensus computer. After 6 years of investing into consensus computers, we have come to realize that the \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint} consensus has a good balance between coolness required for our task and the readiness for production. Therefore, we have decided to implement cyber protocol with the use of the Tendermint consensus, which has very close settings to the Cosmos Hub.
 
 The \code{cyber} implementation is a 64-bit Tendermint consensus computer of relevance for 64-byte string-space; this is by far - not ideal, at least as 1/146. This is why we have 146 validators who verify the same computations by using the knowledge graph of the same size.
 
-We must bind computation, storage and the bandwidth supply of the consensus computer with a maximized demand for queries. Computation and storage in case of a basic relevance machine can be easily predicted based on bandwidth; but bandwidth requires a limiting mechanism.
+We must bind computation, storage and the bandwidth supply of the consensus computer with a maximized demand for queries. Computation and storage in case of a basic \code{relevance machine} can be easily predicted based on bandwidth. But bandwidth requires a limiting mechanism.
 
-\titleSection{The relevance machine}\label{The relevance machine}
+\titleSection{The relevance machine}\label{relevance-machine}
 
-We define a relevance machine as a machine that transitions the state of a knowledge graph based on the will of the agents wishing to learn and read that knowledge graph. The will is projected by every agents' cyberlink. With more agents inquiring the knowledge graph, the more valuable the knowledge becomes. Based on these projections - relevance between content segments can be computed. The relevance machine enables a simple construction for the search mechanism via querying and delivering answers.
+We define a relevance machine as a machine that transitions the state of a knowledge graph based on the will of the agents wishing to learn that knowledge graph. The will is projected by every agents' cyberlink. With more agents inquiring the knowledge graph, the more valuable the knowledge becomes. Based on these projections - relevance between content segments can be computed. The relevance machine enables a simple construction for the search mechanism via querying and delivering answers.
 
-One property of the relevance machine is crucial: it must have inductive reasoning properties or follow the BlackBox principle.
+One property of the relevance machine is crucial: it must have inductive reasoning properties or follow the blackbox principle:
 
 \begin{lstlisting}
 A machine must be able to interfere with predictions without any knowledge about the objects,
 except for who, when and what was cyberlinked
 \end{lstlisting}
 
-If we assume that a consensus computer must have some information about the linked objects, then the complexity of such a model will grow unpredictably. Therefore, the high requirements of the processing computer for memory and computation. Thanks to content addressing, a relevance machine which follows the BlackBox principle does not need to store the data, but, can still effectively operate on top of it. This is because the deduction of meaning inside the consensus computer is expensive. Hence, such a design can dependent on the blindness of assumption. Instead of deducting the meaning inside of the consensus computer, we have designed a system in which meaning extraction is incentivized. This is achieved due to agents needing CYB tokens to express their will, based on which, the relevance machine can compute rank.
+If we assume that a consensus computer must have some information about the linked objects, then the complexity of such a model will grow unpredictably. Therefore, the high requirements of the processing computer for memory and computation. Thanks to content addressing, a relevance machine which follows the blackbox principle does not need to store the data, but, can still effectively operate on top of it. This is because the deduction of meaning inside the consensus computer is expensive. Hence, such a design can dependent on the blindness of assumption. Instead of deducting the meaning inside of the consensus computer, we have designed a system in which meaning extraction is incentivized. This is achieved due to agents needing CYB tokens to express their will, based on which, the relevance machine can compute rank.
 
 In the centre of the spam protection system is an assumption that ‘write’ operations can be executed only by those who have a vested interest in the evolutionary success of the relevance machine. Every 1\% of effective stake within the consensus computer gives the ability to use 1\% of the possible networks' bandwidth and its computing capabilities. A simple rule prevents abuse from the agents: one content address can be voted on by a token - only once.
+
+\begin{algorithm}
+\SetKwInOut{Input}{Input}
+\SetKwInOut{Output}{Output}
+\SetKwFunction{CalculateRank}{CalculateRank}
+\SetKwFunction{CreateMerkleTree}{CreateMerkleTree}
+\SetKwFunction{Push}{PushMerkleTree}
+\Input{Current block $N$;\\New transactions $T$}
+$B^{N}_{used} \leftarrow 0$\;
+\For{$t \in T$}{
+    $B^{max}_a \leftarrow S_a / S_{network} $\;
+    $B_a \leftarrow \max(B^{max}_a, B_a + (N - B^{block}_a) \cdot B^{max}_a / P_{recover})$\;
+    $B_{total} \leftarrow RC_{price} \cdot (B_{transaction} + |links(t)| \cdot B_{link})$\;
+    \BlankLine
+    \If{$B_a < B_{total}$} {
+        Skip transaction $t$\;
+    }
+    $B_a \leftarrow B_a - B_{total}$\;
+    $B^{N}_{used} \leftarrow B^{N}_{used} + B_{total}$\;
+}
+
+\BlankLine
+$H \leftarrow T^{root}_{links} \oplus T^{root}_{ranks}$\;
+Commit $H_{app}$ to ABCI\;
+\caption{Bandwidth}\label{algo_protocol}
+\end{algorithm}\
 
 \begin{lstlisting}
   EffectiveStake = active stake + bonded stake, where:
@@ -443,7 +470,7 @@ Update $\textbf{R}_{v}$ with $\textbf{R}'_{v}$ for all $v \in V$\;
 
 }
 
-\caption{cyberRank algorithm v1.0}\label{algo_disjdecomp}
+\caption{cyberRank}\label{algo_disjdecomp}
 \end{algorithm}\
 
 We understand that the ranking mechanism will always remain a red herring. This is why we expect to rely on an on-chain governance mechanism that can define the ‘most suited mechanism at a time’. We suppose that the network can switch from one algorithm to another, not simply based on subjective opinion, but rather on economical a/b testing through ‘Hard Spooning’ of domain-specific relevance machines.
