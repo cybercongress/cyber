@@ -84,9 +84,10 @@
 \newcommand{\linkblue}[2]{\href{#1}{\color{blue}{#2}}}
 
 \hypersetup{
-  colorlinks   = true,
-  pdftitle={cyberd}
+  colorlinks = true,
+  pdftitle={cyber}
   pdfpagemode=FullScreen,
+  linkcolor={blue},
   }
 
 \makeatletter
@@ -299,9 +300,9 @@ To understand how cyberlinks function we need to understand the difference betwe
 {Cyberlink} is an approach to link two content addresses or {ipfs links} semantically:
 
 \begin{lstlisting}
-QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH
-.
-Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
+
+.md syntax: [QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH](Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH)
+.dura syntax: QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH.Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
 \end{lstlisting}
 
 The above cyberlink means that the cyberd presentation during cyberc0n is referencing to the Cosmos white paper. The concept of cyberlinks is a convention around simple semantics of a communication format in any p2p network:
@@ -311,7 +312,7 @@ The above cyberlink means that the cyberd presentation during cyberc0n is refere
     \includegraphics[width=1\textwidth]{cyberlink.png}
 \end{Figure}
 
-You can see that a cyberlink represents a link between the two links above. Easy peasy!
+You can see that a cyberlink represents a link between the two links. Easy peasy!
 
 Cyberlink is a simple, yet a powerful semantic construction for building a predictive model of the universe. This means, that by using cyberlinks instead of hyperlinks provides us with the superpowers that were inaccessible to the previous architecture of general-purpose search engines.
 
@@ -323,16 +324,21 @@ Cyberlinks can be extended, i.e. they can form linkchains if there are two or mo
 \end{Figure}
 
 If an agents wish to expand native ipfs links with something semantically richer, for example:
-\linkred{https://github.com/cybercongress/cyb/blob/dev/docs/dura.md}{DURA}
-links, then the agents will be able to reach consensus more naturally on execution rules of a specific program.
+\linkred{https://github.com/cybercongress/cyb/blob/dev/docs/dura.md}{dura}
+links, then the agents will be able to reach consensus more naturally on execution rules by a specific program.
 
-\linkred{https://github.com/cybercongress/cyberd}{cyber} implementation of {cyberlinks} is based on the \linkred{https://github.com/cybercongress/cyb/blob/dev/docs/dura.md}{DURA} specification, which is available in the \linkred{https://github.com/cybercongress/.cyber}{.cyber} app of the new web3-browser \linkred{https://github.com/cybercongress/cyb}{cyb}.
+\linkred{https://github.com/cybercongress/cyberd}{cyber} implementation of {cyberlinks} is based on the \linkred{https://github.com/cybercongress/cyb/blob/dev/docs/dura.md}{DURA} specification, which is available in the \linkred{https://github.com/cybercongress/.cyber}{.cyber} app of the new web3-browser \linkred{https://github.com/cybercongress/cyb}{cyb}. Cyberlinks submitted by agents stored in merkle tree according to \linkgreen{https://tools.ietf.org/html/rfc6962#section-2.1}{RFC-6962 standard} which enable authentification for {\hyperref[proof-of-relevance]{proof-of-relevance}}
 
-Based on cyberlinks we can compute the relevance of subjects and objects within the knowledge graph. This is why we need a consensus computer.
+\begin{Figure}
+    \centering
+    \includegraphics[width=1\textwidth]{graph-tree.png}
+\end{Figure}
 
-\titleSection{The notion of a consensus computer}\label{The notion of a consensus computer}
+Based on cyberlinks we can compute the relevance of subjects and objects within the knowledge graph. But we need a consensus computer.
 
-A consensus computer is an abstract computing machine that emerges from the interaction of agents. A consensus computer has the capacity in terms of fundamental computing resources: memory and computing. To interact with agents a computer needs bandwidth. An ideal consensus computer is a computer where:
+\titleSection{The notion of a consensus computer}\label{consensus-computer}
+
+A consensus computer is an abstract computing machine that emerges from the interaction of agents. A consensus computer has the capacity in terms of fundamental computing resources: memory and computation. To interact with agents a computer needs bandwidth. An ideal consensus computer is a computer where:
 \\
 \begin{lstlisting}
 the sum of all computations and memory available to all individuals
@@ -346,15 +352,22 @@ We know that:
 verifications of computations < (computations + verifications of computations)
 \end{lstlisting}
 
-Hence, we will never be able to achieve an ideal consensus computer. The CAP theorem and the scalability trilemma append more proof to this statement. Yet, this theory can work as a performance indicator for a consensus computer. After 6 years of investing into consensus computers, we have come to realize that the \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint} consensus has a good balance between coolness required for our task and the readiness for production. Therefore, we have decided to implement cyber protocol with the use of the Tendermint consensus, which has very close settings to the Cosmos Hub.
+Hence, we will never be able to achieve an ideal consensus computer. The CAP theorem and the scalability trilemma append more proof to this statement.
 
-The \code{cyber} implementation is a 64-bit Tendermint consensus computer of relevance for 64-byte string-space; this is by far - not ideal, at least as 1/146. This is why we have 146 validators who verify the same computations by using the knowledge graph of the same size.
+\begin{Figure}
+    \centering
+    \includegraphics[width=1\textwidth]{consensus-computer.png}
+\end{Figure}
+
+Yet, this theory can work as a performance indicator for a consensus computer. After 6 years of investing into consensus computers, we have come to realize that the \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint} consensus has a good balance between coolness required for our task and the readiness for production. Therefore, we have decided to implement cyber protocol with the use of the Tendermint consensus, which has very close settings to the Cosmos Hub.
+
+The \code{cyber} implementation is a 64-bit Tendermint consensus computer of relevance for 64-byte string-space. This is by far - not ideal, at least as 1/146, because we have 146 validators who verify the same computations producing the knowledge graph.
 
 We must bind computation, storage and the bandwidth supply of the consensus computer with a maximized demand for queries. Computation and storage in case of a basic \code{relevance machine} can be easily predicted based on bandwidth. But bandwidth requires a limiting mechanism.
 
 \titleSection{The relevance machine}\label{relevance-machine}
 
-We define a relevance machine as a machine that transitions the state of a knowledge graph based on the will of the agents wishing to learn that knowledge graph. The will is projected by every agents' cyberlink. With more agents inquiring the knowledge graph, the more valuable the knowledge becomes. Based on these projections - relevance between content segments can be computed. The relevance machine enables a simple construction for the search mechanism via querying and delivering answers.
+We define a relevance machine as a machine that transitions the state of a knowledge graph based on the will of the agents wishing to learn that knowledge graph. The will is projected by every agents' cyberlink. With more agents inquiring the knowledge graph, the more valuable the knowledge becomes. Based on these projections - relevance between content addresses can be computed. Relevance machine enables a simple construction for the search mechanism via querying and delivering answers.
 
 One property of the relevance machine is crucial: it must have inductive reasoning properties or follow the blackbox principle:
 
@@ -363,7 +376,7 @@ A machine must be able to interfere with predictions without any knowledge about
 except for who, when and what was cyberlinked
 \end{lstlisting}
 
-If we assume that a consensus computer must have some information about the linked objects, then the complexity of such a model will grow unpredictably. Therefore, the high requirements of the processing computer for memory and computation. Thanks to content addressing, a relevance machine which follows the blackbox principle does not need to store the data, but, can still effectively operate on top of it. This is because the deduction of meaning inside the consensus computer is expensive. Hence, such a design can dependent on the blindness of assumption. Instead of deducting the meaning inside of the consensus computer, we have designed a system in which meaning extraction is incentivized. This is achieved due to agents needing CYB tokens to express their will, based on which, the relevance machine can compute rank.
+If we assume that a consensus computer must have some information about the linked objects, then the complexity of such a model will grow unpredictably. Therefore, the high requirements of the processing computer for memory and computation. Thanks to content addressing, a relevance machine which follows the blackbox principle does not need to store the data, but, can still effectively operate on top of it. That is, the deduction of meaning inside the consensus computer is expensive. Hence, such a design can depends on the blindness assumption. Instead of deducting the meaning inside of the consensus computer, we have designed a system in which meaning extraction is incentivized. This is achieved due to agents needing CYB tokens to express their will, based on which, the relevance machine can compute rank.
 
 In the centre of the spam protection system is an assumption that ‘write’ operations can be executed only by those who have a vested interest in the evolutionary success of the relevance machine. Every 1\% of effective stake within the consensus computer gives the ability to use 1\% of the possible networks' bandwidth and its computing capabilities. A simple rule prevents abuse from the agents: one content address can be voted on by a token - only once.
 
@@ -393,39 +406,33 @@ Commit $H_{app}$ to ABCI\;
 \caption{Bandwidth}\label{algo_protocol}
 \end{algorithm}\
 
-\begin{lstlisting}
-  EffectiveStake = active stake + bonded stake, where:
-    BondedStake - stake that is deducted out of your account and is put as a deposit to take part in the consensus
-    ActiveStake - stake which is currently available for direct transfers or not-bonded stake
-\end{lstlisting}
+There are only two ways to change the effective stake (active stake + bonded stake) of an account: direct token transfers and bonding operations.
 
-There are only two ways to change the effective stake of an account: direct token transfers and bonding operations.
-
-Cyber uses a very simple bandwidth model. The principal goal of this model is to reduce the daily network growth to a given constant. This is done to accommodate validators with the ability to forecast any future investment into infrastructure. Thus, here we introduce \code{ResourceCredits} or 'RC'. Each message type has an assigned RC cost. The constant \code{DesirableBandwidth}, determines the desirable \code{RecoveryWindow} spent by the RC value. The recovery period defines how fast an agent can recover their bandwidth from 0 back to max bandwidth. An agent has maximum RC  proportional to his effective stake, determined by the following formula:
+Cyber uses a very simple bandwidth model. The principal goal of this model is to reduce the daily network growth to a given constant. This is done to accommodate validators with the ability to forecast any future investment into infrastructure. Thus, here we introduce 'ResourceCredits' or 'RC'. Each message type has an assigned RC cost. The constant 'DesirableBandwidth', determines the desirable 'RecoveryWindow' spent by the RC value. The recovery period defines how fast an agent can recover their bandwidth from 0 back to max bandwidth. An agent has maximum RC proportional to his effective stake, determined by the following formula:
 
 \begin{lstlisting}
   AgentMaxRC = EffectiveStake * DesirableBandwidth
 \end{lstlisting}
 
-The period \code{PriceAdjustWindow} sums up how much RC was spent during that period\\ \code{AdjustPricePeriodTotalSpent}. There is also a constant \code{AdjustPricePeriodDesiredSpent}, which is used to calculate the network load.
+The period 'PriceAdjustWindow' sums up how much RC was spent during that period\\ 'AdjustPricePeriodTotalSpent'. There is also a constant 'AdjustPricePeriodDesiredSpent', which is used to calculate the network load.
 
 \code{AdjustPricePeriodTotalSpent / AdjustPricePeriodDesiredSpent} ratio is called 'the fractional reserve ratio'. If the network usage is low, the fractional reserve ratio adjusts message cost to allow agents with a lower stake to commit more transactions. If the demand for resources increases, the fractional reserve ratio goes \code{>1}, consequently, increasing message cost and limiting final tx count for a long-term period (RC recovery will be \code{<} then RC spending).
 
 As no-one uses all of their possessed bandwidth, we can safely use up to 100x fractional reserves within a 2-minute recalculation target period. This mechanics offers a discount for cyberlinking, thus, effectively maximizing demand for it. You can see that the proposed design needs demand for full bandwidth for the relevance to become valuable.
 
-Human intelligence is organized in such a manner that the pruning of none-relevant and none-important memories that are forgotten with time. The same can be applied to the relevance machine. Another useful property of the relevance machine is that it needs to do neither - store the past, nor the current full state, to maintain usefulness. Or more precisely, it remains: \verb|relevant|. The relevance machine can implement \linkgreen{https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb}{aggressive pruning strategies}, such as, the pruning of the history of the formation of a knowledge graph, or forgetting links that become 'less relevant'.
+Human intelligence is organized in such a manner that none-relevant and none-important memories are forgotten with time. The same can be applied to the relevance machine. The relevance machine can implement \linkgreen{https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb}{aggressive pruning strategies}, such as, the pruning of the history of the formation of a knowledge graph, or forgetting links that become less relevant.
 
-As a result, the implemented ‘cybernomics’ of the CYB token serves not just as 'will-expression and spam-protection' mechanisms; but, it also functions as an economics regulation tool that can align validators processing the knowledge graph, and as a demand for market processing. The \code{cyber} implementation of the relevance machine is based on a very straightforward mechanism, called: cyber•Rank.
+As a result, the implemented cybernomics of the CYB token serves not just as will-expression and spam-protection mechanisms, but, it also functions as an economics regulation tool that can align validators processing capacity and market demand for processing. The 'cyber' implementation of the relevance machine is based on a very straightforward mechanism, called: cyber•Rank.
 
-\titleSection{cyber~Rank}\label{cyberRank}
+\titleSection{cyber•Rank}\label{cyber-rank}
 
-Ranking using a consensus computer can be challenging. This is due to consensus computers having serious resource restraints. e.g. \linkgreen{https://ipfs.io/ipfs/QmWTZjDZNbBqcJ5b6VhWGXBQ5EQavKKDteHsdoYqB5CBjh}{Nebulas} has failed to deliver anything useful on-chain. First, we must ask ourselves: why do we need to compute and to store the rank on-chain and not follow the same way as \linkgreen{https://ipfs.io/ipfs/QmZo7eY5UdJYotf3Z9GNVBGLjkCnE1j2fMdW2PgGCmvGPj}{Colony} or \linkgreen{https://ipfs.io/ipfs/QmTrxXp2xhB2zWGxhNoLgsztevqKLwpy5HwKjLjzFa7rnD}{Truebit}?
+Ranking using a consensus computer can be challenging. This is due to consensus computers having serious resource constraints. e.g. \linkgreen{https://ipfs.io/ipfs/QmWTZjDZNbBqcJ5b6VhWGXBQ5EQavKKDteHsdoYqB5CBjh}{Nebulas} has failed to deliver anything useful on-chain. First, we must ask ourselves: why do we need to compute and to store the rank on-chain and not follow the same way as \linkgreen{https://ipfs.io/ipfs/QmZo7eY5UdJYotf3Z9GNVBGLjkCnE1j2fMdW2PgGCmvGPj}{Colony} or \linkgreen{https://ipfs.io/ipfs/QmTrxXp2xhB2zWGxhNoLgsztevqKLwpy5HwKjLjzFa7rnD}{Truebit}?
 
-When a rank is computed inside a consensus computer one has easy access to the content distribution of that rank, and an easy way to build provable applications on top of that rank. Hence, we have decided to follow a more 'cosmic' architecture. In the next section, we describe the ‘proof of relevance’ mechanism, which allows the network to scale with the help of ‘domain-specific relevance machines’, that work concurrently thanks to the IBC protocol.
+When a rank is computed inside a consensus computer one has easy access to the content distribution of that rank, and an easy way to build provable applications on top of that rank. Hence, we have decided to follow a more cosmic architecture. In the next section, we describe the 'proof of relevance' mechanism, which allows the network to scale with the help of domain-specific relevance machines, that work concurrently thanks to the IBC protocol.
 
 Eventually, the relevance machine needs to obtain (1) a deterministic algorithm that will allow for computing rank on a continuously appending network, which itself can scale to the orders of magnitude of the likes of Google. Additionally, a perfect algorithm (2) must have linear memory and computational complexity. Most importantly, it must have (3) the highest provable prediction capabilities for the existence of relevant cyberlinks.
 
-After \linkred{https://arxiv.org/pdf/1709.09002.pdf}{some research}, we have found that it is impossible to obtain the ‘silver bullet’. Therefore, we have decided to find a more basic, bulletproof way, that can bootstrap the network: \linkred{http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf}{the rank} which Larry and Sergey used to bootstrap their previous network. The key problem with the original PageRank is that it wasn't resistant to Sybil attacks. However, a token-weighted PageRank is limited by a token-weighted bandwidth model, and does not inherit such problems as the native PageRank; it is also resistant to Sybil-attacks. For the time being, we will call it cyber•Rank, that is until something more suitable will emerge. The following algorithm is applied to the implementation at Genesis:
+After \linkred{https://arxiv.org/pdf/1709.09002.pdf}{some research}, we have found that it is impossible to obtain the silver bullet. Therefore, we have decided to find a more basic, bulletproof way, that can bootstrap the network: \linkred{http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf}{the rank} which Larry and Sergey used to bootstrap their previous network. The key problem with the original PageRank is that it wasn't resistant to sybil attacks. However, a token-weighted PageRank which is limited by a token-weighted bandwidth does not inherit key problem as the naive PageRank, because it is resistant to sybil attacks. For the time being, we will call it cyber•Rank. That is, until something more suitable will emerge. The following algorithm is applied to the implementation at Genesis:
 
 $$ CIDs \ V, cyberlinks \ E, Agents \ A $$
 $$agents(e): E \rightarrow 2^{A}$$
@@ -470,19 +477,19 @@ Update $\textbf{R}_{v}$ with $\textbf{R}'_{v}$ for all $v \in V$\;
 
 }
 
-\caption{cyberRank}\label{algo_disjdecomp}
+\caption{cyber•Rank}\label{algo_disjdecomp}
 \end{algorithm}\
 
-We understand that the ranking mechanism will always remain a red herring. This is why we expect to rely on an on-chain governance mechanism that can define the ‘most suited mechanism at a time’. We suppose that the network can switch from one algorithm to another, not simply based on subjective opinion, but rather on economical a/b testing through ‘Hard Spooning’ of domain-specific relevance machines.
+We understand that the ranking mechanism will always remain a red herring. This is why we expect to rely on an on-chain governance mechanism that can define the most suited mechanism at a time. We suppose that the network can switch from one algorithm to another, not simply based on subjective opinion, but rather on economical a/b testing through 'hard spooning' of domain-specific relevance machines.
 
-cyber~Rank shields two design decisions which are of paramount importance: (1) it accounts only the current intention of the agents, and (2) it encourages rank inflation of cyberlinks. The first property ensures that cyber~Rank can not be gamed with. If an agent decides to transfer CYB tokens out of their account, the relevance machine will adjust all the cyberlinks relevant to this account per the current intentions of the agent. And vice versa, if an agent transfers CYB tokens into their account, all of the cyberlinks submitted from this account will immediately gain more relevance. The second property is essential in order not to get cemented in the past. As new cyberlinks are continuously added, they dilute the rank of the already existing links proportionally. This property prevents a situation where new and better content has a lower rank simply because it was submitted sometimes in the past. We expect these decisions to enable an inference quality for recently added content to the long tail of the knowledge graph.
+cyber•Rank shields two design decisions which are of paramount importance: (1) it accounts only the current intention of the agents, and (2) it encourages rank inflation of cyberlinks. The first property ensures that cyber•Rank can not be gamed with. If an agent decides to transfer CYB tokens out of their account, the relevance machine will adjust all the cyberlinks relevant to this account per the current intentions of the agent. And vice versa, if an agent transfers CYB tokens into their account, all of the cyberlinks submitted from this account will immediately gain more relevance. The second property is essential in order not to get cemented in the past. As new cyberlinks are continuously added, they dilute the rank of the already existing links proportionally. This property prevents a situation where new and better content has a lower rank simply because it was submitted sometimes in the past. We expect these decisions to enable an inference quality for recently added content in the long tail of the knowledge graph.
 
-We would love to discuss the problem of manual vote-buying. Vote-buying as an occurrence isn't that bad. The dilemmas with vote-buying appear in systems where voting affects the allocation of that systems inflation. For example, \linkgreen{http://ipfs.io/ipfs/QmepU77tqMAHHuiSASUvUnu8f8ENuPF2Kfs97WjLn8vAS3}{Steem}
-or any fiat state-based system. Vote buying can become easily profitable for an adversary that employs a zero-sum game without the necessity to add value. Our original idea of a decentralized search was based on this approach. But, we have rejected that idea, removing the incentive for the formation of the knowledge graph on a consensus level. In our environment, in which every participant must bring some value to the system to affect the predictive model, vote-buying becomes NP-hard problem, therefore, becomes beneficial to the system.
+We would love to discuss the problem of vote buying separately. Vote buying as an occurrence isn't that bad. The dilemmas with vote buying appear in systems where voting affects the allocation of that systems inflation. For example, \linkgreen{http://ipfs.io/ipfs/QmepU77tqMAHHuiSASUvUnu8f8ENuPF2Kfs97WjLn8vAS3}{Steem}
+or any fiat state-based system. Vote buying can become easily profitable for an adversary that employs a zero-sum game without the necessity to add value. Our original idea of a decentralized search was based on this approach. But, we have rejected that idea, removing the incentive for the formation of the knowledge graph on a consensus level. In our environment, in which every participant must bring some value to the system to affect the predictive model, vote buying becomes NP-hard problem, therefore, becomes beneficial to the system.
 
-The current implementation of the relevance machine is based on 'CUDA'. They can answer and deliver relevant results for any given search request in a 64-byte CID space. However, it is not enough to build a network of domain-specific relevance machines. Consensus computers must have the ability to prove relevance to one another.
+The current implementation of the relevance machine is based on 'CUDA'. She can answer and deliver relevant results for any given search request in a 64-byte CID space. However, it is not enough to build a network of domain-specific relevance machines. Consensus computers must have the ability to prove relevance to one another.
 
-\titleSection{Proof of relevance}\label{Proof of relevance}
+\titleSection{Proof of relevance}\label{proof-of-relevance}
 
 We have designed the network under the assumption that with regards to search, such a thing as malicious behaviour does not exist. This can be assumed as no malicious behaviour can be found in the intention of finding the answers. This approach significantly reduces any surface attacks.
 
@@ -493,27 +500,22 @@ thus linked, and as a result, has affected the predictive model.
 
 A good analogy is an observation in quantum mechanics. This is why we have no requirement for such a thing as negative voting. By doing this, we remove subjectivity out of the protocol and we can define proof of relevance.
 
-\begin{lstlisting}
-Rank state =
-rank values that are stored in a one-dimensional array
-and in the Merkle tree of those values
-\end{lstlisting}
+\begin{Figure}
+    \centering
+    \includegraphics[width=1\textwidth]{rank-tree.png}
+\end{Figure}
 
-Each new CID receives a unique number. This number starts with zero. Then, increments by one for each new CID. Therefore, we can store rank in a one-dimensional array, where indices are the CID numbers. Merkle tree calculations are based on the \linkgreen{https://tools.ietf.org/html/rfc6962#section-2.1}{RFC-6962 standard}.
+Each new CID receives a sequense number. This number starts with zero. Then, increments by one for each new CID. Therefore, we can store rank in a one-dimensional array, where indices are the CID sequence numbers. Merkle tree calculations are based on the \linkgreen{https://tools.ietf.org/html/rfc6962#section-2.1}{RFC-6962 standard}.
 
-We now possess proof of rank for any given content address. While relevance is still subjective by nature, we have a collective proof that something was relevant to a certain community at some point in time.
-
-\begin{lstlisting}
-For any given CID it is possible to prove relevance
-\end{lstlisting}
+Using merkle trees we can effectively proof the rank for any given content address. While relevance is still subjective by nature, we have a collective proof that something was relevant to a certain community at some point in time.
 
 Using this type of proof, any two \linkgreen{https://ipfs.io/ipfs/QmdCeixQUHBjGnKfwbB1dxf4X8xnadL8xWmmEnQah5n7x2}{IBC compatible} consensus computers can prove relevance to one another. This means that domain-specific relevance machines can flourish.
 
-In our relevance for a common \code{cyber} implementation, the proof of relevance root hash is computed on the CUDA GPUs every round.
+In our relevance for a common \code{cyber} implementation, the rank root hash is computed on the CUDA GPUs every round.
 
-\titleSection{Performance speed}\label{Performance speed}
+\titleSection{Speed}\label{speed}
 
-We require instant confirmation times to provide users with the feeling of a conventional web-application. This is a powerful architectural requirement that shapes the economical topology and the scalability of the cyber protocol. The proposed blockchain design is based on the \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint consensus} algorithm with 146 validators, and has a very quick - 5 second tx finality time. The average confirmation time closer to 1 second could make complex blockchain interactions almost invisible to agents.
+We require instant confirmation times to provide users with the feeling of a conventional web-application. This is a powerful architectural requirement that shapes the economical topology and the scalability of the cyber protocol. The proposed blockchain design is based on the \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint consensus} algorithm with 146 validators, and has a quick - 5 second tx finality time. The average confirmation time closer to 1 second could make complex blockchain interactions almost invisible to agents.
 
 We denote one particular cyberd property in the context of speed - rank computation. Being a part of the consensus it occurs in parallel to transaction validation within the rounds. A round is a consensus variable defined by the stakeholders. From inception one round is set to 100 blocks. Practically, this indicates that every 300 seconds the network must agree on the current root hash of the knowledge graph. This means that every cyberlink submitted becomes a part of the knowledge graph almost instantly while acquiring a rank within an average period of 150 seconds. In the early days of Google rank was recomputed roughly every week. We believe that web3-agents will be pleased to observe that ranking changes in real-time and have decided to launch the network with an assumption that this 'window' is enough. It is expected that with the development of the cyber protocol the velocity of each round will decrease. This is due to competition between validators. We are aware of certain mechanisms to make this function order of magnitudes faster:
 
@@ -525,34 +527,41 @@ We denote one particular cyberd property in the context of speed - rank computat
 
 \titleSection{Scalability}\label{Scalability}
 
-We require an architecture which will allow us to scale our idea to orders of the significance of the likes of Google. Let us assume that our node implementation, which is based on \code{cosmos-SDK} can process 10k transactions per second. This means that every day, at least 8.64 million agents will be able to submit 100 cyberlinks each and impact the search results simultaneously. This is enough to verify all the assumptions out in the wild, but not enough to say that it will work at the current scale of the Internet. Given the current state of the art research done by our team, we can safely state that no consensus technology exists which will allow scaling a particular blockchain to the size that we require. Hence, we introduce the concept of domain-specific knowledge graphs. One can either launch an own domain-specific search engine by forking cyberd, which is focused on \textit{common public knowledge} or simply 'plug' cyberd as a module into an existing chain, e.i. Cosmos Hub. The inter-blockchain communication protocol introduces concurrent mechanisms of syncing state between relevance machines. Therefore, in our search architecture, domain-specific relevance machine will be able to learn from common knowledge as well as common knowledge can learn from domain-specific relevance machines.
+We require an architecture which will allow us to scale our idea to orders of the significance of the likes of Google. Let us assume that our node implementation, which is based on \code{cosmos-SDK} can process 10k transactions per second. This means that every day, at least 8.64 million agents will be able to submit 100 cyberlinks each and impact the search results simultaneously. This is enough to verify all the assumptions out in the wild, but not enough to say that it will work at the current scale of the Internet. Given the current state of the art research done by our team, we can safely state that no consensus technology exists which will allow scaling a particular blockchain to the size that we require. Hence, we introduce the concept of domain-specific knowledge graphs.
 
-\titleSection{In-browser implementation}\label{In-browser implementation}
+\begin{Figure}
+    \centering
+    \includegraphics[width=1\textwidth]{network.png}
+\end{Figure}
+
+One can either launch an own domain-specific search engine by forking cyberd, which is focused on \textit{common public knowledge} or simply 'plug' cyberd as a module into an existing chain, e.i. Cosmos Hub. The inter-blockchain communication protocol introduces concurrent mechanisms of syncing state between relevance machines. Therefore, in our search architecture, domain-specific relevance machine will be able to learn from common knowledge as well as common knowledge can learn from domain-specific relevance machines.
+
+\titleSection{Browzers}\label{browzers}
 
 We were aspired to imagine how our network would operate in a web3 browser. To our disappointment we \linkred{https://github.com/cybercongress/cyb/blob/master/docs/comparison.md}{were not able} to find a web3 browser that can showcase the coolness of the proposed approach in action. This is why we have decided to develop our own web3 browser \linkred{https://github.com/cybercongress/cyb/blob/master/docs/cyb.md}{cyb}, which has a sample application of .cyber for interacting with the \code{cyber://} protocol.
 
 \begin{Figure}
   \medskip
   \centering
-  \includegraphics[width=0.9\textwidth]{cyb.jpg}
+  \includegraphics[width=1\textwidth]{cyb.jpg}
   \medskip
 \end{Figure}
 
 As another good example of delivery, we have created \linkred{https://github.com/cybercongress/cyb-virus}{a Chrome extension} that allows anyone to pin any web page to IPFS with just one click and index it by any keywords, hence, making it searchable.
 
-\begin{Figure}
-  \centering
-  \includegraphics[width=0.8\textwidth]{architecture.jpg}
-\end{Figure}
-
 The current search snippets are unpleasant, but we presume that they can be easily extended using IPLD for different types of content. Eventually, they can become even more attractive than those of Google.
+
+\begin{Figure}
+    \centering
+    \includegraphics[width=1\textwidth]{architecture.png}
+\end{Figure}
 
 During the implementation of the proposed architecture, we have realized at least 3 key benefits that Google would probably not be able to deliver with its conventional approach:
 
 \begin{itemize}
-\item the search results can be easily delivered from any P2P network: e.g. .cyber can play videos
-\item payment buttons can be embedded right into search snippets. This means that a web3 agent can interact with the search results, e.g. an agent can buy an item right in \code{.cyber}. This means that e-commerce can flourish fairly thanks to a transparent conversion
-\item search snippets do not have to be static but can be interactive, e.g. \code{.cyber} can deliver your current wallet balance
+\item the search results can be easily delivered from any p2p network: e.g. .cyber can play videos
+\item payment buttons can be embedded right into search snippets. This means that an agent can interact with the search results, e.g. can buy an item right in .cyber. This means that e-commerce can flourish fairly thanks to a provable conversion attribution
+\item search snippets do not have to be static but can be interactive, e.g. .cyber can deliver your current wallet balance
 \end{itemize}
 
 \titleSection{Deployment}\label{Deployment}
@@ -562,7 +571,7 @@ Due to technical limitations, we have to bootstrap the ecosystem using 2 tokens:
 \begin{itemize}
 \item THC (pronounce as tech) is a creative cyber proto substance. THC being an Ethereum ERC-20 compatible token has utility value in the form of control over cyber•Foundation (an Aragon DAO) and the ETH from the auction proceeds. THC was emitted during the creation of cyber•Foundation as an Aragon organization. The creative powers of THC come from the ability to receive 1 CYB token per each 1 THC token when locking it during Game of Thrones and cyber•Auction.
 \item CYB is a native token of the sovereign Cyber protocol powered by the Tendermint consensus algorithm. It has 3 primary
-uses: (1) staking for consensus, (2) bandwidth limiting for submitting links, and (3) expression of will for the computing
+uses: (1) staking for consensus, (2) bandwidth limiting for submitting cyberlinks, and (3) expression of will for the computing
 of cyber•rank
 \end{itemize}
 
@@ -772,7 +781,7 @@ We foresee demand for the following protocol features, that the community could 
 \item CUDA VM for gas
 \item Privacy by default
 \item PoRep/PoST
-\item Tensority for SPV checkpoints
+\item Proof-of-Work for SPV checkpoints
 
 \end{itemize}
 
