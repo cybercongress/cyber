@@ -627,9 +627,9 @@ While choosing the token for donations, we followed three main criteria: the tok
 Prior to \hyperlink{genesis}{Genesis} cyber\~{}Foundation has minted 700 000 000 000 000 THC (seven hundred terathc), which will be broken down as follows:
 
 \begin{itemize}
-\item 500 000 000 000 000 THC tokens are allocated to the cyber\~{}Auction contract (windows 1-500)
-\item 100 000 000 000 000 THC tokens are allocated to the cyber\~{}Auction contract for Game of Thrones (window 0)
-\item 100 000 000 000 000 THC tokens are allocated to the cyber\~{}Congress
+\item 100 000 000 000 000 THC tokens are allocated to the cyber\~{}Congress contract
+\item 100 000 000 000 000 THC tokens are allocated to the Game of Thrones contract (window 0)
+\item 500 000 000 000 000 THC tokens are allocated to the cyber\~{}Auction contract (window 1-500)
 \end{itemize}
 
 \begin{Figure}
@@ -730,7 +730,7 @@ Self prediction. A {\hyperref[consensus-computer]{consensus computer}} can conti
 
 Universal oracle. A {\hyperref[consensus-computer]{consensus computer}} can store the most relevant data in a key-value storage, where the key is a CID and the values are the bytes of the actual content. This can be achieved by making a decision every round, on which CID value the agents want to prune and which value they wish to apply, based on the utility measure of content addresses within the {\hyperref[knowledge-graph]{knowledge graph}}. To compute utility measure, validators check the availability and the size of the content for the top-ranked content addresses within the {\hyperref[knowledge-graph]{knowledge graph}}, then, weight on the size of the CIDs and its rank. The emergent key-value storage will be available to write for {\hyperref[consensus-computer]{consensus computer}} only and not for agents, but, values could be used in programs.
 
-Proof of location. It is possible to construct {\hyperref[cyberlinks]{cyberlinks}} with \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{Proof-of-Location} based on remarkable existing protocols such as \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{FOAM}. Consequently, a location-based search cipan also become provable, if web3-agents will mine triangulations and attach \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{proof-of-location} for every linked chain.
+Proof of location. It is possible to construct {\hyperref[cyberlinks]{cyberlinks}} with \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{Proof-of-Location} based on remarkable existing protocols such as \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{Foam}. Consequently, a location-based search cipan also become provable, if web3-agents will mine triangulations and attach \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{proof-of-location} for every linked chain.
 
 Proof of web3-agent. Agents are a subset of content addresses with one fundamental property: a {\hyperref[consensus-computer]{consensus computer}} can prove the existence of private keys for content addresses for the subset of a {\hyperref[knowledge-graph]{knowledge graph}}. Even if those addresses have never transacted on their chain. Therefore, it is possible to compute much provable essence on top of that knowledge, e.g. any inflation can be distributed to addresses that have never transacted in the cyber network but have the provable link required.
 
@@ -791,10 +791,11 @@ We defined and implemented a protocol for provable communication between consens
 \item \linkred{https://github.com/cybercongress/cyb/blob/master/docs/comparison.md}{Comparison of web3 browsers}
 \item \linkred{https://cyb.ai}{Cyb}
 \item \linkred{https://github.com/cybercongress/cyb-virus}{cyb-virus}
+\item \linkgreen{https://ipfs.io/ipfs/QmTJPJ55ePgR2MS1HoAtyqS1mteVLXUjAS4H8W97EEopxC}{SpringRank}
 \item \linkred{https://cybercongress.ai/docs/cyberd/run_validator/}{Run validator in cyber protocol}
 \item \linkred{https://github.com/first20hours/google-10000-english}{Top 10000 english words}
 \item \linkgreen{https://ipfs.io/ipfs/QmQUWBhDMfPKgFt3NfbxM1VU22oU8CRepUzGPBDtopwap1}{Multilingual neural machine translation}
-\item \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{FOAM}
+\item \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{Foam}
 \item \linkgreen{https://ipfs.io/ipfs/Qmdje3AmtsfjX9edWAxo3LFhV9CTAXoUvwGR7wHJXnc2Gk}{Coda}
 \item \linkgreen{https://ipfs.io/ipfs/Qmd99xmraYip9cVv8gRMy6Y97Bkij8qUYArGDME7CzFasg}{Mimblewimble}
 \item \linkgreen{https://ipfs.io/ipfs/QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS}{Tezos}
