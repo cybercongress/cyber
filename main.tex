@@ -592,7 +592,7 @@ cyber~Congress lives in Ethereum as an \linkgreen{https://mainnet.aragon.org/#/c
 
 Proof-of-stake systems do not help with the initial distribution. We believe that if the initial distribution is designed purposefully, energy-efficiently, provably and transparently, hence accessible, the early {\hyperref[knowledge-graph]{knowledge graph}} will gain in quality and size.
 
-The genesis block of the cyber protocol contains 1 000 000 000 000 000 CYB (one petacyb or 1 PCYB) tokens, which are broken down as follows:
+The genesis block of the cyber protocol contains 1 000 000 000 000 000 CYB (one petacyb or 1 PCYB) tokens broken down as follows:
 
 \begin{itemize}
 \item 750 000 000 000 000 CYB tokens for those who stake {\hyperref[thc]{THC}} tokens until the end of cyber\~{}Auction (participants of cyber\~{}Congress, Game of Thrones in ETH and cyber\~{}Auction)
@@ -615,7 +615,7 @@ The goal of creating an alternative to a \linkred{https://google.com}{Google-lik
 
 While choosing the token for donations, we followed three main criteria: the token must be (1) one of the most liquid, (2) most promising, so a community can secure a solid investment bag to be competitive even in comparison to such giants like \linkred{https://google.com}{Google}, and (3) have the technical ability to execute an auction and a resulting organization, without relying on any third party. The only system that matches these criteria is Ethereum, hence, the primary token of donations will be ETH.
 
-Prior to Genesis cyber\~{}Foundation has minted 750 000 000 000 000 THC (seven hundred fifty terathc), which will be broken down as follows:
+Prior to Genesis cyber\~{}Foundation has minted 750 000 000 000 000 THC (seven hundred fifty terathc) broken down as follows:
 
 \begin{itemize}
 \item 600 000 000 000 000 THC tokens are allocated to the cyber\~{}Auction contract
@@ -649,23 +649,23 @@ The key purpose of this gift is for every account in Genesis to be able to make 
 
 \titleSection{Game of Links}\label{gol}
 
-A game for Cosmos hodlers in ATOM. Participants donate ATOM in exchange for CYB. The more ATOM is donated, the higher the price of CYB. The game is over when either 146 days have passed since the beginning of the Takeoff donations, or if the price has increased 5x from the starting price. The price of {\hyperref[cyb]{CYB}} during the Takeoff is defined by the following function:
+A game for Cosmos hodlers in ATOM. Participants donate ATOM in exchange for CYB. The more ATOM is donated, the higher the price of CYB. The game starts from 1 ATOM per 1 GCYB. The game is over when either 146 days have passed since the beginning of the Takeoff donations, or if the price has increased 5x from the starting price. The price of {\hyperref[cyb]{CYB}} during the Takeoff is defined by the following function:
 
 \begin{algorithm}
-\caption{CYB price}\label{takeoff-price}
+\caption{TCYB price}\label{takeoff-price}
 \SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
 \Input{Amount of tokens sold $S$;}
 \Output{40 * S + 1000}
 \end{algorithm}
 
-The key idea is: the better the Takeoff donation round performs, the more payouts the participants in the disciplines will receive. 100 {\hyperref[cyb]{TCYB}} is allocated to the participant of the Takeoff donations and 50 {\hyperref[cyb]{TCYB}} is allocated for participants of the Game of Links disciplines. All {\hyperref[cyb]{CYB}} tokens that remain from the Takeoff, are allocated to the community pool at the end of the game. All {\hyperref[cyb]{CYB}} tokens that remain from the disciplines are allocated to cyber\~{}Congress. In addition to CYB tokens, Game of Links allocates test EUL tokens to all Takeoff donors for the final. A \linkred{https://cybercongress.ai/game-of-links/}{detailed document} has been published with rules and provisions for the game.
+The key idea is: the better the Takeoff donation round performs, the more payouts the participants in the disciplines will receive. 100 {\hyperref[cyb]{TCYB}} is allocated to the participants of the Takeoff donations and 50 {\hyperref[cyb]{TCYB}} is allocated for participants of the Game of Links disciplines. All {\hyperref[cyb]{CYB}} tokens that remain from the Takeoff, are allocated to the community pool at the end of the game. All {\hyperref[cyb]{CYB}} tokens that remain from the disciplines are allocated to cyber\~{}Congress. In addition to CYB tokens, Game of Links allocates test EUL tokens to all Takeoff donors for the final. A \linkred{https://cybercongress.ai/game-of-links/}{detailed document} has been published with rules and provisions for the game.
 
 \titleSection{Cyber\~{}Auction}\label{cyber-auction}
 
-A game for Ethereum hodlers in ETH. Participants donate ETH in exchange for THC. The more ETH is donated, the higher the price of THC. The game is over when either 888 days have passed since its inception or if the price has increased 5x from the starting price. During this phase {\hyperref[cyb]{CYB}} tokens are continuously distributed by cyber\~{}Congress, based on the vested {\hyperref[thc]{THC}} tokens until the end of the auction. Vested {\hyperref[thc]{THC}} tokens provide the ability to receive {\hyperref[cyb]{CYB}} tokens accordingly, and voting powers within cyber\~{}Foundation. The price of {\hyperref[thc]{THC}} during Cyber\~{}Auction is defined by the following function:
+A game for Ethereum hodlers in ETH. Participants donate ETH in exchange for THC. The more ETH is donated, the higher the price of THC. The game starts from the price which is 5x closing price of the Takeoff in ETH. The game is over when either 888 days have passed since its inception or if the price has increased 5x from the starting price. During this phase {\hyperref[cyb]{CYB}} tokens are continuously distributed by cyber\~{}Congress, based on the vested {\hyperref[thc]{THC}} tokens until the end of the auction. Vested {\hyperref[thc]{THC}} tokens provide the ability to receive {\hyperref[cyb]{CYB}} tokens accordingly, and voting powers within cyber\~{}Foundation. The price of {\hyperref[thc]{THC}} during Cyber\~{}Auction is defined by the following function:
 
 \begin{algorithm}
-\caption{THC price}\label{auction-price}
+\caption{TTHC price}\label{auction-price}
 \SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
 \Input{Closing takeoff price of CYB in ETH $P$; \\ Amount of tokens sold $S$;}
 \Output{1/3 * S * P + 5 * S}
