@@ -368,7 +368,7 @@ Yet this theory can work as a performance indicator for a consensus computer. Af
 
 We must bind the computation, storage and the bandwidth supply of the consensus computer to a maximized demand for queries. Computation and storage, in case of a basic {\hyperref[relevance-machine]{relevance machine}} can be easily predicted based on bandwidth. But bandwidth requires a limiting mechanism.
 
-\titleSection{The relevance machine}\label{relevance-machine}
+\titleSection{Relevance machine}\label{relevance-machine}
 
 We define a relevance machine as a machine that transitions the state of a {\hyperref[knowledge-graph]{knowledge graph}} based on the will of the agents wishing to teach and to study that {\hyperref[knowledge-graph]{knowledge graph}}. The will is projected by every {\hyperref[cyberlinks]{cyberlink}} a master does. The more agents inquire the {\hyperref[knowledge-graph]{knowledge graph}}, the more valuable the knowledge becomes. Based on these projections, relevance between content addresses can be computed. The relevance machine enables a simple construction for the search mechanism via querying and delivering answers.
 
@@ -651,12 +651,9 @@ The key purpose of this gift is for every account in Genesis to be able to make 
 
 A game for Cosmos hodlers in ATOM. Participants donate ATOM in exchange for CYB. The more ATOM is donated, the higher the price of CYB. The game starts from 1 ATOM per 1 GCYB. The game is over when either 146 days have passed since the beginning of the Takeoff donations, or if the price has increased 5x from the starting price. The price of {\hyperref[cyb]{CYB}} during the Takeoff is defined by the following function:
 
-\begin{algorithm}
-\caption{TCYB price}\label{takeoff-price}
-\SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
-\Input{Amount of tokens sold $S$;}
-\Output{40 * S + 1000}
-\end{algorithm}
+$$f(s) = 40 \cdot s + 1000
+
+where f(s) is ATOM/TCYB price, the s is amount of TCYB tokens won.
 
 The key idea is: the better the Takeoff donation round performs, the more payouts the participants in the disciplines will receive. 100 {\hyperref[cyb]{TCYB}} is allocated to the participants of the Takeoff donations and 50 {\hyperref[cyb]{TCYB}} is allocated for participants of the Game of Links disciplines. All {\hyperref[cyb]{CYB}} tokens that remain from the Takeoff, are allocated to the community pool at the end of the game. All {\hyperref[cyb]{CYB}} tokens that remain from the disciplines are allocated to cyber\~{}Congress. In addition to CYB tokens, Game of Links allocates test EUL tokens to all Takeoff donors for the final. A \linkred{https://cybercongress.ai/game-of-links/}{detailed document} has been published with rules and provisions for the game.
 
@@ -664,12 +661,9 @@ The key idea is: the better the Takeoff donation round performs, the more payout
 
 A game for Ethereum hodlers in ETH. Participants donate ETH in exchange for THC. The more ETH is donated, the higher the price of THC. The game starts from the price which is 5x closing price of the Takeoff in ETH. The game is over when either 888 days have passed since its inception or if the price has increased 5x from the starting price. During this phase {\hyperref[cyb]{CYB}} tokens are continuously distributed by cyber\~{}Congress, based on the vested {\hyperref[thc]{THC}} tokens until the end of the auction. Vested {\hyperref[thc]{THC}} tokens provide the ability to receive {\hyperref[cyb]{CYB}} tokens accordingly, and voting powers within cyber\~{}Foundation. The price of {\hyperref[thc]{THC}} during Cyber\~{}Auction is defined by the following function:
 
-\begin{algorithm}
-\caption{TTHC price}\label{auction-price}
-\SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
-\Input{Closing takeoff price of CYB in ETH $P$; \\ Amount of tokens sold $S$;}
-\Output{1/3 * S * P + 5 * S}
-\end{algorithm}
+$$g(s)=\frac{1}{30} \cdot s \cdot p + 5 \cdot p
+
+where g(s) is ETH/TTHC price, s is amount of TTHC tokens sold, p the resulting price of Takeoff converted to ETH at closing moment.
 
 The starting price is designed to give the takeoff participants 5x premium for their risk of investing in hardware and software infrastructure prior to Genesis. cyber\~{}Auction gives significant incentives for early participators. After the end of the distribution, participants will be able to unlock their {\hyperref[thc]{THC}} tokens and use them as they wish, e.i. transfer, exchange, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization. After the end of cyber\~{}Auction, all the remaining {\hyperref[thc]{THC}} on the cyber\~{}Auction contract must be provably burned. The following rules apply to {\hyperref[cyb]{CYB}} tokens under the \linkgreen{https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3anklkj7pzgwjw47cp2u7j}{multisig for distribution}:
 
