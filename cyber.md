@@ -22,16 +22,14 @@ The emergence of [a brand-new web-stack](https://ipfs.io/ipfs/Qmf2rKkDPSsvdudwSm
 
 In its core the protocol is very minimalistic and can be expressed with the following steps:
 
-\begin{enumerate}[nosep]
-\item Compute the genesis of cyber protocol based on the defined distribution
-\item Define the state of the {\hyperref[knowledge-graph]{knowledge graph}}
-\item Gather transactions using a {\hyperref[consensus-computer]{consensus computer}}
-\item Check the validity of the signatures
-\item Check the {\hyperref[bandwidth-algo]{bandwidth limit}}
-\item Check the validity of CIDs
-\item If the signatures, the bandwidth limit and CIDs are all valid, apply {\hyperref[cyberlinks]{cyberlinks}} and transactions
-\item Calculate the vaules of {\hyperref[cyber-rank]{cyber\~{}Rank} for every round for the CIDs on the {\hyperref[knowledge-graph]{knowledge graph}}
-\end{enumerate}
+1. Compute the genesis of cyber protocol based on the defined distribution
+2. Define the state of the [knowledge graph](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#3)
+3. Gather transactions using a [consensus computer](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#5)
+4. Check the validity of the signatures
+5. Check the [bandwidth limit](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#16)
+6. Check the validity of CIDs
+7. If the signatures, the bandwidth limit and CIDs are all valid, apply [cyberlinks](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#4) and transactions
+8. Calculate the vaules of [cyber\~Rank](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#7) for every round for the CIDs on the [knowledge graph](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#3)
 
 The rest of this document discusses the rationale and the technical details of the proposed protocol.
 
