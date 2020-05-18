@@ -89,7 +89,7 @@ The cyberlinks submitted by masters are stored in a merkle tree according to the
 
 CID IMG 3
 
-Using cyberlinks, we can compute the relevance of subjects and objects on the [knowledge graph](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#3). But we need a [consensus computer]().
+Using cyberlinks, we can compute the relevance of subjects and objects on the [knowledge graph](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#3). But we need a [consensus computer](#the-notion-of-a-consensus-computer).
 
 ## The notion of a consensus computer
 
