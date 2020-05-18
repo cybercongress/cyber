@@ -66,18 +66,12 @@ To understand how cyberlinks function we need to understand the difference betwe
 
 Cyberlink is an approach to link two content addresses, or IPFS links, semantically:
 
-\begin{lstlisting}
+`.md syntax: [QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH](Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH)`    
+`.dura syntax: QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH.Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH`
 
-.md syntax: [QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH](Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH)
-.dura syntax: QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH.Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
-\end{lstlisting}
+The above cyberlink means that the presentation of [go-cyber](https://github.com/cybercongress/go-cyber) during [cyberc0n](https://etherscan.io/token/0x61B81103e716B611Fff8aF5A5Dc8f37C628efb1E) is referencing to the Cosmos white paper. The concept of cyberlinks is a convention around simple semantics of a communicational format in any p2p network:
 
-The above cyberlink means that the presentation of \linkred{https://github.com/cybercongress/go-cyber}{go-cyber} during \linkred{https://etherscan.io/token/0x61B81103e716B611Fff8aF5A5Dc8f37C628efb1E}{cyberc0n} is referencing to the Cosmos white paper. The concept of cyberlinks is a convention around simple semantics of a communicational format in any p2p network:
-
-\begin{Figure}
-    \centering
-    \includegraphics[width=1\textwidth]{cyberlink.png}
-\end{Figure}
+CID IMG 1
 
 We see that a cyberlink represents a link between the two links. Easy peasy!
 
@@ -85,25 +79,17 @@ Cyberlink is a simple, yet a powerful semantic construction for building a predi
 
 Cyberlinks can be extended, i.e. they can form linkchains if there two or more cyberlinks subsist from one master, where the second link in the first cyberlink is equal to the first link in the second cyberlink:
 
-\begin{Figure}
-    \centering
-    \includegraphics[width=1\textwidth]{linkchain.png}
-\end{Figure}
+CID IMG 2
 
-If agents expand native IPFS links with something semantically richer, for example, with
-\linkred{https://github.com/cybercongress/cyb/blob/dev/docs/dura.md}{dura}
-links, then consensus on the execution rules by a specific program can be reached in a more natural approach.
+If agents expand native IPFS links with something semantically richer, for example, with [dura](https://github.com/cybercongress/cyb/blob/dev/docs/dura.md) links, then consensus on the execution rules by a specific program can be reached in a more natural approach.
 
-The \linkred{https://github.com/cybercongress/go-cyber}{go-cyber} implementation of cyberlinks is available in the \linkred{https://github.com/cybercongress/dot-cyber}{.cyber} app of our experimental web3 browser - \linkred{https://cyb.ai}{cyb}, or at \linkred{http://cyber.page}{cyber.page}.
+The [go-cyber](https://github.com/cybercongress/go-cyber) implementation of cyberlinks is available in the [.cyber](https://github.com/cybercongress/dot-cyber) app of our experimental web3 browser [cyb](https://cyb.ai), or at [cyber.page](http://cyber.page).
 
-The cyberlinks submitted by masters are stored in a merkle tree according to the \linkgreen{https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG}{RFC-6962 standard}. This enables authentification for {\hyperref[proof-of-relevance]{proof-of-relevance}}:
+The cyberlinks submitted by masters are stored in a merkle tree according to the [RFC-6962 standard](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). This enables authentification for [proof-of-relevance](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#8).
 
-\begin{Figure}
-    \centering
-    \includegraphics[width=1\textwidth]{graph-tree.png}
-\end{Figure}
+CID IMG 3
 
-Using cyberlinks, we can compute the relevance of subjects and objects on the {\hyperref[knowledge-graph]{knowledge graph}}. But we need a {\hyperref[consensus-computer]{consensus computer}}.
+Using cyberlinks, we can compute the relevance of subjects and objects on the [knowledge graph](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#3). But we need a [consensus computer]().
 
 ## The notion of a consensus computer
 
