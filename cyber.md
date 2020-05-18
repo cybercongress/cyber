@@ -41,10 +41,10 @@ We represent a knowledge graph as a weighted graph of directed links between con
 
 IMG GRAPH LINKS
 
-Content addresses are essentially web3 links. Instead of using the unclear and mutable:
+Content addresses are essentially web3 links. Instead of using the unclear and mutable:   
 `https://github.com/cosmos/cosmos/blob/master/WHITEPAPER.md`
 
-we use the object itself:
+we use the object itself:    
 `Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH`
 
 By using content addresses to build the knowledge graph we gain [the so much needed](https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est) [IPFS](https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps) - [like](https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR) superpowers of p2p protocols that are desired for a search engine:
