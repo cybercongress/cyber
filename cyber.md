@@ -1,8 +1,10 @@
 # cyber: Computing the knowledge of the Great Web
 
+IMG LOGO
+
 ## Abstract
 
-A consensus computer allows for the computing of provably relevant answers without any opinionated blackbox intermediaries, such as Google, Amazon or Facebook. Stateless, content-addressable peer-to-peer communication networks, such as IPFS, and stateful consensus computers such as Ethereum, can provide just part of the solution needed to obtain akin answers. However, there are at least 3 problems associated with the above-mentioned implementations. (A) the subjective nature of relevance. (B) difficulty in scaling consensus computers for over-sized knowledge graphs. (C) the lack of quality amongst such knowledge graphs. They are prone to various surface attacks, such as sybil attacks, and the selfish behaviour of the interacting agents. In this document, we define a protocol for provable consensus computing of relevance, between IPFS objects, which is based on the Tendermint consensus of cyber\~{}Rank, which is computed using GPUs in consensus. As proof-of-stake consensus does not help with the initial distribution, we outline the design for ecologic and efficient distribution games. We believe that a minimalistic architecture of the protocol is critical for the formation of a network of domain-specific knowledge consensus computers. As a result of our work, some applications never to have existed before, will emerge. We expand this document with our vision of possible features and potential applications.
+A consensus computer allows for the computing of provably relevant answers without any opinionated blackbox intermediaries, such as Google, Amazon or Facebook. Stateless, content-addressable peer-to-peer communication networks, such as IPFS, and stateful consensus computers such as Ethereum, can provide just part of the solution needed to obtain akin answers. However, there are at least 3 problems associated with the above-mentioned implementations. (A) the subjective nature of relevance. (B) difficulty in scaling consensus computers for over-sized knowledge graphs. (C) the lack of quality amongst such knowledge graphs. They are prone to various surface attacks, such as sybil attacks, and the selfish behaviour of the interacting agents. In this document, we define a protocol for provable consensus computing of relevance, between IPFS objects, which is based on the Tendermint consensus of cyber\~Rank, which is computed using GPUs in consensus. As proof-of-stake consensus does not help with the initial distribution, we outline the design for ecologic and efficient distribution games. We believe that a minimalistic architecture of the protocol is critical for the formation of a network of domain-specific knowledge consensus computers. As a result of our work, some applications never to have existed before, will emerge. We expand this document with our vision of possible features and potential applications.
 
 ## The Great Web
 
@@ -37,34 +39,26 @@ The rest of this document discusses the rationale and the technical details of t
 
 We represent a knowledge graph as a weighted graph of directed links between content addresses. Aka, content identificators, CIDs, IPFS hashes, or simply - IPFS links. In this document, we will use the above terms as synonyms.
 
-\begin{Figure}
-    \centering
-    \includegraphics[width=1\textwidth]{knowledge-graph.png}
-\end{Figure}
+IMG GRAPH LINKS
 
 Content addresses are essentially web3 links. Instead of using the unclear and mutable:
-\begin{lstlisting}
-https://github.com/cosmos/cosmos/blob/master/WHITEPAPER.md
-\end{lstlisting}
+`https://github.com/cosmos/cosmos/blob/master/WHITEPAPER.md`
+
 we use the object itself:
-\begin{lstlisting}
-Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
-\end{lstlisting}
+`Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH`
 
-By using content addresses to build the knowledge graph we gain \linkred{https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est}{the so much needed} \linkgreen{https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps}{IPFS} - \linkgreen{https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR}{like} superpowers of p2p protocols that are desired for a search engine:
+By using content addresses to build the knowledge graph we gain [the so much needed](https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est) [IPFS](https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps) - [like](https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR) superpowers of p2p protocols that are desired for a search engine:
 
-\begin{itemize}
-\item mesh-network future-proof
-\item interplanetary accessibility
-\item censorship resistance
-\item technological independence
-\end{itemize}
+- mesh-network future-proof
+- interplanetary accessibility
+- censorship resistance
+- technological independence
 
-Our knowledge graph is generated by the awesome masters. Masters add themselves to the knowledge graph with the help of a single transaction, a cyberlink. Thereby, they prove the existence of their private keys for content addresses of their revealed public keys. By using these mechanics, a {\hyperref[consensus-computer]{consensus computer}} could achieve provable differentiation between subjects and objects on a knowledge graph.
+Our knowledge graph is generated by the awesome masters. Masters add themselves to the knowledge graph with the help of a single transaction, a cyberlink. Thereby, they prove the existence of their private keys for content addresses of their revealed public keys. By using these mechanics, a [consensus computer](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#5) could achieve provable differentiation between subjects and objects on a knowledge graph.
 
-Our implementation of \linkred{https://github.com/cybercongress/go-cyber}{go-cyber} is based on \linkred{https://github.com/cosmos/cosmos-sdk}{cosmos-SDK} identities and \linkred{https://github.com/multiformats/cid#cidv0}{CIDv0/CIDv1} content addresses.
+Our implementation of [go-cyber](https://github.com/cybercongress/go-cyber) is based on [cosmos-SDK](https://github.com/cosmos/cosmos-sdk) identities and [CIDv0/CIDv1](https://github.com/multiformats/cid#cidv0) content addresses.
 
-Masters form the knowledge graph by applying {\hyperref[cyberlinks]{cyberlinks}}.
+Masters form the knowledge graph by applying [cyberlinks](https://ipfs.io/ipfs/QmQ1Vong13MDNxixDyUdjniqqEj8sjuNEBYMyhQU4gQgq3#4).
 
 ## Cyberlinks
 
