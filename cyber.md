@@ -320,7 +320,7 @@ The key purpose of this gift is for every account in Genesis to be able to make 
 
 A game for Cosmos hodlers in ATOM. Participants donate ATOM in exchange for CYB. The more ATOM is donated, the higher the price of CYB. The game starts from 1 ATOM per 1 GCYB. The game is over when either 146 days have passed since the beginning of the Takeoff donations, or if the price has increased 5x from the starting price. The price of [CYB](#cyb) during the Takeoff is defined by the following function:
 
-$$f(c) = 40 \cdot c + 1000
+f(c) = 40 * c + 1000 
 
 where f(c) is TCYB price in ATOM, the c is amount of TCYB tokens won during Takeoff.
 
@@ -330,7 +330,7 @@ The key idea is: the better the Takeoff donation round performs, the more payout
 
 A game for Ethereum hodlers in ETH. Participants donate ETH in exchange for THC. The more ETH is donated, the higher the price of THC. The game starts from the price which is 5x closing price of the Takeoff in ETH. The game is over when either 888 days have passed since its inception or if the price has increased 5x from the starting price. During this phase [CYB](#cyb) tokens are continuously distributed by cyber\~Congress, based on the vested [THC](#thc) tokens until the end of the auction. Vested [THC](#thc) tokens provide the ability to receive [CYB](#cyb) tokens accordingly, and voting powers within cyber\~Foundation. The price of [THC](#thc) during Cyber\~Auction is defined by the following function:
 
-$$g(t)=\frac{1}{30} \cdot t \cdot p + 5 \cdot p
+g(t)=1/30 \cdot * t * p + 5 * p
 
 where g(t) is TTHC price in ETH, t is amount of TTHC tokens won during cyber\~Auction, p is the resulting price of Takeoff for one CYB converted to ETH at closing moment.
 
