@@ -141,30 +141,9 @@ If we assume that a [consensus computer](#the-notion-of-a-consensus-computer) mu
 
 In the center of the spam protection system is an assumption that write operations can be executed only by those, who have a vested interest in the evolutionary success of the relevance machine. Every 1% of effective stake within the [consensus computer](#the-notion-of-a-consensus-computer) gives the ability to use 1% of the possible networks' bandwidth and its computing capabilities. A simple rule prevents abuse from the agents: a pair of content identificators may be cyberlinked by an address only once.
 
-\begin{algorithm}
-\caption{Bandwidth}\label{bandwidth-algo}
-\SetKwInOut{Input}{Input}
-\SetKwInOut{Output}{Output}
-\SetKwFunction{CalculateRank}{CalculateRank}
-\SetKwFunction{CreateMerkleTree}{CreateMerkleTree}
-\SetKwFunction{Push}{PushMerkleTree}
-\Input{Current block $N$;\\New transactions $T$}
-$B^{N}_{used} \leftarrow 0$\;
-\For{$t \in T$}{
-    $B^{max}_a \leftarrow S_a / S_{network} $\;
-    $B_a \leftarrow \max(B^{max}_a, B_a + (N - B^{block}_a) \cdot B^{max}_a / W_{recover})$\;
-    $B_{cost} \leftarrow RC_{price} \cdot (B_{transaction} + |links(t)| \cdot B_{link})$\;
-    \BlankLine
-    \If{$B_a < B_{cost}$} {
-        Skip transaction $t$\;
-    }
-    $B_a \leftarrow B_a - B_{total}$\;
-    $B^{N}_{used} \leftarrow B^{N}_{used} + B_{cost}$\;
-}
-\BlankLine
-$H_{app} \leftarrow T^{root}_{links} \oplus T^{root}_{ranks}$\;
-Commit $H_{app}$ to ABCI\;
-\end{algorithm}\
+<p align="center">
+  <img src="images/algo1.png" />
+</p>
 
 There are only two ways to change the effective stake (active stake + bonded stake) of an account: direct token transfers and bonding operations.
 
@@ -188,51 +167,9 @@ Eventually, the [relevance machine](#relevance-machine) needs to obtain (1) a de
 
 After [thorough research](https://ipfs.io/ipfs/QmTJPJ55ePgR2MS1HoAtyqS1mteVLXUjAS4H8W97EEopxC), we have found that it is impossible to obtain the silver bullet. Therefore, we have decided to find a more basic, bulletproof way, that can bootstrap the network: [the rank](http://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw) which Larry and Sergey used to bootstrap their previous network. The key problem with the original PageRank is that it wasn't resistant to sybil attacks. However, a token-weighted PageRank which is limited by a token-weighted bandwidth model does not inherit the key problem of the naive PageRank, because - it is resistant to sybil attacks. For the time being, we will call it cyber\~Rank, until something more suitable will emerge. The following algorithm is applied to its implementation at Genesis:
 
-$$ CIDs \ V, cyberlinks \ E, Agents \ A $$
-$$agents(e): E \rightarrow 2^{A}$$
-$$stake(a): A \rightarrow {\rm I\!R}^+ $$
-$$rank(v, t): V \times {\rm I\!N} \rightarrow {\rm I\!R} $$
-$$weight(e) = \sum\limits_{a \in agents(e)}{stake(a)}$$
-$$rank(v, t + 1) = \frac{1 - d}{N} + d\sum\limits_{u \in V, (u, v) \in E}{\frac{weight(u, v)}{\sum_{w \in V, (u, w) \in E}{weight(u, w)}}rank(v, t)} $$
-$$rank(v) = \lim\limits_{t \rightarrow \infty} rank(v, t)$$
-\begin{algorithm}
-\SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
-
-\Input{Set of CIDs $V$; \\ Set of cyberlinks $E$; \\ Set of agents $A$; \\ Cyberlink authors $ agents(e) $; \\ Stake of each agent $ stake(a) $; \\Tolerance $\epsilon$; \\ Damping factor $d$}
-\Output{$\textbf{R}$, computed value of $rank(v)$ for each node from $V$}
-
-\BlankLine
-Initialize $\textbf{R}_{v}$ with zeros for all $v \in V$\;
-Initialize $E$ with value $\epsilon$ + 1\;
-
-\BlankLine
-$N_{\emptyset} \leftarrow |\{v|v \in V \land (\nexists u, u \in V, (u, v) \in E )\}|$ \;
-$R_{0} \leftarrow (1 + d \cdot N_{\emptyset} / |V|) \cdot (1 - d) / |V| $ \;
-
-\BlankLine
-\While{$E > \epsilon$}{
-\For{$v \in V$}{
-$S \leftarrow 0$\;
-
-\For{$u \in V, (u, v) \in E$}{
-\setstretch{1.35}
-$W_{uv} \leftarrow \sum_{a \in agents(u, v)}stake(a)$ \;
-$W_{u} \leftarrow \sum_{w \in V, (u, w) \in E}\sum_{a' \in agents(u, w)}stake(a')$ \;
-$S \leftarrow S + W_{uv} \cdot \textbf{R}_{u} / W_{u}$ \;
-}
-
-$\textbf{R}'_v \leftarrow d \cdot S + R_{0}$ \;
-
-}
-
-\BlankLine
-$E \leftarrow \max\limits_v(|\textbf{R}_v - \textbf{R}'_v|)$ \;
-Update $\textbf{R}_{v}$ with $\textbf{R}'_{v}$ for all $v \in V$\;
-
-}
-
-\caption{cyber\~{}Rank}\label{algo_disjdecomp}
-\end{algorithm}\
+<p align="center">
+  <img src="images/algo2.png" />
+</p>
 
 We understand that the ranking mechanism will always remain a red herring. This is why we expect to rely on the on-chain governance tools that can define the most suited mechanism at a given time. We suppose that the network can switch from one algorithm to another, not simply based on subjective opinion, but rather on economical a/b testing through 'hard spooning' of domain-specific [relevance machines](#relevance-machine).
 
