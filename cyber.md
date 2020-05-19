@@ -1,6 +1,8 @@
 # cyber: Computing the knowledge of the Great Web
 
-IMG LOGO
+<p align="center">
+  <img src="images/graph.png" />
+</p>
 
 ## Abstract
 
@@ -39,7 +41,9 @@ The rest of this document discusses the rationale and the technical details of t
 
 We represent a knowledge graph as a weighted graph of directed links between content addresses. Aka, content identificators, CIDs, IPFS hashes, or simply - IPFS links. In this document, we will use the above terms as synonyms.
 
-IMG GRAPH LINKS
+<p align="center">
+  <img src="images/knowledge-graph.png" />
+</p>
 
 Content addresses are essentially web3 links. Instead of using the unclear and mutable:   
 
@@ -75,7 +79,9 @@ Cyberlink is an approach to link two content addresses, or IPFS links, semantica
 
 The above cyberlink means that the presentation of [go-cyber](https://github.com/cybercongress/go-cyber) during [cyberc0n](https://etherscan.io/token/0x61B81103e716B611Fff8aF5A5Dc8f37C628efb1E) is referencing to the Cosmos white paper. The concept of cyberlinks is a convention around simple semantics of a communicational format in any p2p network:
 
-CID IMG 1
+<p align="center">
+  <img src="images/cyberlink.png" />
+</p>
 
 We see that a cyberlink represents a link between the two links. Easy peasy!
 
@@ -83,7 +89,9 @@ Cyberlink is a simple, yet a powerful semantic construction for building a predi
 
 Cyberlinks can be extended, i.e. they can form linkchains if there two or more cyberlinks subsist from one master, where the second link in the first cyberlink is equal to the first link in the second cyberlink:
 
-CID IMG 2
+<p align="center">
+  <img src="images/linkchain.png" />
+</p>
 
 If agents expand native IPFS links with something semantically richer, for example, with [dura](https://github.com/cybercongress/cyb/blob/dev/docs/dura.md) links, then consensus on the execution rules by a specific program can be reached in a more natural approach.
 
@@ -91,7 +99,9 @@ The [go-cyber](https://github.com/cybercongress/go-cyber) implementation of cybe
 
 The cyberlinks submitted by masters are stored in a merkle tree according to the [RFC-6962 standard](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). This enables authentification for [proof-of-relevance](#proof-of-relevance).
 
-CID IMG 3
+<p align="center">
+  <img src="images/graph-tree.png" />
+</p>
 
 Using cyberlinks, we can compute the relevance of subjects and objects on the [knowledge graph](#knowledge-graph). But we need a [consensus computer](#the-notion-of-a-consensus-computer).
 
@@ -110,7 +120,9 @@ We know that:
 
 Hence, we will never be able to achieve an ideal consensus computer. The CAP theorem and the scalability trilemma append more proof to this statement.
 
-IMG SHRD STT
+<p align="center">
+  <img src="images/consensus-computer.png" />
+</p>
 
 Yet this theory can work as a performance indicator for a consensus computer. After 6 years of investing into consensus computers, we have come to realize that the [Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ) consensus has a good enough balance between the coolness required for our task and the readiness for its production. Therefore, we have decided to implement the [cyber](#cyber-protocol) protocol using the Tendermint consensus, which has very close settings to the Cosmos Hub. The [go-cyber](https://github.com/cybercongress/go-cyber) implementation is a 64-bit Tendermint consensus computer of relevance for 64-byte string-space. This is by far not ideal, at least as 1/146, because we have 146 validators who verify the same computations producing the [knowledge-graph](#knowledge-graph).
 
@@ -234,11 +246,15 @@ The current implementation of the [relevance machine](#relevance-machine) utiliz
 
 We have designed the network under the assumption that with regards to search, such a thing as malicious behaviour, does not exist. This can be assumed as no malicious behaviour can be found in the intention of finding the answers. This approach significantly reduces any surface attacks.
 
-`Ranks are computed based on the fact that something was searched, thus linked, and as a result - affected the predictive model`
+````bash
+Ranks are computed based on the fact that something was searched, thus linked, and as a result - affected the predictive model
+````
 
 A good analogy is observed in quantum mechanics, where the observation itself affects behaviour. This is why we have no requirement for such a thing as negative voting. By doing this, we remove subjectivity out of the protocol and we can define proof of relevance.
 
-IMG RANK
+<p align="center">
+  <img src="images/graph-tree.png" />
+</p>
 
 Each new CID receives a sequence number. Numbering starts with zero. Then incremented by one for each new CID. Therefore, we can store rank in a one-dimensional array, where indices are the CID sequence numbers. Merkle tree calculations are based on the [RFC-6962 standard](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). Using Merkle trees, we can effectively proof the rank for any given content address. While relevance is still subjective by nature, we have a collective proof that something was relevant to a certain community at some point in time.
 
@@ -260,7 +276,9 @@ We denote one particular [go-cyber](https://github.com/cybercongress/go-cyber) p
 
 We require an architecture which will allow us to scale the idea to the significance of the likes of [Google](https://google.com). Let us assume, that node implementation, which is based on [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk) can process 10k transactions per second. This would mean, that every day, at least 8.64 million masters will be able to submit 100 [cyberlinks](#cyberlinks) each, and impact the search results simultaneously. This is enough to verify all the assumptions out in the wild, but, not enough to say that it will work at the current scale of the Internet. Given the current state of the art research done by our team, we can safely state that there is no consensus technology in existence, that will allow scaling a particular blockchain to the size that we require. Hence, we introduce the concept of domain-specific [knowledge graphs](#knowledge-graph).
 
-IMG DOMAIN
+<p align="center">
+  <img src="images/network.png" />
+</p>
 
 One can either launch an own domain-specific search engine by forking [go-cyber](https://github.com/cybercongress/go-cyber), which is focused on \textit{common public knowledge}. Or, simply plug [go-cyber](https://github.com/cybercongress/go-cyber) as a module into an existing chain, e.i. Cosmos Hub. The inter-blockchain communication protocol introduces concurrent mechanisms of syncing state between [relevance machines](#relevance-machine). Therefore, in proposed search architecture, domain-specific [relevance machine](#relevance-machine) will be able to learn from common knowledge. Just as common knowledge can learn from domain-specific [relevance machines](#relevance-machine).
 
@@ -268,13 +286,17 @@ One can either launch an own domain-specific search engine by forking [go-cyber]
 
 We were aspired to imagine how proposed network would operate with a web3 browser. To our disappointment we [were not able](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md) to find a web3 browser that can showcase the coolness of the proposed approach in action. This is why we have decided to develop a web3 browser from scratch. [Cyb](https://cyb.ai) is your friendly robot which has a sample [.cyber](https://cyber.page) application for interacting with the [cyber](#cyber-protocol) protocol.
 
-IMG BRW1
+<p align="center">
+  <img src="images/cyb.jpg" />
+</p>
 
 As a good example of delivery, we have created [cyber.page](https://cyber.page/). It allows heroes, masters and evangelists to interact with the protocol via a web2 gateway. Create cyberlinks, pin content directly to IPFS, search the Great Web, participate in the governance of cyber and so on. It can also act as an in-depth explorer, a wallet and can pocket hardware wallets, such as Ledger devices.
 
 The current search snippets are ugly. But, we presume that they can be easily extended using [IPLD](https://github.com/ipld/specs) for different types of content. Eventually, they can become even more attractive than those of [Google](https://google.com).
 
-IMG BRW2
+<p align="center">
+  <img src="images/architecture.png" />
+</p>
 
 During the implementation of the proposed architecture, we have realized at least 3 key benefits that [Google](https://google.com) would probably not be able to deliver with its conventional approach:
 
@@ -318,7 +340,9 @@ The genesis block of the cyber protocol contains 1 000 000 000 000 000 CYB (one 
 - 150 000 000 000 000 CYB tokens for the participants of Game of Links
 - 100 000 000 000 000 CYB tokens as a gift for Ethereum, Cosmos and Urbit communities
 
-IMG CYB
+<p align="center">
+  <img src="images/CYB.svg" />
+</p>
 
 After the Genesis, CYB tokens can only be created by heroes based on staking and slashing parameters. The basic consensus is that newly created CYB tokens are at the disposal of stakeholders.
 
@@ -335,7 +359,9 @@ Prior to Genesis cyber\~Foundation has minted 750 000 000 000 000 THC (seven hun
 - 600 000 000 000 000 THC tokens are allocated to the cyber\~Auction contract
 - 150 000 000 000 000 THC tokens are allocated to the cyber\~Congress contract
 
-IMG THC
+<p align="center">
+  <img src="images/THC.svg" />
+</p>
 
 All decisions by cyber\~Foundation will be executed based on the results of THC votes. The following parameters will be applied:
 
