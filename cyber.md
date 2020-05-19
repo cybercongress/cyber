@@ -94,42 +94,36 @@ Using cyberlinks, we can compute the relevance of subjects and objects on the [k
 ## The notion of a consensus computer
 
 A consensus computer is an abstract computing machine that emerges from the interaction between agents. A consensus computer has capacity in terms of fundamental computing resources: memory and computation. To interact with agents a computer needs bandwidth. An ideal consensus computer is a computer where:
-\\
-\begin{lstlisting}
-the sum of all the computations and memory available to individuals
-is equal to
-the sum of all the verified computations and memory of the consensus computer
-\end{lstlisting}
+
+`the sum of all the computations and memory available to individuals`     
+`is equal to`    
+`the sum of all the verified computations and memory of the consensus computer`    
+
 
 We know that:
-\begin{lstlisting}
-verifications of computations < (computations + verifications of computations)
-\end{lstlisting}
+
+`verifications of computations < (computations + verifications of computations)`    
 
 Hence, we will never be able to achieve an ideal consensus computer. The CAP theorem and the scalability trilemma append more proof to this statement.
-\begin{Figure}
-    \centering
-    \includegraphics[width=1\textwidth]{consensus-computer.png}
-\end{Figure}
 
-Yet this theory can work as a performance indicator for a consensus computer. After 6 years of investing into consensus computers, we have come to realize that the \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint} consensus has a good enough balance between the coolness required for our task and the readiness for its production. Therefore, we have decided to implement the {\hyperref[cyber]{cyber}} protocol using the Tendermint consensus, which has very close settings to the Cosmos Hub. The \linkred{https://github.com/cybercongress/go-cyber}{go-cyber} implementation is a 64-bit Tendermint consensus computer of relevance for 64-byte string-space. This is by far not ideal, at least as 1/146, because we have 146 validators who verify the same computations producing the {\hyperref[knowledge-graph]{knowledge graph}}.
+IMG SHRD STT
 
-We must bind the computation, storage and the bandwidth supply of the consensus computer to a maximized demand for queries. Computation and storage, in case of a basic {\hyperref[relevance-machine]{relevance machine}} can be easily predicted based on bandwidth. But bandwidth requires a limiting mechanism.
+Yet this theory can work as a performance indicator for a consensus computer. After 6 years of investing into consensus computers, we have come to realize that the [Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ) consensus has a good enough balance between the coolness required for our task and the readiness for its production. Therefore, we have decided to implement the [cyber](#cyber-protocol) protocol using the Tendermint consensus, which has very close settings to the Cosmos Hub. The [go-cyber](https://github.com/cybercongress/go-cyber) implementation is a 64-bit Tendermint consensus computer of relevance for 64-byte string-space. This is by far not ideal, at least as 1/146, because we have 146 validators who verify the same computations producing the [knowledge-graph](#knowledge-graph).
+
+We must bind the computation, storage and the bandwidth supply of the consensus computer to a maximized demand for queries. Computation and storage, in case of a basic [relevance-machine](#relevance-machine) can be easily predicted based on bandwidth. But bandwidth requires a limiting mechanism.
 
 ## Relevance machine
 
-We define a relevance machine as a machine that transitions the state of a {\hyperref[knowledge-graph]{knowledge graph}} based on the will of the agents wishing to teach and to study that {\hyperref[knowledge-graph]{knowledge graph}}. The will is projected by every {\hyperref[cyberlinks]{cyberlink}} a master does. The more agents inquire the {\hyperref[knowledge-graph]{knowledge graph}}, the more valuable the knowledge becomes. Based on these projections, relevance between content addresses can be computed. The relevance machine enables a simple construction for the search mechanism via querying and delivering answers.
+We define a relevance machine as a machine that transitions the state of a [knowledge-graph](#knowledge-graph) based on the will of the agents wishing to teach and to study that [knowledge-graph](#knowledge-graph). The will is projected by every [cyberlinks](#cyberlinks) a master does. The more agents inquire the [knowledge-graph](#knowledge-graph), the more valuable the knowledge becomes. Based on these projections, relevance between content addresses can be computed. The relevance machine enables a simple construction for the search mechanism via querying and delivering answers.
 
 One property of the relevance machine is crucial. It must have inductive reasoning properties or follow the blackbox principle:
 
-\begin{lstlisting}
-The machine should be able to interfere with predictions without any knowledge about the objects,
-except for who, when and what was cyberlinked
-\end{lstlisting}
+`The machine should be able to interfere with predictions without any knowledge about the objects,`   
+`except for who, when and what was cyberlinked`   
 
-If we assume that a {\hyperref[consensus-computer]{consensus computer}} must have some information about the linked objects, then the complexity of such a model will grow unpredictably. Therefore the high requirements of the processing computer for memory and computation. Thanks to content addressing a relevance machine which follows the blackbox principle, does not need to store data. But, can still effectively operate on top of it. The deduction of meaning inside a {\hyperref[consensus-computer]{consensus computer}} is expensive. Hence, such a design can depend on assumption blindness. Instead of deducting the meaning inside of the {\hyperref[consensus-computer]{consensus computer}}, we have designed a system in which meaning extraction is incentivized. This is achieved due to masters requiring {\hyperref[cyb]{CYB}} tokens to express their will, based on which, the relevance machine can compute rank.
+If we assume that a [consensus computer](#the-notion-of-a-consensus-computer) must have some information about the linked objects, then the complexity of such a model will grow unpredictably. Therefore the high requirements of the processing computer for memory and computation. Thanks to content addressing a relevance machine which follows the blackbox principle, does not need to store data. But, can still effectively operate on top of it. The deduction of meaning inside a [consensus computer](#the-notion-of-a-consensus-computer) is expensive. Hence, such a design can depend on assumption blindness. Instead of deducting the meaning inside of the [consensus computer](#the-notion-of-a-consensus-computer), we have designed a system in which meaning extraction is incentivized. This is achieved due to masters requiring [CYB](#cyb) tokens to express their will, based on which, the relevance machine can compute rank.
 
-In the center of the spam protection system is an assumption that write operations can be executed only by those, who have a vested interest in the evolutionary success of the relevance machine. Every 1\% of effective stake within the {\hyperref[consensus-computer]{consensus computer}} gives the ability to use 1\% of the possible networks' bandwidth and its computing capabilities. A simple rule prevents abuse from the agents: a pair of content identificators may be cyberlinked by an address only once.
+In the center of the spam protection system is an assumption that write operations can be executed only by those, who have a vested interest in the evolutionary success of the relevance machine. Every 1% of effective stake within the [consensus computer](#the-notion-of-a-consensus-computer) gives the ability to use 1% of the possible networks' bandwidth and its computing capabilities. A simple rule prevents abuse from the agents: a pair of content identificators may be cyberlinked by an address only once.
 
 \begin{algorithm}
 \caption{Bandwidth}\label{bandwidth-algo}
@@ -158,16 +152,16 @@ Commit $H_{app}$ to ABCI\;
 
 There are only two ways to change the effective stake (active stake + bonded stake) of an account: direct token transfers and bonding operations.
 
-{\hyperref[cyber]{Cyber}} uses a very simple bandwidth model. The principal goal of this model is to reduce the daily network growth to a given constant. This is done to accommodate heroes (validators) with the ability to forecast any future investment into infrastructure. Thus, here we introduce 'watts' or 'W'. Each message type has an assigned W cost. The constant 'DesirableBandwidth', determines the desirable 'RecoveryWindow' spent by the W value. The recovery period defines how fast a master can recover their bandwidth from 0 back to max bandwidth. A master has maximum W proportional to his effective stake, determined by the following formula:
+[Cyber](#cyber-protocol) uses a very simple bandwidth model. The principal goal of this model is to reduce the daily network growth to a given constant. This is done to accommodate heroes (validators) with the ability to forecast any future investment into infrastructure. Thus, here we introduce 'watts' or 'W'. Each message type has an assigned W cost. The constant 'DesirableBandwidth', determines the desirable 'RecoveryWindow' spent by the W value. The recovery period defines how fast a master can recover their bandwidth from 0 back to max bandwidth. A master has maximum W proportional to his effective stake, determined by the following formula:
 \begin{lstlisting}
   AgentMaxW = EffectiveStake * DesirableBandwidth
 \end{lstlisting}
 
-The period 'AdjustPricePeriod' sums up how much W was spent during the period 'RecoveryPeriod' in the latest block. 'SpentBandwidth' / 'DesirableBandwidths' ratio is called the fractional reserve ratio. When network usage is low, the fractional reserve ratio adjusts the message cost to allow masters with a lower stake to commit more transactions. When the demand for resources increases, the fractional reserve ratio goes \code{>1}, consequently, increasing message cost and limiting final tx count for a long-term period (W recovery will be \code{<} then W spending). As no one uses all of their possessed bandwidth, we can safely use up to 100x fractional reserves within a price recalculation target period. Such mechanics provide a discount for creating {\hyperref[cyberlinks]{cyberlinking}}, thus, effectively maximizing demand for it. You can see that the proposed design needs demand for full bandwidth for the relevance to become valuable.
+The period 'AdjustPricePeriod' sums up how much W was spent during the period 'RecoveryPeriod' in the latest block. 'SpentBandwidth' / 'DesirableBandwidths' ratio is called the fractional reserve ratio. When network usage is low, the fractional reserve ratio adjusts the message cost to allow masters with a lower stake to commit more transactions. When the demand for resources increases, the fractional reserve ratio goes > 1, consequently, increasing message cost and limiting final tx count for a long-term period (W recovery will be < then W spending). As no one uses all of their possessed bandwidth, we can safely use up to 100x fractional reserves within a price recalculation target period. Such mechanics provide a discount for creating [cyberlinking](#cyberlinks), thus, effectively maximizing demand for it. You can see that the proposed design needs demand for full bandwidth for the relevance to become valuable.
 
-Human intelligence is organized in such a manner that none-relevant and none-important memories are forgotten over time. The same can be applied to the relevance machine. The relevance machine can implement \linkgreen{https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb}{aggressive pruning strategies}, such as, the pruning of the history of the formation of the {\hyperref[knowledge-graph]{knowledge graph}}, or forgetting links that become less relevant.
+Human intelligence is organized in such a manner that none-relevant and none-important memories are forgotten over time. The same can be applied to the relevance machine. The relevance machine can implement [aggressive pruning strategies](https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb), such as, the pruning of the history of the formation of the [knowledge-graph](#knowledge-graph), or forgetting links that become less relevant.
 
-As a result, the implemented cybernomics of {\hyperref[cyb]{CYB}} tokens serves not just as will-expression and spam-protection mechanisms, but also, functions as an economics regulation tool that can align the processing capacity of heroes and the market demand for processing. The go-cyber implementation of the relevance machine is based on a very straightforward mechanism, called: cyber\~{}Rank.
+As a result, the implemented cybernomics of [CYB](#cyb) tokens serves not just as will-expression and spam-protection mechanisms, but also, functions as an economics regulation tool that can align the processing capacity of heroes and the market demand for processing. The go-cyber implementation of the relevance machine is based on a very straightforward mechanism, called: cyber\~Rank.
 
 ## cyber\~Rank
 
@@ -227,7 +221,7 @@ Update $\textbf{R}_{v}$ with $\textbf{R}'_{v}$ for all $v \in V$\;
 
 We understand that the ranking mechanism will always remain a red herring. This is why we expect to rely on the on-chain governance tools that can define the most suited mechanism at a given time. We suppose that the network can switch from one algorithm to another, not simply based on subjective opinion, but rather on economical a/b testing through 'hard spooning' of domain-specific {\hyperref[relevance-machine]{relevance machines}}.
 
-cyber\~{}Rank shields two design decisions which are of paramount importance: (1) it accounts for the current intention of the agents, and (2) it encourages rank inflation of {\hyperref[cyberlinks]{cyberlinks}}. The first property ensures that cyber\~{}Rank can not be gamed with. If an agent decides to transfer their {\hyperref[cyb]{CYB}} tokens out of their account, the {\hyperref[relevance-machine]{relevance machine}} will adjust all the {\hyperref[cyberlinks]{cyberlinks}} relevant for this account per the current intentions of the agent. And vice versa, if an agent transfers {\hyperref[cyb]{CYB}} tokens into their account, all of the {\hyperref[cyberlinks]{cyberlinks}} submitted from this account will immediately gain more relevance. The second property is essential in order not to get cemented in the past. As new {\hyperref[cyberlinks]{cyberlinks}} are continuously added, they will dilute the rank of the already existing links proportionally. This property prevents a situation where new and better content has a lower rank simply because it was recently submitted. We expect these decisions to enable an inference quality for recently added content to the long tail of the {\hyperref[knowledge-graph]{knowledge graph}}.
+cyber\~{}Rank shields two design decisions which are of paramount importance: (1) it accounts for the current intention of the agents, and (2) it encourages rank inflation of [cyberlinks](#cyberlinks). The first property ensures that cyber\~{}Rank can not be gamed with. If an agent decides to transfer their [CYB](#cyb) tokens out of their account, the {\hyperref[relevance-machine]{relevance machine}} will adjust all the [cyberlinks](#cyberlinks) relevant for this account per the current intentions of the agent. And vice versa, if an agent transfers [CYB](#cyb) tokens into their account, all of the {\hyperref[cyberlinks]{cyberlinks}} submitted from this account will immediately gain more relevance. The second property is essential in order not to get cemented in the past. As new [cyberlinks](#cyberlinks) are continuously added, they will dilute the rank of the already existing links proportionally. This property prevents a situation where new and better content has a lower rank simply because it was recently submitted. We expect these decisions to enable an inference quality for recently added content to the long tail of the {\hyperref[knowledge-graph]{knowledge graph}}.
 
 We would love to discuss the problem of vote-buying. Vote-buying as an occurrence isn't that bad. The dilemmas with vote-buying appear within systems where voting affects the allocation of that systems inflation. For example, \linkgreen{http://ipfs.io/ipfs/QmepU77tqMAHHuiSASUvUnu8f8ENuPF2Kfs97WjLn8vAS3}{Steem}
 or any fiat-state based system. Vote-buying can become easily profitable for an adversary that employs a zero-sum game without the necessity to add value. Our original idea of a decentralized search was based on this approach. But, we have rejected that idea, removing the incentive of the formation of the {\hyperref[knowledge-graph]{knowledge graph}} to the consensus level. In the environment where every participant must bring some value to the system to affect the predictive model, vote-buying becomes NP-hard problem. Therefore, becomes beneficial to the system.
@@ -257,9 +251,9 @@ In the relevance for a common \linkred{https://github.ccom/cybercongress/go-cybe
 
 ## Speed
 
-We require instant confirmation time to provide users with the feeling of a conventional web-application. This is a powerful architectural requirement that shapes the economical topology and the scalability of the {\hyperref[cyber]{cyber}} protocol. The proposed blockchain design is based on the \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint consensus} algorithm with 146 validators and has a quick, 5 second tx finality time. The average confirmation time is closer to 1 second and could make complex blockchain interactions almost invisible to agents.
+We require instant confirmation time to provide users with the feeling of a conventional web-application. This is a powerful architectural requirement that shapes the economical topology and the scalability of the [cyber](#cyber-protocol) protocol. The proposed blockchain design is based on the \linkgreen{https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ}{Tendermint consensus} algorithm with 146 validators and has a quick, 5 second tx finality time. The average confirmation time is closer to 1 second and could make complex blockchain interactions almost invisible to agents.
 
-We denote one particular \linkred{https://github.com/cybercongress/go-cyber}{go-cyber} property in the context of speed - rank computation. Being a part of the consensus, it occurs in parallel to transaction validation within the rounds. A round is a consensus variable defined by the stakeholders. At the inception, one round is set to 20 blocks. Practically, this indicates that every 100 seconds the network must agree on the current root hash of the {\hyperref[knowledge-graph]{knowledge graph}}. This means that every {\hyperref[cyberlinks]{cyberlink}} submitted becomes a part of the {\hyperref[knowledge-graph]{knowledge graph}} almost instantly and acquires a rank within an average period of 50 seconds. In the early days of \linkred{https://google.com}{Google} rank was recomputed roughly every week. We believe that masters of the Great Web will be pleased to observe that ranking changes in real-time, but, have decided to launch the network with an assumption that this window is enough. It is expected that with the development of the {\hyperref[cyber]{cyber}} protocol the velocity of each round will decrease. This is due to competition between heroes. We are aware of certain mechanisms to make this function order of magnitudes faster:
+We denote one particular \linkred{https://github.com/cybercongress/go-cyber}{go-cyber} property in the context of speed - rank computation. Being a part of the consensus, it occurs in parallel to transaction validation within the rounds. A round is a consensus variable defined by the stakeholders. At the inception, one round is set to 20 blocks. Practically, this indicates that every 100 seconds the network must agree on the current root hash of the {\hyperref[knowledge-graph]{knowledge graph}}. This means that every [cyberlink](#cyberlinks) submitted becomes a part of the {\hyperref[knowledge-graph]{knowledge graph}} almost instantly and acquires a rank within an average period of 50 seconds. In the early days of \linkred{https://google.com}{Google} rank was recomputed roughly every week. We believe that masters of the Great Web will be pleased to observe that ranking changes in real-time, but, have decided to launch the network with an assumption that this window is enough. It is expected that with the development of the [cyber](#cyber-protocol) protocol the velocity of each round will decrease. This is due to competition between heroes. We are aware of certain mechanisms to make this function order of magnitudes faster:
 
 \begin{itemize}
 \item optimization of the consensus parameters
@@ -269,7 +263,7 @@ We denote one particular \linkred{https://github.com/cybercongress/go-cyber}{go-
 
 ## Scalability
 
-We require an architecture which will allow us to scale the idea to the significance of the likes of \linkred{https://google.com}{Google}. Let us assume, that node implementation, which is based on \linkred{https://github.com/cosmos/cosmos-sdk}{Cosmos-SDK} can process 10k transactions per second. This would mean, that every day, at least 8.64 million masters will be able to submit 100 {\hyperref[cyberlinks]{cyberlinks}} each, and impact the search results simultaneously. This is enough to verify all the assumptions out in the wild, but, not enough to say that it will work at the current scale of the Internet. Given the current state of the art research done by our team, we can safely state that there is no consensus technology in existence, that will allow scaling a particular blockchain to the size that we require. Hence, we introduce the concept of domain-specific {\hyperref[knowledge-graph]{knowledge graphs}}.
+We require an architecture which will allow us to scale the idea to the significance of the likes of \linkred{https://google.com}{Google}. Let us assume, that node implementation, which is based on \linkred{https://github.com/cosmos/cosmos-sdk}{Cosmos-SDK} can process 10k transactions per second. This would mean, that every day, at least 8.64 million masters will be able to submit 100 [cyberlinks](#cyberlinks) each, and impact the search results simultaneously. This is enough to verify all the assumptions out in the wild, but, not enough to say that it will work at the current scale of the Internet. Given the current state of the art research done by our team, we can safely state that there is no consensus technology in existence, that will allow scaling a particular blockchain to the size that we require. Hence, we introduce the concept of domain-specific {\hyperref[knowledge-graph]{knowledge graphs}}.
 
 \begin{Figure}
     \centering
@@ -280,7 +274,7 @@ One can either launch an own domain-specific search engine by forking \linkred{h
 
 ## Browzers
 
-We were aspired to imagine how proposed network would operate with a web3 browser. To our disappointment we \linkred{https://github.com/cybercongress/cyb/blob/master/docs/comparison.md}{were not able} to find a web3 browser that can showcase the coolness of the proposed approach in action. This is why we have decided to develop a web3 browser from scratch. \linkred{https://cyb.ai}{Cyb} is your friendly robot which has a sample \linkred{https://cyber.page}{.cyber} application for interacting with the {\hyperref[cyber]{cyber}} protocol.
+We were aspired to imagine how proposed network would operate with a web3 browser. To our disappointment we \linkred{https://github.com/cybercongress/cyb/blob/master/docs/comparison.md}{were not able} to find a web3 browser that can showcase the coolness of the proposed approach in action. This is why we have decided to develop a web3 browser from scratch. \linkred{https://cyb.ai}{Cyb} is your friendly robot which has a sample \linkred{https://cyber.page}{.cyber} application for interacting with the [cyber](#cyber-protocol) protocol.
 
 \begin{Figure}
   \medskip
@@ -308,12 +302,12 @@ During the implementation of the proposed architecture, we have realized at leas
 
 ## Deployment
 
-Due to technical limitations, we have to bootstrap the ecosystem using 2 tokens: {\hyperref[thc]{THC}} and {\hyperref[cyb]{CYB}}
+Due to technical limitations, we have to bootstrap the ecosystem using 2 tokens: {\hyperref[thc]{THC}} and [CYB](#cyb)
 
 \begin{itemize}
-\item {\hyperref[cyb]{CYB}} is the native token of the sovereign {\hyperref[cyber]{cyber}} protocol powered by the Tendermint consensus algorithm. It has 3 primary uses: (1) staking for consensus, (2) bandwidth limiting for submitting {\hyperref[cyberlinks]{cyberlinks}}, and (3) expression of the will of the masters for the computation of cyber\~{}Rank.
+\item [CYB](#cyb) is the native token of the sovereign [cyber](#cyber-protocol) protocol powered by the Tendermint consensus algorithm. It has 3 primary uses: (1) staking for consensus, (2) bandwidth limiting for submitting [cyberlinks](#cyberlinks), and (3) expression of the will of the masters for the computation of cyber\~Rank.
 
-\item {\hyperref[thc]{THC}} (pronounce as tech) is a creative cyber proto substance. {\hyperref[thc]{THC}} being an Ethereum ERC-20 compatible token that has utility value in the form of control over cyber\~{}Foundation (the community governing DAO) and the ETH from the distribution game. {\hyperref[thc]{THC}} is emitted during the creation of cyber\~{}Foundation as an Aragon organization. The creative powers of {\hyperref[thc]{THC}} come from the ability to receive 1 {\hyperref[cyb]{CYB}} token per each 1 {\hyperref[thc]{THC}} token when vested before the end of cyber\~{}Auction.
+\item {\hyperref[thc]{THC}} (pronounce as tech) is a creative cyber proto substance. {\hyperref[thc]{THC}} being an Ethereum ERC-20 compatible token that has utility value in the form of control over cyber\~{}Foundation (the community governing DAO) and the ETH from the distribution game. {\hyperref[thc]{THC}} is emitted during the creation of cyber\~Foundation as an Aragon organization. The creative powers of {\hyperref[thc]{THC}} come from the ability to receive 1 [CYB](#cyb) token per each 1 {\hyperref[thc]{THC}} token when vested before the end of cyber\~Auction.
 \end{itemize}
 
 Both tokens remain functional and will track value independently of one another due to their very different utility by nature.
@@ -321,19 +315,19 @@ Both tokens remain functional and will track value independently of one another 
 Overall, the deployment process has the following structure:
 
 \begin{enumerate}
- \item cyber\~{}Congress deploys Game of Links
+ \item cyber\~Congress deploys Game of Links
  \item The community participates in the Game of Links
  \item The community verifies and proposes a Genesis block with results from the Game of Links
- \item cyber\~{}Congress deploys contracts for cyber~Foundation and cyber\~{}Auction
- \item The community participate in cyber\~{}Auction after Genesis. Donors stake {\hyperref[thc]{THC}} tokens to get {\hyperref[cyb]{CYB}} tokens
- \item cyber\~{}Congress distributes {\hyperref[cyb]{CYB}} tokens continuously during cyber~Auction
- \item cyber\~{}Congress burns the remaining {\hyperref[cyb]{CYB}} and {\hyperref[thc]{THC}} tokens and reports on the end of the initial distribution process
+ \item cyber\~Congress deploys contracts for cyber~Foundation and cyber\~Auction
+ \item The community participate in cyber\~Auction after Genesis. Donors stake {\hyperref[thc]{THC}} tokens to get [CYB](#cyb) tokens
+ \item cyber\~Congress distributes [CYB](#cyb) tokens continuously during cyber~Auction
+ \item cyber\~Congress burns the remaining [CYB](#cyb) and {\hyperref[thc]{THC}} tokens and reports on the end of the initial distribution process
 \end{enumerate}
 
-cyber~Congress lives in Ethereum as an \linkgreen{https://mainnet.aragon.org/#/cybercongress/0x4feb2bcc5907e7779130c093eef8fb44502c1330}{Aragon DAO}. It also operates a \linkgreen{https://cyber.page/network/cyber/contract/cyber1latzme6xf6s8tsrymuu6laf2ks2humqvdq39v8}{2-of-3 multisig in Cyber network}. cyber\~{}Congress developed the {\hyperref[cyber]{cyber}} protocol. Within the context of cyber, the Congress has 2 roles:
+cyber~Congress lives in Ethereum as an \linkgreen{https://mainnet.aragon.org/#/cybercongress/0x4feb2bcc5907e7779130c093eef8fb44502c1330}{Aragon DAO}. It also operates a \linkgreen{https://cyber.page/network/cyber/contract/cyber1latzme6xf6s8tsrymuu6laf2ks2humqvdq39v8}{2-of-3 multisig in Cyber network}. cyber\~Congress developed the {\hyperref[cyber]{cyber}} protocol. Within the context of cyber, the Congress has 2 roles:
 \begin{enumerate}
- \item To deploy and to execute the initial distribution program, which is impossible to automate. Because there is no trustless infrastructure for message swapping between ETH and ATOM, cyber\~{}Congress introduces a single point of failure in the initial distribution process. We have decided to send {\hyperref[cyb]{CYB}} tokens to {\hyperref[thc]{THC}} stakers manually because we feel that now is the right time to launch the network we have created. We also believe that an ongoing auction is vital for the initial distribution process. If cyber\~{}Congress fails to deliver its obligations in terms of distribution due to any possible reasons, we hope that the community will be able to fork out the network and to distribute {\hyperref[cyb]{CYB}} tokens as was promised. Hopefully, every operation is designed provably and transparently. All operations will be executed using a \linkgreen{https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3anklkj7pzgwjw47cp2u7j}{special purpose 2-of-3 multisig account in Cyber network}.
- \item Support the growth of {\hyperref[cyber]{cyber}} protocol until the community takes over the development in the form of cyber\~Foundation. Donations in ATOMs during Game of Links will be distributed to the \linkgreen{https://www.mintscan.io/account/cosmos1latzme6xf6s8tsrymuu6laf2ks2humqv2tkd9a}{cyber\~{}Congress Cosmos 2-of-3 multisig}. All ATOM donations that are routed to the cyber\~{}Congress multisig will become its property. The role of ATOM donation is the following: thanks to ATOM we want to secure a commitment for cyber\~{}Congress in the development of both Cosmos and Cyber ecosystems. ATOM donations will allow cyber\~{}Congress to use staking rewards and reach a sustainable flow, for the continuous funding of the {\hyperref[cyber]{cyber}} protocol without the necessity to dump neither {\hyperref[cyb]{CYB}} nor ATOM tokens.
+ \item To deploy and to execute the initial distribution program, which is impossible to automate. Because there is no trustless infrastructure for message swapping between ETH and ATOM, cyber\~{}Congress introduces a single point of failure in the initial distribution process. We have decided to send [CYB](#cyb) tokens to {\hyperref[thc]{THC}} stakers manually because we feel that now is the right time to launch the network we have created. We also believe that an ongoing auction is vital for the initial distribution process. If cyber\~{}Congress fails to deliver its obligations in terms of distribution due to any possible reasons, we hope that the community will be able to fork out the network and to distribute [CYB](#cyb) tokens as was promised. Hopefully, every operation is designed provably and transparently. All operations will be executed using a \linkgreen{https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3anklkj7pzgwjw47cp2u7j}{special purpose 2-of-3 multisig account in Cyber network}.
+ \item Support the growth of [cyber](#cyber-protocol) protocol until the community takes over the development in the form of cyber\~Foundation. Donations in ATOMs during Game of Links will be distributed to the \linkgreen{https://www.mintscan.io/account/cosmos1latzme6xf6s8tsrymuu6laf2ks2humqv2tkd9a}{cyber\~{}Congress Cosmos 2-of-3 multisig}. All ATOM donations that are routed to the cyber\~Congress multisig will become its property. The role of ATOM donation is the following: thanks to ATOM we want to secure a commitment for cyber\~{}Congress in the development of both Cosmos and Cyber ecosystems. ATOM donations will allow cyber\~Congress to use staking rewards and reach a sustainable flow, for the continuous funding of the [cyber](#cyber-protocol) protocol without the necessity to dump neither [CYB](#cyb) nor ATOM tokens.
 \end{enumerate}
 
 ## CYB
@@ -343,7 +337,7 @@ Proof-of-stake systems do not help with the initial distribution. We believe tha
 The genesis block of the cyber protocol contains 1 000 000 000 000 000 CYB (one petacyb or 1 PCYB) tokens broken down as follows:
 
 \begin{itemize}
-\item 750 000 000 000 000 CYB tokens for those who stake {\hyperref[thc]{THC}} tokens until the end of cyber\~{}Auction (participants of cyber\~{}Congress, Game of Thrones in ETH and cyber\~{}Auction)
+\item 750 000 000 000 000 CYB tokens for those who stake {\hyperref[thc]{THC}} tokens until the end of cyber\~Auction (participants of cyber\~Congress, Game of Thrones in ETH and cyber\~Auction)
 \item 150 000 000 000 000 CYB tokens for the participants of Game of Links
 \item 100 000 000 000 000 CYB tokens as a gift for Ethereum, Cosmos and Urbit communities
 \end{itemize}
@@ -363,11 +357,11 @@ The goal of creating an alternative to a \linkred{https://google.com}{Google-lik
 
 While choosing the token for donations, we followed three main criteria: the token must be (1) one of the most liquid, (2) most promising, so a community can secure a solid investment bag to be competitive even in comparison to such giants like \linkred{https://google.com}{Google}, and (3) have the technical ability to execute an auction and a resulting organization, without relying on any third party. The only system that matches these criteria is Ethereum, hence, the primary token of donations will be ETH.
 
-Prior to Genesis cyber\~{}Foundation has minted 750 000 000 000 000 THC (seven hundred fifty terathc) broken down as follows:
+Prior to Genesis cyber\~Foundation has minted 750 000 000 000 000 THC (seven hundred fifty terathc) broken down as follows:
 
 \begin{itemize}
-\item 600 000 000 000 000 THC tokens are allocated to the cyber\~{}Auction contract
-\item 150 000 000 000 000 THC tokens are allocated to the cyber\~{}Congress contract
+\item 600 000 000 000 000 THC tokens are allocated to the cyber\~Auction contract
+\item 150 000 000 000 000 THC tokens are allocated to the cyber\~Congress contract
 
 \end{itemize}
 
@@ -376,7 +370,7 @@ Prior to Genesis cyber\~{}Foundation has minted 750 000 000 000 000 THC (seven h
  \includesvg[width=1\textwidth]{THC.svg}
 \end{Figure}
 
-All decisions by cyber\~{}Foundation will be executed based on the results of THC votes. The following parameters will be applied:
+All decisions by cyber\~Foundation will be executed based on the results of THC votes. The following parameters will be applied:
 
 \begin{itemize}
 \item Support: 51\%
@@ -386,43 +380,43 @@ All decisions by cyber\~{}Foundation will be executed based on the results of TH
 
 ## Gift
 
-We want to give the ability to evaluate the proposed approach to as many agents as we can. But, without adding such complexity as KYC and/or captcha. That is why we chose to gift 8\% of {\hyperref[cyb]{CYB}} tokens in Genesis to Ethereum, 1\% to Cosmos, and 1\% to Urbit communities. The following rules are applied to reproduce the Genesis:
+We want to give the ability to evaluate the proposed approach to as many agents as we can. But, without adding such complexity as KYC and/or captcha. That is why we chose to gift 8% of [CYB](#cyb) tokens in Genesis to Ethereum, 1% to Cosmos, and 1% to Urbit communities. The following rules are applied to reproduce the Genesis:
 \begin{itemize}
  \item Every account within the Ethereum foundation network, with at least 1 outgoing transaction which is not a contract, and holds > 0.001 ETH at block 8080808
  \item Every non-zero account within Cosmos hub-3 at block 2000000
- \item Every account which holds galaxies (30\%), stars (30\%), or planets (40\%) at block 10677601 according to the number of objects
+ \item Every account which holds galaxies (30%), stars (30%), or planets (40%) at block 10677601 according to the number of objects
 \end{itemize}
 
-The key purpose of this gift is for every account in Genesis to be able to make at least 1 {\hyperref[cyberlinks]{cyberlink}} in the space of 24 hours as the network is unloaded. This is why we have decided to make the distribution curve a bit more even, and radically change it to a quadratic curve. Hence, we distribute {\hyperref[cyb]{CYB}} tokens proportionally to the square root of each account balance during the snapshots. Because a quadratic design is too easy to game with, we have calculated the amount of the distributed {\hyperref[cyb]{CYB}} tokens for the proposed blocks before this fact became known to the public. We do not apply the quadratic rule to Urbit aliens.
+The key purpose of this gift is for every account in Genesis to be able to make at least 1 [cyberlink](#cyberlinks) in the space of 24 hours as the network is unloaded. This is why we have decided to make the distribution curve a bit more even, and radically change it to a quadratic curve. Hence, we distribute [CYB](#cyb) tokens proportionally to the square root of each account balance during the snapshots. Because a quadratic design is too easy to game with, we have calculated the amount of the distributed [CYB](#cyb) tokens for the proposed blocks before this fact became known to the public. We do not apply the quadratic rule to Urbit aliens.
 
 ## Game of Links
 
-A game for Cosmos hodlers in ATOM. Participants donate ATOM in exchange for CYB. The more ATOM is donated, the higher the price of CYB. The game starts from 1 ATOM per 1 GCYB. The game is over when either 146 days have passed since the beginning of the Takeoff donations, or if the price has increased 5x from the starting price. The price of {\hyperref[cyb]{CYB}} during the Takeoff is defined by the following function:
+A game for Cosmos hodlers in ATOM. Participants donate ATOM in exchange for CYB. The more ATOM is donated, the higher the price of CYB. The game starts from 1 ATOM per 1 GCYB. The game is over when either 146 days have passed since the beginning of the Takeoff donations, or if the price has increased 5x from the starting price. The price of [CYB](#cyb) during the Takeoff is defined by the following function:
 
 $$f(c) = 40 \cdot c + 1000
 
 where f(c) is TCYB price in ATOM, the c is amount of TCYB tokens won during Takeoff.
 
-The key idea is: the better the Takeoff donation round performs, the more payouts the participants in the disciplines will receive. 100 {\hyperref[cyb]{TCYB}} is allocated to the participants of the Takeoff donations and 50 {\hyperref[cyb]{TCYB}} is allocated for participants of the Game of Links disciplines. All {\hyperref[cyb]{CYB}} tokens that remain from the Takeoff, are allocated to the community pool at the end of the game. All {\hyperref[cyb]{CYB}} tokens that remain from the disciplines are allocated to cyber\~{}Congress. In addition to CYB tokens, Game of Links allocates test EUL tokens to all Takeoff donors for the final. A \linkred{https://cybercongress.ai/game-of-links/}{detailed document} has been published with rules and provisions for the game.
+The key idea is: the better the Takeoff donation round performs, the more payouts the participants in the disciplines will receive. 100 [TCYB](#cyb) is allocated to the participants of the Takeoff donations and 50 [TCYB](#cyb) is allocated for participants of the Game of Links disciplines. All [CYB](#cyb) tokens that remain from the Takeoff, are allocated to the community pool at the end of the game. All [CYB](#cyb) tokens that remain from the disciplines are allocated to cyber\~{}Congress. In addition to CYB tokens, Game of Links allocates test EUL tokens to all Takeoff donors for the final. A \linkred{https://cybercongress.ai/game-of-links/}{detailed document} has been published with rules and provisions for the game.
 
 ## Cyber\~Auction
 
-A game for Ethereum hodlers in ETH. Participants donate ETH in exchange for THC. The more ETH is donated, the higher the price of THC. The game starts from the price which is 5x closing price of the Takeoff in ETH. The game is over when either 888 days have passed since its inception or if the price has increased 5x from the starting price. During this phase {\hyperref[cyb]{CYB}} tokens are continuously distributed by cyber\~{}Congress, based on the vested {\hyperref[thc]{THC}} tokens until the end of the auction. Vested {\hyperref[thc]{THC}} tokens provide the ability to receive {\hyperref[cyb]{CYB}} tokens accordingly, and voting powers within cyber\~{}Foundation. The price of {\hyperref[thc]{THC}} during Cyber\~{}Auction is defined by the following function:
+A game for Ethereum hodlers in ETH. Participants donate ETH in exchange for THC. The more ETH is donated, the higher the price of THC. The game starts from the price which is 5x closing price of the Takeoff in ETH. The game is over when either 888 days have passed since its inception or if the price has increased 5x from the starting price. During this phase [CYB](#cyb) tokens are continuously distributed by cyber\~{}Congress, based on the vested {\hyperref[thc]{THC}} tokens until the end of the auction. Vested {\hyperref[thc]{THC}} tokens provide the ability to receive [CYB](#cyb) tokens accordingly, and voting powers within cyber\~{}Foundation. The price of {\hyperref[thc]{THC}} during Cyber\~{}Auction is defined by the following function:
 
 $$g(t)=\frac{1}{30} \cdot t \cdot p + 5 \cdot p
 
-where g(t) is TTHC price in ETH, t is amount of TTHC tokens won during cyber\~{}~Auction, p is the resulting price of Takeoff for one CYB converted to ETH at closing moment.
+where g(t) is TTHC price in ETH, t is amount of TTHC tokens won during cyber\~Auction, p is the resulting price of Takeoff for one CYB converted to ETH at closing moment.
 
-The starting price is designed to give the Takeoff participants 5x premium for their risk of investing in hardware and software infrastructure prior to Genesis. cyber\~{}Auction gives significant incentives for early participators. After the end of the distribution, participants will be able to unlock their {\hyperref[thc]{THC}} tokens and use them as they wish, e.i. transfer, exchange, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization. After the end of cyber\~{}Auction, all the remaining {\hyperref[thc]{THC}} on the cyber\~{}Auction contract must be provably burned. The following rules apply to {\hyperref[cyb]{CYB}} tokens under the \linkgreen{https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3anklkj7pzgwjw47cp2u7j}{multisig for distribution}:
+The starting price is designed to give the Takeoff participants 5x premium for their risk of investing in hardware and software infrastructure prior to Genesis. cyber\~{}Auction gives significant incentives for early participators. After the end of the distribution, participants will be able to unlock their {\hyperref[thc]{THC}} tokens and use them as they wish, e.i. transfer, exchange, etc. As a result of the auction, the community will have access to all the donated ETH within the Aragon organization. After the end of cyber\~{}Auction, all the remaining {\hyperref[thc]{THC}} on the cyber\~Auction contract must be provably burned. The following rules apply to [CYB](#cyb) tokens under the \linkgreen{https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3anklkj7pzgwjw47cp2u7j}{multisig for distribution}:
 
 \begin{itemize}
 \item cyber\~Congress will not delegate its stake, and as a result, it will remain a passive stake until it will become distributed
-\item after the end of cyber\~{}Auction, all the remaining {\hyperref[cyb]{CYB}} tokens must be provably burned
+\item after the end of cyber\~Auction, all the remaining [CYB](#cyb) tokens must be provably burned
 \end{itemize}
 
 ## Apps
 
-We assume that the proposed algorithm does not guarantee high-quality knowledge by default. Just like a newborn, it needs to acquire knowledge to develop further. The protocol itself provides just one simple tool: the ability to create a {\hyperref[cyberlinks]{cyberlink}} with an agents stake between two content addresses.
+We assume that the proposed algorithm does not guarantee high-quality knowledge by default. Just like a newborn, it needs to acquire knowledge to develop further. The protocol itself provides just one simple tool: the ability to create a [cyberlinks](#cyberlinks) with an agents stake between two content addresses.
 
 Analysis of the semantic core, behavioural factors, anonymous data about the interests of agents and other tools that determine the quality of search, can be achieved via smart contracts and off-chain applications, such as: {\hyperref[browzers]{web3 browsers}}, decentralized social networks and content platforms. We believe, that it is in the interest of the community and the masters to build the initial {\hyperref[knowledge-graph]{knowledge graph}} and to maintain it. Hence, for the graph, to provide the most relevant search results.
 
@@ -436,11 +430,11 @@ Generally, we distinguish three types of applications for {\hyperref[knowledge-g
 
 The following, imaginable, list of apps consolidates the above-mentioned categories:
 
-Web3 browsers. In reality, browser and search are inseparable. It is hard to imagine the emergence of a full-blown web3 browser which is based on web2 search. Currently, there are several efforts for developing browsers around blockchains and distributed tech. Amongst them are Beaker, \sout{Mist}, Brave, and Metamask. All of them suffer from trying to embed web2 into web3. Our approach is a bit different. We consider web2 as an unsafe subset for web3. So we have developed an experimental web3 browser, Cyb, showcasing the {\hyperref[cyber]{cyber}} approach to answering queries better and delivering content faster.
+Web3 browsers. In reality, browser and search are inseparable. It is hard to imagine the emergence of a full-blown web3 browser which is based on web2 search. Currently, there are several efforts for developing browsers around blockchains and distributed tech. Amongst them are Beaker, Mist, Brave, and Metamask. All of them suffer from trying to embed web2 into web3. Our approach is a bit different. We consider web2 as an unsafe subset for web3. So we have developed an experimental web3 browser, Cyb, showcasing the [cyber](#cyber-protocol) approach to answering queries better and delivering content faster.
 
 Social networks. Social networks are not that mysterious. In any social network content is the king. Hence, provable ranking is the basic building block of any social network. All types of social networks can be easily built on top of a {\hyperref[knowledge-graph]{knowledge graph}}. Cyber can also create social networks based on relevance between users, which no current network is able to achieve.
 
-Programmable semantics. Currently, the most popular keywords in the gigantic semantic core of \linkred{https://google.com}{Google} are keywords of apps such as: \linkred{https://youtube.com}{Youtube}, \linkred{https://facebook.com}{Facebook}, \linkred{https://github.com}{GitHub}, etc. However, the developers of those successful apps have very limited ability to explain to \linkred{https://google.com}{Google} how to structure search results in a better manner. The {\hyperref[cyber]{cyber}} approach gives this power back to developers. Developers are now able to target specific semantics cores and index their apps as they wish.
+Programmable semantics. Currently, the most popular keywords in the gigantic semantic core of \linkred{https://google.com}{Google} are keywords of apps such as: \linkred{https://youtube.com}{Youtube}, \linkred{https://facebook.com}{Facebook}, \linkred{https://github.com}{GitHub}, etc. However, the developers of those successful apps have very limited ability to explain to \linkred{https://google.com}{Google} how to structure search results in a better manner. The [cyber](#cyber-protocol) approach gives this power back to developers. Developers are now able to target specific semantics cores and index their apps as they wish.
 
 Search actions. The proposed design enables native support for blockchain (and tangle-alike) assets related activity. It is trivial to design applications which are (1) owned by the creators, (2) appear correctly in the search results and (3) allow a transactable action, with (4) provable attribution of a conversion for a search query. e-Commerce has never been this easy for everyone.
 
@@ -479,61 +473,61 @@ What is needed is a simple, yet a powerful state reality tool with the ability t
 
 Language convergence. A programmer should not care about the language that an agent will be using. We don't need to know in which language the agent is performing their search in. The entire UTF-8 spectrum is at work. The semantic core is open, so competition for answering queries can become distributed across different domain-specific areas. Including the semantic cores for various languages. This unified approach creates an opportunity for cyber\~Bahasa. Since the dawn of the Internet, we observe a process of rapid language convergence. We use truly global words across the entire planet, independently of nationality, language, race, name or Internet connection. The dream of a truly global language is hard to deploy because it is hard to agree on what means what. However, we have the tools to make this dream come true. It is not hard to predict that the shorter a word, the more powerful its cyber\~{}Rank will be. Global, publicly available list of symbols, words, and phrases sorted accordingly by cyber\~{}Rank with a corresponding link provided by \linkred{https://github.com/cybercongress/go-cyber}{go-cyber} can become the foundation for the emergence of a genuinely global language everybody can accept. Recent \linkgreen{https://ipfs.io/ipfs/QmQUWBhDMfPKgFt3NfbxM1VU22oU8CRepUzGPBDtopwap1}{scientific advances} in machine translation are breathtaking but meaningless to those who wish to apply them without a Google-scale trained model. The proposed cyber\~{}Rank offers precisely this.
 
-Self prediction. A {\hyperref[consensus-computer]{consensus computer}} can continuously build a {\hyperref[knowledge-graph]{knowledge graph}} on its own predicting the existence of {\hyperref[cyberlinks]{cyberlinks}} and applying these predictions to its state. Hence, a {\hyperref[consensus-computer]{consensus computer}} can participate in the economic consensus of the {\hyperref[cyber]{cyber}} protocol.
+Self prediction. A {\hyperref[consensus-computer]{consensus computer}} can continuously build a {\hyperref[knowledge-graph]{knowledge graph}} on its own predicting the existence of [cyberlinks](#cyberlinks) and applying these predictions to its state. Hence, a {\hyperref[consensus-computer]{consensus computer}} can participate in the economic consensus of the [cyber](#cyber-protocol) protocol.
 
 Universal oracle. A {\hyperref[consensus-computer]{consensus computer}} can store the most relevant data in a key-value storage. Where the key is a CID and the values are the bytes of the actual content. This can be achieved by making a decision every round, in regards to which CID value the agentss want to prune and which value they wish to apply. Based on the utility measure of content addresses within the {\hyperref[knowledge-graph]{knowledge graph}}. To compute utility measure, heroes check the availability and the size of the content for the top-ranked content addresses within the {\hyperref[knowledge-graph]{knowledge graph}}, then, weight on the size of the CIDs and its rank. The emergent key-value storage will be available to write for {\hyperref[consensus-computer]{consensus computer}} only and not for agents. But, values could be used in programs.
 
-Location-aware search. It is possible to construct {\hyperref[cyberlinks]{cyberlinks}} with \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{Proof-of-Location} based on remarkable existing protocols such as \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{Foam}. Consequently, a location-based search also becomes provable, if web3-agents will mine triangulations and attach \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{proof-of-location} for every linked chain.
+Location-aware search. It is possible to construct [cyberlinks](#cyberlinks) with \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{Proof-of-Location} based on remarkable existing protocols such as \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{Foam}. Consequently, a location-based search also becomes provable, if web3-agents will mine triangulations and attach \linkgreen{https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG}{proof-of-location} for every linked chain.
 
 Prediction markets on link relevance. We can implement this idea using the ranking of the {\hyperref[knowledge-graph]{knowledge graph}} based on a prediction market on link relevance. An app that allows betting on link relevance, can become a unique source of truth for the direction of terms, as well as, motivate agents to submit more links.
 
-Private cyberlinks. Privacy is fundamental. While we are committed to privacy, achieving implementation of private {\hyperref[cyberlinks]{cyberlinks}} is unfeasible for our team up to Genesis. Therefore, it is up to the community to work on WASM programs, that can be executed on top of the protocol. The problem is to compute cyber\~{}Rank, based on the {\hyperref[cyberlinks]{cyberlinks}} submitted by a web3-masters without revealing neither: their previous request nor the public keys. Zero-knowledge proofs, in general, are very expensive. We believe that the privacy of search should be a feature by design, but we are unsure that we know how to implement it at this stage. \linkgreen{https://ipfs.io/ipfs/Qmdje3AmtsfjX9edWAxo3LFhV9CTAXoUvwGR7wHJXnc2Gk}{Coda} like recursive Snarks and \linkgreen{https://ipfs.io/ipfs/Qmd99xmraYip9cVv8gRMy6Y97Bkij8qUYArGDME7CzFasg}{MimbleWimble} constructions, in theory, can solve part of the privacy concern. But, they are new, untested and anyway, will be more expensive with regards to computations than their transparent alternative.
+Private cyberlinks. Privacy is fundamental. While we are committed to privacy, achieving implementation of private [cyberlinks](#cyberlinks) is unfeasible for our team up to Genesis. Therefore, it is up to the community to work on WASM programs, that can be executed on top of the protocol. The problem is to compute cyber\~Rank, based on the [cyberlinks](#cyberlinks) submitted by a web3-masters without revealing neither: their previous request nor the public keys. Zero-knowledge proofs, in general, are very expensive. We believe that the privacy of search should be a feature by design, but we are unsure that we know how to implement it at this stage. \linkgreen{https://ipfs.io/ipfs/Qmdje3AmtsfjX9edWAxo3LFhV9CTAXoUvwGR7wHJXnc2Gk}{Coda} like recursive Snarks and \linkgreen{https://ipfs.io/ipfs/Qmd99xmraYip9cVv8gRMy6Y97Bkij8qUYArGDME7CzFasg}{MimbleWimble} constructions, in theory, can solve part of the privacy concern. But, they are new, untested and anyway, will be more expensive with regards to computations than their transparent alternative.
 
 This is surely not the excessive list of all the possible applications, but a very exciting one indeed.
 
 ## Conclusion
 
-We defined and implemented a protocol for provable communication, between consensus computers on relevance. The protocol is based on the simple idea of knowledge graphs, which are generated by agents via the use of cyberlinks. Cyberlinks are processed by a consensus computer using the concept of the relevance machine. The cyber consensus computer is based on CIDv0/CIDv1 and uses go-IPFS and Cosmos-SDK as a foundation. IPFS provides significant benefits with regards to resource consumption. CID as primary objects are robust in their simplicity. For every CID, cyber\~{}Rank is computed by a consensus computer without a single point of failure. Cyber\~{}Rank is a CYB token weighted PageRank, with economic protection from sybil attacks and selfish voting. Every round the Merkle root of the rank and graph trees are published. Consequently, every computer can prove to any other computer the relevance of value for a given CID. Sybil resistance is based on bandwidth limiting. The embedded ability to execute programs offers inspiring applications. The starting primary goal is the indexing of peer-to-peer content addresses systems, either stateless, such as: IPFS, Swarm, Sia, Git, BitTorrent, or stateful, such as: Bitcoin, Ethereum and other blockchains and tangles. The proposed semantics of cyberlinking offers a robust mechanism for predicting meaningful relations between objects by the consensus computer itself. The source code of the relevance machine is open-source. Every bit of data accumulated by the consensus computer is available for anyone if one has the resources to process it. The performance of the proposed software implementation is sufficient for seamless interaction. The scalability of the proposed implementation is sufficient to index all self-authenticated data that exist today and can serve it to millions of agents of the Great Web. The blockchain is managed by a Superintelligence, which functions under the Tendermint consensus algorithm with a standard governance module. Though the system provides the necessary utility to offer an alternative for a conventional search engine, it is not limited just to this use case. The system is extendable for numerous applications and makes it possible to design economically rational, self-owned robots, that can autonomously understand objects around them.
+We defined and implemented a protocol for provable communication, between consensus computers on relevance. The protocol is based on the simple idea of knowledge graphs, which are generated by agents via the use of cyberlinks. Cyberlinks are processed by a consensus computer using the concept of the relevance machine. The cyber consensus computer is based on CIDv0/CIDv1 and uses go-IPFS and Cosmos-SDK as a foundation. IPFS provides significant benefits with regards to resource consumption. CID as primary objects are robust in their simplicity. For every CID, cyber\~Rank is computed by a consensus computer without a single point of failure. Cyber\~Rank is a CYB token weighted PageRank, with economic protection from sybil attacks and selfish voting. Every round the Merkle root of the rank and graph trees are published. Consequently, every computer can prove to any other computer the relevance of value for a given CID. Sybil resistance is based on bandwidth limiting. The embedded ability to execute programs offers inspiring applications. The starting primary goal is the indexing of peer-to-peer content addresses systems, either stateless, such as: IPFS, Swarm, Sia, Git, BitTorrent, or stateful, such as: Bitcoin, Ethereum and other blockchains and tangles. The proposed semantics of cyberlinking offers a robust mechanism for predicting meaningful relations between objects by the consensus computer itself. The source code of the relevance machine is open-source. Every bit of data accumulated by the consensus computer is available for anyone if one has the resources to process it. The performance of the proposed software implementation is sufficient for seamless interaction. The scalability of the proposed implementation is sufficient to index all self-authenticated data that exist today and can serve it to millions of agents of the Great Web. The blockchain is managed by a Superintelligence, which functions under the Tendermint consensus algorithm with a standard governance module. Though the system provides the necessary utility to offer an alternative for a conventional search engine, it is not limited just to this use case. The system is extendable for numerous applications and makes it possible to design economically rational, self-owned robots, that can autonomously understand objects around them.
 
 ## References
 
-- [Scholarly context adrift](https://ipfs.io/ipfs/QmNhaUrhM7KcWzFYdBeyskoNyihrpHvUEBQnaddwPZigcN)
-- [Brand-new stack](https://ipfs.io/ipfs/Qmf2rKkDPSsvdudwSmdDPbZuYae8XRV26c1wAFCCvg8Dhw)
-- [Search engines information retrieval in practice](https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6)
-- [Motivating game for adversarial example research](https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9)
-- [An idea of a decentralized search](https://ipfs.io/ipfs/QmXNoGTWLQrcFRb66oS4HafpP1vcLKbVkJrQm4DVvihuoq)
-- [IPFS](https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps)
-- [DAT](https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR)
-- [go-cyber](https://github.com/cybercongress/go-cyber)
-- [cosmos-sdk](https://github.com/cosmos/cosmos-sdk)
-- [CIDv1](https://github.com/multiformats/cid#cidv1)
-- [cyber.page](http://cyber.page)
-- [DURA](https://github.com/cybercongress/cyb/blob/dev/docs/dura.md)
-- [Colony](https://ipfs.io/ipfs/QmZo7eY5UdJYotf3Z9GNVBGLjkCnE1j2fMdW2PgGCmvGPj)
-- [Truebit](https://ipfs.io/ipfs/QmTrxXp2xhB2zWGxhNoLgsztevqKLwpy5HwKjLjzFa7rnD)
-- [Thermodynamics of predictions](https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb)
-- [PageRank](http://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw)
-- [RFC-6962](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG)
-- [IBC protocol](https://ipfs.io/ipfs/QmSGbrGAPZtR6Q1jHHe8mmS3bLBehKmfp9ZYvrg5ycaZuk)
-- [Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ)
-- [Comparison of web3 browsers](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md)
-- [Cyb](https://cyb.ai)
-- [SpringRank](https://ipfs.io/ipfs/QmTJPJ55ePgR2MS1HoAtyqS1mteVLXUjAS4H8W97EEopxC)
-- [Run validator in cyber protocol](https://cybercongress.ai/docs/go-cyber/run_validator/)
-- [Top 10000 english words](https://github.com/first20hours/google-10000-english)
-- [Multilingual neural machine translation](https://ipfs.io/ipfs/QmQUWBhDMfPKgFt3NfbxM1VU22oU8CRepUzGPBDtopwap1)
-- [Foam](https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG)
-- [Coda](https://ipfs.io/ipfs/Qmdje3AmtsfjX9edWAxo3LFhV9CTAXoUvwGR7wHJXnc2Gk)
-- [Mimblewimble](https://ipfs.io/ipfs/Qmd99xmraYip9cVv8gRMy6Y97Bkij8qUYArGDME7CzFasg)
-- [Tezos](https://ipfs.io/ipfs/QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS)
-- [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
-- [Proof-of-history](https://ipfs.io/ipfs/QmbsKzizZVVVzPbZvg1qSsNMkwmA3MFufgXb3MFqbSnmPs)
-- [IPLD](https://github.com/ipld)
-- [cyber\~Congress organization](https://mainnet.aragon.org/#/cybercongress/0x4feb2bcc5907e7779130c093eef8fb44502c1330/)
-- [cyber~Congress in Cyber](https://cyber.page/network/cyber/contract/cyber1latzme6xf6s8tsrymuu6laf2ks2humqvdq39v8)
-- [cyber~Congress in Cosmos](https://www.mintscan.io/account/cosmos1latzme6xf6s8tsrymuu6laf2ks2humqv2tkd9a)
-- [multisig for CYB distribution](https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3anklkj7pzgwjw47cp2u7j)
-- [.cyber](https://github.com/cybercongress/dot-cyber)
+1. [Scholarly context adrift](https://ipfs.io/ipfs/QmNhaUrhM7KcWzFYdBeyskoNyihrpHvUEBQnaddwPZigcN)
+2. [Brand-new stack](https://ipfs.io/ipfs/Qmf2rKkDPSsvdudwSmdDPbZuYae8XRV26c1wAFCCvg8Dhw)
+3. [Search engines information retrieval in practice](https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6)
+4. [Motivating game for adversarial example research](https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9)
+5. [An idea of a decentralized search](https://ipfs.io/ipfs/QmXNoGTWLQrcFRb66oS4HafpP1vcLKbVkJrQm4DVvihuoq)
+6. [IPFS](https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps)
+7. [DAT](https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR)
+8. [go-cyber](https://github.com/cybercongress/go-cyber)
+9. [cosmos-sdk](https://github.com/cosmos/cosmos-sdk)
+10. [CIDv1](https://github.com/multiformats/cid#cidv1)
+11. [cyber.page](http://cyber.page)
+12. [DURA](https://github.com/cybercongress/cyb/blob/dev/docs/dura.md)
+13. [Colony](https://ipfs.io/ipfs/QmZo7eY5UdJYotf3Z9GNVBGLjkCnE1j2fMdW2PgGCmvGPj)
+14. [Truebit](https://ipfs.io/ipfs/QmTrxXp2xhB2zWGxhNoLgsztevqKLwpy5HwKjLjzFa7rnD)
+15. [Thermodynamics of predictions](https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb)
+16. [PageRank](http://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw)
+17. [RFC-6962](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG)
+18. [IBC protocol](https://ipfs.io/ipfs/QmSGbrGAPZtR6Q1jHHe8mmS3bLBehKmfp9ZYvrg5ycaZuk)
+19. [Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ)
+20. [Comparison of web3 browsers](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md)
+21. [Cyb](https://cyb.ai)
+22. [SpringRank](https://ipfs.io/ipfs/QmTJPJ55ePgR2MS1HoAtyqS1mteVLXUjAS4H8W97EEopxC)
+23. [Run validator in cyber protocol](https://cybercongress.ai/docs/go-cyber/run_validator/)
+24. [Top 10000 english words](https://github.com/first20hours/google-10000-english)
+25. [Multilingual neural machine translation](https://ipfs.io/ipfs/QmQUWBhDMfPKgFt3NfbxM1VU22oU8CRepUzGPBDtopwap1)
+26. [Foam](https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG)
+27. [Coda](https://ipfs.io/ipfs/Qmdje3AmtsfjX9edWAxo3LFhV9CTAXoUvwGR7wHJXnc2Gk)
+28. [Mimblewimble](https://ipfs.io/ipfs/Qmd99xmraYip9cVv8gRMy6Y97Bkij8qUYArGDME7CzFasg)
+29. [Tezos](https://ipfs.io/ipfs/QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS)
+30. [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
+31. [Proof-of-history](https://ipfs.io/ipfs/QmbsKzizZVVVzPbZvg1qSsNMkwmA3MFufgXb3MFqbSnmPs)
+32. [IPLD](https://github.com/ipld)
+33. [cyber\~Congress organization](https://mainnet.aragon.org/#/cybercongress/0x4feb2bcc5907e7779130c093eef8fb44502c1330/)
+34. [cyber~Congress in Cyber](https://cyber.page/network/cyber/contract/cyber1latzme6xf6s8tsrymuu6laf2ks2humqvdq39v8)
+35. [cyber~Congress in Cosmos](https://www.mintscan.io/account/cosmos1latzme6xf6s8tsrymuu6laf2ks2humqv2tkd9a)
+36. [multisig for CYB distribution](https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3anklkj7pzgwjw47cp2u7j)
+37. [.cyber](https://github.com/cybercongress/dot-cyber)
 
 ## Acknowledgements
 
