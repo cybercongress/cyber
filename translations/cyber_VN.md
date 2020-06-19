@@ -1,7 +1,7 @@
 # cyber: Tính toán kiến thức của Great Web
 
 <p align="center">
-  <img src="images/graph.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/graph.png" />
 </p>
 
 
@@ -43,7 +43,7 @@ Phần sau của tài liệu này thảo luận về lý do và các chi tiết 
 Chúng tôi biểu thị một sơ đồ tri thức dưới dạng đồ thị có trọng số của các liên kết được định hướng giữa các địa chỉ nội dung. Hay là định danh nội dung, CIDs, IPFS hashes, hoặc đơn giản là - liên kết IPFS. Trong tài liệu này, chúng tôi sẽ sử dụng các thuật ngữ trên như từ đồng nghĩa.
 
 <p align="center">
-  <img src="images/knowledge-graph.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/knowledge-graph.png" />
 </p>
 
 
@@ -82,7 +82,7 @@ Cyberlink là một cách tiếp cận để liên kết hai địa chỉ nội 
 Các CyberLink ở trên có nghĩa là đại diện cho [go-cyber](https://github.com/cybercongress/go-cyber) trong [cyberc0n](https://etherscan.io/token/0x61B81103e716B611Fff8aF5A5Dc8f37C628efb1E) đang tham chiếu đến Sách trắng của Cosmos. Khái niệm về cyberlinks là một quy ước xung quanh ngữ nghĩa đơn giản của một định dạng giao thức trong bất kỳ mạng P2P nào:
 
 <p align="center">
-  <img src="images/cyberlink.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/cyberlink.png" />
 </p>
 
 
@@ -93,7 +93,7 @@ CyberLink là một cấu trúc ngữ nghĩa đơn giản nhưng mạnh mẽ đ�
 Cyberlinks có thể được mở rộng, tức là có thể hình thành linkchains nếu có hai hoặc nhiều cyberlinks còn lại từ một cyberlink master, nơi liên kết thứ hai trong Cyberlink đầu tiên tương đương với liên kết đầu tiên trong Cyberlink thứ hai:
 
 <p align="center">
-  <img src="images/linkchain.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/linkchain.png" />
 </p>
 
 
@@ -104,7 +104,7 @@ Triển khai [go-cyber](https://github.com/cybercongress/go-cyber) cho cyberlink
 Các cyberlinks được gửi bởi link master được lưu trữ trong một cây Merkle theo [tiêu chuẩn RFC-6962](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). Điều này cho phép xác thực [bằng chứng liên quan](#proof-of-relevance).
 
 <p align="center">
-  <img src="images/graph-tree.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/graph-tree.png" />
 </p>
 
 
@@ -126,7 +126,7 @@ Chúng ta biết rằng:
 Do đó, chúng ta sẽ không bao giờ có thể đạt đến một máy tính đồng thuận lý tưởng. Định lý CAP và khả năng mở rộng trilemma tăng thêm bằng chứng cho tuyên bố này.
 
 <p align="center">
-  <img src="images/consensus-computer.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/consensus-computer.png" />
 </p>
 
 
@@ -147,7 +147,7 @@ Nếu chúng ta cho rằng một [máy tính đồng thuận](#the-notion-of-a-c
 Phần lõi của hệ thống bảo vệ chống spam là một giả định rằng các hoạt động ghi có thể được thực hiện chỉ bởi những người quan tâm đến sự phát triển thành công của máy liên quan. Mỗi 1% số stake hiệu quả trong [máy tính đồng thuận](#the-notion-of-a-consensus-computer) cho khả năng sử dụng 1% băng thông của mạng khả dụng và khả năng tính toán của nó. Một quy tắc đơn giản ngăn chặn việc lạm dụng các tác nhân: một cặp định danh nội dung có thể được liên kết bởi một địa chỉ chỉ một lần.
 
 <p align="center">
-  <img src="images/algo1.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/algo1.png" />
 </p>
 
 
@@ -174,7 +174,7 @@ Cuối cùng, [máy liên quan](#relevance-machine) cần có được (1) một
 Sau khi [nghiên cứu chuyên sâu](https://ipfs.io/ipfs/QmTJPJ55ePgR2MS1HoAtyqS1mteVLXUjAS4H8W97EEopxC), chúng tôi thấy rằng không thể có được những phương pháp hiệu quả tức thì. Vì vậy, chúng tôi đã quyết định tìm một cách cơ bản hơn, hiệu quả, có thể kích hoạt mạng lưới: [xếp hạng](http://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw) mà Larry và Sergey sử dụng để ra mắt sản phẩm trước của họ. Vấn đề quan trọng với PageRank ban đầu là nó không kháng được tấn công Sybil. Tuy nhiên, một trọng số token PageRank bị giới hạn bởi một mô hình băng thông trọng số token không kế thừa các vấn đề quan trọng của PageRank ban đầu, bởi vì - nó có khả năng kháng tấn công Sybil. Hiện tại, chúng tôi sẽ gọi nó là cyber\~Rank, cho đến khi một thứ phù hợp hơn có thể thay thế. Thuật toán sau đây được áp dụng cho việc triển khai tại Genesis:
 
 <p align="center">
-  <img src="images/algo2.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/algo2.png" />
 </p>
 
 
@@ -197,7 +197,7 @@ Xếp hạng được tính dựa trên thực tế là một thứ gì đó đ�
 Một sự tương tự như vậy được thấy trong cơ học lượng tử, nơi mà chính các quan sát ảnh hưởng đến hành vi. Đây là lý do tại sao chúng tôi không yêu cầu bỏ phiếu tiêu cực. Bằng cách này, chúng tôi loại bỏ tính chủ quan ra khỏi giao thức và chúng tôi có thể xác định bằng chứng về mức độ liên quan.
 
 <p align="center">
-  <img src="images/graph-tree.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/graph-tree.png" />
 </p>
 
 
@@ -222,7 +222,7 @@ Chúng tôi biểu thị một tính chất [go-cyber](https://github.com/cyberc
 Chúng tôi yêu cầu một kiến trúc cho phép mở rộng ý tưởng đáng kể như [Google](https://google.com). Hãy để chúng tôi giả định việc triển khai node dựa trên [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk) có thể xử lý 10k giao dịch mỗi giây. Có nghĩa là mỗi ngày ít nhất 8,64 triệu master sẽ có thể gửi 100 [cyberlinks](#cyberlinks) mỗi lần, và tác động đến kết quả tìm kiếm cùng một lúc. Điều này là đủ để xác minh tất cả các giả định ra trong tự nhiên, nhưng, không đủ để nói rằng nó sẽ hoạt động ở quy mô Internet hiện nay. Những nghiên cứu hiện đại được thực hiện bởi đội ngũ của chúng tôi giúp chỉ ra một cách an toàn rằng không có công nghệ đồng thuận nào hiện nay cho phép mở rộng một blockchain cụ thể tới quy mô chúng tôi yêu cầu. Do đó, chúng tôi giới thiệu khái niệm về tên miền cụ thể [sơ đồ tri thức](#knowledge-graph).
 
 <p align="center">
-  <img src="images/network.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/network.png" />
 </p>
 
 
@@ -233,7 +233,7 @@ Một trong hai có thể khởi động một tên miền riêng cho công cụ
 Chúng tôi mong muốn hình dung ra cách mạng lưới được đề xuất sẽ hoạt động với một trình duyệt web3. Tuy nhiên đáng thất vọng là chúng tôi [không đủ khả năng](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md) tìm một trình duyệt web3 có thể giới thiệu cách tiếp cận hoạt động đề xuất thoải mái nhất. Đây là lý do tại sao chúng tôi đã quyết định phát triển một trình duyệt web3 từ đầu. [Cyb](https://cyb.ai) là robot thân thiện của bạn có một mẫu ứng dụng [.cyber](https://cyber.page) để tương tác với giao thức [cyber](#cyber-protocol).
 
 <p align="center">
-  <img src="images/cyb.jpg" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/cyb.jpg" />
 </p>
 
 
@@ -242,7 +242,7 @@ Một ví dụ tốt là chúng tôi đã tạo ra [cyber.page](https://cyber.pa
 Các đoạn mã tìm kiếm hiện tại chưa được tốt lắm. Nhưng chúng tôi đoán rằng chúng có thể dễ dàng được mở rộng bằng cách sử dụng [IPLD](https://github.com/ipld/specs) cho mỗi loại nội dung khác nhau. Cuối cùng, chúng có thể trở nên hấp dẫn hơn so với những thứ của [Google](https://google.com).
 
 <p align="center">
-  <img src="images/architecture.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/architecture.png" />
 </p>
 
 
@@ -289,7 +289,7 @@ Khối Genesis của giao thức Cyber chứa 1 000 000 000 000 000 CYB (một p
 - 100 000 000 000 000 CYB tokens làm quà cho cộng đồng Ethereum, Cosmos và Urbit
 
 <p align="center">
-  <img src="images/CYB.svg" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/CYB.svg" />
 </p>
 
 
@@ -309,7 +309,7 @@ Trước đó Genesis cyber\~Foundation đã tạo ra 750 000 000 000 000 THC (b
 - 150 000 000 000 000 THC tokens được phân bổ tới hợp đồng cyber\~Congress
 
 <p align="center">
-  <img src="images/THC.svg" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/THC.svg" />
 </p>
 
 
