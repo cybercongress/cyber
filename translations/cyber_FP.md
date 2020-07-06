@@ -1,7 +1,7 @@
 # cyber: Pag-compute ng kaalaman ng Great Web
 
 <p align="center">
-  <img src="images/graph.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/graph.png" />
 </p>
 
 ## Abstract
@@ -44,7 +44,7 @@ Ang natitirang bahagi ng dokumentong ito ay tinatalakay ang makatwiran at ang mg
 Kinakatawan namin ang isang knowledge graph bilang isang weighted graph ng mga direktang link sa pagitan ng mga content addresses. Aka, mga pagkakakilanlan ng nilalaman, CID, IPFS hashes, o simpleng - mga link sa IPFS. Sa dokumentong ito, gagamitin namin ang mga term sa itaas bilang mga kasingkahulugan
 
 <p align="center">
-  <img src="images/knowledge-graph.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/knowledge-graph.png" />
 </p>
 
 Ang mga content addresses ay mahalagang web3 link. Sa halip na gamitin ang hindi maliwanag at pabago-bago:
@@ -83,7 +83,7 @@ Ang Cyberlink ay isang diskarte upang maiugnay ang dalawang content addresses, o
 Ang nabanggit sa cyberlink ay nangangahulugan na ang pagtatanghal ng [go-cyber](https://github.com/cybercongress/go-cyber)sa panahon ng [cyberc0n](https://etherscan.io/token/0x61B81103e716B611Fff8aF5A5Dc8f37C628efb1E) ay tumutukoy sa Cosmos white paper. Ang konsepto ng mga cyberlink ay isang kombensyon sa paligid ng mga simpleng semantika ng isang format na pangkomunikasyon sa anumang p2p network:
 
 <p align="center">
-  <img src="images/cyberlink.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/cyberlink.png" />
 </p>
 
 Nakita namin na ang isang cyberlink ay kumakatawan sa isang link sa pagitan ng dalawang link. Napakadali!
@@ -93,7 +93,7 @@ Ang Cyberlink ay simple, ngunit napaka-powerful semantic construction para sa pa
 Ang mga Cyberlink ay maaaring mapalawig, maaari silang bumuo ng mga linkchain kung mayroong dalawa o higit pang mga cyberlink subsist mula sa isang master, kung saan ang pangalawang link sa unang cyberlink ay katumbas ng unang link sa ikalawang cyberlink:
 
 <p align="center">
-  <img src="images/linkchain.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/linkchain.png" />
 </p>
 
 Kung pinalawak ng mga ahente ang mga native IPFS links na may isang semantically mas mayamang, halimbawa, na may [dura](https://github.com/cybercongress/cyb/blob/dev/docs/dura.md) links, kung gayon ang pagsang-ayon sa mga execution rules sa pamamagitan ng isang tiyak na programa ay maabot sa isang mas natural na pamamaraan.
@@ -103,7 +103,7 @@ Ang [go-cyber](https://github.com/cybercongress/go-cyber) implementation ng mga 
 Ang mga cyberlink na isinumite ng mga masters ay naka-imbak sa isang merkle tree ayon sa [RFC-6962 standard](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). Pinapayagan nito ang pagpapatunay para sa [proof-of-relevance](#proof-of-relevance).
 
 <p align="center">
-  <img src="images/graph-tree.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/graph-tree.png" />
 </p>
 
 Gamit ang mga cyberlink, maaari nating kalkulahin ang kaugnayan ng mga paksa at mga bagay sa [knowledge graph](#knowledge-graph). Ngunit kailangan namin ng isang  [consensus computer](#the-notion-of-a-consensus-computer).
@@ -124,7 +124,7 @@ Alam natin na:
 Samakatuwid, hindi namin makamit ang isang perpektong consensus computer. Ang CAP theorem at ang scalability trilemma ay nagdaragdag ng higit na katibayan sa pahayag na ito.
 
 <p align="center">
-  <img src="images/consensus-computer.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/consensus-computer.png" />
 </p>
 
 Ngunit ang teoryang ito ay maaaring gumana bilang isang tagapagpahiwatig ng pagganap para sa isang consensus computer. Matapos ang 6 na taon ng pamumuhunan sa consensus computer, natanto namin na ang pinagkasunduan ng  [Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ) ay may sapat na balanse sa pagitan na kinakailangan para sa aming gawain at kahandaan para sa paggawa nito. Samakatuwid, nagpasya kaming ipatupad ang [cyber](#cyber-protocol) gamit ang Tendermint consensus, na kung saan ay may napakalapit na mga setting sa Cosmos Hub. Ang pagpapatupad ng [go-cyber](https://github.com/cybercongress/go-cyber) ay isang 64-bit Tendermint consensus computer ng kaugnayan para sa 64-byte string-space. Hindi ito perpekto, hindi bababa sa 1/146, dahil mayroon kaming 146 na validator na nagpapatunay sa parehong mga pagkalkula na gumagawa ng [knowledge-graph](#knowledge-graph).
@@ -145,7 +145,7 @@ Kung ia-assume natin na ang [consensus computer](#the-notion-of-a-consensus-comp
 Sa gitna ng sistema ng proteksyon ng spam ay isang palagay na ang mga operasyon ng pagsulat ay maaaring isakatuparan lamang ng mga mayroong isang vested na interes sa ebolusyon ng tagumpay ng relevance machine. Bawat 1% ng epektibong stake sa loob ng [consensus computer](#the-notion-of-a-consensus-computer) ay nagbibigay ng kakayahang magamit ang 1% ng mga bandwidth ng mga posibleng network at ang computing capabilities nito. Ang isang simpleng patakaran ay pumipigil sa pang-aabuso sa mga ahente: isang pares ng mga pagkakakilanlan ng nilalaman ay maaaring mai-cyberlink ng isang beses sa isang address.
 
 <p align="center">
-  <img src="images/algo1.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/algo1.png" />
 </p>
 
 Mayroong dalawang mga paraan lamang upang mabago ang epektibong stake (active stake + bonded stake) ng isang account: direct token transfers at bonding operations.
@@ -172,7 +172,7 @@ Sa kalaunan, ang [relevance machine](#relevance-machine) machine ay kailangang m
 Matapos ang [masusing pananaliksik](https://ipfs.io/ipfs/QmTJPJ55ePgR2MS1HoAtyqS1mteVLXUjAS4H8W97EEopxC), nalaman namin na imposible na makuha ang silver bullet. Samakatuwid, nagpasya kaming makahanap ng mas basic, bulletproof way, na maaaring mag-bootstrap sa network: ang [rank](http://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw) na ginamit nina Larry at Sergey upang i-bootstrap ang kanilang nakaraang network. Ang pangunahing problema sa orihinal na PageRank ay hindi ito lumalaban sa mga pag-atake ng sybil. Gayunpaman, ang isang token-weighted PageRank na kung saan ay limitado ng isang token-weighted bandwidth model ay hindi nagmana sa pangunahing problema ng walang muwang na PageRank, sapagkat - ito ay lumalaban sa pag-atake ng sybil. Sa ngayon, tatawagin natin ito sa cyber ~ Rank, hanggang sa isang bagay na mas angkop ang lalabas. Ang sumusunod na algorithm ay inilalapat sa pagpapatupad nito sa Genesis:
 
 <p align="center">
-  <img src="images/algo2.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/algo2.png" />
 </p>
 
 Naiintindihan namin na ang ranking mechanism ay palaging mananatiling isang red herring. Ito ang dahilan kung bakit inaasahan naming umaasa sa mga on-chain governance tools na maaaring tukuyin ang pinaka-angkop na mekanismo sa tamang oras. Ipagpalagay namin na ang network ay maaaring lumipat mula sa isang algorithm patungo sa isa pa, hindi lamang batay sa subjective na opinyon, ngunit sa halip na economical a/ b testing sa pamamagitan ng 'hard spooning' ng domain-specific [relevance machines](#relevance-machine).
@@ -195,7 +195,7 @@ Ranks are computed based on the fact that something was searched, thus linked, a
 Ang isang mahusay na pagkakatulad ay siniyasat sa quantum mechanics, kung saan ang pagmamasid mismo ay nakakaapekto sa pag-uugali. Ito ang dahilan kung bakit wala kaming kinakailangan para sa isang bagay tulad ng negatibong pagboto. Sa pamamagitan nito, tinanggal namin ang subjectivity sa labas ng protocol at maaari naming tukuyin ang proof of relevance. 
 
 <p align="center">
-  <img src="images/graph-tree.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/graph-tree.png" />
 </p>
 
 Ang bawat bagong CID ay tumatanggap ng isang numero ng pagkakasunud-sunod. Ang pagsunud-sunod ay nagsisimula sa zero. Pagkatapos ay nadagdagan ng isa para sa bawat bagong CID. Samakatuwid, maaari kaming mag-imbak ng ranggo sa isang one-dimensional na array, kung saan ang palatandaan ay ang mga numero ng pagkakasunud-sunod ng CID. Ang mga kalkulasyon ng Merkle tree ay batay sa pamantayang [RFC-6962 standard](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). Gamit ang Merkle trees, maaari nating epektibong patunayan ang ranggo para sa anumang naibigay na content address. Habang ang kaugnayan ay napapailalim pa rin sa likas na katangian, mayroon kaming isang kolektibong patunay na ang isang bagay ay nauugnay sa isang tiyak na pamayanan sa ano mang oras.
@@ -219,7 +219,7 @@ Ipinapahiwatig namin ang isang partikular na pag-aari ng [go-cyber](https://gith
 Kailangan namin ng isang arkitektura na magpapahintulot sa amin na masukat ang ideya sa kahalagahan ng kagustuhan ng [Google](https://google.com). Ipagpalagay natin, na ang node implementation, na batay sa [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk) ay maaaring magproseso ng 10k transactions bawat segundo. Ibig sabihin nito, na araw-araw, hindi bababa sa 8.64 milyong mga masters ay maaaring magsumite ng 100 [cyberlinks](#cyberlinks) bawat isa, at magkakasabay ang mga resulta ng paghahanap. Ito ay sapat na upang mapatunayan ang lahat ng mga assumptions ay mabangis, ngunit, hindi sapat upang sabihin na gagana ito sa kasalukuyang sukat ng Internet. Dahil sa kasalukuyang estado ng pananaliksik ng sining na ginawa ng aming koponan, ligtas naming maipahayag na walang consensus technology na umiiral, na magpapahintulot sa pagsukat ng isang partikular na blockchain sa laki na kailangan namin. Samakatuwid, ipinakilala namin ang konsepto ng domain-specific [knowledge graphs](#knowledge-graph). 
 
 <p align="center">
-  <img src="images/network.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/network.png" />
 </p>
 
 Ang isa ay maaaring maglunsad ng sariling domain-specific search engine sa pamamagitan ng forking [go-cyber](https://github.com/cybercongress/go-cyber), na nakatuon sa \textit {common public knowledge}. O kaya, simpleng ituro ang go-cyber bilang isang module sa isang umiiral na chain, e.i. Cosmos Hub. Ang protocol ng komunikasyon ng inter-blockchain ay nagpapakilala ng mga kasabay na mekanismo ng estado ng pag-sync sa pagitan ng [relevance machines](#relevance-machine). Samakatuwid, sa iminungkahing arkitektura ng paghahanap, ang domain-specific relevance machine ay maaaring malaman mula sa karaniwang kaalaman. Tulad ng common knowledge ay maaaring matuto mula sa mga domain-specific [relevance machines](#relevance-machine).
@@ -229,7 +229,7 @@ Ang isa ay maaaring maglunsad ng sariling domain-specific search engine sa pamam
 Nais naming isipin kung paano ang iminumungkahing network na gumagana sa isang web3 browser. Sa aming pagkabigo ay [hindi kami makahanap](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md) ng isang web3 browser na maaaring ipakita ang kahusayan ng iminungkahing diskarte sa aksyon. Ito ang dahilan kung bakit nagpasya kaming bumuo ng isang web3 browser mula sa simula. Ang [Cyb](https://cyb.ai) ay ang ating friendly robot na mayroong isang sample na. [.cyber](https://cyber.page) application para sa pakikipag-ugnay sa [cyber](#cyber-protocol) protocol.
 
 <p align="center">
-  <img src="images/cyb.jpg" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/cyb.jpg" />
 </p>
 
 Bilang isang mabuting halimbawa ng paghahatid, lumikha kami ng [cyber.page](https://cyber.page/). Pinapayagan nito ang mga bayani, masters at evangelists na makipag-ugnay sa protocol sa pamamagitan ng isang web2 gateway. Lumikha ng mga cyberlink, nilalaman ng pin nang direkta sa IPFS, i-search ang Great Web, lumahok sa pamamahala ng cyber at iba pa. Maaari rin itong kumilos bilang isang in-depth explorer, isang wallet at maaaring ibulsa ang hardware wallets, tulad ng Ledger devices. 
@@ -237,7 +237,7 @@ Bilang isang mabuting halimbawa ng paghahatid, lumikha kami ng [cyber.page](http
 Ang mga kasalukuyang search snippet ay hindi kagandahan. Ngunit, ipinapalagay namin na madali silang mapalawak gamit ang [IPLD](https://github.com/ipld/specs) para sa iba't ibang uri ng nilalaman. Kalaunan, maaari silang maging mas kaakit-akit kaysa sa mga [Google](https://google.com).
 
 <p align="center">
-  <img src="images/architecture.png" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/architecture.png" />
 </p>
 
 Sa panahon ng pagpapatupad ng iminungkahing arkitektura, natanto namin ng hindi bababa sa 3 pangunahing mga benepisyo na maaaring hindi maihatid ng [Google](https://google.com) gamit ang conventional approach:
@@ -283,7 +283,7 @@ Ang genesis block ng cyber protocol ay naglalaman ng 1 000 000 000 000 000 CYB (
 - 100 000 000 000 000 CYB token bilang isang regalo para sa mga pamayanan ng Ethereum, Cosmos at Urbit
 
 <p align="center">
-  <img src="images/CYB.svg" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/CYB.svg" />
 </p>
 
 Matapos ang Genesis, ang mga token ng CYB ay maaari lamang malikha ng mga bayani batay sa mga parameter ng staking at slashing. Ang pangunahing pinagkasunduan ay ang mga bagong nilikha na mga token ng CYB ay nasa pagtatapon ng mga stakeholder.
@@ -302,7 +302,7 @@ Bago ang Genesis cyberFoundation ay nai-minted ang 750 000 000 000 000 THC (pito
 - 150 000 000 000 000 THC tokens are allocated to the cyber\~Congress contract
 
 <p align="center">
-  <img src="images/THC.svg" />
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/THC.svg" />
 </p>
 
 Ang lahat ng mga desisyon ng cyber Foundation ay isasagawa batay sa mga resulta ng mga boto sa THC. Ang mga sumusunod na mga parameter ay ilalapat:
