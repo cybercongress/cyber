@@ -1,6 +1,7 @@
-# cyber: Computing the knowledge of the Great Web
+# cyber ☉ Computing the knowledge of the Great Web
 
 @xhipster & @litvintech as of Novemeber 2020
+
 73K
 
 ##  Abstract
@@ -33,13 +34,13 @@ In its core the protocol is very minimalistic and can be expressed with the foll
 5. Check the [bandwidth-algo](bandwidth limit)
 6. Check the validity of CIDs
 7. If the signatures, the bandwidth limit and CIDs are all valid, apply [cyberlinks](cyberlinks) and transactions
-8. Calculate the vaules of [cyber~Rank](cyber-rank) for every round for the CIDs on the [knowledge-graph](knowledge graph)
+8. Calculate the values of [cyber~Rank](cyber-rank) for every round for the CIDs on the [knowledge-graph](knowledge graph)
 
 The rest of this document discusses the rationale and the technical details of the proposed protocol.
 
 ## Knowledge graph
 
-We represent a knowledge graph as a weighted graph of directed links between content addresses. Aka, content identificators, CIDs, IPFS hashes, or simply - IPFS links. In this document, we will use the above terms as synonyms.
+We represent a knowledge graph as a weighted graph of directed links between content addresses. Aka, content identifiers, CIDs, IPFS hashes, or simply - IPFS links. In this document, we will use the above terms as synonyms.
 
 ![knowledge-graph](images/knowledge-graph.png)
 
@@ -95,7 +96,7 @@ links, then consensus on the execution rules by a specific program can be reache
 
 The [go-cyber](https://github.com/cybercongress/go-cyber) implementation of cyberlinks is available in the [.cyber](https://github.com/cybercongress/dot-cyber) app of our experimental web3 browser - [cyb](https://cyb.ai), or at [cyber.page](http://cyber.page).
 
-The cyberlinks submitted by masters are stored in a merkle tree according to the [RFC-6962 standard](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). This enables authentification for [proof-of-relevance](proof-of-relevance):
+The cyberlinks submitted by masters are stored in a merkle tree according to the [RFC-6962 standard](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). This enables authentication for [proof-of-relevance](proof-of-relevance):
 
 ![graph-tree](images/graph-tree.png)
 
@@ -121,7 +122,67 @@ Hence, we will never be able to achieve an ideal consensus computer. The CAP the
 
 Yet this theory can work as a performance indicator for a consensus computer. After 6 years of investing into consensus computers, we have come to realize that the [Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ) consensus has a good enough balance between the coolness required for our task and the readiness for its production. Therefore, we have decided to implement the [cyber](cyber) protocol using the Tendermint consensus, which has very close settings to the Cosmos Hub. The [go-cyber](https://github.com/cybercongress/go-cyber) implementation is a 64-bit Tendermint consensus computer of relevance for 64-byte string-space. This is by far not ideal, at least as 1/146, because we have 146 validators who verify the same computations producing the [knowledge-graph](knowledge graph).
 
-We must bind the computation, storage and the bandwidth supply of the consensus computer to a maximized demand for queries. Computation and storage, in case of a basic [relevance-machine](relevance machine) can be easily predicted based on bandwidth. But bandwidth requires a limiting mechanism.
+We must bind the computation, storage and the bandwidth supply of the consensus computer to a maximized demand for queries. 
+
+## Cybernomics
+
+Basic cybernomics is defined by three tokens which have unique utility justified by necessity to regulate particular network resource:
+
+- CYB is a security token. CYB gives ability to pay for gas, invest in heroes and earn CYB and mint V.
+- V (volt) is a token which gives potential. Potential is an ability to write cyberlinks in a knowledge graph. Investing V gives ability to mint A.
+- A (ampere) is a token which gives charge. Charge is an ability to affect rank. Investing A gives ability to mint CYB.
+
+V minting.
+
+Mint amount (V) = Investment amount (CYB) * Investment time (circles) * Mint rate (%) * Time premium (%)
+
+A minting.
+
+Mint amount (A) = Investment amount (V) * Investment time (circles) * Mint rate (%) * Time premium (%)
+
+Investment time. In the center of cybernomics is an old idea of time importance. The longer agent invest, the more tokens they get to influence the knowledge graph. We believe this simple mechanism will significantly improve the quality of the knowledge graph by maximizing agents' long term attention and thinking. So at any time for any invested 1M CYB an agent can get 1 V adjusted by mint rate for every invested circle. Period of investment after warm up is limited by 1B circles (~1000 years). The same works with V investment. So at any time for any invested 1M V agent can get 1 A adjusted by mint rate for every invested circle.
+
+Warm up. It would be unfair to give ability to mint so much V and A tokens without letting community (1) claim the gift and (2) comprehend the value first. So until the distribution of gift will not be finalized max period of investment will be limited:
+
+![warm-up]()
+
+- 0 year:    1M circles
+- 1 year:    3M circles
+- 2 year:    8M circles
+- 3 year:   21M circles
+- 4 year:   55M circles
+- 5 year:  114M circles
+- 6 year:  337M circles
+- 7 year: 1000M circles
+
+Mint rate. We have to add incentives for early participators and ensure that V and A tokens will gain in value relatively to CYB. The more V or A tokens will be minted the less mint rate. It starts from 1 and falls to 0.02 than amount of V and A supply will reach 1PV and 1PA accordingly. 0.02 mint rate is a long tail emission which ensures recirculation of value from passive to active agents.
+
+![mint-rate]()
+
+Time premium. Adding premium for long term investments we are significantly amplify long term behavior. The good question we have to ask is how much power should have an agent who invest on 1000 years and an agent who invest on 1 day? Our position is that a premium for long term behavior have to be tenfold.
+
+![time-premium]()
+
+Vesting. Minted A and V tokens imnidialty become the ownership of the investor. But making them immediately liquid could harm.
+
+
+## Rewards
+
+The bigger the knowledge graph will become the more value it brings, the more computing power will be needed to reverse computation and parasitize the knowledge graph. We argue that computing a solution to the task of artificial links for the sole purpose of rewards extraction is unprofitable, because cyberlinking have two more benefits.  
+
+Value of cyberlink = fame + reward + revenue
+
+Those who will optimize for each of the component simultaneously will always overcome those who optimize solely for the purpose of rewards. Attacker trying to game the reward system will need (1) invest significant amount of A for a long period of time, (2) invest into finding the best algorithmic solution to the question "Which cyberlink have to be submitted in order to gain max amount of karma?", (3) invest into computation to search for the solution and (4) to find solution within the cycle as a knowledge graph is a chaotic dynamic system. When they does they clearly deserves a reward.
+
+Doubling time. Start from 42M circles and aim to 1M circles. 
+
+Reward in CYB =  CYB supply * (A invested / A supply) * (Investment time / Doubling time) * Karma * Time premium 
+
+For every 1% of invested A for the doubling period 1% of CYB is minted weighted on karma.
+
+If everybody will invest
+Если все проинвестируют все амперы на период удвоения то они наминтят столько же сайбов что существует сейчас.
+
 
 ## Relevance machine
 
@@ -136,9 +197,9 @@ except for who, when and what was cyberlinked
 
 If we assume that a [consensus-computer](consensus computer) must have some information about the linked objects, then the complexity of such a model will grow unpredictably. Therefore the high requirements of the processing computer for memory and computation. Thanks to content addressing a relevance machine which follows the blackbox principle, does not need to store data. But, can still effectively operate on top of it. The deduction of meaning inside a [consensus-computer](consensus computer) is expensive. Hence, such a design can depend on assumption blindness. Instead of deducting the meaning inside of the [consensus-computer](consensus computer), we have designed a system in which meaning extraction is incentivized. This is achieved due to masters requiring [cyb](CYB) tokens to express their will, based on which, the relevance machine can compute rank.
 
-In the center of the spam protection system is an assumption that write operations can be executed only by those, who have a vested interest in the evolutionary success of the relevance machine. Every 1\% of effective stake within the [consensus-computer](consensus computer) gives the ability to use 1\% of the possible networks' bandwidth and its computing capabilities. A simple rule prevents abuse from the agents: a pair of content identificators may be cyberlinked by an address only once.
+In the center of the spam protection system is an assumption that write operations can be executed only by those, who have a vested interest in the evolutionary success of the relevance machine. Every 1\% of effective stake within the [consensus-computer](consensus computer) gives the ability to use 1\% of the possible networks' bandwidth and its computing capabilities. A simple rule prevents abuse from the agents: a pair of content identifiers may be cyberlinked by an address only once.
 
-```tex
+$$
 \begin(algorithm)
 \caption(Bandwidth)\label(bandwidth-algo)
 \SetKwInOut(Input](Input)
@@ -163,7 +224,7 @@ $B^(N)_(used) \leftarrow 0$\;
 $H_(app) \leftarrow T^(root)_(links) \oplus T^(root)_(ranks)$\;
 Commit $H_(app)$ to ABCI\;
 \end(algorithm)\
-```
+$$
 
 There are only two ways to change the effective stake (active stake + bonded stake) of an account: direct token transfers and bonding operations.
 
@@ -188,8 +249,7 @@ When rank was computed inside a [consensus-computer](consensus computer) one has
 Eventually, the [relevance-machine](relevance machine) needs to obtain (1) a deterministic algorithm, that will allow for the computation of the rank on a continuously appending network, which itself, can scale to the orders of magnitude of the likes of [Google](https://google.com). Additionally, a perfect algorithm (2) must have linear memory and computational complexity. Most importantly, it must have (3) the highest provable prediction capabilities for the existence of relevant [cyberlinks](cyberlinks).
 
 After [thorough research](https://ipfs.io/ipfs/QmTJPJ55ePgR2MS1HoAtyqS1mteVLXUjAS4H8W97EEopxC), we have found that it is impossible to obtain the silver bullet. Therefore, we have decided to find a more basic, bulletproof way, that can bootstrap the network: [the rank](http://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw) which Larry and Sergey used to bootstrap their previous network. The key problem with the original PageRank is that it wasn't resistant to sybil attacks. However, a token-weighted PageRank which is limited by a token-weighted bandwidth model does not inherit the key problem of the naive PageRank, because - it is resistant to sybil attacks. For the time being, we will call it cyber\~()Rank, until something more suitable will emerge. The following algorithm is applied to its implementation at Genesis:
-
-```tex
+```
 $$ CIDs \ V, cyberlinks \ E, Agents \ A $$
 $$agents(e): E \rightarrow 2^(A)$$
 $$stake(a): A \rightarrow (\rm I\!R)^+ $$
@@ -264,14 +324,21 @@ Using this type of proof any two [IBC compatible](https://ipfs.io/ipfs/QmSGbrGAP
 
 In the relevance for a common [go-cyber](https://github.ccom/cybercongress/go-cyber) implementation, the Merkle tree is computed every round and its root hash committed to ABCI.
 
-## Speed)\label(speed)
+## Speed and Time relativity
+
+The attentive reader will notice that economics is pegged to circles. Circle is a time span defined by a consensus for rank computation. At the start 1 circle is 5 blocks. Given that 1 block in Tendermint is about 5 seconds, that means that relative max investment period is around ~1000 years. Pegging cybernomics to circles is our intentional design choice. It incentivize the whole community to speed up the network, and not slow down it. The faster the network become - the more tokens everybody can get in 1 second. So let us imaging that we would be able to advance the network to 0.5 second block which is nearly the theoretical limits by speed of light the max investment time will be around ~100 years which is expected life time of the human.
+
+CYB minting
+
+Computation and storage, in case of a basic [relevance-machine](relevance machine) can be easily predicted based on bandwidth. But bandwidth requires a limiting mechanism.
 
 We require instant confirmation time to provide users with the feeling of a conventional web-application. This is a powerful architectural requirement that shapes the economical topology and the scalability of the [cyber](cyber) protocol. The proposed blockchain design is based on the [(Tendermint]https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ) consensus algorithm with 146 validators and has a quick, 5 second tx finality time. The average confirmation time is closer to 1 second and could make complex blockchain interactions almost invisible to agents.
 
-We denote one particular [go-cyber](https://github.com/cybercongress/go-cyber) property in the context of speed - rank computation. Being a part of the consensus, it occurs in parallel to transaction validation within the rounds. A round is a consensus variable defined by the stakeholders. At the inception, one round is set to 20 blocks. Practically, this indicates that every 100 seconds the network must agree on the current root hash of the [knowledge-graph](knowledge graph). This means that every [cyberlinks](cyberlink) submitted becomes a part of the [knowledge-graph](knowledge graph) almost instantly and acquires a rank within an average period of 50 seconds. In the early days of [https://google.com](Google) rank was recomputed roughly every week. We believe that masters of the Great Web will be pleased to observe that ranking changes in real-time, but, have decided to launch the network with an assumption that this window is enough. It is expected that with the development of the [cyber](cyber) protocol the velocity of each round will decrease. This is due to competition between heroes. We are aware of certain mechanisms to make this function order of magnitudes faster:
+We denote one particular [go-cyber](https://github.com/cybercongress/go-cyber) property in the context of speed - rank computation. Being a part of the consensus, it occurs in parallel to transaction validation within the rounds. A round is a consensus variable defined by the stakeholders. At the inception, one round is set to 5 blocks. Practically, this indicates that every 25 seconds the network must agree on the current root hash of the [knowledge-graph](knowledge graph). This means that every [cyberlinks](cyberlink) submitted becomes a part of the [knowledge-graph](knowledge graph) in a matter of minute. In the early days of [https://google.com](Google) rank was recomputed roughly every week. We believe that masters of the Great Web will be pleased to observe that ranking changes in real-time, but, have decided to launch the network with an assumption that this window is enough. It is expected that with the development of the [cyber](cyber) protocol the velocity of each round will decrease. This is due to competition between heroes. We are aware of certain mechanisms to make this function order of magnitudes faster:
 - optimization of the consensus parameters
 - better parallelization of rank computation
 - [better clock](https://ipfs.io/ipfs/QmbsKzizZVVVzPbZvg1qSsNMkwmA3MFufgXb3MFqbSnmPs) ahead of consensus
+
 
 ## Internet Knowledge Protocol
 
@@ -301,14 +368,6 @@ During the implementation of the proposed architecture, we have realized at leas
 
 ## Deployment
 
-Due to technical limitations, we have to bootstrap the ecosystem using 2 tokens: [thc](THC) and [cyb](CYB)
-
-- [cyb](CYB) is the native token of the sovereign [cyber](cyber) protocol powered by the Tendermint consensus algorithm. It has 3 primary uses: (1) staking for consensus, (2) bandwidth limiting for submitting [cyberlinks](cyberlinks), and (3) expression of the will of the masters for the computation of cyber\~()Rank.
-
-- [thc](THC) (pronounce as tech) is a creative cyber proto substance. [thc](THC) being an Ethereum ERC-20 compatible token that has utility value in the form of control over cyber\~()Foundation (the community governing DAO) and the ETH from the distribution game. [thc](THC) is emitted during the creation of cyber\~()Foundation as an Aragon organization. The creative powers of [thc](THC) come from the ability to receive 1 [cyb](CYB) token per each 1 [thc](THC) token when vested before the end of cyber\~()Auction.
-
-Both tokens remain functional and will track value independently of one another due to their very different utility by nature.
-
 Overall, the deployment process has the following structure:
 
 - cyber\~()Congress deploys Game of Links
@@ -318,6 +377,8 @@ Overall, the deployment process has the following structure:
 - The community participate in cyber\~()Auction after Genesis. Donors stake [thc](THC) tokens to get [cyb](CYB) tokens
  - cyber\~()Congress distributes [cyb](CYB) tokens continuously during cyber~Auction
  - cyber\~()Congress burns the remaining [cyb](CYB) and [thc](THC) tokens and reports on the end of the initial distribution process
+
+## cyber~Congress
 
 cyber~Congress lives in Ethereum as an [Aragon DAO](https://mainnet.aragon.org/#/cybercongress/0x4feb2bcc5907e7779130c093eef8fb44502c1330). It also operates a [2-of-3 multisig in Cyber network](https://cyber.page/network/cyber/contract/cyber1latzme6xf6s8tsrymuu6laf2ks2humqvdq39v8). cyber\~()Congress developed the [cyber](cyber) protocol. Within the context of cyber, the Congress has 2 roles:
 - To deploy and to execute the initial distribution program, which is impossible to automate. Because there is no trustless infrastructure for message swapping between ETH and ATOM, cyber\~()Congress introduces a single point of failure in the initial distribution process. We have decided to send [cyb](CYB) tokens to [thc](THC) stakers manually because we feel that now is the right time to launch the network we have created. We also believe that an ongoing auction is vital for the initial distribution process. If cyber\~()Congress fails to deliver its obligations in terms of distribution due to any possible reasons, we hope that the community will be able to fork out the network and to distribute [cyb](CYB) tokens as was promised. Hopefully, every operation is designed provably and transparently. All operations will be executed using a [special purpose 2-of-3 multisig account in Cyber network](https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3anklkj7pzgwjw47cp2u7j).
@@ -329,15 +390,13 @@ Proof-of-stake systems do not help with the initial distribution. We believe tha
 
 The genesis block of the cyber protocol contains 1 000 000 000 000 000 CYB (one petacyb or 1 PCYB) tokens broken down as follows:
 
-- 750 000 000 000 000 CYB tokens for those who stake [thc](THC) tokens until the end of cyber\~()Auction (participants of cyber\~()Congress, Game of Thrones in ETH and cyber\~()Auction)
-- 150 000 000 000 000 CYB tokens for the participants of Game of Links
-- 100 000 000 000 000 CYB tokens as a gift for Ethereum, Cosmos and Urbit communities
+- 700 000 000 000 000 CYB as a gift to different Ethereum communities
+- 200 000 000 000 000 CYB as pre-Genesis allocations of cyberCongress
+- 100 000 000 000 000 CYB in a network community pool
 
-![CYB](images/CYB.svg)
+![CYB]()
 
-After the Genesis, CYB tokens can only be created by heroes based on staking and slashing parameters. The basic consensus is that newly created CYB tokens are at the disposal of stakeholders.
-
-There is currently no such thing as a maximum amount of CYB tokens. This is due to the continuous inflation paid to the heroes of the network. CYB token is implemented using uint64, so the creation of additional CYB tokens makes it significantly more expensive to compute state changes and rank. We expect for a lifelong monetary strategy to be established by the governance system after the complete initial distribution of CYB tokens and the activation of the functionality of smart contracts. The starting parameters of the inflation will be defined via governance during the Game of Links.
+After the Genesis, CYB tokens can only be created by a consensus. There is currently no such thing as a maximum amount of CYB tokens. This is due to the continuous inflation paid to the heroes and masters of the network. CYB token is implemented using uint64, so the creation of additional CYB tokens makes it significantly more expensive to compute state changes and rank. We expect for a lifelong monetary strategy to be established by the governance system.
 
 ## Gift
 
@@ -345,8 +404,6 @@ We want to give the ability to evaluate the proposed approach to as many agents 
 - Every account within the Ethereum foundation network, with at least 1 outgoing transaction which is not a contract, and holds > 0.001 ETH at block 8080808
 - Every non-zero account within Cosmos hub-3 at block 2000000
 - Every account which holds galaxies (30\%), stars (30\%), or planets (40\%) at block 10677601 according to the number of objects.
-
-The key purpose of this gift is for every account in Genesis to be able to make at least 1 [cyberlinks](cyberlink) in the space of 24 hours as the network is unloaded. This is why we have decided to make the distribution curve a bit more even, and radically change it to a quadratic curve. Hence, we distribute [cyb](CYB) tokens proportionally to the square root of each account balance during the snapshots. Because a quadratic design is too easy to game with, we have calculated the amount of the distributed [cyb](CYB) tokens for the proposed blocks before this fact became known to the public. We do not apply the quadratic rule to Urbit aliens.
 
 ## Apps
 
