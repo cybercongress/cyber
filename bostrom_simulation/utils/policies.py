@@ -55,5 +55,14 @@ def p_mr_v(params, substep, state_history, previous_state):
 
 
 def p_cl(params, substep, state_history, previous_state):
-    x = 5 + (45 / (10 * params['unitsPerYear'])) * previous_state['timestep']
+    if previous_state['timestep'] % (params['unitsPerYear']/365) == 0:
+        # years = 10 * params['unitsPerYear']
+        # ratio = 45 / years
+        # util_rate = (5 + ratio) * previous_state['timestep']
+        # util_rate *= 0.01
+
+        # x = util_rate * previous_state['V']
+        x = previous_state['V'] * 0.05
+    else:
+        x = 0
     return {'delta_CL': math.floor(x)}
