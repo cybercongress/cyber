@@ -35,7 +35,7 @@ def p_vest(params, substep, state_history, previous_state):
 
 
 def p_unvest(params, substep, state_history, previous_state):
-    if previous_state['timestep'] <= params['maxVestingTime']:
+    if previous_state['timestep'] <= params['baseVestingTime']:
         uninvestmint = 0
     else:
         uninvestmint = previous_state['T']/((params['unitsPerYear']/12) * params['unvestingSpeed'])
@@ -50,7 +50,7 @@ def p_mr_a(params, substep, state_history, previous_state):
 
 def p_mr_v(params, substep, state_history, previous_state):
     x = previous_state['V'] // params['voltHalving']
-    d_mr =  params['MRv'] / (2**x)
+    d_mr = params['MRv'] / (2**x)
     return {'delta_MRv': d_mr}
 
 
@@ -72,11 +72,17 @@ def p_cl(params, substep, state_history, previous_state):
 
 def p_a(params, substep, state_history, previous_state):
     tokens = math.floor(previous_state['d_l'] / 2)
-    d_a = math.floor((tokens / params['initPrice']) * (previous_state['MRa'] / 100))
+    d_a = math.floor((tokens / params['initPrice']) * (previous_state['maxVestingTime']/params['baseVestingTime']) * (previous_state['MRa'] / 100))
     return {'delta_a': math.floor(d_a)}
 
 
 def p_v(params, substep, state_history, previous_state):
     tokens = math.floor(previous_state['d_l'] / 2)
-    d_v = math.floor((tokens / params['initPrice']) * (previous_state['MRv'] / 100))
+    d_v = math.floor((tokens / params['initPrice']) * (previous_state['maxVestingTime']/params['baseVestingTime']) * (previous_state['MRv'] / 100))
     return {'delta_v': math.floor(d_v)}
+
+
+def p_m_v_t(params, substep, state_history, previous_state):
+    x = previous_state['timestep'] // params['unitsPerYear']
+    d_m_v_t = params['baseVestingTime'] * (2**x)
+    return {'delta_m_v_t': d_m_v_t}

@@ -13,7 +13,9 @@ partial_state_update_blocks = [
             'delta_MRv': p_mr_v,
             'delta_CL': p_cl,
             'delta_a': p_a,
-            'delta_v': p_v
+            'delta_v': p_v,
+            'delta_m_v_t': p_m_v_t
+
         },
         'variables': {
             'I_r': s_I_r,
@@ -26,7 +28,8 @@ partial_state_update_blocks = [
             'V': s_v,
             'MRa': s_mr_a,
             'MRv': s_mr_v,
-            'CL': s_cl
+            'CL': s_cl,
+            'maxVestingTime': s_m_v_t
         }
     }
 ]

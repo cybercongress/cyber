@@ -61,3 +61,7 @@ def s_mr_v(params, substep, state_history, previous_state, policy_input):
 def s_cl(params, substep, state_history, previous_state, policy_input):
     cl = previous_state['CL'] + policy_input['delta_CL']
     return 'CL', cl
+
+def s_m_v_t(params, substep, state_history, previous_state, policy_input):
+    m_v_t = policy_input['delta_m_v_t']
+    return 'maxVestingTime', m_v_t
