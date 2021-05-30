@@ -16,6 +16,8 @@ def linear_plot(df, _y):
         facet_col='simulation',
         template='seaborn'
     )
+    fig.update_layout(
+        margin=dict(l=20, r=20, t=20, b=20), xaxis=year)
     fig.show()
 
 
