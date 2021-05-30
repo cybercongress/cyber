@@ -16,6 +16,8 @@ def s_F(params, substep, state_history, previous_state, policy_input):
 
 def s_L(params, substep, state_history, previous_state, policy_input):
     L = previous_state['L'] + policy_input['delta_L'] - policy_input['delta_U']
+    if L < 0:
+        L = 0
     return 'L', L
 
 
@@ -33,12 +35,12 @@ def s_d_l(params, substep, state_history, previous_state, policy_input):
 
 
 def s_a(params, substep, state_history, previous_state, policy_input):
-    a = previous_state['A'] + ((policy_input['delta_L'] * (params['maxVestingTime']/params['cycle'])) / (2 * params['initPrice'])) * (previous_state['MRa']/100)
+    a = previous_state['A'] + policy_input['delta_a']
     return 'A', a
 
 
 def s_v(params, substep, state_history, previous_state, policy_input):
-    v = previous_state['V'] + ((policy_input['delta_L'] * (params['maxVestingTime']/params['cycle'])) / (2 * params['initPrice'])) * (previous_state['MRv']/100)
+    v = previous_state['V'] + policy_input['delta_v']
     return 'V', v
 
 
@@ -56,6 +58,6 @@ def s_mr_v(params, substep, state_history, previous_state, policy_input):
     return 'MRv', mr
 
 
-def s_cl (params, substep, state_history, previous_state, policy_input):
+def s_cl(params, substep, state_history, previous_state, policy_input):
     cl = previous_state['CL'] + policy_input['delta_CL']
     return 'CL', cl

@@ -11,7 +11,9 @@ partial_state_update_blocks = [
             'delta_U': p_unvest,
             'delta_MRa': p_mr_a,
             'delta_MRv': p_mr_v,
-            'delta_CL': p_cl
+            'delta_CL': p_cl,
+            'delta_a': p_a,
+            'delta_v': p_v
         },
         'variables': {
             'I_r': s_I_r,

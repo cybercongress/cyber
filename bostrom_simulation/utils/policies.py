@@ -60,9 +60,23 @@ def p_cl(params, substep, state_history, previous_state):
         # ratio = 45 / years
         # util_rate = (5 + ratio) * previous_state['timestep']
         # util_rate *= 0.01
-
+        #
         # x = util_rate * previous_state['V']
-        x = previous_state['V'] * 0.05
+        x = previous_state['V'] * params['cyberlinks_util']
+        if x > 7_000_000:
+            x = 7_000_000
     else:
         x = 0
     return {'delta_CL': math.floor(x)}
+
+
+def p_a(params, substep, state_history, previous_state):
+    tokens = math.floor(previous_state['d_l'] / 2)
+    d_a = math.floor((tokens / params['initPrice']) * (previous_state['MRa'] / 100))
+    return {'delta_a': math.floor(d_a)}
+
+
+def p_v(params, substep, state_history, previous_state):
+    tokens = math.floor(previous_state['d_l'] / 2)
+    d_v = math.floor((tokens / params['initPrice']) * (previous_state['MRv'] / 100))
+    return {'delta_v': math.floor(d_v)}
