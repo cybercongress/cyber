@@ -115,21 +115,31 @@ The [go-cyber](https://github.com/cybercongress/go-cyber) implementation is a 64
 
 Basic cybernomics is defined by three tokens which have unique utility justified by necessity to regulate particular network resource:
 
-- CYB is a security token. CYB gives ability to pay for gas, invest in heroes and earn CYB, and mint V. CYB regulates CPU ability of the computer and its consensus state.
-- V (volt) is a token which gives potential. Potential is an ability to write cyberlinks in a knowledge graph. Investing V gives ability to mint A. V token regulates ability to store cyberlinks in GPU memory.
-- A (ampere) is a token which gives charge. Charge is an ability to affect rank. Investing A gives ability to mint CYB. A token regulates ability to calculate updates on ranks using GPU cores.
+- CYB is a security token. CYB gives ability to pay for gas, invest in heroes and earn CYB. CYB regulates CPU ability of the computer and its consensus state.
+- sCYB or staked CYB. sCYB gives ability to mint resource tokens as like V (volt) and A (ampere).
+- V is a token which gives potential. Potential is an ability to write cyberlinks in a knowledge graph. Investing V gives ability to mint A. V token regulates ability to store cyberlinks in GPU memory.
+- A is a token which gives charge. Charge is an ability to affect rank. Investing A gives ability to mint CYB. A token regulates ability to calculate updates on ranks using GPU cores.
 
 V minting:
 
 ```
-Mint amount (V) = Investment amount (CYB) * Investment time * Mint rate (%) * Time premium (%)
+Mint amount (V) = Investment amount (sCYB) / Base token amount * Time premium
 ```
 
 A minting:
 
 ```
-Mint amount (A) = Investment amount (V) * Investment time * Mint rate (%) * Time premium (%)
+Mint amount (A) = Investment amount (sCYB) / Base token amount * Time premium
 ```
+
+where Base token amount is a consensus parameter. It is defined as a minimum amount of investment tokens that necessary for minting one resource token for Base vesting time**,
+Time premium is an additional multiplier for agents who vested longer than Base vesting time**
+
+```
+Time premium = Investment time / Base investment time
+```
+
+> Investment time should be <= Max investmint time. Max investmint time parameter is hardcoded currently, but will have developed as network function.
 
 Investment time. In the center of cybernomics is an old idea of time importance. The longer agent invest, the more tokens they get to influence the knowledge graph. We believe this simple mechanism will significantly improve the quality of the knowledge graph by maximizing agents' long term attention and thinking. So at any time for any invested 10M CYB an agent can get 1 V adjusted by mint rate for every invested second. Period of investment after warm up is limited by 30B seconds (~1000 years). The same works with V investment. So at any time for any invested 10M V agent can get 1 A adjusted by mint rate for every invested second.
 
