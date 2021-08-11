@@ -120,6 +120,23 @@ Basic cybernomics is defined by three tokens which have unique utility justified
 - V is a token which gives potential. Potential is an ability to write cyberlinks in a knowledge graph. Investing V gives ability to mint A. V token regulates ability to store cyberlinks in GPU memory.
 - A is a token which gives charge. Charge is an ability to affect rank. Investing A gives ability to mint CYB. A token regulates ability to calculate updates on ranks using GPU cores.
 
+Resource token minting:
+
+```python
+def mint_resource_token(
+                        hydrogen: int, 
+                        investmint_time: int, 
+                        base_vesting_resource: int = 10_000_000_000, 
+                        base_vesting_time: int = 86400,
+                        max_vesting_time: int = 604800):
+    # hydrogen is a fuel token for resources minting
+    # investment time is a time token locked
+    if investmint_time > max_vesting_time:
+        print('Impossible to lock tokens longer than max vesting time')
+        return 0
+    return int(hydrogen / base_vesting_resource) * (investmint_time / base_vesting_time)
+```
+
 V minting:
 
 ```
@@ -293,6 +310,47 @@ When rank was computed inside a [consensus-computer](consensus computer) one has
 Eventually, the [relevance-machine](relevance machine) needs to obtain (1) a deterministic algorithm, that will allow for the computation of the rank on a continuously appending network, which itself, can scale to the orders of magnitude of the likes of [Google](https://google.com). Additionally, a perfect algorithm (2) must have linear memory and computational complexity. Most importantly, it must have (3) the highest provable prediction capabilities for the existence of relevant [cyberlinks](cyberlinks).
 
 After [thorough research](https://ipfs.io/ipfs/QmTJPJ55ePgR2MS1HoAtyqS1mteVLXUjAS4H8W97EEopxC), we have found that it is impossible to obtain the silver bullet. Therefore, we have decided to find a more basic, bulletproof way, that can bootstrap the network: [the rank](http://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw) which Larry and Sergey used to bootstrap their previous network. The key problem with the original PageRank is that it wasn't resistant to sybil attacks. However, a token-weighted PageRank which is limited by a token-weighted bandwidth model does not inherit the key problem of the naive PageRank, because - it is resistant to sybil attacks. For the time being, we will call it cyber\~()Rank, until something more suitable will emerge. The following algorithm is applied to its implementation at Genesis:
+
+```python
+import functools
+import operator
+import collections
+
+def cyber_rank(cyberlinks: list, tolerance: float = 0.001, damping_factor: float = 0.8):
+    # the list of Graph particles
+    V = list(set([item for t in [list(x.keys())[0] for x in cyberlinks] for item in t]))
+    # the list of Graph particles witout income links
+    N_0 = [obj for obj in V if obj not in [list(cyberlink.keys())[0][1] for cyberlink in cyberlinks]]
+    # the default value of cyber~rank per particle
+    R_0 = (1 + (damping_factor * (len(N_0) / len(V)))) * ((1 - damping_factor) / len(V))
+    # the inirial value of tolerance
+    E = tolerance + 1
+    # the initial cyber~rank
+    R_V = [0] * len(V)
+    # merge cyberlinks weights by from-to values
+    cyberlinks_dict = dict(functools.reduce(operator.add, map(collections.Counter, cyberlinks)))
+    # loop the algorithm until it reached tolerance
+    while E > tolerance:
+        # temporal rank value for particle
+        R_TEMP = []
+        # for each particle in the list of Graph particles
+        for v in V:
+            s = 0
+            # get all income links
+            v_income = [income_cyberlink for income_cyberlink in [list(x.keys())[0] for x in cyberlinks] if income_cyberlink[1] == v]
+            # for each income link calculate weight ratio of a given particle
+            for u in v_income:
+                weight_uv = cyberlinks_dict[u]
+                cyberlinks_outcome = [outcome_cyberlink for outcome_cyberlink in [list(x.keys())[0] for x in cyberlinks] if outcome_cyberlink[0] == u[0]]
+                weight_u = sum([cyberlinks_dict[outcome_cyberlink] for outcome_cyberlink in cyberlinks_outcome])
+                R_v = R_V[V.index(v)]
+                s = s + (weight_uv * R_v) / weight_u
+            R_TEMP.append(damping_factor * s + R_0)
+        E = abs(max(R_V) - max(R_TEMP))
+        R_V = R_TEMP
+    return R_V
+```
+
 ```
 $$ CIDs \ V, cyberlinks \ E, Agents \ A $$
 $$agents(e): E \rightarrow 2^(A)$$
