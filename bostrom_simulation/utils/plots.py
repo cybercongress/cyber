@@ -1,6 +1,10 @@
 import plotly.express as px
 
 
+def df_preparator(df):
+    df = df.drop(df[df['timestep']%10 != 0].index)
+    return df
+
 
 year = dict(
         tick0 = 0,
