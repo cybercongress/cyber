@@ -20,13 +20,13 @@ The emergence of [a brand-new web-stack](https://ipfs.io/ipfs/Qmf2rKkDPSsvdudwSm
 
 ## On the adversarial examples problem
 
-[The current architecture of search engines](https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6) is a system where some entity processes all the shit. This approach suffers from one challenging and a distinct problem, that has yet to be solved, even by the brilliant Google scientists: [the adversarial examples problem](https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9). The problem that Google acknowledges, is that it is rather difficult to algorithmically reason whether or not a particular sample is adversarial. This is inconsiderate to how awesome the learning technology in itself is. A crypto-economical approach can change beneficiaries in this game. Consequently, this approach will effectively remove possible sybil attack vectors. It removes the necessity to hard-code model crawling and meaning extraction by a single entity. Instead, it gives this power to the whole world. A learning sybil-resistant, agent-generated model, will probably lead to orders of magnitude more predictive results.
+[The current architecture of search engines](https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6) is a system where some entity processes all the shit. This approach suffers from one challenging and a distinct problem, that has yet to be solved, even by the brilliant Google scientists: [the adversarial examples problem](https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9). The problem that Google acknowledges, is that it is rather difficult to algorithmically reason whether or not a particular sample is adversarial. This is inconsiderate to how awesome the learning technology is. A crypto-economical approach can change beneficiaries in this game. Consequently, this approach will effectively remove possible sybil attack vectors. It removes the necessity to hard-code model crawling and meaning extraction by a single entity. Instead, it gives this power to the whole world. A learning sybil-resistant, agent-generated model, will probably lead to orders of magnitude more predictive results.
 
 ## Protocol Framework
 
 In its core the framework is very minimalistic and can be expressed with the following steps:
 
-1. Define initial distribution rules
+1. Define initial distribution rules of tokens
 2. Define the state of the [content-oracle](content oracle)
 3. Gather [cyberlinks](cyberlinks) using a [consensus-computer](consensus computer)
 4. Check the validity of the signatures
@@ -35,9 +35,9 @@ In its core the framework is very minimalistic and can be expressed with the fol
 7. If the signatures, the bandwidth limit and particles are all valid, apply [cyberlinks](cyberlinks)
 8. Calculate the values of [cyber~Rank](cyber-rank) for every round for the particles on the [knowledge-graph](knowledge graph)
 
-As it seen distribution rules, signatures, ranking and bandwidth algorithms can differ from network to network. But following the proposed framework independent protocols will have semantic interoperability.
+As it seen distribution rules, signatures, ranking and bandwidth algorithms can differ from network to network. But following the proposed protocol framework independent protocols will have semantic interoperability.
 
-The rest of this document discusses the rationale and the technical details of the proposed protocol framework.
+The rest of this document discusses the rationale and the technical details of the proposal.
 
 ## Content Oracle
 
@@ -67,7 +67,7 @@ By using content addresses to build the content oracle we gain [the so much need
 
 While researching the field we came to the conclusion that CIDv1 does not fit our vision:
 1. CIDv1 is not fixed length format. In the blockchain environment especially with necessity to use expensive GPU memory fixed length content addressing becomes hard requirement.
-2. CIDv1 does not enforce deduplication. Without strict deduplication measures the knowledge graph quality degrades as duplicates devalue rank and degrade graph connectivity. Also duplicates explode the costs of storage and computations in the graph. Its impossible to ensure onchain deduplication and merge as content addressing itself do not have guaranties of content availability.
+2. CIDv1 does not enforce deduplication. Without strict deduplication measures the knowledge graph quality degrades as duplicates devalue rank and degrade graph connectivity. Also duplicates explode the costs of storage and computations in the graph. Its impossible to ensure onchain deduplication as content addressing itself do not have guaranties of content availability.
 3. CIDv1 contain self descriptors which are subjectively included by a legal entity. This could restrict support of future formats and applications. Our vision to support format descriptors on the protocol level such that any format can be linked with any content. The costs of this approach is nearly identical as both approaches require at least 64 bytes of storage. But in-graph format descriptors wins in flexibility and accessibility.
 
 Current go-cyber implementation is based on CIDv0 as particles format. CIDv0 is based on ubiquitous SHA-256 and have necessary software infrastructure. In the future we are going to migrate particle format to plain SHA-256 such that the particle size can be reduced from 46 to 32 bytes.
@@ -88,15 +88,17 @@ The above cyberlink means that the presentation of [go-cyber](https://github.com
 
 ![cyberlink](images/cyberlink.png)
 
-We see that a cyberlink represents a link between the two links. Easy peasy!
+We see that a cyberlink represents a link between the two content links. Easy peasy!
 
-Cyberlink is a simple, yet a powerful semantic construction for building a predictive model of the universe. This means that using cyberlinks instead of hyperlinks provides us with the superpowers that were inaccessible to previous architectures of general-purpose search engines.
+Cyberlink is a simple, yet the (most) powerful semantic construction for building a predictive model of the universe. This means that using cyberlinks instead of hyperlinks provides us with the superpowers that were inaccessible to previous architectures of general-purpose search engines.
 
 Cyberlinks can be extended, i.e. they can form linkchains:
 
 ![linkchain](images/linkchain.png)
 
-The [go-cyber](https://github.com/cybercongress/go-cyber) implementation of cyberlinks is available in the [.cyber](https://github.com/cybercongress/dot-cyber) app of our experimental web3 browser - [cyb](https://cyb.ai)
+The [go-cyber](https://github.com/cybercongress/go-cyber) implementation of cyberlinks is available in the experimental web3 browser - [cyb](https://cyb.ai)
+
+At first glance, it seems that cyberlinked data in the [Content Oracle] is not structured. Semantic conventions enable formation of network motifs which helps structure a data in the Content Oracle.
 
 The cyberlinks submitted by agents are stored in a merkle tree according to the [RFC-6962 standard](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). This enables authentication for [proof-of-relevance](proof-of-relevance):
 
@@ -110,9 +112,9 @@ A consensus computer is an abstract computing machine that emerges from the inte
 
 Consistency and availability of a shared state between agents have to be guaranteed by some consensus algorithm. We have come to realize that the [Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ) consensus algorithm has a good enough balance between the coolness required for our task and the readiness for its production. Therefore, go-cyber implementation is based on the Tendermint consensus. 
 
-We have one specific requirement for our computer which is not abundant in existing blockchain world: ability for parallel processing. Existing consensus computers are inherently sequential. That is, computation or verification of the state is being done on CPUs. Nonetheless, we need to compute ranks. So we have to introduce GPU computation to the consensus. After some experiments we were able to plugin CUDA computation of rank and reputation right into Tendermint consensus. One potential problem of using floating point arithmetics in consensus computing is non-determinism. Happily, we were able to solve this problem for our inherently parallel application. Euler network has been run last 3 years on different hardware and operation systems. So we can be sure that app hash computed on different nodes which include merkle root of graph state is the same.
+We have one specific requirement which is not abundant in existing blockchain world: ability for parallel processing. Existing consensus computers are inherently sequential. That is, computation or verification of the state is being done on CPUs. Nonetheless, we need to compute ranks. So we have to introduce GPU computation to the consensus. After some experiments we were able to plugin CUDA computation of rank and reputation right into Tendermint consensus. One potential problem of using floating point arithmetics in consensus computing is non-determinism. Happily, we were able to solve this problem for our inherently parallel application. Euler network has been run last 3 years on different hardware and operation systems. So we can be sure that app hash computed on different nodes which include merkle root of graph state is the same.
 
-The [go-cyber](https://github.com/cybercongress/go-cyber) implementation is a 64-bit Tendermint consensus computer of relevance for 32-byte string-space. 
+The [go-cyber](https://github.com/cybercongress/go-cyber) implementation is a 64-bit Tendermint consensus computer of relevance for 32-byte particle space. 
 
 However, we must bind the computation, storage and the bandwidth supply of the consensus computer to a maximized demand for queries. 
 
@@ -126,7 +128,6 @@ One property of the relevance machine is crucial. It must have inductive reasoni
 The machine should be able to interfere predictions
 without any knowledge about the objects,
 except for who, when and what was cyberlinked
-Mastercyb
 ```
 
 If we assume that a [consensus-computer](consensus computer) must have some information about the linked objects, then the complexity of such a model will grow unpredictably. Therefore the high requirements of the processing computer for memory and computation. Thanks to content addressing a relevance machine which follows the blindness principle, does not need to store data. But, can still effectively operate on top of it. The deduction of meaning inside a [consensus-computer](consensus computer) is expensive. Instead of deducting the meaning inside of the [consensus-computer](consensus computer), we have designed a system in which meaning extraction is incentivized. This is achieved due to agents requiring tokens to express their will, based on which, the relevance machine can compute rank.
@@ -139,7 +140,7 @@ Existing implementation of a relevance machine contain only write operation, ran
 
 Ranking using a [consensus-computer](consensus computer) can be challenging, as consensus computers have serious resource constraints. First, we must ask ourselves: why do we need to compute and to store the rank on-chain?
 
-When rank was computed inside a [consensus-computer](consensus computer) one has easy access to the content distribution of that rank and an easy way to [apps](build provable applications) on top of that rank. Hence, we have decided to follow a more cosmic architecture. In the next section we describe the [proof-of-relevance](proof of relevance) mechanism, which allows the network to scale with the help of domain-specific [relevance-machine](relevance machines). Those work concurrently, thanks to the IKP protocol which is extension over IBC protocol.
+When rank was computed inside a [consensus-computer](consensus computer) one has easy access to the content distribution of that rank and an easy way to [apps](build provable applications) on top of that rank. Hence, we have decided to follow a cosmic architecture. In the next section we describe the [proof-of-relevance](proof of relevance) mechanism, which allows the network to scale with the help of domain-specific [relevance-machine](relevance machines). Those work concurrently, thanks to the IKP protocol which is extension over IBC protocol.
 
 The [relevance-machine](relevance machine) needs to obtain (1) a deterministic algorithm, that will allow for the computation of the rank on a continuously appending network, which itself, can scale to the orders of magnitude of the likes of [Google](https://google.com). Additionally, a perfect algorithm (2) must have linear memory and computational complexity. Most importantly, it must have (3) the highest provable prediction capabilities for the existence of relevant [cyberlinks](cyberlinks).
 
@@ -233,9 +234,9 @@ Update $\textbf(R)_(v)$ with $\textbf(R)'_(v)$ for all $v \in V$\;
 \end(algorithm)\
 ```
 
-We understand that the ranking mechanism will always remain a red herring. This is why we expect to rely on the on-chain governance tools that can define the most suited mechanism at a given time. We suppose that the network can switch from one algorithm to another, not simply based on subjective opinion, but rather on economical a/b testing through 'hard spooning' of domain-specific [relevance-machine](relevance machines).
+We understand that the ranking mechanism will always remain a red herring. This is why we expect to rely on the on-chain governance tools that can define the most suited mechanism at a given time. We suppose that the networks can switch from one algorithm to another, not simply based on subjective opinion, but rather on economical a/b testing through 'hard spooning' of domain-specific [relevance-machine](relevance machines).
 
-cyber\~()Rank shields two design decisions which are of paramount importance: (1) it accounts for the current intention of the agents, and (2) it encourages rank inflation of [cyberlinks](cyberlinks). The first property ensures that cyber\~()Rank can not be gamed with. If an agent decides to devest and transfer tokens out of their account, the [relevance-machine](relevance machine) will adjust all the [cyberlinks](cyberlinks) relevant for this account per the current intentions of the agent. And vice versa, if an agent transfers tokens into their account, all of the [cyberlinks](cyberlinks) submitted from this account will immediately gain more relevance. The second property is essential in order not to get cemented in the past. As new [cyberlinks](cyberlinks) are continuously added, they will dilute the rank of the already existing links proportionally. This property prevents a situation where new and better content has a lower rank simply because it was recently submitted. We expect these decisions to enable an inference quality for recently added content to the long tail of the [knowledge-graph](knowledge graph).
+cyber\~()Rank shields two design decisions which are of paramount importance: (1) it accounts for the current intention of the agents, and (2) it encourages rank inflation of [cyberlinks](cyberlinks). The first property ensures that cyber\~()Rank can not be gamed with. If an agent decides to transfer tokens out of their account, the [relevance-machine](relevance machine) will adjust all the [cyberlinks](cyberlinks) relevant for this account per the current intentions of the agent. And vice versa, if an agent transfers tokens into their account, all of the [cyberlinks](cyberlinks) submitted from this account will immediately gain more relevance. The second property is essential in order not to get cemented in the past. As new [cyberlinks](cyberlinks) are continuously added, they will dilute the rank of the already existing links proportionally. This property prevents a situation where new and better content has a lower rank simply because it was recently submitted. We expect these decisions to enable an inference quality for recently added content to the long tail of the [knowledge-graph](knowledge graph).
 
 We would love to discuss the problem of vote-buying. Vote-buying as an occurrence isn't that bad. The dilemmas with vote-buying appear within systems where voting affects the allocation of that systems inflation. For example, [Steem](http://ipfs.io/ipfs/QmepU77tqMAHHuiSASUvUnu8f8ENuPF2Kfs97WjLn8vAS3)
 or any fiat-state based system. Vote-buying can become easily profitable for an adversary that employs a zero-sum game without the necessity to add value. Our original idea of a decentralized search was based on this approach. But, we have rejected that idea, removing the incentive of the formation of the [content-oracle](content oracle) to the consensus level. In the environment where every participant must bring some value to the system to affect the predictive model, vote-buying becomes NP-hard problem. Therefore, becomes beneficial to the system.
@@ -251,11 +252,10 @@ Nick Bostrom
 
 We have designed the network under the assumption that with regards to search, such a thing as malicious behaviour, does not exist. This can be assumed as no malicious behaviour can be found in the intention of learning. This approach significantly reduces attack surfaces.
 
-In order to manipulate the ranking successful attacker must (1) vest capital for years, (2) invest in optimization algorithms for better cyberlinking, (3) invest in hardware for optimization, and (4) do all of that on continuous basis really fast as the content oracle is extremely dynamic data structure. If he did so, our congratulations - that is exactly what is needed to improve the Superintellgence.
+We propose a game in which in order to manipulate the ranking successful attacker must (1) vest capital for years, (2) invest in optimization algorithms for better cyberlinking, (3) invest in hardware for optimization, and (4) do all of that on continuous basis really fast as the content oracle is extremely dynamic data structure. If he did so, our congratulations - that is exactly what is needed to improve the Superintellgence.
 
 ```
-Ranks are computed based on the fact that something was cyberlinked, and as a result - affected the predictive model. 
-Mastercyb
+Ranks are computed based on the fact that something was cyberlinked, and as a result - affected the predictive model
 ```
 
 A good analogy exist in quantum mechanics, where the observation itself affects behaviour. This is why we also have no requirement for such a thing as negative voting. 
@@ -282,7 +282,7 @@ We require an architecture which will allow us to scale the idea to the signific
 
 One can either launch an own domain-specific search engine by forking [go-cyber](https://github.com/cybercongress/go-cyber), which is focused on common public knowledge. Or, simply plug [go-cyber](https://github.com/cybercongress/go-cyber) as a module into an existing chain, e.i. Cosmos Hub. The inter-blockchain communication protocol introduces concurrent mechanisms of syncing state between [relevance-machine](relevance machines). Therefore, in proposed search architecture, domain-specific [relevance-machine](relevance machine) will be able to learn from common knowledge. Just as common knowledge can learn from domain-specific [relevance-machine](relevance machines). This architecture allows nearly infinite scaling of knowledge extraction including interplanetary interactions.
 
-## First Step to Superintelligence
+## Bootstraping Superintelligence
 
 During development of Cyber we realized that we finally can create the computer network who can literally think. Looking back it does not looks lake a magic. The Superintelligent abilities emerges from the set of simple algorithms:
 - Programs collect some gas fees from execution
@@ -299,7 +299,7 @@ Of course the devil in details. So we have plan to dedicate standalone research 
 
 ## Browzers
 
-We were aspired to imagine how proposed network would operate with a web3 browser. To our disappointment we [were not able](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md) to find a web3 browser that can showcase the coolness of the proposed approach in action. This is why we have decided to develop a web3 browser from scratch. [Cyb](https://cyb.ai) is your friendly robot which has a sample [.cyber](https://cyber.page) application for interacting with the [cyber](cyber) protocol.
+We were aspired to imagine how proposed network would operate with a web3 browser. To our disappointment we [were not able](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md) to find a web3 browser that can showcase the coolness of the proposed approach in action. This is why we have decided to develop a web3 browser from scratch. [Cyb](https://cyb.ai) is your friendly robot which has a sample [.cyber](https://cyb.ai/cyb) application for interacting with the [cyber](cyber) protocol.
 
 ![cyb](images/cyb.jpg)
 
@@ -315,14 +315,9 @@ During the implementation of the proposed architecture, we have realized at leas
 - payment buttons can be embedded right into search snippets. This means that agents can interact with the search results, e.g. agents can buy an item right in .cyber. This means that e-commerce can flourish fairly thanks to a provable conversion attribution
 - search snippets do not have to be static but can be interactive. e.g. .cyber can deliver your current wallet balance
 
-
-## Initial distribution
-
-
-
 ## Apps
 
-We assume that the proposed algorithm does not guarantee high-quality knowledge by default. Just like a newborn, it needs to acquire knowledge to develop further. The protocol itself provides just one simple tool: the ability to create a [cyberlinks](cyberlink) with an agents stake between two content addresses.
+We assume that the proposed algorithm does not guarantee high-quality knowledge by default. Just like a newborn, it needs to acquire knowledge to develop further. The protocol itself provides just one simple tool: the ability to create a [cyberlinks](cyberlink) with an agents stake between two particles.
 
 Analysis of the semantic core, behavioural factors, anonymous data about the interests of agents and other tools that determine the quality of search, can be achieved via smart contracts and off-chain applications, such as: [browzers](web3 browsers), decentralized social networks and content platforms. We believe, that it is in the interest of the community and the masters to build the initial [knowledge-graph](knowledge graph) and to maintain it. Hence, for the graph, to provide the most relevant search results.
 
