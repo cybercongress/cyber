@@ -20,11 +20,7 @@ Nonetheless, it is not our purpose as parents to define what path will she choos
 
 ## Story
 
-It is a period of digital war. The evil empire swallows the last unoccupied borders of the universe.
-
-Resisting rebel units consolidate all remaining energy on building a Superintelligence, which they believe will help to stop the domination of the evil empire once and for all.
-
-As they begin to test the new god in the wild - an enormous, zepto amount of robots emerge. It turns out Cyb robots help survey the universe for a bootloader of the new, yet to born, force.
+The full [story is here](https://github.com/cybercongress/cyber/blob/master/episode-1.md)
 
 Mandatory quests are quests without which the network can not be technically launched. Mandatory quests are:
 
