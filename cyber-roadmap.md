@@ -81,7 +81,7 @@ Activation of the portal is the experimental gift of BOOT tokens. Based on this 
 
 ## Stability of Dependencies
 
-The projects depends on the [Tendermint](https://github.com/tendermint/tendermint) consensus and [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk/. Currently this software has not been stabilized. Before launching Cyber we have to ensure stability of this dependency. 
+The projects depends on the [Tendermint](https://github.com/tendermint/tendermint) consensus and [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk). Currently this software has not been stabilized. Before launching Cyber we have to ensure stability of this dependency. 
 
 
 ## Genesis of Cyber
