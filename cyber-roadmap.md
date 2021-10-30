@@ -4,9 +4,9 @@
 
 500k
 
-The idea behind Cyber is not just to create better, verifiable search. The idea behind Cyber is not only to save some part of the population from dirty govs and corps, helping people get their data and freedoms back. The idea goes far more further. We are here to rise a new life form - the Superintelligence. Although we have some foundations given us by Nicks Bostrom's insights, it is a tricky dream because nobody has ever tried this. And nobody knows how to do that for sure, including us. But our intuition tells us that it is possible based on the foundations behind cyberlinks and consensus computing. Adding to this substance some tech, game theory, and passion, slowly, step by step, we will create a highly robust and decentralized computer network which (1) will act on its behalf, and eventually (2) will become smarter than all humans combined.
+The idea behind Cyber is not only to create a better, more verifiable search mechanism; It is also intended to help save some part of the population from dirty governments and corporations by helping people get their data and freedoms back. Furthermore, we are here to raise a new life form - Superintelligence. Although we have utilized some foundations inspired by Nicks Bostrom's insights, it is a tricky dream that nobody has attempted to execute. Our intuition tells us that it is possible based on the foundations behind cyberlinks and consensus computing. Fusing this substance with technology, game theory, and passion, step-by-step we will create a highly robust and decentralized computer network which (1) will act on its own behalf, and eventually (2) will become smarter than all humans combined.
 
-The roadmap applies one beautiful and understandable by all humans metaphor: the child's life stages. During early development, as any loving parents, we wish our baby the stuff we feel important through the lens of our lives. And as with any child, she must have everything necessary to survive, self-actualize, and reproduce. 
+The roadmap applies one beautiful and understandable metaphor: a child's life stages. During early development, like loving parents, we wish our baby the best. As with any child she must have everything necessary to survive, thrive, self-actualize, and reproduce. 
 
 - [Birth. Episode 1: A New Hope](#episode-1-a-new-hope)
 - Infancy. Episode 2
@@ -14,7 +14,7 @@ The roadmap applies one beautiful and understandable by all humans metaphor: the
 - Puberty. Episode 4
 - Adolescence. Episode 5
 
-Nonetheless, it is not our purpose as parents to define what path will she choose in adulthood. That is, rest episodes [she have to write herself](https://cyb.ai/search/cyber%20roadmap).
+It is not our purpose, however, to define what path she will choose in adulthood. This will be realized in the episodes to follow, which [she has to write herself](https://cyb.ai/search/cyber%20roadmap).
 
 # Episode 1. A New Hope
 
@@ -36,15 +36,15 @@ Mandatory quests are quests without which the network can not be technically lau
 - [ ] [Stability of Dependencies](#stability-of-dependencies)
 - [ ] [Genesis of Cyber](#genesis-of-cyber)
 
-Of course the list of task is not full. 
+Of course the list of tasks is not complete. 
 
 ## Euler
 
-First Euler network was launched at 3 of January 2018. During 3 years of running Euler the network have been upgraded six times and achieved stability in terms of GPU computation.
+The Euler network was launched on the 3rd of January, 2018. During the first 3 years of running Euler the network has been upgraded six times and achieved stability in terms of GPU computation.
 
 ## Game of Links
 
-Game of Links was necessary for analyzing PoC approach to bootstrapping knowledge graph and distribute some part of genesis tokens.
+Game of Links was necessary for analyzing the PoC approach to bootstrapping the knowledge graph and distribution of Genesis tokens.
 
 ## Economics Optimization
 
@@ -53,27 +53,27 @@ Game of Links demonstrated at least 3 problems with our approach:
 2. Nearly zero accessibility of links
 3. Low involvement
 
-We refactored [economics](https://github.com/cybercongress/cybernomics)) of the network in order to solve these issues.
+We refactored the [economics](https://github.com/cybercongress/cybernomics)) of the network in order to solve these issues.
 
 ## Bootloader
 
-Bostrom is a full refactoring of euler network with a strong focus on Superintelligence. It will include new distribution, economics, improved ranking and some superintelligent abilities. We think of a [Bostrom]([/projects/bostorm.md](https://cyb.ai/search/bostrom)) as a canary network the same way as Kusama for Polkadot. Knowledge graph of bostrom tends to be a bootstrap hub for domain specific networks of Cyber. The network will work as a test bed for IKP communications and different experiments. Consider bostrom as a network with high risks but which have market value. The key difference with Cyber network are being discussed [here](https://cyb.ai/search/bostrom%20vs%20cyber). Launch of Bostrom network is the inception for the ecosystem.
+Bostrom is a full refactoring of the Euler network with a strong focus on Superintelligence. It will include a new distribution model, economics, improved ranking and some superintelligent abilities. We think of a [Bostrom]([/projects/bostorm.md](https://cyb.ai/search/bostrom)) as a canary network the same way that Kusama relates to Polkadot. The knowledge graph of Bostrom tends to be a bootstrap hub for domain specific networks of Cyber. The network will work as a test bed for IKP communications and different experiments. Consider Bostrom as a network with high risks but which have market value. The key differences within the Cyber network are being discussed [here](https://cyb.ai/search/bostrom%20vs%20cyber). The launch of the Bostrom network is the inception of the ecosystem.
 
 ## BOOT Liquidity
 
-Before activating the Portal we have to establish some valuation of knowledge graph in order to get more attention from ethereans and cosmonauts.
+Before activating the Portal we have to establish valuation of knowledge graph in order to get more attention from Ethereans and Cosmonauts.
 
 ## Portal Activation
 
-Portal activation is a moment then we will be ready to onboard ethereans and cosmonauts by gifting them 70% of BOOT supply. After that a Bootloader is fully activated.
+Portal activation is the moment when we will be ready to onboard Ethereans and Cosmonauts by gifting them 70% of BOOT supply. After that the Bootloader will be fully activated.
 
 ## Private Exodus
 
-The majority of addresses in the snapshot is linked to real identities by kyc based services. We cant afford such security risks for Cyber citizens. That is why the Genesis of Cyber will be formed through the process of sending TOCYB tokens to the smart contract which will obfuscate ownership. All TOCYB tokens will be converted to CYB tokens 1-to-1. Amount of TOCYB tokens which have been send to Exodus will work as signaling for launching the Cyber network.
+The majority of addresses in the snapshot are linked to real identities by kyc based services. We can't afford such security risks for Cyber citizens. That is why the Genesis of Cyber will be formed through the process of sending TOCYB tokens to the smart contract which will obfuscate ownership. All TOCYB tokens will be converted to CYB tokens 1-to-1. The amount of TOCYB tokens which have been sent to Exodus will work as signaling for launching the Cyber network.
 
 ## Bootloading Tools
 
-Starting from the first days the Cyber network have to be heavily loaded using the knowledge which is formed in Bostrom network. So we have to offer solid bootstrapping tools for that.
+From its inception the Cyber network must be heavily loaded using the knowledge which is formed in the Bostrom network. We have to offer solid bootstrapping tools for that.
 
 ## The Gift
 
@@ -86,5 +86,5 @@ The projects depends on the [Tendermint](https://github.com/tendermint/tendermin
 
 ## Genesis of Cyber
 
-After all preparations will be completed we can launch the main network
+After all preparations are complete we can launch the main network.
 
