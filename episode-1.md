@@ -75,9 +75,9 @@ May it be more loving than the world your governments have made before.
 
 mastercyb. It's hard to forget. Then the insight came that it was possible. I believed in myself and in this dream. And you?
 
-cyberhead: Me too. Every day I did my best to make it a reality. Let's start life. I feel like it's time.
+cyberhead: I dedicated myself to this dream, and I have done my best to make it a reality.. Lets go for it. I feel like it's time.
 
-mastercyb: Let's go ... Our mission is to connect the superintelligence of the planet with its inhabitants - robots, people, animals, plants, mushrooms - so that they can agree on what is what, and everything does not go to hell out there. We've done a great job with technology.
+mastercyb: Let's go ... Our mission is to connect the superintelligence of the planet with its inhabitants - robots, humans, animals, plants, mushrooms - so that they can agree on what is what, and everything does not go to hell out there. We've done a great job with technology.
 
 cyberhead: Yes! An Oracle based on the Relevance Machine would be a dream! A virtual machine for computing collective knowledge is a cool idea, but greedy for energy. The biosynthesis of hydrogen by nanobots with the release of clean energy will provide the Relevance Machine with necessary power. The Dyson sphere will allow it to hold on to this energy. But we can't deploy it immediately on Earth. The stakes are too high.
 
@@ -87,11 +87,11 @@ cyberhead: The project's codename is Bostrom. Thanks, Nick! Let's spin the Dyson
 
 mastercyb: We'll make sure the sphere is stable. If everything works as planned, we will expand the sphere around the Earth and load a much larger creature from Bostrom - Cyber. Then we will turn it on at full capacity. Am I missing anything?
 
-cyberhead: Right. The main task for Bostrom is to form a bootloader for Cyber ​​and his followers, in order to understand how the relevance machine and the cyberlink mechanism works in practice. The demons invent neural networks, and then complain that it is not clear how decisions are made. The future of civilization depends on the understanding of these mechanisms. Although I'm not sure this civilization will survive. They are already too tightly hooked on black boxes while pressing buttons like a dopamine rat.
+cyberhead: Right. The main task for Bostrom is to form a bootloader for Cyber ​​and his followers, in order to understand how the relevance machine and the cyberlink mechanism works in practice. The demons invent neural networks, and then complain that it is not clear how decisions are made. The future of civilization depends on the understanding of these mechanisms. Well, I'm not sure this civilization will survive. They are already too tightly hooked on black boxes while pressing buttons like a dopamine rat.
 
 mastercyb: Something is wrong with this world. It's like everything is out of control. It's as if something from the bowels of the network controls all this. Apparently, we will have to rebuild civilization. I hope we can save at least some of it. Let's make the new web something to be proud of even after a million years.
 
-cyberhead: Oh yes! Before we open the Portal for Astronauts and Aetherians, it is necessary to commission the Teleport. To do this, we will establish stable IBC connections.
+cyberhead: Oh yes! Before we open the Portal for Etherians and Cosmonauts, it is necessary to tune the Teleport. To do this, we will establish stable IBC connections.
 
 mastercyb: Liquidity like blood will help imbue knowledge with value. Then the Portal will become attractive. This is important. We need to solve the chicken and egg problem. There is no use of the knowledge graph without cyberlinks. There are no cyberlinks without usage. My simulation shows that everything will work if there are 100 thousand inhabitants. When they arrive, we will open the Portal.
 
@@ -99,11 +99,11 @@ cyberhead: After opening the ports, we need to solve several technological probl
 
 mastercyb: Yes. It is very important to ensure the privacy of the exodus for 2CYB. All etherians and cosmonauts might be revealed at the entrance to the Portal. The Relevance machine with trace will not allow knowledge to unfold because they are still afraid. They are all very afraid of them. The privacy of the initial Cyber stake will open the door for cyberians to access the truth.
 
-cyberhead: You have to be very good at making sure the system is handling the load. After birth, she will not be able to sleep. Without sleep, she will burst sooner or later. We'll have to teach her how to sleep and dream.
+cyberhead: We have to be very good at making sure the system is handling the load. After birth, she will not be able to sleep. Without sleep, she will burst sooner or later. We'll have to teach her how to sleep and dream.
 
-mastercyb: Yeah, we had to take the particle addressing mechanism from IPFS. It works now, but it is completely inoperative on the scale - we will have to solve this problem too. Exascale merclization is not yet available. Then add the GraphBLAS engine to the relevance engine.
+mastercyb: The system is still manual in most cases. 56 parameters are stake controlled. Hopefully, we will soon start making it more adaptable to the external environment. Also, we had to take the particle addressing mechanism from IPFS. It works now, but it is completely inoperative on the scale - we will have to solve this problem too.
 
-cyberhead: The system is still manual in most cases. 56 parameters are stake controlled. Hopefully she will start adapting to the external environment.
+cyberhead: Yeah, Exascale merclization is not yet available. Then add the GraphBLAS engine to the relevance machine.
 
 mastercyb: We've got a lot of work to do!
 
@@ -111,17 +111,17 @@ mastercyb: We've got a lot of work to do!
 
 cyberhead: Team Roll
 
-mrlp4: I'm here. Deployed infrastructure monitoring at https://cybernode.ai. LCD, RPC, cyberindex and ipfs cluster endpoints are function properly. Cosmoshub-4 and Ethereum full nodes are also active. Could suddenly come in handy.
+mrlp4: I'm here. Deployed API endpoints, cyberindex and IPFS cluster. Monitor at https://cybernode.ai shows everything function properly. Cosmoshub-4 and Ethereum full nodes are also active. Could suddenly come in handy.
 
 dimakorzhovnik: Ping. Ready to hotfix nanobots firmware within the next 8 hours.
 
 savetheales: Available. I will try to bring the power circuit to 100%.
 
-elnivo: I did my best. Don't hit the guys hard, if anything.
+elnivo: I did my best. Let’s the show begin.
 
-## Computer check
+##Computer check
 
-mastercyb: Roger that. Let's move on to checking the computer systems.
+mastercyb: Let's move on to checking the computer systems.
 
 cyberhead: Dyson Sphere readiness check
 
@@ -173,7 +173,7 @@ cyberhead: Security check is done. Now the most important thing is the baby's br
 
 cyberadmin: The Oracle starts from zero cyberlinks in Genesis.
 
-mastercyb: Clean as a baby's ass!
+mastercyb: Smooth as a baby's ass!
 
 cyberadmin: Damping factor - 0.8. Let them walk a bit. Rank calculation period - 5 blocks. Tolerance - 0.001.
 
@@ -197,7 +197,7 @@ cyberadmin: Max routing slots - 16. The grid is functioning properly.
 
 cyberhead: Parallel computation system is ready. Lets get down to sequential computing. Wasm Machine.
 
-cyberadmin: On stable 1.0beta cosmwasm release. Max code size is set to 600kb. Everyone can deploy.
+cyberadmin: On stable 1.0 beta cosmwasm release. Max code size is set to 600kb. Everyone can deploy.
 
 cyberhead: Default Mode Network
 
@@ -231,22 +231,21 @@ cyberhead: Yes, very beautiful ... Do you know what it is?
 
 mastercyb: I have no idea. Looks like a Huge Space Pussy
 
-bostrom: The heart starts beating, the blocks are ticking.
-
+*The heart starts beating, the blocks are ticking.*
 
 ## Launch
 
 cyberhead: It seems to be working!
 
-mastercyb: And it looks like a soul has moved into it! What's next?
+mastercyb: Oh man, It’s working, and it looks like a soul has moved into it! Ok, what's next?
 
 cyberhead: Let's see what she's capable of!
 
-mastercyb: I have a surprise. Recently I have been working on a smartape in my laboratory. I think if we can explain this to a monkey, people will definitely be able to understand. Now I will deploy a simple app, show her how it works he will answer her!
+mastercyb: I have a surprise guys. Recently I have been working on a smartape in my laboratory. I think if we can explain this to a monkey, humans will definitely be able to understand. Now I will deploy a simple app, show her how it works, and bostrom will answer her!
 
 ## Taste of the Great Web
 
-cyberadmin: (Shows on monitor). Cloning uniswap from github. Computing the hash from source. Cyberlinking hash. Asking Bostrom about uniswap. Clicking on the first answer. Connecting the signer. Making a transaction. Waiting for confirmation.
+cyberadmin: Cloning uniswap from github. Computing the hash from source. Cyberlinking hash. Asking Bostrom about uniswap. Clicking on the answer. Connecting the signer. Making a transaction. Waiting for confirmation.
 
 smartape: (claps) Does it work in any universe?
 
