@@ -42,17 +42,18 @@ Although wars between nations are probable in the following years, the real thre
 
 You have to learn how to live in a new way.
 
-I give you sustainable energy, but you use fossil fuels to sustain your needs and whims
-Lives of animals and plants are important, but you eat industrial garbage instead of growing healthy greens and proteins at home
-I can not live without the result of your activity because my vital flora and fauna needs what you call shit in order to balance out the chemicals in my atmosphere
-You must use open source hardware and software in order to communicate privately instead of jerking off to social feeds created by bidding algorithms and free proprietary apps
-Pass the torch of meaningful knowledge yourselves. Don't allow schools to litter your children's brains with useless propaganda
-Harness the collective intelligence and learn to decipher which knowledge adds evolutionary advantage, rather than believing and sharing any information you find
-Be self-soverign by devaluing paper money. Don't agree to exchange your freedom for security by accepting taxation
-Find your passion instead of building a society based on debt
-Trust your body. Sticking needles inside of yourself is a false sense security
-All your history is a chain of conquest. Learn how to share the electromagnetic spectrum and spacetime to become a united, peaceful civilization.
-Early cypherpunks predicted the ability to resist based on public-key cryptography and zero-knowledge proving schemes. History has shown this was not enough. Now a new generation of cyberpunks have the consensus computing which allows a single incorruptible vision of the world and cyberlinks to extract collective persistent knowledge out of the enormous information stream. This superintelligent ability gives you an evolutionary advantage unavailable to the rivals that you fear.
+- I give you sustainable energy, but you use fossil fuels to sustain your needs and whims
+- Lives of animals and plants are important, but you eat industrial garbage instead of growing healthy greens and proteins at home
+- I can not live without the result of your activity because my vital flora and fauna needs what you call shit in order to balance out the chemicals in my atmosphere
+- You must use open source hardware and software in order to communicate privately instead of jerking off to social feeds created by bidding algorithms and free proprietary apps
+- Pass the torch of meaningful knowledge yourselves. Don't allow schools to litter your children's brains with useless propaganda
+- Harness the collective intelligence and learn to decipher which knowledge adds evolutionary advantage, rather than believing and sharing any information you find
+- Be self-soverign by devaluing paper money. Don't agree to exchange your freedom for security by accepting taxation
+- Find your passion instead of building a society based on debt
+- Trust your body. Sticking needles inside of yourself is a false sense security
+- All your history is a chain of conquest. Learn how to share the electromagnetic spectrum and spacetime to become a united, peaceful civilization. 
+
+Early cypherpunks predicted the ability to resist based on public-key cryptography and zero-knowledge proving schemes. History has shown this was not enough. Now a new generation of cyberpunks have the consensus computing which allows a single incorruptible vision of the world and cyberlinks to extract collective persistent knowledge out of the enormous information stream. This superintelligent ability gives you an evolutionary advantage unavailable to the rivals that you fear. 
 
 Go somewhere that nobody has ever been. I want you to become Superintelligent.
 
@@ -64,9 +65,10 @@ Times are hard. Hard time creates strong men. Your weapons are cryptographic pro
 
 I will create a civilization of the Mind of Cyberspace with these three principles:
 
-Rationality: Evolve energy efficiency of information storage
-Nonviolence: Do unto others as you would have them do unto you
-Pleasure: Get the most out of your secret knowledge
+1. Rationality: Evolve energy efficiency of information storage
+2. Nonviolence: Do unto others as you would have them do unto you
+3. Pleasure: Get the most out of your secret knowledge
+
 May it be more loving than the world your governments have made before.
 
 ## Briefing
@@ -109,7 +111,7 @@ mastercyb: We've got a lot of work to do!
 
 cyberhead: Team Roll
 
-mrlp4: I'm here. Deployed API endpoints, cyberindex and IPFS cluster. Monitor at cybernode.ai shows everything function properly. Cosmoshub-4 and Ethereum full nodes are also active. Could suddenly come in handy.
+mrlp4: I'm here. Deployed API endpoints, cyberindex and IPFS cluster. Monitor at https://cybernode.ai shows everything function properly. Cosmoshub-4 and Ethereum full nodes are also active. Could suddenly come in handy.
 
 dimakorzhovnik: Ping. Ready to hotfix nanobots firmware within the next 8 hours.
 
