@@ -1,6 +1,6 @@
 # Computing the knowledge of the Great Web
 
-@xhipster & @litvintech
+@mastercyb & @cyberhead
 
 3k
 
