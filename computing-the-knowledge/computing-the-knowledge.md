@@ -150,7 +150,6 @@ import operator
 import collections
 
 def cyber_rank(cyberlinks: list, tolerance: float = 0.001, damping_factor: float = 0.8):
-    def cyber_rank(cyberlinks: list, tolerance: float = 0.001, damping_factor: float = 0.8):
     cyberlinks_dict = dict(functools.reduce(operator.add, map(collections.Counter, cyberlinks)))
     objects = list(set([item for t in [list(x.keys())[0] for x in cyberlinks] for item in t]))
     rank = [0] * len(objects)
