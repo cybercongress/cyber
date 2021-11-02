@@ -25,6 +25,7 @@ The part of [Episode-1](/story/episode-1.md) is also ready
 - [Entropy](/entropy/entropy.ipnb)
 - [Karma](/karma/karma.ipnb)
 - [Investmint](/investmint/investmint.ipnb)
+- [Default Mode Network](/dmn/dmn.ipnb)
 
 
 ## Cybernomics: Solving parameters for Bootloader
