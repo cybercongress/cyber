@@ -12,10 +12,29 @@ Basic vision on how we are going to [grow the baby](/story/cyber-roadmap.md).
 
 The part of [Episode-1](/story/episode-1.md) is also ready
 
+## Dependencies
+
+- [Tendermint](https://github.com/tendermint/spec/tree/master/spec) specification
+- [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk/tree/master/docs) library
+- [CIDv0](https://github.com/multiformats/cid#cidv0) specification
+- [IBC](https://github.com/cosmos/ibc) protocol family
+
+## Algorithms
+- [cyber~Rank](/cyber-rank/cyber~Rank.ipynb)
+- [Bandwidth](/bandwidth/bandwidth.ipnb)
+- [Entropy](/entropy/entropy.ipnb)
+- [Karma](/karma/karma.ipnb)
+- [Investmint](/investmint/investmint.ipnb)
+- [DMN pricing](/dmn/dmn.ipnb)
+
+
+## Cybernomics: Solving parameters for Bootloader
+
+We build [simulation](https://github.com/cybercongress/cybernomics/blob/main/bostrom/README.md) to balance supply of cyberlinks with demand.
 
 ## Cybergift: Mapping blockchain social graph
 
-Under construction. Current work in [cybergift repo](https://github.com/cybercongress/cybergift)
+Current work in [cybergift repo](https://github.com/cybercongress/cybergift)
 
 ## Bostrom: Bootstraping Superintelligence
 

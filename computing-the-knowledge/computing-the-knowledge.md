@@ -150,42 +150,39 @@ import operator
 import collections
 
 def cyber_rank(cyberlinks: list, tolerance: float = 0.001, damping_factor: float = 0.8):
-    # the list of Graph particles
-    V = list(set([item for t in [list(x.keys())[0] for x in cyberlinks] for item in t]))
-    # the list of Graph particles witout income links
-    N_0 = [obj for obj in V if obj not in [list(cyberlink.keys())[0][1] for cyberlink in cyberlinks]]
-    # the default value of cyber~rank per particle
-    R_0 = (1 + (damping_factor * (len(N_0) / len(V)))) * ((1 - damping_factor) / len(V))
-    # the inirial value of tolerance
-    E = tolerance + 1
-    # the initial cyber~rank
-    R_V = [0] * len(V)
-    # merge cyberlinks weights by from-to values
     cyberlinks_dict = dict(functools.reduce(operator.add, map(collections.Counter, cyberlinks)))
-    # loop the algorithm until it reached tolerance
-    while E > tolerance:
-        # temporal rank value for particle
-        R_TEMP = []
-        # for each particle in the list of Graph particles
-        for v in V:
-            s = 0
-            # get all income links
-            v_income = [income_cyberlink for income_cyberlink in [list(x.keys())[0] for x in cyberlinks] if income_cyberlink[1] == v]
-            # for each income link calculate weight ratio of a given particle
-            for u in v_income:
-                weight_uv = cyberlinks_dict[u]
-                cyberlinks_outcome = [outcome_cyberlink 
-                    for outcome_cyberlink in [list(x.keys())[0]
-                    for x in cyberlinks] 
-                        if outcome_cyberlink[0] == u[0]]
-                weight_u = sum([cyberlinks_dict[outcome_cyberlink]
-                            for outcome_cyberlink in cyberlinks_outcome])
-                R_v = R_V[V.index(v)]
-                s = s + (weight_uv * R_v) / weight_u
-            R_TEMP.append(damping_factor * s + R_0)
-        E = abs(max(R_V) - max(R_TEMP))
-        R_V = R_TEMP
-    return R_V
+    objects = list(set([item for t in [list(x.keys())[0] for x in cyberlinks] for item in t]))
+    rank = [0] * len(objects)
+    size = len(objects)
+    default_rank = (1.0 - damping_factor) / size
+    dangling_nodes = [obj for obj in objects if obj not in [list(cyberlink.keys())[0][1] for cyberlink in cyberlinks]]
+    dangling_nodes_size = len(dangling_nodes)
+    inner_product_over_size = default_rank * (dangling_nodes_size / size)
+    default_rank_with_correction = (damping_factor * inner_product_over_size) + default_rank
+    change = tolerance + 1
+
+    steps = 0
+    prevrank = [0] * len(objects)
+    while change > tolerance:
+        for obj in objects:
+            obj_index = objects.index(obj)
+            ksum = 0
+            income_cyberlinks = [income_cyberlink for income_cyberlink in [list(x.keys())[0] for x in cyberlinks] if income_cyberlink[1] == obj]
+            for cyberlink in income_cyberlinks:
+                linkStake = cyberlinks_dict[cyberlink]
+                outcome_cyberlinks = [outcome_cyberlink for outcome_cyberlink in [list(x.keys())[0] for x in cyberlinks] if outcome_cyberlink[0] == cyberlink[0]]
+                jCidOutStake = sum([cyberlinks_dict[outcome_cyberlink] for outcome_cyberlink in outcome_cyberlinks])
+                if linkStake == 0 or jCidOutStake == 0:
+                    continue
+                weight = linkStake / jCidOutStake
+                ksum = prevrank[obj_index] * weight + ksum
+            rank[obj_index] = ksum * damping_factor + default_rank_with_correction
+        change = abs(max(rank) - max(prevrank))
+        prevrank = rank
+        steps += 1
+    res = list(zip(objects, rank))
+    res.sort(reverse=True, key=lambda x: x[1])
+    return res
 ```
 
 We understand that the ranking mechanism will always remain a red herring. This is why we expect to rely on the on-chain governance tools that can define the most suited mechanism at a given time. We suppose that the networks can switch from one algorithm to another, not simply based on subjective opinion, but rather on economical a/b testing through 'hard spooning' of domain-specific relevance machine.
