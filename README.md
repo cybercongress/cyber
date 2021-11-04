@@ -4,7 +4,7 @@ The repo is a collection of mission critical information on the Cyber project. T
 
 ## Computing the knowledge of the Great Web
 
-Is a  [whitepaper](/computing-the-knowledge/computing-the-knowledge.md)  describing a protocol framework. Research focusing on establishing the most important concepts and its rationale.
+Is a [whitepaper](/computing-the-knowledge/computing-the-knowledge.md)  describing a protocol framework. Research focusing on establishing the most important concepts and its rationale.
 
 ## Story
 

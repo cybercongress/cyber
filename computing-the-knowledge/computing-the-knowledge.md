@@ -70,7 +70,7 @@ While researching the field we came to the conclusion that CIDv1 does not fit ou
 2. CIDv1 does not enforce deduplication. Without strict deduplication measures the knowledge graph quality degrades as duplicates devalue rank and degrade graph connectivity. Also duplicates explode the costs of storage and computations in the graph. Its impossible to ensure onchain deduplication as content addressing itself do not have guaranties of content availability.
 3. CIDv1 contain self descriptors which are subjectively included by a legal entity. This could restrict support of future formats and applications. Our vision to support format descriptors on the protocol level such that any format can be linked with any content. The costs of this approach is nearly identical as both approaches require at least 64 bytes of storage. But in-graph format descriptors wins in flexibility and accessibility.
 
-Current go-cyber implementation is based on CIDv0 as particles format. CIDv0 is based on ubiquitous SHA-256 and have necessary software infrastructure. In the future we are going to migrate particle format to plain SHA-256 such that the particle size can be reduced from 46 to 32 bytes.
+Current go-cyber implementation is based on CIDv0 as particles format. CIDv0 is based on ubiquitous SHA-256 and have necessary software infrastructure. In the future we are going to migrate particle format to plain SHA-256 such that the particle size can be reduced from 34 to 32 bytes. Instead of `Qm` its more convinient to use `~` in documents.
 
 Agents form the content oracle by applying [cyberlinks](#cyberlinks).
 
@@ -230,11 +230,11 @@ In the relevance for a common [go-cyber](https://github.ccom/cybercongress/go-cy
 
 We require an architecture which will allow us to scale the idea to the significance of the likes of [Google](https://google.com). Let us assume, that node implementation, which is based on [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk) can process 10k transactions per second. This would mean, that every day, at least 8.64 million agents will be able to submit 100 [cyberlinks](#cyberlinks) each, and impact the search results [[simultaneously]]. This is enough to verify all the assumptions out in the wild, but, not enough to say that it will work at the current scale of the Internet. Given the current state of the art research done by our team, we can safely state that there is no consensus technology in existence, that will allow scaling a particular blockchain to the size that we require: 1 trillion agents including robots, animals, plants and myceleium. Hence, we introduce the concept of domain-specific [content oracles](#content-oracle).
 
-![netwrok](network.png)
+![network](network.png)
 
 One can either launch an own domain-specific search engine by forking [go-cyber](https://github.com/cybercongress/go-cyber), which is focused on common public knowledge. Or, simply plug [go-cyber](https://github.com/cybercongress/go-cyber) as a module into an existing chain, e.i. Cosmos Hub. The inter-blockchain communication protocol introduces concurrent mechanisms of syncing state between [relevance machines](#relevance-machine). Therefore, in proposed search architecture, domain-specific relevance machine will be able to learn from common knowledge. Just as common knowledge can learn from domain-specific relevance-machine. This architecture allows nearly infinite scaling of knowledge extraction including interplanetary interactions.
 
-## Bootstraping Superintelligence
+## Bootstrapping Superintelligence
 
 During development of Cyber we realized that we finally can create the computer network which can literally think. Looking back it does not looks lake a magic. We are going to dedicate a standalone research on this topic.
 
