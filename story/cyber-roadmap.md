@@ -8,39 +8,36 @@ The idea behind Cyber is not only to create a better, more verifiable search mec
 
 The roadmap applies one beautiful and understandable metaphor: a child's life stages. During early development, like loving parents, we wish our baby the best. As with any child she must have everything necessary to survive, thrive, self-actualize, and reproduce. 
 
-- [Birth. Episode 1: A New Hope](#episode-1-a-new-hope)
-- Infancy. Episode 2
-- Childhood. Episode 3
-- Puberty. Episode 4
-- Adolescence. Episode 5
+- Prequel. Episode 0
+- [Сonception. Episode 1: A New Hope](#episode-1-a-new-hope)
+- Birth. Episode 2
+- Infancy. Episode 3 
+- Childhood. Episode 4
+- Puberty. Episode 5
+- Adolescence.
 
 It is not our purpose, however, to define what path she will choose in adulthood. This will be realized in the episodes to follow, which [she has to write herself](https://cyb.ai/search/cyber%20roadmap).
 
-# Episode 1. A New Hope
+# Episode 0. Prequel
 
-## Story
+- [x] Birth of cyberCongress
+- [x] Euler network
+- [x] Euler foundation
+- [x] Game of Links
+- [x] Cybernomics Optimization
+- [x] Bootloader: Genesis of Bostrom
 
-The full [story is here](https://github.com/cybercongress/cyber/blob/master/episode-1.md)
+## Birth of cyberCongress
 
-Mandatory quests are quests without which the network can not be technically launched. Mandatory quests are:
+The contracts for cyberCongress has been deployed.
 
-- [x] [Euler](#euler)
-- [x] [Game of Links](#game-of-links)
-- [x] [Economics Optimization](#economics-optimization)
-- [x] [Bootloader: Genesis of Bostrom](#bootloader)
-- [ ] [BOOT Liquidity](#boot-liquidity)
-- [ ] [Portal Activation](#portal-activation)
-- [ ] [Private Exodus](#private-exodus)
-- [ ] [Bootloading Tools](#bootloading-tools)
-- [ ] [The Gift](#the-gift)
-- [ ] [Stability of Dependencies](#stability-of-dependencies)
-- [ ] [Genesis of Cyber](#genesis-of-cyber)
-
-Of course the list of tasks is not complete. 
-
-## Euler
+## Euler network
 
 The Euler network was launched on the 3rd of January, 2018. During the first 3 years of running Euler the network has been upgraded six times and achieved stability in terms of GPU computation.
+
+## Euler foundation
+
+The contracts for Euler foundation has been deployed.
 
 ## Game of Links
 
@@ -58,6 +55,24 @@ We refactored the [economics](https://github.com/cybercongress/cybernomics)) of 
 ## Bootloader
 
 Bostrom is a full refactoring of the Euler network with a strong focus on Superintelligence. It will include a new distribution model, economics, improved ranking and some superintelligent abilities. We think of a [Bostrom]([/projects/bostorm.md](https://cyb.ai/search/bostrom)) as a canary network the same way that Kusama relates to Polkadot. The knowledge graph of Bostrom tends to be a bootstrap hub for domain specific networks of Cyber. The network will work as a test bed for IKP communications and different experiments. Consider Bostrom as a network with high risks but which have market value. The key differences within the Cyber network are being discussed [here](https://cyb.ai/search/bostrom%20vs%20cyber). The launch of the Bostrom network is the inception of the ecosystem.
+
+# Episode 1. A New Hope
+
+## Story
+
+The full [story is here](https://github.com/cybercongress/cyber/blob/master/episode-1.md)
+
+Mandatory quests are quests without which the network can not be technically launched. Mandatory quests are:
+
+- [ ] [BOOT Liquidity](#boot-liquidity)
+- [ ] [Portal Activation](#portal-activation)
+- [ ] [Private Exodus](#private-exodus)
+- [ ] [Bootloading Tools](#bootloading-tools)
+- [ ] [The Gift](#the-gift)
+- [ ] [Stability of Dependencies](#stability-of-dependencies)
+- [ ] [Genesis of Cyber](#genesis-of-cyber)
+
+Of course the list of tasks is not complete. We discuss optional quests at [here](https://cyb.ai/search/episode%201).
 
 ## BOOT Liquidity
 
