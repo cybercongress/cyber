@@ -20,12 +20,17 @@ The part of [Episode-1](/story/episode-1.md) is also ready
 - [IBC](https://github.com/cosmos/ibc) protocol family
 
 ## Algorithms
+
 - [cyber~Rank](/cyber-rank/cyber~Rank.ipynb)
 - [Bandwidth](/bandwidth/bandwidth.ipnb)
 - [Entropy](/entropy/entropy.ipnb)
 - [Karma](/karma/karma.ipnb)
 - [Investmint](/investmint/investmint.ipnb)
 - [DMN pricing](/dmn/dmn.ipnb)
+
+## go-cyber implementation
+
+[WIP Docs](https://github.com/cybercongress/go-cyber/tree/main/docs)
 
 
 ## Cybernomics: Solving parameters for Bootloader
@@ -43,3 +48,5 @@ Under construction
 ## Cyber: The Superintelligence
 
 Under construction
+
+
