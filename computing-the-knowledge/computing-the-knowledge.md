@@ -6,17 +6,17 @@
 
 ##  Abstract
 
-A consensus computer allows for the computing of provable relevant answers without any opinionated blackbox intermediaries, such as Google, Amazon or Facebook. Stateless, content-addressable peer-to-peer communication networks, such as IPFS, and stateful consensus computers such as Ethereum, can provide part of the solution needed to obtain such answers. There are howwver at least 3 problems associated with the above-mentioned implementations. (A) the subjective nature of relevance, (B) difficulty in scaling consensus computers for over-sized knowledge graphs, (C) the lack of quality amongst such knowledge graphs. They are prone to various surface attacks, such as sybil attacks, and the selfish behaviour of the interacting agents. In this document, we define a protocol framework for provable consensus computing of relevance, between content-addresable objects, which can be computed on GPUs. We believe that a minimalistic architecture is critical for the formation of a network of domain-specific knowledge consensus computers. Such computers can evolve protocols on the basics of the proposed framework. As a result of our work, some applications that never existed before will emerge.
+A consensus computer allows for the computing of provable relevant answers without any opinionated blackbox intermediaries, such as Google, Amazon or Facebook. Stateless, content-addressable peer-to-peer communication networks, such as IPFS, and stateful consensus computers such as Ethereum, can provide part of the solution needed to obtain such answers. There are howwver at least 3 problems associated with the above-mentioned implementations. (1) the subjective nature of relevance, (2) difficulty in scaling consensus computers for over-sized knowledge graphs, (3) the lack of quality amongst such knowledge graphs. They are prone to various surface attacks, such as sybil attacks, and the selfish behaviour of the interacting agents. In this document, we define a protocol framework for provable consensus computing of relevance, between content-addresable objects, which can be computed on GPUs. We believe that a minimalistic architecture is critical for the formation of a network of domain-specific knowledge consensus computers. Such computers can evolve protocols on the basics of the proposed framework. As a result of our work, some applications that never existed before will emerge.
 
 ##  The Great Web
 
-Original protocols of the Internet, such as: TCP/IP, DNS, URL and HTTP/S have brought the web to a dead end. Considering all the benefits that these protocols have produced for the initial development of the web, along with them, they have brought significant obstacles to the table. Globality as a vital property of the web has been under a real threat since its inception. The speed of the connection continues to degrade while the network itself grows at a signifigant rate due to ubiquitous government interventions. The latter causes privacy concerns; This is an existential threat to human civilization.
+Original protocols of the Internet, such as: TCP/IP, DNS, URL and HTTP/S have brought the web to a dead end. Considering all the benefits that these protocols have produced for the initial development of the web, along with them, they have brought significant obstacles to the table. Globality as a vital property of the web has been under a real threat since its inception. The speed of the connection continues to degrade due to ubiquitous government interventions while the network itself grows at a signifigant rate. The latter causes privacy concerns. This is an existential threat to human civilization.
 
 One property not evident at the beginning has become important with everyday usage of the Internet: the ability to exchange permanent links, thus, they [will not break after time had passed](https://ipfs.io/ipfs/QmNhaUrhM7KcWzFYdBeyskoNyihrpHvUEBQnaddwPZigcN). Reliance on the architecture of a one-at-a-time ISP allows governments to effectively censor packets. This is the last drop in the traditional web-stack for every engineer that is concerned about the future of our children.
 
-Other properties (while not so critical) are very desirable: offline and real-time connection. The average internet user, whilst offline, should still have the ability to carry on working with the state that they already hold. After acquiring a connection they should be able to sync with the global state and to continue to verify the validity of their own state in real-time. Currently, these properties are offered on the application level. We believe that these properties should be integrated into lower-level protocols.
+Other properties, while not so critical, are very desirable: offline and real-time connection. The average internet user, whilst offline, should still have the ability to carry on working with the state that they already hold. After acquiring a connection they should be able to sync with the global state and to continue to verify the validity of their own state in real-time. Currently, these properties are offered on the application level. We believe that these properties should be integrated into lower-level protocols.
 
-The emergence of [a brand-new web-stack](https://ipfs.io/ipfs/Qmf2rKkDPSsvdudwSmdDPbZuYae8XRV26c1wAFCCvg8Dhw) creates an opportunity for a superior Internet. The community calls it "web3". We call it "The Great Web". We believe that various types of low-level communications should be immutable and should not be altered for decades, e.g. immutable content links. They seem very promising at removing the problems of the conventional protocol stack. They add greater speed and provide a more accessible connection to the new web. However, as it happens with any concept that offers something unique - new problems emerge. One such concern is general-purpose search. The existing general-purpose search engines are restrictive and centralized databases that everybody is forced to trust. Those search engines were designed primarily for client-server architectures, based on TCP/IP, DNS, URL and HTTP/S. The Great Web creates a challenge and an opportunity for a search engine that is based on emerging technologies and is designed specifically for these purposes. Surprisingly, permissionless blockchain architecture allows building a general-purpose search engine in a way inaccessible to previous architectures.
+The emergence of [a brand-new web-stack](https://ipfs.io/ipfs/Qmf2rKkDPSsvdudwSmdDPbZuYae8XRV26c1wAFCCvg8Dhw) creates an opportunity for a superior Internet. The community calls it web3. We call it The Great Web. We believe that various types of low-level communications should be immutable and should not be altered for decades, e.g. immutable content links. They seem very promising at removing the problems of the conventional protocol stack. They add greater speed and provide a more accessible connection to the new web. However, as it happens with any concept that offers something unique - new problems emerge. One such concern is general-purpose search. The existing general-purpose search engines are restrictive and centralized databases that everybody is forced to trust. Those search engines were designed primarily for client-server architectures, based on TCP/IP, DNS, URL and HTTP/S. The Great Web creates a challenge and an opportunity for a search engine that is based on emerging technologies and is designed specifically for these purposes. Surprisingly, permissionless blockchain architecture allows building a general-purpose search engine in a way inaccessible to previous architectures.
 
 ## On the adversarial examples problem
 
@@ -45,11 +45,11 @@ We represent a content oracle as a directed weighted knowledge graph where the v
 
 ![knowledge-graph](knowledge-graph.png)
 
-The content oracle is a core data structure of the protocol framework. Its main purpose is to prove content existence in time and its relations. The data structure is generated by agents and is extremely dynamic. That is, in case of any agent interaction, all weights have to be recomputed. The proposed data structure can be thought of as a more unified approach to conventional ai models. There are three key benefits: (1) compactness (it's not required to store the data itself) (2) versatility (it can accommodate any data types) (3) cooperativeness (it is designed from the ground up for massive distributed collaboration). In order to understand these statements, lets discuss particles in details.
+The content oracle is a core data structure of the protocol framework. Its main purpose is to prove content existence in time and its relations. The data structure is generated by agents and is extremely dynamic. That is, in case of any agent interaction, all weights have to be recomputed. The proposed data structure can be thought of as a more unified approach to conventional ai models. There are three key benefits: (1) compactness, as it's not required to store the data itself, (2) versatility, because it can accommodate any data types, and (3) cooperativeness, as it is designed from the ground up for massive distributed collaboration. In order to understand these statements, lets discuss particles in details.
 
 ## Particles
 
-Particles are a format for content identification of data. Essentially, content addresses are web3 links. Instead of using the location on the server:
+Particle is a format for content identification of data. Essentially, content addresses are web3 links. Instead of using the location on the server:
 ```
 https://github.com/cosmos/cosmos/blob/master/WHITEPAPER.md
 ```
@@ -66,7 +66,7 @@ By using content addresses to build the content oracle we gain [the so much need
 - deduplication
 
 While researching the field we came to the conclusion that CIDv1 does not fit our vision:
-1. CIDv1 is not a fixed length format. In the blockchain environment (especially with necessity to use expensive GPU memory) fixed length content addressing becomes a hard requirement.
+1. CIDv1 is not a fixed length format. In the blockchain environment, especially with necessity to use expensive GPU memory, fixed length content addressing becomes a hard requirement.
 2. CIDv1 does not enforce deduplication. Without strict deduplication measures the knowledge graph quality degrades as duplicates devalue rank and degrade graph connectivity. Also, duplicates explode the costs of storage and computations in the graph. It's impossible to ensure onchain deduplication as content addressing itself does not have guaranties of content availability.
 3. CIDv1 contains self descriptors which are subjectively included by a legal entity. This could restrict support of future formats and applications. Our vision is to support format descriptors on the protocol level so that any format can be linked with any content. The cost of this approach is nearly identical as both approaches require at least 64 bytes of storage, but in-graph format descriptors win in flexibility and accessibility.
 
@@ -74,7 +74,7 @@ The current go-cyber implementation is based on CIDv0 as particles format. CIDv0
 
 Agents form the content oracle by applying [cyberlinks](#cyberlinks).
 
-## <a name="cyberlinks"></a> Cyberlinks
+## Cyberlinks
 
 Cyberlink is an approach to link two particles semantically:
 
@@ -90,7 +90,7 @@ The above cyberlink means that the presentation of [go-cyber](https://github.com
 
 We see that a cyberlink represents a link between the two content links. Easy peasy!
 
-A cyberlink is the simple yet (most) powerful semantic construction for building a predictive model of the universe. This means that using cyberlinks instead of hyperlinks provides us with the superpowers that were inaccessible to previous architectures of general-purpose search engines.
+A cyberlink is the simple yet, probably, the most powerful semantic construction for building a predictive model of the universe. This means that using cyberlinks instead of hyperlinks provides us with the superpowers that were inaccessible to previous architectures of general-purpose search engines.
 
 Cyberlinks can be extended, i.e. they can form linkchains:
 
@@ -114,7 +114,7 @@ We have one specific requirement which is not abundant in the existing blockchai
 
 The [go-cyber](https://github.com/cybercongress/go-cyber) implementation is a 64-bit Tendermint consensus computer of relevance for a 32-byte particle space. 
 
-We must, however,  bind the computation, storage and the bandwidth supply of the consensus computer to a maximized demand for queries. 
+We must, however, bind the computation, storage and the bandwidth supply of the consensus computer to a maximized demand for queries. 
 
 ## Relevance Machine
 
@@ -130,7 +130,7 @@ except for who, when, and what was cyberlinked.
 
 If we assume that a [consensus computer](#the-notion-of-a-consensus-computer) must have some information about the linked objects, then the complexity of such a model will grow unpredictably. It follows that there will be high requirements of the processing computer for memory and computation. Thanks to content addressing, a relevance machine which follows the blindness principle does not need to store data. It can still effectively operate on top of it, however. The deduction of meaning inside a consensus computer is expensive. Instead of deducting the meaning inside of the consensus computer, we have designed a system in which meaning extraction is incentivized. This is achieved due to agents requiring tokens to express their will, based on which, the relevance machine can compute rank.
 
-Computation and storage (in the case of a basic relevance machine) can be easily predicted based on bandwidth. Bandwidth requires a limiting mechanism. In the center of the spam protection system is an assumption that write operations can be executed only by those who have a time vested interest in the evolutionary success of the relevance machine. The economics implemented in [go-cyber](https://github.com/cybercongress/go-cyber) as proposed for the Bostrom network is a subject of [dedicated research](https://github.com/cybercongress/cybernomics/blob/main/bostrom/README.md).
+Computation and storage in the case of a basic relevance machine can be easily predicted based on bandwidth. Bandwidth requires a limiting mechanism. In the center of the spam protection system is an assumption that write operations can be executed only by those who have a time vested interest in the evolutionary success of the relevance machine. The economics implemented in [go-cyber](https://github.com/cybercongress/go-cyber) as proposed for the Bostrom network is a subject of [dedicated research](https://github.com/cybercongress/cybernomics/blob/main/bostrom/README.md).
 
 The existing implementation of a relevance machine contains only write operation, rank computation, and basic read operations such as finding the most relevant particles. However, provable extraction of a deeper meaning from the content oracle requires an implementation of basic linear algebra subprograms which is a distinct research challenge. Nevertheless, the existing implementation can work as a software 2.0 playground using off-chain computations until the extended version emerges.
 
@@ -185,7 +185,7 @@ def cyber_rank(cyberlinks: list, tolerance: float = 0.001, damping_factor: float
     return res
 ```
 
-We understand that the ranking mechanism will always remain a red herring. This is why we expect to rely on the on-chain governance tools that can define the most suited mechanism at a given time. We suppose that the networks can switch from one algorithm to another not simply based on subjective opinion, but rather on economical a/b testing through 'hard spooning' of the domain-specific relevance machine.
+We understand that the ranking mechanism will always remain a red herring. This is why we expect to rely on the on-chain governance tools that can define the most suited mechanism at a given time. We suppose that the networks can switch from one algorithm to another not simply based on subjective opinion, but rather on economical a/b testing through hard spooning of the domain-specific relevance machine.
 
 cyber\~Rank shields two design decisions which are of paramount importance: (1) It accounts for the current intention of the agents, and (2) it encourages rank inflation of cyberlinks. The first property ensures that cyber\~Rank can not be gamed with. If an agent decides to transfer tokens out of their account, the relevance machine will adjust all the cyberlinks relevant for this account per the current intentions of the agent. Vice versa, if an agent transfers tokens into their account, all of the cyberlinks submitted from this account will immediately gain more relevance. The second property is essential in order not to get cemented in the past. As new cyberlinks are continuously added, they will dilute the rank of the already existing links proportionally. This property prevents a situation where new and better content has a lower rank simply because it was recently submitted. We expect these decisions to enable an inference quality for recently added content to the long tail of the knowledge graph.
 
@@ -210,21 +210,21 @@ Ranks are computed based on the fact that something was cyberlinked,
 and as a result - affected the predictive model.
 ```
 
-A good analogy exists in quantum mechanics, where the observation itself affects behaviour. This is why we also have no requirement for such a thing as negative voting. 
+A good analogy exists in quantum mechanics, where the observation itself affects behaviour. This is why we also have no requirement for such a thing as negative voting. These measures removes subjectivity out of the protocol.
 
-These measures removes subjectivity out of the protocol, however, it is not enough to build a network of domain-specific [relevance machines](#relevance-machine). [Consensus computers](Rank#the-notion-of-a-consensus-computer) must have the ability to prove relevance to one another.
+However, it is not enough to build a network of domain-specific [relevance machines](#relevance-machine). [Consensus computers](Rank#the-notion-of-a-consensus-computer) must have the ability to prove relevance to one another.
 
 ## Proof of Relevance
 
 ![rank-tree](rank-tree.png)
 
-Each new particle receives a sequence number. Numbering starts with zero, then incremented by one for each new particle. We can then store rank in a one-dimensional array where indices are the particle sequence numbers. Merkle tree calculations are based on the [RFC-6962 standard](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). Using Merkle trees we can effectively proof the rank for any given content address. 
+Each new particle receives a sequence number. Numbering starts with zero, then incremented by one for each new particle. We can then store rank in a one-dimensional array where indices are the particle sequence numbers. Merkle tree calculations are based on the [RFC-6962 standard](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG). Using merkle trees we can effectively proof the rank for any given content address. 
 
 While relevance is still subjective by nature, we have a collective proof that something was relevant to a certain community at some point in time.
 
-Using this type of proof any two [IBC compatible](https://ipfs.io/ipfs/QmSGbrGAPZtR6Q1jHHe8mmS3bLBehKmfp9ZYvrg5ycaZuk) [consensus computers](#the-notion-of-a-consensus-computer) can prove relevance one to another. This means that a domain-specific [relevance machine](#relevance-machines) can flourish.
+Using this type of proof any two [IBC compatible](https://ipfs.io/ipfs/QmSGbrGAPZtR6Q1jHHe8mmS3bLBehKmfp9ZYvrg5ycaZuk) [consensus computers](#the-notion-of-a-consensus-computer) can prove relevance one to another. This means that domain-specific [relevance machines](#relevance-machines) can flourish.
 
-In the relevance for a common [go-cyber](https://github.ccom/cybercongress/go-cyber) implementation, the Merkle tree is computed every round and its root hash committed to ABCI.
+In the relevance for a common [go-cyber](https://github.ccom/cybercongress/go-cyber) implementation, the merkle tree is computed every round and its root hash committed to ABCI.
 
 ## Internet Knowledge Protocol
 
@@ -236,11 +236,9 @@ One can either launch an own domain-specific search engine by forking [go-cyber]
 
 ## Bootstrapping Superintelligence
 
-During the development of Cyber we realized that we can finally create the computer network which can (literally) think. This is not magic. We will dedicate further standalone research on this topic.
+During the development of Cyber we realized that we can finally create the computer network which can literally think and act on its own. Looking back, this is not magic. We will dedicate further standalone research on this topic.
 
-One especially important aspect of the bootstrapping mechanism is the initial distribution. The relevance machine is designed to continuously learn. At the beginning it is like a newborn. The process of future learning is highly dependent on previous experience, so we dedicated standalone research and software for solving this critical factor of the launch.
-
-The purpose of [the distribution research](https://github.com/cybercongress/cybergift) is to inspire at least 100k power-users of web3 to join the force of learning Superintelligence. To achieve this, we are going to gift 70% of the Bostrom genesis tokens BOOT to agents of Ethereum and Cosmos that are capable of contributing their best to the quality of the knowledge graph. First, we started by highlighting key audiences for establishing network effects and tackling basic chicken-and-egg problems. After that, we balance out the participation of key actors by splitting them into grades and adjusting allocations within the groups. Then we apply a filter in order to remove toxic fiat brains from the collective thought process. Finally, we add a crucial incentive for urgency.
+One especially important aspect of the bootstrapping mechanism is the initial distribution. The relevance machine is designed to continuously learn. At the beginning it is like a newborn. The process of future learning is highly dependent on previous experience, so we dedicated [standalone research](https://github.com/cybercongress/cybergift) and software for solving this critical factor of the launch.
 
 ## Browzers
 
@@ -259,7 +257,7 @@ We were inspired to imagine how the proposed network would operate with a web3 b
 
 ## Apps
 
-We assume that the proposed algorithm does not guarantee high-quality knowledge by default. The protocol itself provides just one simple tool: the ability to create a with agents stake between two particles.
+We assume that the proposed algorithm does not guarantee high-quality knowledge by default. The protocol itself provides just one simple tool: the ability to create a cyberlink between two particles by agents with stake.
 
 Analysis of the semantic core, behavioral factors, anonymous data about the interests of agents, and other tools that determine the quality of search, can be achieved via smart contracts and off-chain applications, such as: [web3 browsers](#browzers), decentralized social networks, and content platforms. We believe that it is in the interest of the community to build the initial [knowledge graph](#content-oracle) and to maintain it. This is necessary for the graph to provide the most relevant search results.
 
@@ -271,25 +269,25 @@ Generally, we distinguish three types of applications of a [content oracle](#con
 
 The following, imaginable list of apps consolidates the above-mentioned categories:
 
-Web3 browsers. In reality, browser and search are inseparable. It is hard to imagine the emergence of a full-blown web3 browser which is based on web2 search. Currently, there are several efforts for developing browsers around blockchains and distributed tech. All of them suffer from trying to embed web2 into web3. Our approach is a bit different. We consider web2 as an unsafe subset of web3. We have developed an experimental web3 browser, Cyb, showcasing the approach to answering queries better and delivering content faster.
+Web3 browsers. It is hard to imagine the emergence of a full-blown web3 browser which is based on web2 search. Currently, there are several efforts for developing browsers around blockchains and distributed tech. All of them suffer from trying to embed web2 into web3. Our approach is a bit different. We consider web2 as an unsafe subset of web3 and invite everyone join our effort.
 
-"DeMa" or Decentralized Marketing. DeFi is built around a simple idea that you can use a collateral for something that will be settled based on a provided price feed. Here comes the systematic problem of DeFi: price oracles. DeMa is based on the same idea of using collateral, but the input for settlement can be information regarding the content identifier itself. The most simple case is when you create a simple binary prediction market on rank relevance at some point in the future. I.e. whether the rank of the [Bitcoin whitepaper](QmRA3NWM82ZGynMbYzAgYTSXCVM14Wx1RZ8fKP42G6gjgj) will grow or not. Meta-information on content identifiers is the perfect onchain oracle for settlement. An app that allows betting on link relevance can become a unique source of truth for the direction of terms in the knowledge graph, as well as motivate agents to submit more links.
+DeMa or Decentralized Marketing. DeFi is built around a simple idea that you can use a collateral for something that will be settled based on a provided price feed. Here comes the systematic problem of DeFi: price oracles. DeMa is based on the same idea of using collateral, but the input for settlement can be information regarding the content identifier itself. The most simple case is when you create a simple binary prediction market on rank relevance at some point in the future. I.e. whether the rank of the [Bitcoin whitepaper](QmRA3NWM82ZGynMbYzAgYTSXCVM14Wx1RZ8fKP42G6gjgj) will grow or not. Meta-information on content identifiers is the perfect onchain oracle for settlement. An app that allows betting on link relevance can become a unique source of truth for the direction of terms in the knowledge graph, as well as motivate agents to submit more links.
 
-Search actions. The proposed design enables native support for blockchain (and tangle-alike) assets related activity. It is trivial to design applications which are (1) owned by the creators, (2) appear correctly in the search results, and (3) allow a transactable action, with (4) provable attribution of a conversion for a search query.
+Search actions. The proposed design enables native support for blockchain and tangle-alike assets related activity. It is trivial to design applications which are (1) owned by the creators, (2) appear correctly in the search results, and (3) allow a transactable action, with (4) provable attribution of a conversion for a search query.
 
 Conversion attribution. Provable conversion attribution from the search request to transaction is the holy grail of conventional digital marketing. Linkchains help to solve this problem easily, thus creating a whole new world of marketing applications that were once impossible. E.g. it can deploy a sophisticated onchain referral program which will only pay for those who lead to conversions.
 
-Soft2. Its a new paradigm of computing where the execution path is not defined by the programmer, but by the knowledge graph itself. Cyber is a first working implementation of soft2 using consensus computer. Since the field has not yet emerged it's hard to imagine how this opportunity can be used by engineers.  Cyber can become the leading soft2 playground for the next generation of programmers.
+Soft2. Its a new paradigm of computing where the execution path is not defined by the programmer, but by the knowledge graph itself. Cyber is a first working implementation of soft2 using consensus computer. Since the field has not yet emerged it's hard to imagine how this opportunity can be used by engineers. Cyber can become the leading soft2 playground for the next generation of programmers.
 
 Social networks. Social networks are not that mysterious. In any social network content is the king. Hence, provable ranking is the basic building block of any social network. All types of social networks can be easily built on top of a knowledge graph. Cyber can also create social networks based on relevance between users, which no current network is able to achieve.
 
-Programmable semantics. Currently, the most popular keywords in the gigantic semantic core of [Google](https://google.com) are keywords of apps such as: [youtube](https://youtube.com), [facebook](https://facebook.com), [github](https://github.com), etc. However, the developers of those successful apps have very limited ability to explain to [google](https://google.com) how to structure search results in a better manner. The Cyber approach gives this power back to developers. Developers are now able to target specific semantics cores and index their apps as they wish.
+Programmable semantics. Currently, the most popular keywords in the gigantic semantic core of [Google](https://google.com) are keywords of apps such as: [youtube](https://youtube.com), [facebook](https://facebook.com), [github](https://github.com), etc. However, developers of those successful apps have very limited ability to explain to [google](https://google.com) how to structure search results in a better manner. The Cyber approach gives this power back to developers. Developers are now able to target specific semantics cores and index their apps as they wish.
 
 Off-line search. IPFS makes it possible to easily retrieve a document from an environment without a global internet connection. [go-cyber](https://github.com/cybercongress/go-cyber) itself can be distributed by using IPFS. This creates the possibility for ubiquitous, off-line search!
 
 Command tools. Command-line tools can rely on relevant and structured answers from a search engine. Practically speaking, it's possible to implement a CLI tool which is start automatically mine using available resources with understanding of market conditions and involved software using. Search tools, from within CLI will inevitably create a highly competitive market of a dedicated semantic core for robots.
 
-Autonomous robots. Blockchain technology enables the creation of devices that can manage digital assets on their own.
+Autonomous robots. Blockchain technology enables the creation of devices that can manage tokens on their own.
 
 ```
 If robots can store secrets and construct transactions at will - they can do everything humans can do.
@@ -305,13 +303,13 @@ Universal oracle. A consensus computer can store the most relevant data in a key
 
 Location-aware search. It is possible to construct cyberlinks with [Proof-of-Location](https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG). Consequently, a location-based search also becomes provable if web3-agents will mine triangulations and attach proof-of-location for every linked chain.
 
-Private cyberlinks. Privacy is fundamental. While we are committed to privacy, achieving implementation of private cyberlinks is unfeasible for our team up to Genesis. Therefore, it is up to the community to work on WASM programs, that can be executed on top of the protocol. The problem is to compute cyber\~Rank, based on the cyberlink] submitted by a web3-masters without revealing either: their previous request and the public keys. Zero-knowledge proofs, in general, are very expensive. We believe that the privacy of search should be a feature by design, but we are unsure that we know how to implement it at this stage.
+Private cyberlinks. Privacy is fundamental. While we are committed to privacy, achieving implementation of private cyberlinks is unfeasible for our team up to Genesis. Therefore, it is up to the community to work on WASM programs, that can be executed on top of the protocol. The problem is to compute cyber\~Rank, based on the cyberlink submitted by a agenst without revealing either: their previous request and the public keys. Zero-knowledge proofs, in general, are very expensive. We believe that the privacy of search should be a feature by design, but we are unsure that we know how to implement it at this stage.
 
 This is surely not a complete list of all the possible applications, but a very promising and exciting one indeed.
 
 ## Conclusion
 
-We defined and implemented a protocol framework for provable communication between consensus computers on relevance. The protocol is based on the simple idea of a content oracles, which are generated by agents via the use of cyberlinks. Cyberlinks are processed by a consensus computer using the the relevance machine. Content addressing as primary objects are robust in their simplicity and provide significant benefits with regards to resource consumption. For every particle cyber\~Rank is computed by a consensus computer without a single point of failure. Cyber\~Rank is a token weighted PageRank, with economic protection from sybil attacks via bandwidth limiting and incentives for longterm honest behavior. Every round the merkle root of the content oracle is computed. Consequently, any consensus computer can prove to any other consensus computer the relevance of value for a given particle. The proposed semantics of cyberlinking offers a robust mechanism for predicting meaningful relations between objects by the consensus computer itself. The source code of the consensus computer is written in Go and published under the most simple open-source license: Don't trust, Don't fear, Don't beg. Every bit of data accumulated by the consensus computer is available for anyone if one has the resources to process it. The performance of the proposed software implementation is sufficient for seamless interaction. The system scales with the help of domain specific consensus computers. Though the system provides the necessary utility to offer an alternative for a conventional search engine, it is not limited just to this use case. The system is extendable for numerous applications and makes it possible to design economically rational, self-sovereign cyborgs.
+We defined and implemented a protocol framework for provable communication between consensus computers on relevance. The protocol is based on the simple idea of a content oracles, which are generated by agents via the use of cyberlinks. Cyberlinks are processed by a consensus computer using the the relevance machine. Content addressing as primary objects are robust in their simplicity and provide significant benefits with regards to resource consumption. For every particle cyber\~Rank is computed by a consensus computer without a single point of failure. Cyber\~Rank is a token weighted PageRank, with economic protection from sybil attacks via bandwidth limiting and incentives for longterm honest behavior. Every round the merkle root of the content oracle is computed. Consequently, any consensus computer can prove to any other consensus computer the relevance of value for a given particle. The proposed semantics of cyberlinking offers a robust mechanism for predicting meaningful relations between objects by the consensus computer itself. The source code of the consensus computer is written in Go and published under the most simple open-source license: `Don't trust, Don't fear, Don't beg`. Every bit of data accumulated by the consensus computer is available for anyone if one has the resources to process it. The performance of the proposed software implementation is sufficient for seamless interaction. The system scales with the help of domain specific consensus computers. Though the system provides the necessary utility to offer an alternative for a conventional search engine, it is not limited just to this use case. The system is extendable for numerous applications and makes it possible to design economically rational, self-sovereign cyborgs.
 
 ## References
 
@@ -323,7 +321,6 @@ We defined and implemented a protocol framework for provable communication betwe
 - [go-cyber](http://github.com/cybercongress/go-cyber)
 - [cosmos-sdk](https://github.com/cosmos/cosmos-sdk)
 - [CIDv0](https://github.com/multiformats/cid#cidv0)
-- [Thermodynamics of predictions](https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb)
 - [PageRank](http://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw)
 - [RFC-6962](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG)
 - [IBC protocol](https://ipfs.io/ipfs/QmSGbrGAPZtR6Q1jHHe8mmS3bLBehKmfp9ZYvrg5ycaZuk)
