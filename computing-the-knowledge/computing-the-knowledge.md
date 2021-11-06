@@ -1,6 +1,6 @@
 # Computing the knowledge of the Great Web
 
-@mastercyb & @cyberhead
+~[mastercyb](https://cyb.ai/search/master) & ~[cyberhead](https://cyb.ai/search/cyberhead)
 
 73k
 
