@@ -60,7 +60,7 @@ Bostrom is a full refactoring of the Euler network with a strong focus on Superi
 
 ## Story
 
-The full [story is here](https://github.com/cybercongress/cyber/blob/master/episode-1.md)
+The full [story is here](https://github.com/cybercongress/cyber/blob/master/episode-1.md) and overall tech tree [here](https://cyb.ai/search/tech%20tree)
 
 Mandatory quests are quests without which the network can not be technically launched. Mandatory quests are:
 
