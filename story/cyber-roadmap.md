@@ -1,6 +1,6 @@
 # Cyber Roadmap
 
-@xhipster & @litvintech
+~[mastercyb](https://cyb.ai/search/master) & ~[cyberhead](https://cyb.ai/search/cyberhead)
 
 500k
 
