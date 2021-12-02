@@ -6,7 +6,7 @@
 
 ##  Abstract
 
-A consensus computer allows for the computing of provable relevant answers without any opinionated blackbox intermediaries, such as Google, Amazon or Facebook. Stateless, content-addressable peer-to-peer communication networks, such as IPFS, and stateful consensus computers such as Ethereum, can provide part of the solution needed to obtain such answers. There are howwver at least 3 problems associated with the above-mentioned implementations. (1) the subjective nature of relevance, (2) difficulty in scaling consensus computers for over-sized knowledge graphs, (3) the lack of quality amongst such knowledge graphs. They are prone to various surface attacks, such as sybil attacks, and the selfish behaviour of the interacting agents. In this document, we define a protocol framework for provable consensus computing of relevance, between content-addresable objects, which can be computed on GPUs. We believe that a minimalistic architecture is critical for the formation of a network of domain-specific knowledge consensus computers. Such computers can evolve protocols on the basics of the proposed framework. As a result of our work, some applications that never existed before will emerge.
+A consensus computer allows for the computing of provable relevant answers without any opinionated blackbox intermediaries, such as Google, Amazon or Facebook. Stateless, content-addressable peer-to-peer communication networks, such as IPFS, and stateful consensus computers such as Ethereum, can provide part of the solution needed to obtain such answers. There are however at least 3 problems associated with the above-mentioned implementations. (1) the subjective nature of relevance, (2) difficulty in scaling consensus computers for over-sized knowledge graphs, (3) the lack of quality amongst such knowledge graphs. They are prone to various surface attacks, such as sybil attacks, and the selfish behaviour of the interacting agents. In this document, we define a protocol framework for provable consensus computing of relevance, between content-addresable objects, which can be computed on GPUs. We believe that a minimalistic architecture is critical for the formation of a network of domain-specific knowledge consensus computers. Such computers can evolve protocols on the basics of the proposed framework. As a result of our work, some applications that never existed before will emerge.
 
 ##  The Great Web
 
@@ -106,7 +106,9 @@ Using cyberlinks we can compute the relevance of particles in the content oracle
 
 ## The notion of a consensus computer
 
-A consensus computer is an abstract computing machine that emerges from the interaction between agents. A consensus computer has capacity in terms of fundamental computing resources: memory and computation. To interact with agents a computer needs bandwidth. 
+A consensus computer is an abstract computing machine that emerges from the interaction between agents. A consensus computer has capacity in terms of fundamental computing resources: memory and computation. To interact with agents a computer needs bandwidth.
+
+![consensus-computer](consensus-computer.png)
 
 Consistency and availability of a shared state between agents has to be guaranteed by some consensus algorithm. We have come to realize that the [Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ) consensus algorithm has a good enough balance between the coolness required for our task and the readiness for its production, therefore, go-cyber implementation is based on the Tendermint consensus. 
 
