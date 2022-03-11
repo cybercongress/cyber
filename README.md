@@ -22,11 +22,11 @@ The part of [Episode-1](/story/episode-1.md) is also ready
 ## Algorithms
 
 - [cyber~Rank](/cyber-rank/cyber~Rank.ipynb)
-- [Bandwidth](/bandwidth/bandwidth.ipnb)
-- [Entropy](/entropy/entropy.ipnb)
-- [Karma](/karma/karma.ipnb)
-- [Investmint](/investmint/investmint.ipnb)
-- [DMN pricing](/dmn/dmn.ipnb)
+- [Bandwidth](/bandwidth/bandwidth.ipynb)
+- [Entropy](/entropy/entropy.ipynb)
+- [Karma](/karma/karma.ipynb)
+- [Investmint](/investmint/investmint.ipynb)
+- [DMN pricing](/dmn/dmn.ipynb)
 
 ## go-cyber implementation
 
