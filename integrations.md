@@ -48,6 +48,8 @@
   - https://github.com/ping-pub/explorer#donations-from-project
   - connect with guys and offer grant from senate: 420 GBOOT
   - think how community can improve usability of ping.pub
+- atomscan: cosmos explorer
+  - ttps://atomscan.com/
 - mapofzones: best cosmos ibc analytics
   - need warp api to list more tokens
 - composable finance: dotsama bridge
