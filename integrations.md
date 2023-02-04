@@ -34,7 +34,7 @@
   - https://messari.io/protocol-services
 - citizen cosmos: leading cosmos podcast
   - sponsoring podcast
-  - think on how we can extend colaboration
+  - [x] think on how we can extend colaboration
 - station: cosmos wallet
   - how to integrate?
 - cosmos-station: cosmos wallet
@@ -54,7 +54,6 @@
   - integration is blocked by cosmos-sdk 0.47
 - keplr: leading cosmos wallet
   - integration is working good
-
 - confio: cosmwasm creator
   - send grants for hackwasm
   - pay for the next hackaton
@@ -76,7 +75,6 @@
 - forklog: leading runet web3 newsmaker
   - there are good connections with a team
   - how to create decentralized blockchain for the project?
-
 - cyberacedemy: leading runet web3 dev community
   - create design of cybaca app
 - p2p validator: leading validator
