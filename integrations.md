@@ -17,6 +17,10 @@
     - add cyber ecosystem
   - add warp exchange
     - need api (!)
+- staking rewards
+  - we already pay them for listing
+  - need to recover it
+  - puting there with overall staking return make us the leader of apr
 - coinmarketcap: market aggregator
   - there is untracked listing https://coinmarketcap.com/currencies/bostrom/
   - must be transform to rich listing described for coingecko
@@ -43,6 +47,7 @@
   - reach guys in order to propose desmos style search collaboration
 - stargaze: nft cosmos chain
   - reach guys in order to propose desmos style search collaboration
+
 
 - pingpub: cool open source explorer
   - https://github.com/ping-pub/explorer#donations-from-project
