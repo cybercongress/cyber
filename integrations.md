@@ -1,4 +1,5 @@
-- coingecko: market aggregator
+## Coingecko: market aggregator 
+// **Status:** in progress. Request was sent.
   - key problem is that we cant manage content presented
   - fix data for BOOT
     - add fdv
@@ -17,28 +18,43 @@
     - add cyber ecosystem
   - add warp exchange
     - need api (!)
-- staking rewards
+
+## Staking Rewards
+// **Status:** in progress. Data collection
   - we already pay them for listing
   - need to recover it
   - puting there with overall staking return make us the leader of apr
-- coinmarketcap: market aggregator
+
+## Сoinmarketcap: market aggregator 
+// Awaits the beginning
   - there is untracked listing https://coinmarketcap.com/currencies/bostrom/
   - must be transform to rich listing described for coingecko
-- posthuman: cool cosmos validator
-  - want to launch blockchain
-  - help launch based on cyber-sdk
-- mintscan: leading cosmos explorer
+
+## Mintscan: leading cosmos explorer 
+// Followed up.
   - need to force integration
-- gravity: ethereum bridge
+
+## Gravity Bridge: ethereum bridge 
+// Task study
   - add tokens metadata through governance https://github.com/Gravity-Bridge/Gravity-Docs/blob/main/docs/custom-gov.md#ibc-metadata
   - setup routing https://github.com/Gravity-Bridge/Gravity-Docs/blob/main/docs/custom-gov.md#ibc-auto-forwarding
   - structure project of mutual incentives https://github.com/Gravity-Bridge/Gravity-Docs/blob/main/docs/custom-gov.md#airdrop
-- messari: professioanl market aggregator
+
+## Messari: professioanl market aggregator 
+// Awaits the beginning
   - important to gain due dill
   - https://messari.io/protocol-services
-- citizen cosmos: leading cosmos podcast
-  - sponsoring podcast
-  - [x] think on how we can extend colaboration
+
+## Citizen cosmos: leading cosmos podcast 
+// **Status:** options brainstorming
+  - [x] sponsoring podcast
+  - think on how we can extend colaboration
+
+---
+
+- posthuman: cool cosmos validator
+  - want to launch blockchain
+  - help launch based on cyber-sdk
 - station: cosmos wallet
   - how to integrate?
 - cosmos-station: cosmos wallet
