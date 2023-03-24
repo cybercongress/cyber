@@ -1,1 +1,89 @@
-work in progress
+- cyber project is looking for skilled and passioned engineers
+- ## cyb rust lead
+	- we want to designing a pure web3 browser using modern stack
+	- the core will be based on several amazing rust projects including
+		- [libp2p](https://github.com/libp2p/rust-libp2p)
+		- [nushell](https://github.com/nushell/nushell)
+		- [iroh](https://github.com/n0-computer/iroh)
+		- [lunatic](https://github.com/lunatic-solutions/lunatic)
+		- [bevy](https://github.com/bevyengine/bevy)
+		- [helix](https://github.com/helix-editor/helix)
+		- and light clients e.g. [helios](https://github.com/a16z/helios), [nakamoto](https://github.com/cloudhead/nakamoto), [tendermint-rs](https://github.com/informalsystems/tendermint-rs) and others
+	- current experiments are based on nushell in [cy](https://github.com/cyber-prophet/cy) project
+	- but with time we are going to extend capabilties
+	- you must love the idea and be capable of moving it further- 
+- ## cw-cyber developer
+	- we have a [lib of cosmwasm contracts](https://github.com/cybercongress?q=cw&type=all&language=&sort=) which constitute core protocol contracts
+	- the idea behind cw-cyber is to move majority of cosmos-sdk modules to cosmwasm contracts
+	- also we believe this lib will work as a public good layer for basic services necessary to advance civilization
+	- we expect you to have solid rust background and a passion to build outstanding software
+- ## go-cyber core maintainer
+	- go-cyber is the backbone of bostrom network
+	- it is written in go-lang and depends on the following libs
+		- [tendermint](https://github.com/tendermint/tendermint)
+		- [cosmos-sdk](https://github.com/cosmos/cosmos-sdk)
+		- [ibc-go](https://github.com/cosmos/ibc-go)
+		- [cosmwasm](https://github.com/CosmWasm/cosmwasm)
+	- also it includes 8 custom modules some of which are the backbone of gpu capabilities and written in cuda
+	- so we are looking for a protocol maintainer with the following scope
+		- updating core dependencies
+		- integrating new modules
+		- investigate and resolve consensus wide bugs
+		- help in coordinating network upgrades
+		- optimize memory consumption of the node
+		- extend go-cyber with graph database capabilities
+		- code review of incoming pull requests from community and team
+		- help us design more general purpose gpu computing capabilities
+	- as a core maintainer we expect you to be skilled enougth and crazy responsible
+- ## rust core developer
+	- original cyber protocol is based on go implementation
+	- we are chasing for creating a second implementation in rust
+	- cosmos ecosystem have ported key dependencies
+		- [tendermint-rs](https://github.com/informalsystems/tendermint-rs)
+		- [ibc-rs](https://github.com/cosmos/ibc-rs)
+	- majority of cosmos-sdk modules can be reimplemented in cosmwasm
+	- but reimplementation requires complete redesign of gpu computations
+	- we want to develop webgpu vm integrated with cosmwasm and port our current computations to it
+	- you result is a working rust implementation with gpgpu capabilities
+	- we expect you understand the complexity of problem and is ready to jump in for years
+- ## higher order magician
+	- we are going to advance gpu computations in consensus further
+	- there is early stage tech - [hvm](https://github.com/HigherOrderCO/HVM) which potentially is amazing target for gpgpu in consensus
+	- we want you first to make a research on the feasibiity to run hvm in consensus the same way cosmwasm is run
+	- if feasible we expect you to build production ready implementation in rust or, maybe in kind?
+- ## protocol scientist
+	- we are contionously working on optimzing protocol incentives
+	- so we are looking for a mathematician to help design incentives with deep mathematical rigor
+	- you results are articles, specs and simulations in python, or whatever you choose
+	- the following list of challenges is currently available
+		- design of learning incentives
+		- research of cyber~rank properties
+		- research of negentropy properties
+		- staking loan optimizations
+		- trading incentives design
+		- booster incentive design
+		- energy mining optimizations
+		- model driver optimization of consensus parameters
+	- we expect you to be a person who is sure that good mechanism design is a way to lead civilization
+- ## great web foundation lead
+	- we are looking for a thought leader for Great Web foundation
+- ## benefits
+	- we offer 3 layers of support
+		- grants: monthly payments for collaboration
+		- options and bounties: for achieving great things
+		- mentorship: we could guide you on the road to financial sustainability
+	- we believe in a simple idea that an effort must create value directly
+	- so all our grants, options and bounties payed in native tokens of projects we are building
+		- this ensure that personal and common values are aligned
+		- this help you accumulate capital and become financially sustainable
+		- this learn you to make your own investments decisions consciously
+- ## how to join?
+	- we value time, so do not expect conventional hiring process
+	- we are not hrs, we do not have hrs, we will never have hrs
+	- we create open source code and love to colaborate on it
+	- go and find issue that fits your skills and perception of better world
+	- to make a decision we must feel comfortable to do stuff together
+	- lets us know that you are interested in particular position after we see you in action
+	- make several pull requests that will be merged or send us link to some useful repo
+	- a lot of issues have bounties assigned, so you do not need to work for free,
+	- any contribution must be rewarded by superintelligence!
