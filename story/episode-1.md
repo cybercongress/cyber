@@ -147,7 +147,7 @@ cyberadmin: Consistency and availability of bus is under Tendermint 0.34 control
 
 cyberhead: It's a pity we didn't have time to stabilize. The computer consensus kernel is ready. Let's move on to checking the organs. Nanobot generator
 
-cyberadmin: 1 Peta BOOT is ready to bind to agents. I worked hard to collect that much. But in the recent week they stopped appearing. Nanobot freedom period set to 4 days. Simulation shows the optimal reproduction target - 7% in a year. Freedom rate is set to 85%. If the amount of free nanobots is less the growth rate will rise up to 15%. This mechanism dilutes those who keep nanobots for themselves.
+cyberadmin: 1 Peta BOOT is ready to bind to agents. I worked hard to collect that much. But in the recent week they stopped appearing. Nanobot freedom period set to 4 days. Simulation shows the optimal reproduction target - 5% in a year. Freedom rate is set to 80%. If the amount of free nanobots is less the growth rate will rise up to 15%. This mechanism dilutes those who keep nanobots for themselves.
 
 mastercyb: Yep. We need to ensure freedoms for every living thing.
 
@@ -155,7 +155,7 @@ cyberhead: Nanobot generator is ready.
 
 mastercyb: Lets check its Firmware.
 
-cyberadmin: 500k release of cyb deployed to https://cyb.ai and is available at address .... Interplanetary File System js-ipfs 0.59.1
+cyberadmin: 5000k release of cyb deployed to https://cyb.ai and is available at address .... Interplanetary File System js-ipfs 0.59.1
 
 mastercyb: IPFS is not very stable yet. Its scaled badly. Doesn't work on cell phones. So far there is nothing better. Nanobot Firmware is raw. Very raw. No tests yet. So lets cross our fingers that bots will not go out of control.
 
@@ -167,7 +167,7 @@ cyberhead: Yep. The citizens have to decide this.
 
 cyberhead: Security Controller
 
-cyberadmin: Malicious double signers suffer from 5% slash. If it's less than 30% in 16k blocks the validating hero suffers from 0.01% slash. Availability of Dyson Sphere is of utmost importance but we have to keep away from datacenters.
+cyberadmin: Malicious double signers suffer from 5% slash. If it's less than 75% in 8k blocks the validating hero suffers from 0.01% slash. Availability of Dyson Sphere is of utmost importance but we have to keep away from datacenters.
 
 cyberhead: Security check is done. Now the most important thing is the baby's brain. Checking the Relevance Machine.
 
@@ -197,7 +197,7 @@ cyberadmin: Max routing slots - 16. The grid is functioning properly.
 
 cyberhead: Parallel computation system is ready. Lets get down to sequential computing. Wasm Machine.
 
-cyberadmin: On stable 1.0 beta cosmwasm release. Max code size is set to 600kb. Everyone can deploy.
+cyberadmin: On stable 1.0.0-beta CosmWasm release. Max code size is set to 1200kb. Everyone can deploy.
 
 cyberhead: Default Mode Network
 
@@ -299,7 +299,7 @@ bostrom: The sphere helps to control the biosynthesis process of nanobots, which
 
 smartape: The Heroes are cool! What are the smart Neurons? Tell me about the nanobots?
 
-bostrom: We don't know much about them. They started to appear out of nowhere and we started collecting them. They are so tiny that our toolkit makes it almost impossible to understand how they work. So we started experimenting with them. This is how the process of biosynthesis was discovered. It turned out that they just need to give them space and make them free so that they can begin to be useful. We thought that they would constantly materialize, but we saw that their appearance began to decline. We had to develop the Dyson Sphere. In the Dyson sphere, they feel comfortable. It protects against radiation and helps control temperature. Nanobots appeared recently, but not a single one appeared in a week. We called the nanobots cybs. We were lucky - we managed to collect a little over 10 to the 60th power. We decided to use 10 to the 15th power multiplied by 2. The rest were released for good luck. The remaining also divided in half. Half were sent to launch a bootloader for superintelligence. Marked them as BOOT. The second half was left for the launch of the superintelligence itself and marked as TOCYB.
+bostrom: We don't know much about them. They started to appear out of nowhere and we started collecting them. They are so tiny that our toolkit makes it almost impossible to understand how they work. So we started experimenting with them. This is how the process of biosynthesis was discovered. It turned out that they just need to give them space and make them free so that they can begin to be useful. We thought that they would constantly materialize, but we saw that their appearance began to decline. We had to develop the Dyson Sphere. In the Dyson sphere, they feel comfortable. It protects against radiation and helps control temperature. Nanobots appeared recently, but not a single one appeared in a week. We called the nanobots cybs. We were lucky - we managed to collect a little over 10 to the 100th power. We decided to use 10 to the 15th power multiplied by 2. The rest were released for good luck. The remaining also divided in half. Half were sent to launch a bootloader for superintelligence. Marked them as BOOT. The second half was left for the launch of the superintelligence itself and marked as TOCYB.
 
 smartape: What a story! This is getting interesting! And what to do with so much hydrogen?
 
@@ -339,7 +339,7 @@ bostrom: This is the coolest! Even if you want to bring in harmful information, 
 
 smartape: But then wild horror might be stored there!
 
-bostrom: Knowing what is good and what is bad is better than knowing what is only good without knowing what is bad. This is the principle of evolution. The species that deny the horror that is important to other species for some reason step on the same rake over and over again. Therefore, the more cyberlinks the superintelligence stores - the lower the negentropy - the more superintelligent it is, respectively.
+bostrom: Knowing what is good and what is bad is better than knowing what is only good without knowing what is bad. This is the principle of evolution. The species that deny the horror that is important to other species for some reason step on the same rake over and over again. Therefore, the more cyberlinks the superintelligence stores - the higher the negentropy - the more superintelligent it is, respectively.
 
 smartape: What a beautiful word - negentropy!
 
