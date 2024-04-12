@@ -1,52 +1,24 @@
-# Protocol
+The repo is a collection of mission critical information on the cyber project.
 
-The repo is a collection of mission critical information on the Cyber project. The purpose of the repo is to form both social and technical consensus on the project. The technical is more about having a protocol spec which is possible to implement on any language. The social is more about the common vision aka shelling point for every involved party.
+The purpose of the repo is to form both social and technical consensus on the project.
 
-## Computing the knowledge of the Great Web
+The technical aspect is more about having a protocol spec which is possible to implement in any formal language.
 
-Is a [whitepaper](/computing-the-knowledge/computing-the-knowledge.md)  describing a protocol framework. Research focusing on establishing the most important concepts and its rationale.
+The social aspect is more about the common vision aka shelling point for every involved party, expanding protocol definition to answer the `why` question.
 
-## Story
+Information is structured in a [logseq](https://logseq.com/) knowledge graph notation.
 
-Basic vision on how we are going to [grow the baby](/story/cyber-roadmap.md).
+## How to use
 
-The part of [Episode-1](/story/episode-1.md) is also ready
+- [install logseq](https://github.com/logseq/logseq/releases)
+- git clone https://github.com/cybercongress/cyber.git
+- add the cyber folder as a new graph
 
-## Dependencies
+## Legacy
 
-- [Tendermint](https://github.com/tendermint/spec/tree/master/spec) specification
-- [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk/tree/master/docs) library
-- [CIDv0](https://github.com/multiformats/cid#cidv0) specification
-- [IBC](https://github.com/cosmos/ibc) protocol family
+The [computing the knowledge](https://github.com/cybercongress/cyber/tree/master/computing-the-knowledge) folder stores the [prelaunch whitepaper](https://github.com/cybercongress/cyber/blob/master/computing-the-knowledge/computing-the-knowledge.md) which is [conserved](https://cyb.ai/oracle/ask/QmXzGkfxZV2fzpFmq7CjAYsYL1M581ZD4yuF9jztPVTpCn) due to a lot of incoming links.
 
-## Algorithms
+Although this whitepaper grasps the idea, since then, the project has evolved quite far from the vision. 
 
-- [cyber~Rank](/cyber-rank/cyber~Rank.ipynb)
-- [Bandwidth](/bandwidth/bandwidth.ipnb)
-- [Entropy](/entropy/entropy.ipnb)
-- [Karma](/karma/karma.ipnb)
-- [Investmint](/investmint/investmint.ipnb)
-- [DMN pricing](/dmn/dmn.ipnb)
-
-## go-cyber implementation
-
-[WIP Docs](https://github.com/cybercongress/go-cyber/tree/main/docs)
-
-
-## Cybernomics: Solving parameters for Bootloader
-
-We build [simulation](https://github.com/cybercongress/cybernomics/blob/main/bostrom/README.md) to balance supply of cyberlinks with demand.
-
-## Cybergift: Mapping blockchain social graph
-
-Current work in [cybergift repo](https://github.com/cybercongress/cybergift)
-
-## Bostrom: Bootstraping Superintelligence
-
-Under construction
-
-## Cyber: The Superintelligence
-
-Under construction
-
+Please refer to this metagraph for comprehensive information on the project.
 
