@@ -5,17 +5,17 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 
 - protocol for unified, provable, collective learning
 - some exciting ai applications
-	- planet scale [[superintelligence]]
-	- [[moon]] network state and [[bootloader]] [[bostrom]]
-	- memecoin with balls [[spacepussy]]
-	- immortal robot [[cyb]]
-	- self fulfilling prophecy game [[aos]]
-- [concepts](cyber/concepts)
-- [tutorials](cyber/tutorials)
-- [tokens](cyber/tokens)
-- [guides](cyber/guides)
-- [refference](cyber/reference)
-- [techtree](cyber/techtree)
-- [[unified theory]]
-- [aicosystem](cyber/aicosystem)
-- ## [[join]]
+	- TODO planet scale [[superintelligence]]
+	- TODO [[moon]] network state and [[bootloader]] [[bostrom]]
+	- TODO memecoin with balls [[spacepussy]]
+	- TODO immortal robot [[cyb]]
+	- TODO self fulfilling prophecy game [[aos]]
+- TODO [[concepts]]
+- TODO [[tutorials]]
+- TODO [[tokens]]
+- TODO [[guides]]
+- TODO [[reference]]
+- TODO [[techtree]]
+- TODO [[unified theory]]
+- TODO [[aicosystem]]
+- TODO [[join]]
