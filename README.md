@@ -8,6 +8,8 @@ The social aspect is more about the common vision aka shelling point for every i
 
 Information is structured in a [logseq](https://logseq.com/) knowledge graph notation.
 
+[Root page](pages/cyber.md) of metagraph
+
 ## How to use
 
 - [install logseq](https://github.com/logseq/logseq/releases)
