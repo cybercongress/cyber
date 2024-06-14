@@ -133,8 +133,7 @@
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Set "home" as the home page and display multiple pages in the right sidebar:
  ;; :default-home {:page "home", :sidebar ["Page A" "Page B"]}
- :default-home {:page "cyber"}
- 
+
  ;; Set the default location for storing notes.
  ;; Default value: "pages"
  ;; :pages-directory "pages"
@@ -178,7 +177,7 @@
  ;; Configure the behavior of pressing Enter in document mode.
  ;; if set to true, pressing Enter will create a new block.
  ;; Default value: false
- :shortcut/doc-mode-enter-for-new-block? true
+ :shortcut/doc-mode-enter-for-new-block? false
 
  ;; Block content larger than `block/content-max-length` will not be searchable
  ;; or editable for performance.
@@ -293,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["tokens" "cyber" "superintelligence" "todo"]
+ :favorites ["todo" "cyber" "superintelligence"]
 
  ;; Set flashcards interval.
  ;; Expected value:

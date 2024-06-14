@@ -42,7 +42,7 @@
 
  ;; Display brackets [[]] around page references.
  ;; Default value: true
- :ui/show-brackets? false
+ ;; :ui/show-brackets? true
 
  ;; Display all lines of a block when referencing ((block)).
  ;; Default value: false
@@ -63,15 +63,15 @@
 
  ;; Enable journals.
  ;; Default value: true
- :feature/enable-journals? true
+ ;; :feature/enable-journals? true
 
  ;; Enable flashcards.
  ;; Default value: true
- :feature/enable-flashcards? false
+ ;; :feature/enable-flashcards? true
 
  ;; Enable whiteboards.
  ;; Default value: true
- :feature/enable-whiteboards? false
+ ;; :feature/enable-whiteboards? true
 
  ;; Disable the journal's built-in 'Scheduled tasks and deadlines' query.
  ;; Default value: false
@@ -116,7 +116,7 @@
  ;; Publish all pages within the Graph
  ;; Regardless of whether individual pages have been marked as public.
  ;; Default value: false
- :publishing/all-pages-public? true
+ ;; :publishing/all-pages-public? false
 
  ;; Define the default home page and sidebar status.
  ;; If unspecified, the journal page will be loaded on startup and the right sidebar will stay hidden.
@@ -133,8 +133,7 @@
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Set "home" as the home page and display multiple pages in the right sidebar:
  ;; :default-home {:page "home", :sidebar ["Page A" "Page B"]}
- :default-home {:page "cyber"}
- 
+
  ;; Set the default location for storing notes.
  ;; Default value: "pages"
  ;; :pages-directory "pages"
@@ -178,7 +177,7 @@
  ;; Configure the behavior of pressing Enter in document mode.
  ;; if set to true, pressing Enter will create a new block.
  ;; Default value: false
- :shortcut/doc-mode-enter-for-new-block? true
+ :shortcut/doc-mode-enter-for-new-block? false
 
  ;; Block content larger than `block/content-max-length` will not be searchable
  ;; or editable for performance.
@@ -293,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["tokens" "cyber" "superintelligence" "todo"]
+ :favorites ["todo" "cyber" "superintelligence"]
 
  ;; Set flashcards interval.
  ;; Expected value:

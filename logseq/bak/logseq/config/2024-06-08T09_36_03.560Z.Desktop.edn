@@ -4,7 +4,7 @@
  ;; Available options:
  ;; - Markdown (default)
  ;; - Org
- ;; :preferred-format "Markdown"
+ :preferred-format "Markdown"
 
  ;; Set the preferred workflow style.
  ;; Available options:
@@ -38,11 +38,11 @@
 
  ;; Enable tooltip preview on hover.
  ;; Default value: true
- :ui/enable-tooltip? true
+ :ui/enable-tooltip? false
 
  ;; Display brackets [[]] around page references.
  ;; Default value: true
- ;; :ui/show-brackets? true
+ :ui/show-brackets? false
 
  ;; Display all lines of a block when referencing ((block)).
  ;; Default value: false
@@ -63,15 +63,15 @@
 
  ;; Enable journals.
  ;; Default value: true
- ;; :feature/enable-journals? true
+ :feature/enable-journals? true
 
  ;; Enable flashcards.
  ;; Default value: true
- ;; :feature/enable-flashcards? true
+ :feature/enable-flashcards? false
 
  ;; Enable whiteboards.
  ;; Default value: true
- ;; :feature/enable-whiteboards? true
+ :feature/enable-whiteboards? false
 
  ;; Disable the journal's built-in 'Scheduled tasks and deadlines' query.
  ;; Default value: false
@@ -116,7 +116,7 @@
  ;; Publish all pages within the Graph
  ;; Regardless of whether individual pages have been marked as public.
  ;; Default value: false
- ;; :publishing/all-pages-public? false
+ :publishing/all-pages-public? true
 
  ;; Define the default home page and sidebar status.
  ;; If unspecified, the journal page will be loaded on startup and the right sidebar will stay hidden.

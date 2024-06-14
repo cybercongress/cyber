@@ -4,7 +4,7 @@
  ;; Available options:
  ;; - Markdown (default)
  ;; - Org
- ;; :preferred-format "Markdown"
+ :preferred-format "Markdown"
 
  ;; Set the preferred workflow style.
  ;; Available options:
@@ -38,7 +38,7 @@
 
  ;; Enable tooltip preview on hover.
  ;; Default value: true
- :ui/enable-tooltip? true
+ :ui/enable-tooltip? false
 
  ;; Display brackets [[]] around page references.
  ;; Default value: true
@@ -116,7 +116,7 @@
  ;; Publish all pages within the Graph
  ;; Regardless of whether individual pages have been marked as public.
  ;; Default value: false
- ;; :publishing/all-pages-public? false
+ :publishing/all-pages-public? true
 
  ;; Define the default home page and sidebar status.
  ;; If unspecified, the journal page will be loaded on startup and the right sidebar will stay hidden.
@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["superintelligence" "TODO" "cyber"]
+ :favorites ["todo" "cyber" "superintelligence"]
 
  ;; Set flashcards interval.
  ;; Expected value:
