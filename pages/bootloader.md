@@ -1,5 +1,4 @@
 tags:: bostrom, aos, cyber
-status:: DONE
 
 - [[cybergraph]] with particular [[cyberlinks]] and [[neurons]]
 - [[bostrom]] blockchain is launched to form the bootloader of cyber

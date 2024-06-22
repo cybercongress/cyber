@@ -1,6 +1,5 @@
 icon:: 🌓
 tags:: aos
-status:: DONE
 
 - [[earth]] only natural satellite
 	- average distance to [[earth]]:  ~[384 400 km]
