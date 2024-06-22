@@ -10,6 +10,8 @@ Information is structured in a [logseq](https://logseq.com/) knowledge graph not
   
 [Root page](pages/cyber.md) of metagraph
 
+<img width="874" alt="image" src="https://github.com/cybercongress/cyber/assets/410789/0ba1c80e-3d5a-47d8-a94e-315a54dbfd6b">
+
 ## How to use?
 
 go to [docs.cyb.ai](https://docs.cyb.ai)
