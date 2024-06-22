@@ -1,0 +1,27 @@
+html body {
+  background-color: black;
+}
+
+.dark .left-sidebar-inner {
+  --left-sidebar-bg-color: black;
+}
+
+.dark {
+  --ls-main-content-background: black;
+}
+
+#right-sidebar .cp__right-sidebar-topbar {
+  background-color: black !important;
+}
+
+#right-sidebar-container {
+  background-color: black !important;
+}
+
+.sidebar-item {
+  background-color: black !important;
+}
+
+#logseq-tabs_lsp_main {
+  background-color: black !important;
+}
