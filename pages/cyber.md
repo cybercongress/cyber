@@ -7,7 +7,7 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 - some exciting ai applications
 	- TODO planet scale [[superintelligence]]
 	- TODO [[moon]] network state and [[bootloader]] [[bostrom]]
-	- TODO memecoin with balls [[spacepussy]]
+	- TODO memecoin with balls [[space pussy]]
 	- TODO immortal robot [[cyb]]
 	- TODO self fulfilling prophecy game [[aos]]
 - TODO [[concepts]]
