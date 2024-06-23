@@ -4,11 +4,11 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 
 - protocol for unified, provable, collective learning
 - some exciting ai applications
-	- TODO planet scale [[superintelligence]]
-	- TODO [[moon]] network state and [[bootloader]] [[bostrom]]
-	- TODO memecoin with balls [[space pussy]]
-	- TODO immortal robot [[cyb]]
-	- TODO self fulfilling prophecy game [[aos]]
+	- planet scale [[superintelligence]]
+	- [[moon]] network state and [[bootloader]] [[bostrom]]
+	- memecoin with balls [[space pussy]]
+	- immortal robot [[cyb]]
+	- self fulfilling prophecy game [[aos]]
 - TODO [[concepts]]
 - TODO [[tutorials]]
 - TODO [[tokens]]
