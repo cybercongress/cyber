@@ -1,5 +1,4 @@
 icon:: 🔵
-banner:: ../assets/cyber_banner.png
 tags:: cyber, aos, cyb, bostrom, cybernomics
 alias:: [[the new, yet to be born, force]], one simple protocol
 

@@ -1,4 +1,3 @@
-banner:: ../assets/boot-banner_1668197623658_0.jpeg
 icon:: 🟢
 tags:: aos, cyber
 
