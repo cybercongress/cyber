@@ -1,6 +1,6 @@
 icon:: ⚫️
 tags:: aos, cyber
-alias:: asi, singleton
+alias:: asi, singleton, collective ai
 
 - computer that is smarter then all humans combined
 - term coined by nick bostrom in [his book](https://cyb.ai/ipfs/QmYHo4oKHvm33pPnou9M1iRww2PYQu9Kmb3DWJ4DJgrUkb)
