@@ -1,11 +1,14 @@
 tags:: cyber
 
-- [[neuron]] as universal model for the observer
-- [[particle]] as fundamental unit of information
-- [[cyberlink]] as fundamental unit of knowledge
-- [[cybergraph]]: datastructure for [[collective ai]]
-- [[relevance machine]]: virtual machine for [[collective ai]]
-- [[attention]] and [[will]] as [[collective ai]] learning tokens
-- [[karma]]: contribution score of [[neuron]]
+- [[neuron]] as universal model for the [[observer]]
+- [[consensus]] on the state of [[vimputer]]
+- [[particle]] as fundamental unit of [[information]]
+- [[cyberlink]] as fundamental unit of [[knowledge]]
+- [[cybergraph]]: datastructure for [[collective memory]]
+- [[relevance machine]]: virtual machine for [[collective intelligence]]
+- [[attention]] and [[will]] as learning tokens for [[collective ai]]
+- [[karma]]: contribution [[score]] of [[neuron]]
+- [[axons]]  and [[neural proofs]] as foundation for [[avatar]]
 - [[learning incentives]] with [[yuma]] consensus
-- [[syntropy]] as metabolic factor of [[superintelligence]]
+- [[syntropy]] as key metabolic factor of [[superintelligence]]
+- [[distributed neural network]] as foundation for [[superintelligence]]
