@@ -9,11 +9,11 @@ tags:: DONE, cybernomics
 	- blockchain
 	- distributed ledger
 	- consensus computer
+- needs [[consensus]] to operate
 - examples of vimputers
 	- [[bitcoin]]
 	- [[ethereum]]
 	- [[spacepussy]]
 	- [[bostrom]]
-	- [[polkadot]]
-	- [[ton]]
-	- [[solana]]
+	- [[cosmos]]
+- discover more [[concepts]]

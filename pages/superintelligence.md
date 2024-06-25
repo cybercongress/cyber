@@ -38,3 +38,5 @@ alias:: asi, singleton, collective ai
 	- but [[cyber]] is the core fundamental mechanism for establishing truth consensus
 	- this type of consensus allows us to build the superintelligence on top
 - TODO [[bootstraping superintelligence]]
+- TODO [[introduction to bostrom for geeks]]
+- discover more [[concepts]]
