@@ -2,6 +2,7 @@ tags:: cyber
 
 - [[neuron]] as universal model for the [[observer]]
 - [[consensus]] on the state of [[vimputer]]
+- [[token]] as fundamental unit of [[value]]
 - [[particle]] as fundamental unit of [[information]]
 - [[cyberlink]] as fundamental unit of [[knowledge]]
 - [[cybergraph]]: datastructure for [[collective memory]]
