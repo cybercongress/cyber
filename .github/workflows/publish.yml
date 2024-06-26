@@ -19,7 +19,7 @@ jobs:
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/build/.nojekyll
       - name: Deploy to Netlify
-        uses: jsmrcaga/action-netlify-deploy@v2.x.x
+        uses: jsmrcaga/action-netlify-deploy@v2.2.0
         with:
           build_directory: build
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
