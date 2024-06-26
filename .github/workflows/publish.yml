@@ -1,9 +1,12 @@
-on: [push]
+on:
+  push:
+    branches: 
+      - master
 
 permissions:
   contents: write
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     name: Publish Logseq graph
     steps:
@@ -14,7 +17,10 @@ jobs:
           accent-color: green
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy to Netlify
+        uses: jsmrcaga/action-netlify-deploy@v2.0.0
         with:
-          folder: www
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_DEPLOY_MESSAGE: "Deployed on new master commit"
+          NETLIFY_DEPLOY_TO_PROD: true
