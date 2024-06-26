@@ -15,11 +15,13 @@ jobs:
         with:
           theme-mode: dark
           accent-color: green
+          output-directory: build
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
-        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+        run: touch $GITHUB_WORKSPACE/build/.nojekyll
       - name: Deploy to Netlify
-        uses: jsmrcaga/action-netlify-deploy@v2.0.0
+        uses: jsmrcaga/action-netlify-deploy@v2.x.x
         with:
+          build_directory: build
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_DEPLOY_MESSAGE: "Deployed on new master commit"
