@@ -10,7 +10,7 @@ The repo is a collection of mission critical information on the cyber project
     
   [Root page](pages/cyber.md) of metagraph
   
-  <img width="874" alt="image" src="https://ipfs.io/ipfs/QmWSGLzZRZuDnsT6JCbT6TF7mNgjdiV4uHcXKxRXnebsAJ">
+  <img width="874" alt="image" src="https://ipfs.io/ipfs/QmPpUTW25VoYvsHvmQs4mTKAPXBVGTVcFKuR71hoAhpuZd">
 
 ## How to use?
   
