@@ -12,4 +12,5 @@ tags:: cyber
 - [[axons]]  and [[neural proofs]] as foundation for [[avatar]]
 - [[learning incentives]] with [[yuma]] consensus
 - [[syntropy]] as key metabolic factor of [[superintelligence]]
+- [[bootloader]] as research and development ground
 - [[distributed neural network]] as foundation for [[superintelligence]]
