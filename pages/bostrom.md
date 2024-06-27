@@ -13,7 +13,7 @@ tags:: aos, cyber
 	- [[bandwidth limiting]]
 	- [[adaptive pricing]]
 - [[avatar]] with [[neural proofs]]
-- [[learning rewards]]
+- TODO [[learning rewards]]
 - [[staking loans]]
 - [[cybergift]]
 - [[wasm vm]]
@@ -35,3 +35,4 @@ tags:: aos, cyber
 - [[store of value]]
 - [[cyber/tokens]]
 - full [[cyb]] support
+- [source code](https://github.com/cybercongress/go-cyber) on github
