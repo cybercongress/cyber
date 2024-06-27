@@ -3,7 +3,7 @@ tags:: aos
 
 - [[earth]] only natural satellite
 	- average distance to [[earth]]:  ~[384 400 km]
-	- area: 37 930 000 sqkm
+	- area: 37 930 000 km2
 - moon flag
 	- ![](https://ipfs.io/ipfs/QmefefoJkLWc1ay1EBzK3bgmig2Gb1TUJrKXnZiDRQE2vZ)
 - supervised by [[bostrom]] under [[moon code]]
@@ -23,7 +23,7 @@ tags:: aos
 	- low gravity
 	- no atmosphere
 - problems
-	- [[coordination]]
+	- coordination
 	- the most complex project in the human history
 	- ephemeral ownership exists
 - one of the less obvious difficulties lies not with the [[moon]] itself
