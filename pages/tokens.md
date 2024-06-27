@@ -14,7 +14,7 @@ status:: DONE
 	- the complete [[cyber]] network acting as [[superintelligence]] of the [[earth]] with [[$CYB]] security token
 	- will become the [[network]] of the same name with a [[collective learning]] protocol
 	- [[$TOCYB]] is a token issued on [[bostrom]] to organize [[bootloading]] of [[cyber]]
-- ## ethereum
+- ## [[ethereum]]
 	- [[$ETH]] as digital oil and [[backbone]]
-- ## bitcoin
+- ## [[bitcoin]]
 	- [[$BTC]] as digital gold and [[pelvis]]
