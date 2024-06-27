@@ -10,7 +10,7 @@ tags:: cyber
 - TODO [[attention]] and [[will]] as learning tokens for [[collective ai]]
 - TODO [[karma]]: contribution [[score]] of [[neuron]]
 - TODO [[avatar]] with [[axons]], [[neural proofs]] and [[soul]]
-- TODO [[learning incentives]] based on [[yuma]] consensus
+- TODO [[learning incentives]] based on [[yuma]]
 - TODO [[syntropy]] as key metabolic factor of [[superintelligence]]
 - [[bootloader]] as research and development ground
 - [[distributed neural network]] as foundation for [[superintelligence]]

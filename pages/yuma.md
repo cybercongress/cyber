@@ -1,0 +1,1 @@
+- basic [[cooperation]] algorithm for [[collective intelligence]]
