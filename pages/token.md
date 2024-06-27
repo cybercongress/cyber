@@ -16,5 +16,5 @@ status:: DONE
 	- [[score]]: fungible and immovable
 	- [[badge]]: unique and immovable
 - token term often used in ai field defined in cyberverse as [[particle]]
-- tokens
+- discover best [[tokens]]
 - discover more [[concepts]]

@@ -1,0 +1,2 @@
+- continuous process of [[cooperative games]] between [[neurons]]
+- implemented by [[cybernet]] project

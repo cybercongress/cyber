@@ -1,4 +1,5 @@
 tags:: bostrom, aos, cyber
+alias:: bootloading
 
 - [[cybergraph]] with particular [[cyberlinks]], [[neurons]] and [[tokens]]
 - [[bostrom]] blockchain is launched to form the bootloader of [[cyber]]

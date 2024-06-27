@@ -1,5 +1,5 @@
 tags:: cyber
-alias:: cyberlinks, unit of knowledge
+alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions
 
 - cyberlink is directed link between two [[particles]] of [[information]] signed by [[neuron]] and recorded into [[cyber]] [[vimputer]]
 - primitive [[learning]] act

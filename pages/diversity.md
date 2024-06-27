@@ -1,0 +1,2 @@
+- diversity in skills, knowledge, perspectives, and cognitive styles is crucial for collective intelligence
+- diverse groups are better at exploring a wider range of solutions and avoiding groupthink

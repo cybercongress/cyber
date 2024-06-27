@@ -15,5 +15,6 @@ status:: DONE
 	- will become the [[network]] of the same name with a [[collective learning]] protocol
 	- [[$TOCYB]] is a token issued on [[bostrom]] to organize [[bootloading]] of [[cyber]]
 - ## ethereum
+	- [[$ETH]] as digital oil and [[backbone]]
 - ## bitcoin
 	- [[$BTC]] as digital gold and [[pelvis]]
