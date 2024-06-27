@@ -1,8 +1,5 @@
 alias:: token theory
-
 tags:: cybernomics
-
-status:: DONE
 
 - think of tokens as numeric values stored in [[vimputer]] which can be computed according to some rules for [[neurons]]
 - could be

@@ -1,2 +1,2 @@
 - the ability of a system to structure itself without external control
-- enables groups to coordinate and collaborate effectively through local interactions and feedback mechanisms
+- enables groups to coordinate and cooperate effectively through local interactions and feedback mechanisms

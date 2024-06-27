@@ -7,7 +7,7 @@ tags:: cyber
 - [[cyberlink]] as fundamental unit of [[knowledge]] and [[learning]]
 - TODO [[cybergraph]]: datastructure for [[collective memory]]
 - TODO [[relevance machine]]: virtual machine for [[collective intelligence]]
-- TODO [[avatar]] with [[axons]], [[neural proofs]] and [[soul]]
+- TODO [[avatar]] with [[passport]], [[axons]], [[neural proofs]] and [[soul]]
 - TODO [[learning incentives]] based on [[yuma]]
 - [[bootloader]] as research and development ground
 - [[distributed neural network]] as foundation for [[superintelligence]]

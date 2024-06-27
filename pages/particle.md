@@ -1,5 +1,4 @@
 alias:: particles, object, cid, content address
-
 tags:: cyber, cyb
 
 - [[object]] of [[information]]

@@ -1,5 +1,4 @@
-alias:: neurons, address, subject
-
+alias:: address, subject, agent
 tags:: cyber
 
 - [[subject]] of [[information]]

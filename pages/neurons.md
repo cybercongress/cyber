@@ -1,3 +1,3 @@
 alias:: individuals, users
 
-- currently is alias of [[neuron]]
+- more than one [[neuron]]

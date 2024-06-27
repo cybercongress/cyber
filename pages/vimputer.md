@@ -1,4 +1,4 @@
-alias:: virtual computer
+alias:: virtual computer, blockchain, chain
 tags:: cybernomics
 
 tags:: DONE, cybernomics
@@ -10,10 +10,5 @@ tags:: DONE, cybernomics
 	- distributed ledger
 	- consensus computer
 - needs [[consensus]] to operate
-- examples of vimputers
-	- [[bitcoin]]
-	- [[ethereum]]
-	- [[spacepussy]]
-	- [[bostrom]]
-	- [[cosmos]]
+- examples of [[vimputers]]
 - discover more [[concepts]]

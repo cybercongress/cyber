@@ -6,9 +6,9 @@ alias:: collective intelligence theory
 - foundations are built on principles from: biology, sociology, psychology, computer science, and economics
 - ## key concepts
 	- [[consensus]]
+	- [[self-organization]]
 	- [[diversity]]
 	- [[distributed cognition]]
-	- [[self-organization]]
 	- [[stigmergy]]
 	- [[coordination]]
 	- [[cooperation]]
