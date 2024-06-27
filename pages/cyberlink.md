@@ -1,7 +1,7 @@
 tags:: cyber
 alias:: cyberlinks, unit of knowledge
 
-- cyberlink is directed link between two [[particles]] of [[knowledge]] signed by [[neuron]] and recorded into [[cyber]] [[vimputer]]
+- cyberlink is directed link between two [[particles]] of [[information]] signed by [[neuron]] and recorded into [[cyber]] [[vimputer]]
 - primitive [[learning]] act
 - fully authenticated quadruple
 	- | block hash | neuron | from particle | to particle |
