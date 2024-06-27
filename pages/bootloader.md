@@ -1,7 +1,7 @@
 tags:: bostrom, aos, cyber
 
 - [[cybergraph]] with particular [[cyberlinks]] and [[neurons]]
-- [[bostrom]] blockchain is launched to form the bootloader of cyber
+- [[bostrom]] blockchain is launched to form the bootloader of [[cyber]]
 	- as experimental [[network state]]
 	- powerful [[gpu hub]]
 	- and [[the game]]
