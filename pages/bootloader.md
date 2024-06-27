@@ -1,7 +1,7 @@
 tags:: bostrom, aos, cyber
 
-- [[cybergraph]] with particular [[cyberlinks]] and [[neurons]]
-- [[bostrom]] blockchain is launched to form the bootloader of cyber
+- [[cybergraph]] with particular [[cyberlinks]], [[neurons]] and [[tokens]]
+- [[bostrom]] blockchain is launched to form the bootloader of [[cyber]]
 	- as experimental [[network state]]
 	- powerful [[gpu hub]]
 	- and [[the game]]
@@ -18,5 +18,11 @@ tags:: bostrom, aos, cyber
 	- and learn from it
 - [[why we need bootloader]]
 - thoughts on a necessary scale for bootloading
-	- 1T cyberlinks with optimal beta
-	- 10M neurons
+	- 1T [[cyberlinks]]
+	- [[optimal centrality]]
+	- 10M [[neurons]]
+- currently we are
+	- 5 order of magnitude less in [[cyberlinks]]
+	- 2 order of magnitude less in [[optimal centrality]]
+	- 3 order of magnitude less in [[neural activity]]
+- discover more [[concepts]]
