@@ -1,2 +1,4 @@
+- TODO [[attention]] and [[will]] as learning tokens for [[collective ai]]
+- TODO [[karma]]: contribution [[score]] of [[neuron]]
+- TODO [[syntropy]] as key metabolic factor of [[superintelligence]]
 - discover more [[concepts]]
--
