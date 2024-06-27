@@ -29,4 +29,4 @@ alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions
 	- link between two pieces of content particles there each content is addressed by its [[hash]]
 	- this makes information searchable through the spacetime
 - changing the way we [[learn]]
-- discover more [[concepts]]
+- discover all [[concepts]]

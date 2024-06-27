@@ -9,4 +9,4 @@ alias:: consensus mechanism, consensus algorithm
 	- [nakamoto](https://www.nervos.org/knowledge-base/what_is_nakamoto_consensus)
 	- [tendermint](https://tendermint.com/) and [cometbft](https://cometbft.com/)
 	- [gasper](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/)
-- discover more [[concepts]]
+- discover all [[concepts]]

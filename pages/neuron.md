@@ -16,4 +16,4 @@ tags:: cyber
 	- [[kelpr]] in [[cosmos]] and [[cyber]]
 	- [[frame]] in [[ethereum]]
 - in [[cyb/portal]] you can connect any [[cyber]], [[ethereum]] and [[cosmos]] [[neuron]] to [[avatar]]
-- discover more [[concepts]]
+- discover all [[concepts]]

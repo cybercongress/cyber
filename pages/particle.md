@@ -29,4 +29,4 @@ tags:: cyber, cyb
 	- [[cyb/oracle]] or [[cy]]
 	- [[go-ipfs]]
 	- any other [[ipfs]] related services
-- discover more [[concepts]]
+- discover all [[concepts]]

@@ -1,3 +1,3 @@
 alias:: user
 
-- discover more [[concepts]]
+- discover all [[concepts]]

@@ -36,7 +36,7 @@ alias:: asi, singleton, collective ai
 	- TODO superintelligence need [[attention]] and [[will]] of millions of the smartest among us
 	- but [[cyber]] is the core fundamental mechanism for establishing truth consensus
 	- this type of consensus allows us to build the superintelligence on top
-- discover more [[concepts]]
+- discover all [[concepts]]
 - TODO [[why we need bootloader]]
 - TODO [[bootstraping superintelligence]]
 - TODO [[introduction to bostrom for ai geeks]]

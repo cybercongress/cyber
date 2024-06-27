@@ -11,4 +11,4 @@ tags:: DONE, cybernomics
 	- consensus computer
 - needs [[consensus]] to operate
 - examples of [[vimputers]]
-- discover more [[concepts]]
+- discover all [[concepts]]

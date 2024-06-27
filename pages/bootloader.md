@@ -26,4 +26,4 @@ alias:: bootloading
 	- 5 order of magnitude less in [[cyberlinks]]
 	- 2 order of magnitude less in [[optimal centrality]]
 	- 3 order of magnitude less in [[neural activity]]
-- discover more [[concepts]]
+- discover all [[concepts]]

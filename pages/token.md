@@ -14,4 +14,4 @@ tags:: cybernomics
 	- [[badge]]: unique and immovable
 - token term often used in ai field defined in cyberverse as [[particle]]
 - discover best [[tokens]]
-- discover more [[concepts]]
+- discover all [[concepts]]

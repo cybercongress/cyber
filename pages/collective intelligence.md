@@ -42,4 +42,4 @@ alias:: collective intelligence theory
 			- have higher collective intelligence
 			- than those who are very similar in cognitive style or very different
 - collective intelligence of [[bostrom]] and [[spacepussy]] offers simpler [[learning]]
-- discover more [[concepts]]
+- discover all [[concepts]]
