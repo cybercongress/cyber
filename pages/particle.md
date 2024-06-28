@@ -14,7 +14,7 @@ tags:: cyber, cyb
   QmRA3NWM82ZGynMbYzAgYTSXCVM14Wx1RZ8fKP42G6gjgj
   ```
 - which generally is [[hash]] of the [[file]]
-- content addresses give [cool properties](https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est)for [[superintelligence]]
+- content addresses give [some cool properties](https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est)for [[superintelligence]]
 	- mesh-network future-proof
 	- interplanetary accessibility
 	- censorship resistance
