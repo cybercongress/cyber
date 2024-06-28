@@ -1,2 +1,1 @@
-document.documentElement.setAttribute("data-theme", "dark");
-document.documentElement.setAttribute("data-color", "green");
+document.querySelector(".journals-nav .flex-1").innerHTML = "Blog";
