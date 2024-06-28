@@ -3,7 +3,6 @@ tags:: cyber, aos, cyb, bostrom, cybernomics
 alias:: [[the new, yet to be born, force]], one simple protocol
 
 - protocol for unified, provable, collective learning
-- TODO [[concepts]]
 - some exciting ai applications
 	- planet scale [[superintelligence]]
 	- memecoin with balls [[space pussy]]
@@ -11,10 +10,11 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 	- immortal robot [[cyb]]
 	- self fulfilling prophecy game [[aos]]
 	- [[moon]] network state
-- TODO [[tutorials]]
-- TODO [[tokens]]
-- TODO [[guides]]
-- TODO [[reference]]
+- TODO [[concepts]]
+- [[tutorials]]
+- [[tokens]]
+- [[guides]]
+- [[reference]]
 - TODO [[techtree]]
 - TODO [[unified theory]]
 - TODO [[aicosystem]]
