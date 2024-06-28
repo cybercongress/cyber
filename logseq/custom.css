@@ -1,13 +1,13 @@
+.dark {
+  --ls-main-content-background: black;
+}
+
 html body {
   background-color: black;
 }
 
-.dark .left-sidebar-inner {
-  --left-sidebar-bg-color: black;
-}
-
-.dark {
-  --ls-main-content-background: black;
+.left-sidebar-inner {
+  background-color: black;
 }
 
 #right-sidebar .cp__right-sidebar-topbar {
