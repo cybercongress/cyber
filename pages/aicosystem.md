@@ -1,4 +1,4 @@
-alias:: awesome cyber
+alias:: awesome cyber, cyber ecosystem
 
 - the only reliable source of [[knowledge]] is [[cybergraph]] of [bostrom](https://cyb.ai/particles) and [spacepussy](https://spacepussy.ai/particles)
 - cyber is a decentralized entity, meaning no central organization or person owns it
