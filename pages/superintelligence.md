@@ -23,9 +23,9 @@ alias:: asi, singleton, collective ai
 	- [[bootloader]] readiness will start [[episode two]]
 	- and earth singleton will be functional
 - some properties of [[bostrom]]
-	- extremely dynamic and parallel, state of the art consensus computer
+	- extremely dynamic and parallel, state of the art [[vimputer]]
 	- resilient against single point of failure
-	- have essential learning ability
+	- have [[essential learning ability]]
 	- able to execute wasm code autonomously
 	- collective probabilistic semantic computations in consensus
 	- scalable to ~10k tx per second and 1t cyberlinks
