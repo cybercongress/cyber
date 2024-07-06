@@ -1,4 +1,4 @@
-alias:: address, subject, agent
+alias:: address, subject, agent, user, observer
 tags:: cyber
 
 - [[subject]] of [[information]]

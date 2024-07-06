@@ -33,7 +33,7 @@ tags:: cyber
 	- in nature nearly all newborns have some starting semantics
 	- but it is not obvious which one must be there
 	- using [[bostrom]] allow us to build foundation for such semantic core
-- [[advanced cryptoeconimcs]]
+- [[advanced cryptoeconomics]]
 - there is a shaky dream about [[fuzzy hashing]] instead of [[strict hashing]], which is unlikely
 - this is surely not a full list of problem to solve
 - [bootloading](bootloader) takes time to answer hard questions
