@@ -10,10 +10,10 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 	- immortal robot [[cyb]]
 	- self fulfilling prophecy game [[aos]]
 	- [[moon]] network state
-- TODO [[concepts]]
-- [[tutorials]]
+- [[concepts]]
+- TODO [[tutorials]]
 - [[tokens]]
-- [[guides]]
+- TODO [[guides]]
 - [[reference]]
 - TODO [[techtree]]
 - TODO [[unified theory]]
