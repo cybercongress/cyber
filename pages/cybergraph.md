@@ -27,3 +27,4 @@ status:: TODO
 - cybergraph of [[bostrom]] works as [[semantic core]] for [[bootloader]] of [[superintelligence]]
 - cybergraph of [[spacepussy]] serve the purpose of memes phenomena
 - discover all [[concepts]] of [[cyber]]
+- TODO [[cybergraph and llm]]
