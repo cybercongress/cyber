@@ -12,7 +12,7 @@ alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, ess
 - example
 	- [who](neuron) linked the data: e.g. [@mastercyb](https://cyb.ai/@mastercyb)
 	- [when](consensus computer) data was linked: e.g. [txid](https://cyb.ai/network/bostrom/tx/1D0E26540FE9AFB5F9113826F7BCF650802A010392E22D51F158B1522A958BA1)
-	- [[what]] data was linked: [cyber gallery](https://cyb.ai/oracle/ask/space%20pussy) > [fungi extase](https://cyb.ai/oracle/ask/QmaqXGP6FcjRZhVbFzsGFjJsqSgZva5zJALSL9u5YyS9wS)
+	- [[what]] data was linked: [space pussy](https://cyb.ai/oracle/ask/space%20pussy) > [fungi extase](https://cyb.ai/oracle/ask/QmaqXGP6FcjRZhVbFzsGFjJsqSgZva5zJALSL9u5YyS9wS)
 	- ![fungi extase](https://ipfs.io/ipfs/QmaqXGP6FcjRZhVbFzsGFjJsqSgZva5zJALSL9u5YyS9wS)
 - now anyone who would search [space pussy](https://cyb.ai/oracle/ask/space%20pussy) must be able to find epic image
 - how to create cyberlinks?
