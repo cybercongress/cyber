@@ -8,7 +8,7 @@ alias:: asi, singleton, collective ai
 	- computer in a box
 	- genetic engineering
 	- whole brain emulation
-	- collaborative approach
+	- [[collective intelligence]]
 - [[cyber]] blend all paths in [[one simple protocol]] with strong focus on collaboration
 - [[cyber]] is a protocol
 	- for collective learning
