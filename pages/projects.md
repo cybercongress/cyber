@@ -1,5 +1,5 @@
-- [[cybernet]]
-- [[cyberver]]
-- [[cybertensor]]
 - [[go-cyber]]
 - [[cyb]]
+- [[cybernet]]
+- [[cybertensor]]
+- [[cyberver]]
