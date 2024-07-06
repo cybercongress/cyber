@@ -17,5 +17,5 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 - [[reference]]
 - TODO [[techtree]]
 - TODO [[unified theory]]
-- TODO [[aicosystem]]
+- [[aicosystem]]
 - TODO [[join]]

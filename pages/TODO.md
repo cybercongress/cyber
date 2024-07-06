@@ -2,4 +2,4 @@
 - {{query (task TODO)}}
   query-table:: true
   query-sort-by:: page
-  query-sort-desc:: false
+  query-sort-desc:: true
