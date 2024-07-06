@@ -293,7 +293,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["cyber" "superintelligence" "projects" "concepts" "tokens" "todo"]
+ :favorites ["cyber" "superintelligence" "cyberlink" "concepts" "tokens" "projects" "todo"]
 
  ;; Set flashcards interval.
  ;; Expected value:
