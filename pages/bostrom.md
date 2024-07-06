@@ -4,6 +4,7 @@ tags:: aos, cyber
 - [[bootloader]] of [[cyber]]
 - and [[moon]] network state
 - named after [[nick bostrom]]
+- [[bostrom/genesis]]
 - [[proof of stake]]
 	- [[uptime slashing]]
 	- [[delegation rewards]]
