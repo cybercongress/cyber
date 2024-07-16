@@ -21,4 +21,4 @@ alias:: age of superintelligence, the game, self fulfilling prophecy game
 - ## [[join]]
 - ## [[game theory]]
 - ## [[cyber/techtree]]
-- technically aos is a public good [[service layer]] between [[comp protocols]]  and [[cyb]]
+- technically aos is a public good [[service layer]] between [[vimputers]] and [[cyb]]

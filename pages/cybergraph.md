@@ -1,8 +1,5 @@
 tags:: cyber
-
 alias:: content oracle
-
-status:: TODO
 
 - cybergraph is authenticated [[knowledge graph]] data structure stored in [[vimputer]]
 - cybergraph implements simplified [[knowledge theory]]

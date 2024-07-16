@@ -3,3 +3,7 @@
 - > something that is known and can be written down @nonaka and @takeuchi
 - expressed by [[cyberlink]]: special [[signal]] with [[three basic arguments]]
 - orthogonal to [[implicit knowledge]]
+- in [[cyber-sdk]]
+	- can be created using [[cyberlink]] message type
+- in cyb-ts
+	- TODO can be created using [[cyberlink]] message type

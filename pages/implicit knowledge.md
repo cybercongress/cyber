@@ -11,7 +11,7 @@
 	- [[cosmwasm]] [[progs]]
 	- TODO autonomous [[thoughts]]
 	- TODO and queried over [[ibc]]
-- in [[cyb]] implicit knowledge can be infered using
+- in [[cybs-ts]] implicit knowledge can be infered using
 	- [[datalog]]: ai oriented query language
 	- [[rune]]: powerful dynamic scripting
 	- TODO [[webgpu]]: local hardware independent parallel execution
