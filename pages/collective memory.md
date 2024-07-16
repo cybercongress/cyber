@@ -1,1 +1,3 @@
 - discover all [[concepts]]
+- get the idea of [[collective amnesia]] first
+-
