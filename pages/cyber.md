@@ -1,5 +1,5 @@
 icon:: 🔵
-tags:: aos, cyb, bostrom, cybernomics
+tags:: root
 alias:: [[the new, yet to be born, force]], one simple protocol
 
 - protocol for unified, provable, collective learning
