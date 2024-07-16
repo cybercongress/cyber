@@ -1,0 +1,7 @@
+- powerful instruction set for a more portable execution
+- [webassembly.org](https://webassembly.org)
+- [some of implementations](https://webassembly.org/features/)
+	- [[legacy browsers]]
+	- js, rust, go, python,
+	- [[cosmwasm]], [[substrate]]
+	-
