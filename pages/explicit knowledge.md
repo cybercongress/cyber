@@ -5,5 +5,5 @@
 - orthogonal to [[implicit knowledge]]
 - in [[cyber-sdk]]
 	- can be created using [[cyberlink]] message type
-- in cyb-ts
+- in [[cyb-ts]]
 	- TODO can be created using [[cyberlink]] message type
