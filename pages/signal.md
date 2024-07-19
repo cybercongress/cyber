@@ -1,1 +1,3 @@
-alias:: tx, transaction, txs, transactions, signals
+alias:: tx, transaction, txs, transactions, signals, signaling
+
+-

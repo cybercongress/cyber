@@ -3,6 +3,7 @@ tags:: cyber
 
 - [[subject]] of [[information]]
 - abstraction over different types of cryptographic virtual addresses which are used in any blockchain
+- neuron is derived from [[public key]]
 - more technically neurons are
 	- either can prove correctness of [[signature]]
 	- or can act as a [[prog]] in accordance to [[consensus]] of [[vimputer]]
