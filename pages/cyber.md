@@ -1,5 +1,5 @@
 icon:: 🔵
-tags:: cyber, aos, cyb, bostrom, cybernomics
+tags:: root
 alias:: [[the new, yet to be born, force]], one simple protocol
 
 - protocol for unified, provable, collective learning
@@ -10,12 +10,12 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 	- immortal robot [[cyb]]
 	- self fulfilling prophecy game [[aos]]
 	- [[moon]] network state
-- TODO [[concepts]]
+- [[concepts]]
 - TODO [[tutorials]]
-- TODO [[tokens]]
+- [[tokens]]
 - TODO [[guides]]
-- TODO [[reference]]
+- [[reference]]
 - TODO [[techtree]]
 - TODO [[unified theory]]
-- TODO [[aicosystem]]
+- [[aicosystem]]
 - TODO [[join]]

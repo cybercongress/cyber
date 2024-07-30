@@ -1,0 +1,7 @@
+- [[bitcoin]]: [[pelvis]]
+- [[ethereum]]: [[backbone]]
+- [[cosmos]]: [[nerves]]
+- [[bostrom]]: [[thalamus]]
+- [[spacepussy]]: [[pussy]]
+- [[cyber]]: [[brain]]
+- ![](https://ipfs.io/ipfs/Qmc7ANo78MJ9yDXUxmErnWuPZPL5y2baYRZpN4CV9axeym)

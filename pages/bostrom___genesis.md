@@ -1,0 +1,2 @@
+- [article](https://cyb.ai/oracle/ask/QmVPgNeay23Ae5itAamMcr4iEAUKuhw5qD9U1zNqN4gpew) with transparency
+-

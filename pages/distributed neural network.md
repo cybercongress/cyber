@@ -1,1 +1,1 @@
-- discover more [[concepts]]
+- discover all [[concepts]]

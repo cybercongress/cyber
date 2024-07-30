@@ -1,0 +1,3 @@
+- aggregate information from [[neurons]] by allowing them to trade shares in the outcome of future events
+- prices in these markets reflect the collective probability of an event occurring
+- area of ongoing research by [[cyber]] community

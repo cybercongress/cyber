@@ -1,0 +1,5 @@
+- in [[bostrom]]
+	- [[$H]]
+	- [[$V]]
+	- [[$A]]
+- in [[spacepussy]]

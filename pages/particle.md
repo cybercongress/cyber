@@ -1,8 +1,7 @@
 alias:: particles, object, cid, content address
-
 tags:: cyber, cyb
 
-- object of [[information]]
+- [[object]] of [[information]]
 - [[neurons]] measure [[information]] by computing [[particle]] from [[file]]
 - particle is a format for content identification of data
 - essentially, particle, or content address is web3 link
@@ -15,7 +14,7 @@ tags:: cyber, cyb
   QmRA3NWM82ZGynMbYzAgYTSXCVM14Wx1RZ8fKP42G6gjgj
   ```
 - which generally is [[hash]] of the [[file]]
-- content addresses give [cool properties](https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est)for [[superintelligence]]
+- content addresses give [cool properties](https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est) for [[superintelligence]]
 	- mesh-network future-proof
 	- interplanetary accessibility
 	- censorship resistance
@@ -30,4 +29,4 @@ tags:: cyber, cyb
 	- [[cyb/oracle]] or [[cy]]
 	- [[go-ipfs]]
 	- any other [[ipfs]] related services
-- discover more [[concepts]]
+- discover all [[concepts]]

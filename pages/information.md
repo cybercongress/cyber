@@ -1,1 +1,8 @@
-- discover more [[concepts]]
+alias:: file
+
+- phenomena related to the reduction in uncertainty
+- any file can be expressed by [[neurons]] as [[particle]]
+- in [[cyber]] [[neurons]] measure information by computing its [[hash]]
+	- [[subject]] of information is [[neuron]]
+	- [[object]] of information is [[particle]]
+- discover all [[concepts]]

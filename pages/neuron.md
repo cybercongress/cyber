@@ -1,9 +1,9 @@
-alias:: neurons, address, subject
-
+alias:: address, subject, agent, user, observer
 tags:: cyber
 
 - [[subject]] of [[information]]
 - abstraction over different types of cryptographic virtual addresses which are used in any blockchain
+- neuron is derived from [[public key]]
 - more technically neurons are
 	- either can prove correctness of [[signature]]
 	- or can act as a [[prog]] in accordance to [[consensus]] of [[vimputer]]
@@ -17,4 +17,4 @@ tags:: cyber
 	- [[kelpr]] in [[cosmos]] and [[cyber]]
 	- [[frame]] in [[ethereum]]
 - in [[cyb/portal]] you can connect any [[cyber]], [[ethereum]] and [[cosmos]] [[neuron]] to [[avatar]]
-- discover more [[concepts]]
+- discover all [[concepts]]

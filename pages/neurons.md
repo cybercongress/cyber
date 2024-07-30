@@ -1,1 +1,3 @@
-- currently is alias of [[neuron]]
+alias:: individuals, users
+
+- more than one [[neuron]]

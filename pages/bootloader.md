@@ -1,4 +1,5 @@
 tags:: bostrom, aos, cyber
+alias:: bootloading
 
 - [[cybergraph]] with particular [[cyberlinks]], [[neurons]] and [[tokens]]
 - [[bostrom]] blockchain is launched to form the bootloader of [[cyber]]
@@ -25,4 +26,4 @@ tags:: bostrom, aos, cyber
 	- 5 order of magnitude less in [[cyberlinks]]
 	- 2 order of magnitude less in [[optimal centrality]]
 	- 3 order of magnitude less in [[neural activity]]
-- discover more [[concepts]]
+- discover all [[concepts]]

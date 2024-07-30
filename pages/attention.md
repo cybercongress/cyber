@@ -1,2 +1,4 @@
+alias:: cyber/attention
+
 - [[cyberank]] as fundamental measure of intelligence projected on [[particles]]
-- discover more [[concepts]]
+- discover all [[concepts]]

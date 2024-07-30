@@ -1,3 +1,4 @@
 alias:: learning
 
-- create [[cyberlinks]] between best [[particles]]
+- create best [[cyberlinks]] between [[particles]]
+- discover all [[concepts]]

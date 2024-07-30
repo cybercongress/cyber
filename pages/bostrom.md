@@ -4,6 +4,7 @@ tags:: aos, cyber
 - [[bootloader]] of [[cyber]]
 - and [[moon]] network state
 - named after [[nick bostrom]]
+- [[bostrom/genesis]]
 - [[proof of stake]]
 	- [[uptime slashing]]
 	- [[delegation rewards]]
@@ -33,6 +34,6 @@ tags:: aos, cyber
 	- [[collective parametrization]]
 	- [[collective progs]]
 - [[store of value]]
-- [[cyber/tokens]]
+- ecosystem [[tokens]]
 - full [[cyb]] support
 - [source code](https://github.com/cybercongress/go-cyber) on github
