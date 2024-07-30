@@ -1,0 +1,3 @@
+- probability of [[particle]] observation by [[random walking]] [[neuron]]
+- weighted on [[attention]] and [[will]] of [[neuron]]
+- fundamental factor of [[implicit knowledge]]
