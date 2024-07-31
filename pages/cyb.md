@@ -1,3 +1,4 @@
+icon:: 🤖
 tags:: cyb
 
 - immortal robot for the [[great web]]
@@ -6,4 +7,5 @@ tags:: cyb
 - implementations
 	- [[cyb-ts]]
 	- [[cy]]
--
+- [[cyb/problems]]
+- [[cyb/dev]]
