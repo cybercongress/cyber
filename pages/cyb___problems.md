@@ -1,0 +1,37 @@
+- [[cyb/brain]] is not usable for retention
+	- render all brain on graph view
+	- add list view sorted by last observed rank
+	- ability to create links from graph view
+- TODO cluttered [[cyb/settings]]
+	- split drive into debug, query, models, tasks
+	- move contacts to [[cyb/settings/about]]
+- complete redesign of [[cyb/time]]
+	- no surf history in [[cyb/time]]
+	- makeup as in [[cyb/sense]]
+	- no information on the new [[time]]
+- TODO complete rework of robot features
+- TODO no actions in [[cyb/sense]]
+- TODO space for adviser is cluttered by commander
+	- its more convenient to have on space bar for commands and actions
+	- must be moved after design work done
+- [[cyb/oracle]] focus on [[cybergraph]]
+- [[cyb/hub]] is lacking for decentralization of infrastructure
+	- split part of [[cyb/oracle]] to [[cyb/hub]]
+	- ability to manage personal records
+	- dependency on [[cyb/senate]] for management of registries
+- no clear paths
+	- especially in [[cyb/oracle]]
+- complete redesign of [[cyb/sigma]]
+	- token oriented design
+	- all [[token]] types
+- TODO no ability to manage [[avatars]] in [[cyb/portal]]
+	- impossible to register new name
+	- impossible to see my names
+	- impossible to send names
+	- impossible to setup resolver
+- [[cyb/portal/map]] logic is not optimized for adoption
+- [[cyb/senate]] does not solve community involvement
+- no easy way to embed apps
+- integrate [[hub]] into apps
+	- records must define what address in which network can be proved
+	- compute balances of all proved addresses in [[cyb/sigma]]

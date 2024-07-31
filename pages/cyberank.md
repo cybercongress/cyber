@@ -1,3 +1,4 @@
+icon:: 🦠
 alias:: cyber rank
 
 - probability of [[particle]] observation by [[random walking]] [[neuron]]
@@ -57,3 +58,6 @@ alias:: cyber rank
 	- [[syntropy]]
 	- [[karma]]
 	- local sorting in [[cyb]]
+- display cyberank in apps
+	- 🦠 emoji icon virus
+	- e.g. 176 711 938 🦠 ?

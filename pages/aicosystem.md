@@ -1,3 +1,4 @@
+icon:: 👽
 alias:: awesome cyber, cyber ecosystem
 
 - the only reliable source of [[knowledge]] is [[cybergraph]] of [bostrom](https://cyb.ai/particles) and [spacepussy](https://spacepussy.ai/particles)
@@ -28,6 +29,7 @@ alias:: awesome cyber, cyber ecosystem
 	- [cybercongress/cybertensor](https://github.com/cybercongress/cybertensor) - cli and python package for [[cybernet]]
 	- [cybercongress/cybertensor-subnet-template](https://github.com/cybercongress/cybertensor-subnet-template) - [[cybernet]] subnet template
 	- [cybercongress/ton-connect-wasm](https://github.com/cybercongress/ton-connect-wasm) - telegram connect [[cosmwasm]]
+	- [github.com/cyborgshead/cyber-ts](https://github.com/cyborgshead/cyber-ts) - [available in npm](https://www.npmjs.com/package/cyber-ts)
 - docs
 	- [docs.spacepussy.ai](https://docs.spacepussy.ai) - docs for [[cybernet]]
 	- [lcd.bostrom.cybernode.ai](https://lcd.bostrom.cybernode.ai) - lcd api for [[bostrom]]

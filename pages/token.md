@@ -1,3 +1,4 @@
+icon:: 🪙
 alias:: token theory
 tags:: cybernomics
 

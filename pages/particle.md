@@ -1,3 +1,4 @@
+icon:: ⭕️ 
 alias:: particles, object, cid, content address
 tags:: cyber, cyb
 

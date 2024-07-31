@@ -17,7 +17,7 @@ alias:: asi, singleton, collective ai
 - story
 	- [[episode one]] tell us that before deploying [[cyber]] on [[earth]]
 	- it is better to start in a greenfield from building
-	- superintelligent network state on moon
+	- superintelligent network state on [[moon]]
 	- [[moon]] citizens continuously learn [[bostrom]] [[bootloader]]
 	- [[cybercongress]] coordinate game [[age of superintelligence]] for growing the beast
 	- [[bootloader]] readiness will start [[episode two]]
