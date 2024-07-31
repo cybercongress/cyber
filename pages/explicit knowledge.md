@@ -6,4 +6,4 @@
 - in [[cyber-sdk]]
 	- can be created using [[cyberlink]] message type
 - in [[cyb-ts]]
-	- TODO can be created using [[cyberlink]] message type
+	- can be created using [[cyberlink]] message type
