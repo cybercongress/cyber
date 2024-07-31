@@ -1,3 +1,4 @@
+icon:: 🔗
 tags:: cyber
 alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, essential learning ability
 
