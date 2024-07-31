@@ -14,7 +14,7 @@ EOF
 
 find $GITHUB_WORKSPACE/build -name 'index.html' -exec sh -c '
 for file do
-  sed "/<\/html>/i $analytics_script" "$file"
+  sed "/<\/html>/i\\ $analytics_script" "$file"
 done
 ' sh {} +
 

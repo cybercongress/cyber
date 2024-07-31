@@ -12,6 +12,6 @@ EOF
 
 find $GITHUB_WORKSPACE/build -name 'index.html' -exec sh -c '
 for file do
-  sed "/<\/head>/i $metas" "$file"
+  sed "/<\/head>/i\\ $metas" "$file"
 done
 ' sh {} +
