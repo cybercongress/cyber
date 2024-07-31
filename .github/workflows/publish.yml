@@ -1,7 +1,4 @@
-on:
-  push:
-    branches:
-      - dev
+on: [push]
 
 permissions:
   contents: write
