@@ -1,3 +1,4 @@
+icon:: 🧠
 alias:: address, subject, agent, user, observer
 tags:: cyber
 

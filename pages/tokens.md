@@ -1,3 +1,4 @@
+icon:: 💵
 tags:: cyber
 
 status:: DONE
