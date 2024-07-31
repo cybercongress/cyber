@@ -51,7 +51,7 @@ alias:: cyber rank
 	  res.sort(reverse=True, key=lambda x: x[1])
 	  return res
 	  ```
-	- [[go-cyber]] [implementation of cyberank in go](https://github.com/cybercongress/go-cyber/blob/main/x/rank/keeper/calculate_gpu.go#L22)
+- [[go-cyber]] [implementation of cyberank in go](https://github.com/cybercongress/go-cyber/blob/main/x/rank/keeper/calculate_gpu.go#L22)
 - cyberank is being used as factor in
 	- [[standard inference]]
 	- [[syntropy]]
