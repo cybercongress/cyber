@@ -24,6 +24,13 @@ tags:: cyber, cyb
 	- basically content address is ubiquitous SHA-256 [[hash]]
 	- SHA-256 have rich software and hardware infrastructure
 - any information can be expressed as [[particle]]
+- examples
+	- [keyword](https://deploy-preview-1221--rebyc.netlify.app/oracle/ask/cyb)
+	- article
+	- image
+	- video
+	- pdf
+	- html app
 - two linked particles is [[cyberlink]]
 - to compute particle from file you can use
 	- [[cyb/oracle]] or [[cy]]

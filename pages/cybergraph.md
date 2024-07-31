@@ -11,7 +11,9 @@ alias:: content oracle
 	- work as highly efficient onchain [[dht]]
 	- most cheap possible way to probabilistically [[store and distribute popular content]] with charge per file, not per bytes
 	- enable social information for p2p propagation and retrieval
-- together with [[relevance machine]] become foundation for [[soft3]]
+	- fine tune [[llms]] for uncensorable completely private offline inference
+	- and so much more ...
+- together with [[relevance machine]] and [[neural]] become foundation for [[soft3]]
 - teach & learn
 	- [[cyberlink]] and [[particle]]
 	- learn about [[neural language]]
