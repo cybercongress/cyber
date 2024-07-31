@@ -1,0 +1,2 @@
+- sdk for building [[superintelligence]] applications
+- [github.com/cybercongress/go-cyber](https://github.com/cybercongress/go-cyber)
