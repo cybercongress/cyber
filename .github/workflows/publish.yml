@@ -28,7 +28,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: www
+          folder: build
 
       # - name: Deploy to Netlify
       #   uses: jsmrcaga/action-netlify-deploy@v2.2.0
