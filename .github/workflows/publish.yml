@@ -11,9 +11,9 @@ jobs:
       - uses: logseq/publish-spa@v0.3.1
         with:
           theme-mode: dark
-          accent-color: tomato
+          accent-color: green
           output-directory: build
-          version: 0.10.9
+          # version: 0.10.9
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/build/.nojekyll
       - name: Replace logo file
