@@ -5,6 +5,21 @@
 - TODO cluttered [[cyb/settings]]
 	- split drive into debug, query, models, tasks
 	- move contacts to [[cyb/settings/about]]
+- inconsistent offline work
+	- what is working?
+		- [[cyb/brain]]
+		- [[cyb/sigma]]
+		- [[cyb/swarm]]
+		- [[cyb/soul]]
+	- what is not working
+		- [[cyb/time]]
+		- [[cyb/sense]]
+		- [[cyb/log]]
+		- [[cyb/security]]
+		- [[cyb/oracle/ask]]
+		- [[cyb/sign]]
+		- [[cyb/teleport]]
+		- [[cyb/portal]]
 - complete redesign of [[cyb/time]]
 	- no surf history in [[cyb/time]]
 	- makeup as in [[cyb/sense]]
