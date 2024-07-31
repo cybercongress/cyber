@@ -1,3 +1,4 @@
+icon:: ☯️
 tags:: cyber
 
 - [[neuron]] as universal model for the [[observer]]

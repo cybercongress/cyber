@@ -1,3 +1,5 @@
+icon:: 🚧
+
 - [[go-cyber]]
 - [[cyb]]
 - [[cybernet]]
