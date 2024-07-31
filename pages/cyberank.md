@@ -18,18 +18,18 @@ alias:: cyber rank
 	  import operator
 	  import collections
 	  def cyberank(cyberlinks: list, tolerance: float = 0.001, damping_factor: float = 0.8):
-	  cyberlinks_dict = dict(functools.reduce(operator.add, map(collections.Counter, cyberlinks)))
-	  objects = list(set([item for t in [list(x.keys())[0] for x in cyberlinks] for item in t]))
-	  rank = [0] * len(objects)
-	  size = len(objects)
-	  default_rank = (1.0 - damping_factor) / size
-	  dangling_nodes = [obj for obj in objects if obj not in [list(cyberlink.keys())[0][1] for cyberlink in cyberlinks]]
-	  dangling_nodes_size = len(dangling_nodes)
-	  inner_product_over_size = default_rank * (dangling_nodes_size / size)
-	  default_rank_with_correction = (damping_factor * inner_product_over_size) + default_rank
-	  change = tolerance + 1
-	  steps = 0
-	  prevrank = [0] * len(objects)
+	      cyberlinks_dict = dict(functools.reduce(operator.add, map(collections.Counter, cyberlinks)))
+	      objects = list(set([item for t in [list(x.keys())[0] for x in cyberlinks] for item in t]))
+	      rank = [0] * len(objects)
+	      size = len(objects)
+	      default_rank = (1.0 - damping_factor) / size
+	      dangling_nodes = [obj for obj in objects if obj not in [list(cyberlink.keys())[0][1] for cyberlink in cyberlinks]]
+	      dangling_nodes_size = len(dangling_nodes)
+	      inner_product_over_size = default_rank * (dangling_nodes_size / size)
+	      default_rank_with_correction = (damping_factor * inner_product_over_size) + default_rank
+	      change = tolerance + 1
+	      steps = 0
+	      prevrank = [0] * len(objects)
 	  while change > tolerance:
 	      for obj in objects:
 	          obj_index = objects.index(obj)
