@@ -60,4 +60,6 @@ alias:: cyber rank
 	- local sorting in [[cyb]]
 - display cyberank in apps
 	- 🦠 emoji icon virus
-	- e.g. 176 711 938 🦠 ?
+	- examples
+		- full number: 176 711 938 🦠
+		- game number: 176 🦠🦠🦠

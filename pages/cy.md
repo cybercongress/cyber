@@ -16,3 +16,4 @@
 	- cyber search in terminal
 	- many more
 	- [full list of commands](https://github.com/cyber-prophet/cy?tab=readme-ov-file#commands)
+-
