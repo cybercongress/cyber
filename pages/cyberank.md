@@ -8,7 +8,7 @@ alias:: cyber rank
 	  |------------------------|----------------------------------------------|--------------------------------------------------------------------------|
 	  | input structure    | directed graph with edges indicating links   |  [[cybergraph]]          |
 	  | damping factor     | typically set to 0.85                        | [[consensus parameter]]                  |
-	  | link representation| edges with equal weight     | [[attention]] token                  |
+	  | link representation| edges with equal weight     | [[attention]] and [[will]] token                  |
 	  | handling dangling nodes | distributed uniformly among all nodes      | adjusted rank calculation considering dangling nodes explicitly          |
 	  | rank initialization| uniformly distributed initial ranks          | starts with all ranks initialized to zero                                |
 	  | normalization     | ensures rank sum equals one                   | implicit normalization through rank adjustments and damping factor       |
