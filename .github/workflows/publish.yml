@@ -21,9 +21,9 @@ jobs:
       - name: Replace logo file
         run: cp assets/logo.png $GITHUB_WORKSPACE/build/static/img/logo.png
       - name: Add meta
-        run: ./modify_html/add_meta.sh
+        run: scripts/modify_html/add_meta.sh
       - name: Add analytics script
-        run: ./modify_html/add_analytics.sh
+        run: scripts/modify_html/add_analytics.sh
 
       - name: Deploy to Netlify
         uses: jsmrcaga/action-netlify-deploy@v2.2.0
