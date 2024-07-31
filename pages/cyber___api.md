@@ -1,25 +1,5 @@
-- tasks
-	- TODO verify methods in cyber-cli
-	  :LOGBOOK:
-	  CLOCK: [2022-12-16 Fri 06:07:31]
-	  :END:
-	- TODO verify against go-cyber code
-	- TODO verify cosmos-sdk docs
-	  :LOGBOOK:
-	  CLOCK: [2022-12-15 Thu 18:45:31]
-	  :END:
-	- TODO verify methods in soft3 js
-	- TODO add existing contracts of gift and subgraphs
-	- TODO read methods
-- go-cyber
-	- NOW dmn
-	  
-	  :LOGBOOK:
-	  
-	  CLOCK: [2022-12-15 Thu 18:57:30]
-	  
-	  :END:
-	- graph #content-oracle
+- [[go-cyber]]
+	- graph
 		- cyberlink
 		  
 		  collapsed:: true
@@ -38,7 +18,7 @@
 		- LATER linkchain
 		- LATER motif
 		- LATER semcon
-	- resources #hfr
+	- resources
 		- investmint
 		  
 		  collapsed:: true
@@ -60,7 +40,7 @@
 				- low: 86400
 				- LATER high: 0
 				- LATER unsigned: false
-	- grid #cyb/energy
+	- grid
 		- create-route
 		  
 		  collapsed:: true
@@ -80,19 +60,13 @@
 		  
 		  collapsed:: true
 			- source
-			  
-			  collapsed:: true
 				- bostrom1frk9k38pvp70vheezhdfd4nvqnlsm9dw3j8hlq,
 			- destination
-			  
-			  collapsed:: true
 				- bostrom1frk9k38pvp70vheezhdfd4nvqnlsm9dw3j8hlw,
 			- value
 			  
 			  collapsed:: true
 				- denom
-				  
-				  collapsed:: true
 					- millivolt
 					- 1000
 		- delete-route
@@ -283,6 +257,23 @@
 				- denom
 					- boot
 					- 1
+	- TODO dmn
+	  :LOGBOOK:
+	  CLOCK: [2022-12-15 Thu 18:57:30]
+	  :END:
+- tasks
+	- TODO verify methods in cyber-cli
+	  :LOGBOOK:
+	  CLOCK: [2022-12-16 Fri 06:07:31]
+	  :END:
+	- TODO verify against go-cyber code
+	- TODO verify cosmos-sdk docs
+	  :LOGBOOK:
+	  CLOCK: [2022-12-15 Thu 18:45:31]
+	  :END:
+	- TODO verify methods in soft3 js
+	- TODO add existing contracts of gift and subgraphs
+	- TODO read methods
 - cw-cyber
   
   collapsed:: true
@@ -457,35 +448,22 @@
 					- LATER low: 0, high: 0, unsigned: true,
 				- revision-height
 					- LATER low: 0, high: 0, unsigned: true
-		- NOW transfer-receive => recv-packet
-		  
+		- TODO transfer-receive => recv-packet
 		  :LOGBOOK:
-		  
 		  CLOCK: [2022-12-15 Thu 18:57:13]
-		  
 		  :END:
-		- NOW transfer-ack => acknowledge-packet
-		  
+		- TODO transfer-ack => acknowledge-packet
 		  :LOGBOOK:
-		  
 		  CLOCK: [2022-12-16 Fri 07:51:04]
-		  
 		  :END:
-		- NOW transfer-timeout => timeout-packet
-		  
+		- TODO transfer-timeout => timeout-packet
 		  :LOGBOOK:
-		  
 		  CLOCK: [2022-12-16 Fri 07:47:12]
-		  
 		  CLOCK: [2022-12-16 Fri 07:47:14]
-		  
 		  :END:
-		- NOW transfer-timeout-on-close => transfer-on-close
-		  
+		- TODO transfer-timeout-on-close => transfer-on-close
 		  :LOGBOOK:
-		  
 		  CLOCK: [2022-12-16 Fri 07:57:23]
-		  
 		  :END:
 	- ibc
 		- NOW channel

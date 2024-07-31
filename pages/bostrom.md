@@ -14,7 +14,7 @@ tags:: aos, cyber
 	- [[bandwidth limiting]]
 	- [[adaptive pricing]]
 - [[avatar]] with [[neural proofs]]
-- TODO [[learning rewards]]
+- TODO [[learning incentives]]
 - [[staking loans]]
 - [[cybergift]]
 - [[wasm vm]]

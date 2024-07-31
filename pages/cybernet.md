@@ -1,4 +1,6 @@
-- experimental [[learning rewards]] layer for [[cyber]] using [[cosmwasm]] [[progs]]
+tags:: cyber
+
+- experimental [[learning incentives]] layer for [[cyber]] using [[cosmwasm]] [[progs]]
 - effort to incentivize [[soft3]] learning
 - [cybernet](https://github.com/cybercongress/cybernet): subtensor is ported from substrate palets to cosmwasm programs
 - it is inspired by [[yuma]] algorithm of [bittensor](https://cyb.ai/oracle/ask/QmUwHh7mKJhVMfnnNuDLeDfkUoknHu9FH9bZiS65MaHL72)

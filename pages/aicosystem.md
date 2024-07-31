@@ -24,7 +24,7 @@ alias:: awesome cyber, cyber ecosystem
 	- [cyber-prophet/nu-cyber-tools](https://github.com/cyber-prophet/nu-cyber-tools) - wrapper for [[cyber]] , [[ipfs]] clis for [[cybergraph]] interactions
 	- [bro-n-bro/spacebox](https://github.com/bro-n-bro/spacebox) - clickhouse indexer for [[go-cyber]]
 	- [bro-n-bro/bro.app](https://github.com/bro-n-bro/bro.app) - portfolio manager based on [[bostrom]] [[passport]] system
-	- [cybercongress/cybernet](https://github.com/cybercongress/cybernet) - cosmwasm contract for [[cybernet]] [[learning rewards]]
+	- [cybercongress/cybernet](https://github.com/cybercongress/cybernet) - cosmwasm contract for [[cybernet]] [[learning incentives]]
 	- [cybercongress/cybertensor](https://github.com/cybercongress/cybertensor) - cli and python package for [[cybernet]]
 	- [cybercongress/cybertensor-subnet-template](https://github.com/cybercongress/cybertensor-subnet-template) - [[cybernet]] subnet template
 	- [cybercongress/ton-connect-wasm](https://github.com/cybercongress/ton-connect-wasm) - telegram connect [[cosmwasm]]
