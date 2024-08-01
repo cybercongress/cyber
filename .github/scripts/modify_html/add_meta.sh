@@ -10,8 +10,4 @@ metas=$(cat <<'EOF'
 EOF
 )
 
-find $GITHUB_WORKSPACE/build -name 'index.html' -exec sh -c '
-for file do
-  sed "/<\/head>/i\\ $metas" "$file"
-done
-' sh {} +
+sed "/<\/head>/i\\ $metas" $GITHUB_WORKSPACE/build/index.html
