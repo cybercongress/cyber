@@ -10,4 +10,4 @@ metas=$(cat <<'EOF'
 EOF
 )
 
-sed "/<\/head>/i\\ $metas" $GITHUB_WORKSPACE/build/index.html
+sed "/<\/head>/i\\ $metas" "$GITHUB_WORKSPACE/build/index.html"
