@@ -5,6 +5,7 @@
 - TODO cluttered [[cyb/settings]]
 	- split drive into debug, query, models, tasks
 	- move contacts to [[cyb/settings/about]]
+- no easy way to [[cyb/portal/buy]]
 - inconsistent offline work
 	- what is working?
 		- [[cyb/brain]]
@@ -30,6 +31,16 @@
 	- its more convenient to have on space bar for commands and actions
 	- must be moved after design work done
 - [[cyb/oracle]] focus on [[cybergraph]]
+	- pages left
+		- [[cyb/oracle/ask]]
+		- [[cyb/oracle/neuron]]
+		- [[cyb/oracle/learn]]
+	- pages to add
+		- [[cyb/oracle]]
+		- [[cyb/oracle/neurons]]
+		- [[cyb/oracle/search]]
+		- [[cyb/oracle/play]]
+		- [[cyb/oracle/cyberlinks]]
 - [[cyb/hub]] is lacking for decentralization of infrastructure
 	- split part of [[cyb/oracle]] to [[cyb/hub]]
 	- ability to manage personal records
