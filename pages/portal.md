@@ -1,3 +1,5 @@
+tags:: aip
+
 - [[cyb/portal]]
 - place for onboarding
 - [[pages]]
@@ -17,3 +19,7 @@
 	- [[robot/avatars]]
 	- [[robot/neurons]]
 	- [[robot/psycho]]
+	- [[robot/soul]]
+	- [[robot/passport]]
+	- [[robot/karma]]
+	- [[robot/levels]]

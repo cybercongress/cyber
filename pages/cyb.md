@@ -29,8 +29,8 @@ tags:: cyb
 	- personal history and new [[time]]
 - [[features]] for [[mind]] extension of [[robot]]
 - [[cyb/architecture]]
+- [[aip]] definition
 - [[cyb/core]] [[aips]]
-- [[aips]] definition and abilities
 - [[offline mode]]
 - [[portability]]
 - [[prism]] design system

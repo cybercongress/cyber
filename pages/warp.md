@@ -1,3 +1,4 @@
+tags:: aip
 alias:: warp dex
 
 - trading in [[bostrom]]
