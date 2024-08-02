@@ -1,12 +1,12 @@
 #!/bin/sh
 
-analytics_script='<script>
+analytics_script="<script>
     const script = document.createElement('script');
     script.src = 'https://metrics.cyb.ai/js/script.js';
     script.setAttribute('data-domain', location.host);
     script.defer = true;
     document.body.appendChild(script);
-  </script>'
+  </script>"
 
 file="$GITHUB_WORKSPACE/build/index.html"
 
