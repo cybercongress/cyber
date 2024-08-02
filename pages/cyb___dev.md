@@ -9,6 +9,6 @@
 	- [cyb-ts](https://github.com/cybercongress/cyb-ts): implementation in typescript
 - complexity
 	- 14 [[aips]]
-	- 31 [[pages]]
+	- 34 [[pages]]
 	- 22 [[features]]
 	- TODO count [[actions]]
