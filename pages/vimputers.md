@@ -1,4 +1,6 @@
-- [[bitcoin]]
+alias:: networks
+
+- \[[bitcoin]]
 - [[ethereum]]
 - [[spacepussy]]
 - [[bostrom]]

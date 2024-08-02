@@ -8,7 +8,7 @@ tags:: cyber
 - [[cyberlink]] as fundamental unit of [[knowledge]] and [[learning]]
 - [[cybergraph]]: essential data structure for [[collective memory]]
 - [[relevance machine]]: virtual machine for [[collective intelligence]]
-- TODO [[avatar]] with [[passport]], [[axons]], [[neural proofs]] and [[soul]]
+- TODO [[avatar]] with [[features]]
 - [[learning incentives]] based on [[yuma]]
 - [[bootloader]] as research and development ground
 - [[cyb]] robot for interactions

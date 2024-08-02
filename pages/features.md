@@ -1,3 +1,4 @@
+- list of cyb
 - [[log]]
 - [[energy]]
 - [[swarm]]
@@ -8,7 +9,7 @@
 - [[soul]]
 - [[drive]]
 - [[avatars]]
-- [[neurons]]
+- [[neurons]] with [[neural proofs]]
 - [[spells]]
 - [[access]]
 - [[signer]]
@@ -19,3 +20,5 @@
 - [[channels]]
 - [[skills]]
 - [[progs]]
+- [[passport]]
+- [[axons]]
