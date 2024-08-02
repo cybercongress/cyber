@@ -1,0 +1,12 @@
+- aips are avatars with special abilities
+- [[avatar/name]]
+- [[avatar/image]]
+- defined by [[avatar/soul]]
+	- [[menu]]: using simple array of relative links
+	- [[widget]]: using mdx
+	- [[paths]]
+	- [[actions]]
+	- [[advisor]]
+	- [[goal]]
+	- [[widget]]
+- [[access]] rights

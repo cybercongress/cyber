@@ -1,0 +1,8 @@
+- [[cyber/energy]] pack for sale
+- key [[chakra]] of cyber project
+	- the levels of advancement
+	- TODO buy for tokens on bostrom
+	- TODO buy for tokens of [[cosmos-sdk]] networks in [[hub]]
+	- TODO buy for [[$ETH]]
+	- TODO buy for [[$ETH]] [[coins]]
+	- TODO buy for [[$BTC]]

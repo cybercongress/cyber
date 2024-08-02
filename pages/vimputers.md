@@ -1,6 +1,6 @@
-alias:: networks
+alias:: networks, blockchains, chains, ledgers
 
-- \[[bitcoin]]
+- [[bitcoin]]
 - [[ethereum]]
 - [[spacepussy]]
 - [[bostrom]]

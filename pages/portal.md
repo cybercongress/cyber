@@ -1,3 +1,19 @@
-alias:: cyb/portal
-
--
+- [[cyb/portal]]
+- place for onboarding
+- [[pages]]
+	- main: [[create avatar]]
+	- [[citizenship]]
+	- TODO [[upload brain]]
+	- TODO [[invite]]
+- [[actions]]
+	- [[buy energy]]
+	- [[spell/api]]
+	- [[avatar/api]]
+	- [[neuron/api]]
+- [[features]]
+	- [[robot/trainer]]
+	- [[robot/spells]]
+	- [[robot/energy]]
+	- [[robot/avatars]]
+	- [[robot/neurons]]
+	- [[robot/psycho]]

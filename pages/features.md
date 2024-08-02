@@ -1,4 +1,11 @@
-- list of cyb
+- features are small pieces of [[aips]] which connected to [[robot]]
+- core features
+	- [[sigma]]
+	- [[sense]]
+	- [[time]]
+	- [[brain]]
+	- [[mind]]
+- core [[aips]]
 - [[log]]
 - [[energy]]
 - [[swarm]]

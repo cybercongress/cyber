@@ -4,3 +4,5 @@
 - create energy in [[reactor]]
 - make markets in [[warp]]
 - define the future in [[senate]]
+- enjoy learning in [[cyberver]]
+- design [[progs]] and [[aips]] using [[hackspace]]
