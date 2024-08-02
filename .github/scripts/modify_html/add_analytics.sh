@@ -11,7 +11,7 @@ analytics_script='<script>
 file="$GITHUB_WORKSPACE/build/index.html"
 
 sed -i "/<\/body>/i\\
-$(echo "$metas" | sed 's/$/\\n/' | tr -d '\n')\\
+$(echo "$analytics_script" | sed 's/$/\\n/' | tr -d '\n')\\
 " "$file"
 
 
