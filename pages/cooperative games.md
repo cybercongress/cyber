@@ -12,4 +12,4 @@ alias:: feedback provided
 	- where parties negotiate to maximize their collective utility
 - cooperative games is basics for [[learning incentives]]
 	- experimentally deployed in [[space pussy]]
-	- [[cybernet]], [[cybertensor]] and [[cyberver]] [[projects]]
+	- [[cybernet]], [[cybertensor]] and [[cyberver]] [[products]]
