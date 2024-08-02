@@ -7,3 +7,8 @@
 	- [cyb](https://docs.cyb.ai/#/page/cyb): graph descriptors
 	- [cybe](https://sketch.com/s/b13841a7-cfd2-47e8-a114-efb8e29285af): sketch prototype and art
 	- [cyb-ts](https://github.com/cybercongress/cyb-ts): implementation in typescript
+- complexity
+	- 14 [[aips]]
+	- 31 [[pages]]
+	- 22 [[features]]
+	- TODO count [[actions]]

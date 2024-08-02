@@ -1,4 +1,6 @@
+tags:: page
+
 - {{query (page-tags [[aip]])}}
-  query-properties:: [:page :tags :alias]
-  query-sort-by:: updated-at
-  query-sort-desc:: true
+  query-properties:: [:page :updated-at]
+  query-sort-by:: page
+  query-sort-desc:: false

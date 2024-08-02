@@ -3,7 +3,7 @@ tags:: aip
 - [[cyb/portal]]
 - place for onboarding
 - [[pages]]
-	- main: [[create avatar]]
+	- [[main]]: [[create avatar]]
 	- [[citizenship]]
 	- TODO [[upload brain]]
 	- TODO [[invite]]

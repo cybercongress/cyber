@@ -1,15 +1,38 @@
 - overall the following state of the projects
+- [[cy]] in [[nu]]
+	- terminal implementation in [[nu]]
+	- the most powerful way to learn [[bostrom]] and [[space pussy]]
+	- 0.1.0 release is tested version of essential features
 - [[cyb-ts]] in [[typescript]]
 	- implementation available at [cyb.ai](http:://cyb.ai)
 	- code is not stable
 	- based on legacy web stack
 	- many errors
-	- features are not consistent
+	- lack of [[pages]]
+	- [[features]] are not consistent
 	- still very powerful
-- [[cy]] in [[nu]]
-	- terminal implementation in [[nu]]
-	- the most powerful way to learn [[bostrom]] and [[space pussy]]
-	- 0.1.0 release is tested version of essential features
+- state of [[robot]]
+	- [[cyb/brain]]
+	- [[cyb/time]]
+	- [[cyb/mind]]
+	- [[cyb/sigma]]
+	- [[cyb/sense]]
+	- [[cyb/map]]
+- state of [[cyb/core]] aips
+	- [[cyb/portal]]
+	- [[cyb/studio]]
+	- [[cyb/oracle]]
+	- [[cyb/hub]]
+	- [[cyb/teleport]]
+	- [[cyb/temple]]
+	- [[cyb/nebula]]
+- state of [[aos]] [[aips]]
+	- [[cyb/sphere]]
+	- [[cyb/reactor]]
+	- [[cyb/warp]]
+	- [[cyb/senate]]
+	- [[cyb/cyberver]]
+	- [[cyb/hacklab]]
 - [[cyb]] in [[rust]]
 	- working on [[cyb/architecture]]
 	- building proof of concept using [[cyb-ts]]

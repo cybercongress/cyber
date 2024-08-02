@@ -8,4 +8,4 @@ id:: 66a9e2d2-469b-4532-b26a-6dfdc54561a5
 - [[satoshi]] learns how to prove the time has pass a more when decade ago
 - in [[aos]] we count time from the moment of 0 second of unix time
 - time after this moment is called: machine time or [[mt]]
-- any previous time is marked with minus is before machines or [[bm]]
+- any previous time is marked with minus and is called: [[before machines]] or [[bm]]

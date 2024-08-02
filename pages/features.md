@@ -1,6 +1,7 @@
 tags:: cyb
-alias:: feature
 
-- features  small pieces of [[aips]] which connected to [[robot]]
-- core [[aips]]
--
+- what is [[feature]]?
+- {{query [[robot]]}}
+  query-table:: true
+  query-sort-by:: page
+  query-sort-desc:: false

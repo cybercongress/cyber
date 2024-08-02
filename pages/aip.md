@@ -11,3 +11,4 @@
 	- [[goal]]
 	- [[widget]]
 - [[access]] rights
+- discover all [[aips]]

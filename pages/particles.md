@@ -1,1 +1,4 @@
-- currently is alias of [[particle]]
+tags:: page
+
+- what is [[particle]]?
+-

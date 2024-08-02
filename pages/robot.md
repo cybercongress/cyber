@@ -1,12 +1,16 @@
 alias:: my
 tags:: aip
 
-- pages
+- [[pages]]
 	- [[brain]]
+		- [[graph]]
+		- [[heap]]
+		- [[list]]
 	- [[time]]
 	- [[mind]]
 	- [[sigma]]
 	- [[sense]]
+	- [[map]]
 - [[features]]
 	- default features
 		- [[drive]]
@@ -20,6 +24,5 @@ tags:: aip
 		- [[time]]
 		- [[brain]]
 		- [[mind]]
-		-
 - [[actions]]
 	-

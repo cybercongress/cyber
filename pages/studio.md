@@ -1,2 +1,5 @@
-alias:: cyb/studio
 tags:: aip
+
+- [[pages]]
+	- [[edit particle]]
+- `-` list

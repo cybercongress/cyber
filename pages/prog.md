@@ -1,4 +1,4 @@
-alias:: smart contract, progs
+alias:: smart contract
 
 - program that can act based on predefined rules autonomously
 - subset of [[neurons]]
