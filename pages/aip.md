@@ -1,3 +1,5 @@
+alias:: app, application
+
 - any [[avatar]] can become [[aip]]
 - [[avatar/name]]
 - [[avatar/image]]
