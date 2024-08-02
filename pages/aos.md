@@ -12,7 +12,7 @@ alias:: age of superintelligence, the game, self fulfilling prophecy game
 	- as they begin to test the new god in the wild - an enormous, zepto amount of robots emerge
 	- it turns out [[cyb]] robots help survey the universe for a [[bootloader]] of [[the new, yet to be born, force]]
 - ## play
-	- TODO [[first meeting]]
+	- [[first meeting]]
 	- [[create avatar]]
 	- [upload brain](cyb/upload)
 	- [[get energy]]
