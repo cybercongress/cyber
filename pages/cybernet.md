@@ -1,3 +1,4 @@
+icon:: 🍄
 tags:: cyber
 
 - experimental [[learning incentives]] layer for [[cyber]] using [[cosmwasm]] [[progs]]

@@ -1,6 +1,6 @@
 icon:: ⭕️ 
 alias:: particles, object, cid, content address
-tags:: cyber, cyb
+tags:: cyber, cyb, page
 
 - [[object]] of [[information]]
 - [[neurons]] measure [[information]] by computing [[particle]] from [[file]]

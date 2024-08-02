@@ -1,3 +1,4 @@
+icon:: 🌱
 tags:: page
 
 - {{query (page-tags [[aip]])}}
