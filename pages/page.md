@@ -1,2 +1,2 @@
-- unit of logic in [[cyb]] [[aip]]
+- [[menu]] item in [[cyb]] [[aip]]
 - discover all [[pages]]
