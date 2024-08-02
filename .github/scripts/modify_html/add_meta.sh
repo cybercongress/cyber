@@ -1,17 +1,14 @@
 #!/bin/sh
 
-metas=$(cat <<'EOF'
-    <meta property="og:title" content="cyber docs">
+metas='<meta property="og:title" content="cyber docs">
 
-    <meta name="description" content="cyber docs">
-    <meta property="og:description" content="cyber docs">
+<meta name="description" content="cyber docs">
+<meta property="og:description" content="cyber docs">
 
-    <meta property="og:image" content="/static/img/logo.png">
-EOF
-)
+<meta property="og:image" content="/static/img/logo.png">'
 
-find $GITHUB_WORKSPACE/build -name 'index.html' -exec sh -c '
-for file do
-  sed "/<\/head>/i $metas" "$file"
-done
-' sh {} +
+file="$GITHUB_WORKSPACE/build/index.html"
+
+sed -i "/<\/body>/i\\
+$(echo "$metas" | sed 's/$/\\n/' | tr -d '\n')\\
+" "$file"
