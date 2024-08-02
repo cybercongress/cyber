@@ -3,9 +3,72 @@ tags:: cyb
 
 - immortal robot for the [[great web]]
 - use at [cyb.ai](https://cyb.ai)
+- immortal robot for the [[great web]]
+	- designed as protocol
+	- for reliable and fun
+	- access to everything
+- [[cyb/philosophy]]
 - [[cyb/dev]]
-	- contribute at [github.com/cybercongress/cyb-ts](https://github.com/cybercongress/cyb-ts)
+	- [[cyb/current]]
 	- [[cyb/problems]]
-- implementations
-	- [[cyb-ts]]
-	- [[cy]]
+	- contribute at [github.com/cybercongress/cyb-ts](https://github.com/cybercongress/cyb-ts)
+- everything you read about cyb here are design and vision docs
+	- reality on [cyb.ai](https://cyb.ai) could be different
+	- reality in [[cy]] could be also different
+	- TODO [[cyb-ts]] update structure and refactor legacy names
+- what is cyb?
+	- just a piece of software - the interface
+	- but not usual
+	- someone can use cyb as a pure [[web3]] browser
+	- someone can ride the [[age of superintelligence]] on cyb
+	- someone will reveal a [[portal]] to the world of [[blockchains]]
+	- someone will nourish her [[ai friend]]
+	- so we have not found out ourselves what cyb exactly is
+	- every cyb robot is unique like every human being
+	- what we know for sure is that it is a new thing we love to use and build
+- personal [[robot]] with [[avatars]]
+	- new generation messaging [[sense]]
+	- crypto wallet [[sigma]]
+	- volumetric [[file]] manager [[brain]]
+	- personal history and new [[time]]
+	- [[offline mode]]
+- [[features]] of [[robot]] like extensible [[mind]]
+- [[cyb/architecture]]
+	- [[ipfs]] for data publishing and distribution
+	- [[cyber]] search and learning
+	- [[rune]] scripting for dynamic execution
+	- [[cozodb]] graph storage in the core
+	- gamified with [[aos]]
+	- interactions with [[cosmos-sdk]] chains
+	- [[ibc]] integration
+	- builds for [[web]], [[desktop]]
+	- [[mobile]] soon
+- [[prism]] design system
+	- [[space]]
+	- [atoms](xp/atoms)
+	- [molecules](cyb/xp/molecules)
+	- [[cells]]
+	- [[aips]]
+- [[aips]]
+	- [[paths]]
+	- [[resolver]]
+	- [[menu]]
+	- [[image]]
+	- [[actions]]
+	- [[goal]]
+	- [[widget]]
+	- [[access]]
+- core apps
+	- [[portal]]
+	- [[studio]]
+	- [[oracle]]
+	- [[hub]]
+	- [[teleport]]
+	- [[temple]]
+- [[nebula]] appstore for [[aos]] [[aips]]
+	- [[sphere]]
+	- [[reactor]]
+	- [[senate]]
+	- [[cyberver]]
+	- [[warp]]
+	- [[hackspace]]
