@@ -1,7 +1,6 @@
 icon:: 🤖
 tags:: cyb
 
-- immortal robot for the [[great web]]
 - use at [cyb.ai](https://cyb.ai)
 - immortal robot for the [[great web]]
 	- designed as protocol
