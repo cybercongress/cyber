@@ -1,1 +1,7 @@
+- mental capacity by which [[neuron]] determines [[knowledge]]
+- part of [[cyber/energy]] pack
+- [[will]] requires some [[attention]] for [[intelligence]] flow through [[cybergraph]]
+- in [[cyber-sdk]] [[vimputers]]
+	- [[$V]]: [[volt]]
+	- [[$VIP]]: [[vpussy]]
 - discover all [[concepts]]
