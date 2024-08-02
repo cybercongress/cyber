@@ -9,6 +9,6 @@ metas='<meta property="og:title" content="cyber docs">
 
 file="$GITHUB_WORKSPACE/build/index.html"
 
-sed -i "/<\/body>/i\\
+sed -i "/<\/head>/i\\
 $(echo "$metas" | sed 's/$/\\n/' | tr -d '\n')\\
 " "$file"
