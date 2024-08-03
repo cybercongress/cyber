@@ -1,4 +1,4 @@
-alias:: virtual computer, blockchain, chain, network
+alias:: virtual computer, blockchain, chain, network, consensus computer
 tags:: cybernomics
 
 tags:: DONE, cybernomics

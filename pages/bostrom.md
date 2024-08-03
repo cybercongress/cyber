@@ -17,7 +17,7 @@ tags:: aos, cyber
 - TODO [[learning incentives]]
 - [[staking loans]]
 - [[cybergift]]
-- [[wasm vm]]
+- [[wasm]] [[vm]]
 	- [[deploy incentives]]
 	- [[soft3 access]]
 	- [[autonomous progs]]

@@ -1,6 +1,6 @@
 alias:: rm
 
-- is unique vm for [[soft3]] computations
+- unique [[vm]] for [[soft3]] computations
 - offers [[probabilistic collective computations]]
 - set of algorithms computed on [[gpu]] in [[consensus]] over [[cybergraph]]
 	- TODO [[attention]] and [[will]] as learning tokens for [[collective ai]]
