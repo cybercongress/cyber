@@ -20,7 +20,7 @@ alias:: rm
 - all [[cyberlinks]] consume [[bandwidth]] which recovers with [[time]]
 - TODO [[create visualization]]
 - in essence rm
-	- provided with enormous primitively structured input
+	- provided with enormous but primitively structured input
 	- can provide comprehensive model of the universe
 	- with [[strong predictive power]]
 - [[supported gpu]]
