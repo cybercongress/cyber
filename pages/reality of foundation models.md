@@ -1,0 +1,9 @@
+- existing foundation models are not foundational
+	- contain only [[implicit knowledge]]
+	- unable to work in [[full content space]]
+	- does not use cryptographic technics for [[authentication of information]]
+- [[rm]] is foundational model
+	- [[implicit knowledge]] is derived from [[explicit knowledge]]
+	- operated in [[full content space]]
+	- [[authentication of information]] in the core
+- tradeoffs can be understood in the article [[cybergraph and llm]]

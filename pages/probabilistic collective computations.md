@@ -1,4 +1,5 @@
 - emerging paradigm of computations
+- [[soft3]] as example implementation
 - involve the use of probabilistic models to handle and process collective data and computations
 - particularly useful in scenarios where there is uncertainty or variability in the data
 - key concepts
@@ -6,15 +7,15 @@
 	- [[collective computation]]
 	- [[uncertainty handling]]
 - applications
-	- [[economics]] and [[finance]]
-		- predict [[market]] trends
-		- manage risks
-		- optimize investment portfolios
 	- [[politics]] and [[art]]
 		- predict [[information]] trends
 		- manage [[attention]] space
 		- compete over [[intelligence]]
-	- [[probabilistic collective computations and machine learning]]
+	- [[economics]] and [[finance]]
+		- predict [[market]] trends
+		- manage risks
+		- optimize investment portfolios
+	- [[soft3 and machine learning]]
 	- [[distributed systems]]
 		- [[store and distribute popular content]]
 		- [[global semantic cores]]
