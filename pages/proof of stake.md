@@ -1,6 +1,6 @@
 alias:: pos
 
-- class of [[consensus]] mechanism used in [[blockchains]]
+- class of [[consensus]] mechanism used in most [[blockchains]]
 - [[token]] [[vested staking]] which secure creation of new valid [[blocks]]
 - unlike [[proof of work]]
 	- which relies on computational power to solve complex mathematical problems
