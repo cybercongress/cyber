@@ -15,7 +15,7 @@ tags:: cyber
 	- protocol is mostly remained untouched for maximum compatibility
 	- [[cybverver]] and art created for easier adoption
 - whats is different in comparison with bittensor
-	- deploy you whole new network and token: the network is just contract instance
+	- deploy you whole new network and token: the network is just [[contract instance]]
 	- manage your network using manual ux weights in [tech preview app](https://spacepussy.ai/cybernet/subnets/0)
 	- maximize rewards with the help of [[cybergraph]]
 	- extend subnets using [[cosmwasm]] programs
@@ -25,6 +25,6 @@ tags:: cyber
 	- enjoy security and speed of [[tendermint]] [[consensus]]
 	- and more
 - protocol extension: subnetwork is about learning particle's subgraph
-- tecnical preview of webapp for exploring and seting weights: [spacepussy.ai/cybernet](https://spacepussy.ai/cybernet)
+- technical preview of webapp for exploring and setting weights: [spacepussy.ai/cybernet](https://spacepussy.ai/cybernet)
 - TODO [[daodao]] integration
 - TODO enrich original [docs](https://docs.spacepussy.ai/) of the project

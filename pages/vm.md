@@ -1,6 +1,6 @@
 alias:: virtual machine
 
 - examples
+	- [[rm]]
 	- [[evm]]
-	- [[wasm]] and [[cosmwasm]]
-	- [[relevance machine]]
+	- [[wasm]]
