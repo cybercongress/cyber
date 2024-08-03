@@ -12,6 +12,7 @@ tags:: aos, cyber
 	- [[adaptive inflation]]
 - [[.moon names]]
 - [[cybergraph]]
+	- [[will]] [[minting]]
 	- [[bandwidth limiting]]
 	- [[adaptive pricing]]
 - [[avatar]] with [[neural proofs]]

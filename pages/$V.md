@@ -1,1 +1,1 @@
-alias:: volt
+alias:: volt, millivolt, volts, millivolts

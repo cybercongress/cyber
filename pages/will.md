@@ -1,3 +1,5 @@
+alias:: bandwidth unit, bandwidth units, cyber/will
+
 - mental capacity by which [[neuron]] determines [[knowledge]]
 - part of [[cyber/energy]] pack
 - [[will]] requires some [[attention]] for [[intelligence]] flow through [[cybergraph]]

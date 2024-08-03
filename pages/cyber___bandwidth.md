@@ -1,0 +1,39 @@
+tags:: module
+
+- process and stores [[neuron bandwidth]] in the [[network]]
+- dynamically adjust [[bandwidth price]] to [[network load]]
+- [[neurons]] use bandwidth to add [[cyberlinks]] to the network
+- and never pay [[gas fees]] for [[cyberlinks]]
+- personal bandwidth
+	- the [[$V]] stake of the given [[neuron]] are easy to understand as the size of his battery
+	- the creation of [[cyberlinks]] will consume battery charge
+	- and the battery will be fully recharged during [[recovery period]]
+	- if a neuron consumes half of its bandwidth
+	- its battery will be fully charged in the [[recovery period]] divided by 2
+	- if a [[neuron]] act when network bandwidth consumption is low
+	- then she will consume less personal bandwidth
+- accounting of bandwidth
+	- internally 1 [[$V]] represents 1000 [[millivolts]], and 1 [[cyberlink]] cost is 1000 [[bandwidth units]]
+	- [[neurons]] holdings of 5 Volts means 5000 personal bandwidth units
+	- when the current load is less than base price amount, e.g 0.25
+	- then the network will make the discount for bandwidth bill up to 4x
+	- allowing neurons to create 4x more cyberlinks, or 20 [[cyberlinks]] in such case
+- transaction's mempool
+	- for transactions that consist of cyberlinks, a fee check will not apply
+	- but correct required gas amount should be provided
+- network capacity
+	- total amount of minted [[$V]]
+	- represents the demand of [[bandwidth]] from [[neurons]]
+	- validators need to keep tracking investments in [[$V]] resources
+	- to provide great service at scale to dynamically adjust available peek load
+- [[params]]
+	- maximum bandwidth [[max block bandwidth]]
+	- gas [[max gas]] consumable at block
+- [[rest]]
+	- /bandwidth/parameters
+		- get module params
+	- /bandwidth/load
+		- get bandwidth load
+	- /bandwidth/price |  | get bandwidth price |
+	- /bandwidth/desirable |  | get desirable bandwidth |
+	- /bandwidth/account/{address} | {address} | get bandwidth of give account address |
