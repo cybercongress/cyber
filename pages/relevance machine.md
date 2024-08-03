@@ -11,9 +11,9 @@ alias:: rm
 	- computation on [[gpu]] in [[consensus]]
 		- [[black magic]]
 	- output
-		- [[particles weight]]
-		- [[cyberlinks weight]]
-		- [[neurons weight]]
+		- [[particles weights]]
+		- [[cyberlinks weights]]
+		- [[neurons weights]]
 		- [[syntropy]] of [[vimputer]]
 - powerful property of rm is [[no gas fees]] for [[learning]]
 - instead rm offer to use [[$V]] token for [[bandwidth subscription]]

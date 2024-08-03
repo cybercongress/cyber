@@ -1,3 +1,3 @@
-alias:: neurons weight
+alias:: neurons weight, neurons weights
 
 - discover all [[concepts]]

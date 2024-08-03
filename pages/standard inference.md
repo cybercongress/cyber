@@ -1,1 +1,1 @@
-alias:: cyberlinks weight
+alias:: cyberlinks weight, cyberlinks weights

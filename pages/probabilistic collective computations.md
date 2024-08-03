@@ -2,6 +2,7 @@
 - [[soft3]] as example implementation
 - involve the use of probabilistic models to handle and process collective data and computations
 - particularly useful in scenarios where there is uncertainty or variability in the data
+- [[reality of foundation models]]
 - key concepts
 	- [[probabilistic models]]
 	- [[collective computation]]

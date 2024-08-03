@@ -1,5 +1,5 @@
 icon:: 🦠
-alias:: cyber rank, particles weight
+alias:: cyber rank, particles weight, particles weights
 
 - probability of [[particle]] observation by [[random walking]] [[neuron]]
 - weighted on [[attention]] and [[will]] of [[neuron]]

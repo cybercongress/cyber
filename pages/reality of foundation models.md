@@ -4,6 +4,6 @@
 	- does not use cryptographic technics for [[authentication of information]]
 - [[rm]] is foundational model
 	- [[implicit knowledge]] is derived from [[explicit knowledge]]
-	- operated in [[full content space]]
-	- [[authentication of information]] in the core
+	- operates in [[full content space]]
+	- [[authentication of information]] by design
 - tradeoffs can be understood in the article [[cybergraph and llm]]
