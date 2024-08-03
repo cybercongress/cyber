@@ -29,5 +29,5 @@ alias:: content oracle
 - cybergraph of [[spacepussy]] serve the purpose of memes phenomena
 - understand deeper [[intelligence measures]]
 - discover all [[concepts]] of [[cyber]]
-- TODO [[cybergraph and llm]]
+- [[cybergraph and llm]]
 - implemented as [[cyber/graph]] [[module]] of [[cyber-sdk]]
