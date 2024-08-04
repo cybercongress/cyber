@@ -15,9 +15,10 @@ alias:: rm
 		- [[cyberlinks weights]]
 		- [[neurons weights]]
 		- [[syntropy]] of [[vimputer]]
-- powerful property of rm is [[no gas fees]] for [[learning]]
-- instead rm offer to use [[$V]] token for [[bandwidth subscription]]
-- all [[cyberlinks]] consume [[bandwidth]] which recovers with [[time]]
+- properties
+	- [[no gas fees]] for [[learning]]
+	- [[extremely dynamic]]: each [[cyberlink]] change all weights
+	- [[memoization]]: no need to recompute stuff twice
 - TODO [[create visualization]]
 - in essence rm
 	- provided with enormous but primitively structured input

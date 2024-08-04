@@ -1,3 +1,3 @@
-alias:: hydrogen, liquid energy
+alias:: hydrogen
 
 - part of [[cyber/energy]] pack

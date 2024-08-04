@@ -9,3 +9,4 @@ tags:: page
 	- [[cyber-js]]: lib for web2
 	- [[go-cyber]] cli: reference implementation in go
 	- TODO [[cyb/virus]] extension
+- can be powerful [[chakra]] for [[learning]]
