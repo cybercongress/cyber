@@ -1,4 +1,4 @@
-- significantly enhance various machine learning tasks
+- soft3 can significantly enhance various machine learning tasks
 - classification
 	- ensemble methods
 		- probabilistic ensemble

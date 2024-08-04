@@ -23,6 +23,9 @@ alias:: rm
 	- provided with enormous but primitively structured input
 	- can provide comprehensive model of the universe
 	- with [[strong predictive power]]
-- [[reality of foundation models]]
+- related articles
+	- [[reality of foundation models]]
+	- [[cybergraph and llm]]
+	- [[soft3 and machine learning]]
 - [[supported gpu]]
 - discover all [[concepts]]

@@ -1,5 +1,6 @@
-- these models incorporate randomness and are used to predict outcomes based on certain probabilities
+- models incorporate randomness
+- and are used to predict outcomes based on certain probabilities
+- examples
 	- bayesian networks
 	- markov chains
-	- hidden markov models
-	- [[black magic]]
+	- [[relevance machine]]

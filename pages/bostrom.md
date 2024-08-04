@@ -2,7 +2,7 @@ icon:: 🟢
 tags:: aos, cyber
 
 - [[bootloader]] of [[cyber]]
-- and [[moon]] network state
+- and [[moon]] [[network state]]
 - named after [[nick bostrom]]
 - secure [[proof of stake]] [[bostrom/consensus]]
 - fair [[bostrom/genesis]] distribution of [[$BOOT]]

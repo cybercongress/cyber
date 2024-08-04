@@ -2,7 +2,7 @@
 - [[soft3]] as example implementation
 - involve the use of probabilistic models to handle and process collective data and computations
 - particularly useful in scenarios where there is uncertainty or variability in the data
-- [[reality of foundation models]]
+- [[reality of foundation models]] is highly relevant read
 - key concepts
 	- [[probabilistic models]]
 	- [[collective computation]]
@@ -38,91 +38,38 @@
 	- [[robustness]]: ability to handle incomplete and noisy data effectively
 	- [[scalability]]: suitable for large-scale systems and applications
 	- [[flexibility]]: applicable to a wide range of domains and problems
-- challenges
-	- complexity
-		- designing and implementing probabilistic models
-		- can be computationally intensive
-		- and require specialized [[knowledge]]
-		- [[relevance machine]] removes this complexity
-	- interpretability
-		- results from probabilistic models can be difficult to interpret
-		- especially for non-experts
-		- [[cyb]] soft offer vast ecosystem with universal access
-	- data requirements
-		- often require large amounts of data
-		- to accurately estimate probabilities
-		- and make reliable predictions
-		- [[bostrom]] blockchain is ever growing
 - examples of probabilistic models
 	- [[cybergraph]] with [[black magic]]: model [[probability of observation]] of [[information]] by [[neuron]]
 	- bayesian networks: graphical models that represent the probabilistic relationships among a set of variables
 	- markov chains: models that describe systems that transition from one state to another on a state space
-- powerful tools for addressing
-	- uncertainty and variability in complex systems
-	- enabling more robust and scalable solutions across various fields
 - have the potential to significantly impact the future of [[civilization]] and [[computation]]
 	- technological advancements
-		- enhanced decision-making
-			- smarter ai systems
-				- probabilistic models can improve the decision-making capabilities of artificial intelligence
-				- making systems more adaptive and capable of handling uncertainty
-			- better predictions
-				- improved accuracy in forecasting weather, finance, disease outbreaks, and other phenomena
-		- decentralized systems
-			- blockchain and decentralized finance: secure, efficient, and fair financial systems
-			- through probabilistic modeling to prevent fraud and ensure equitable resource distribution
-		- distributed computing
-			- more efficient use of computational resources across networks
-			- leading to faster and more reliable processing
-		- robotics and automation
-			- autonomous vehicles: better navigation and safety systems through probabilistic decision-making
-			- smart manufacturing: adaptive systems that can predict and respond to changes in real-time
+		- smarter decision-making ai systems with better predictions
+		- secure, efficient, and fair financial system with fraud prevention and equitable resource distribution
+		- more efficient use of computational resources in distributed computing across networks
+		- safer autonomous vehicles and smart manufacturing with adaptive systems in [[robotics]]
 	- societal impact
-		- [[improved public health]]
-			- disease modeling
-				- better understanding and control of epidemics
-				- through probabilistic models that predict the spread and impact of diseases
-			- personalized medicine
-				- tailoring treatments to individuals based on probabilistic assessments
-				- of their responses to different therapies
-		- [[environmental sustainability]]
-			- resource management
-				- more efficient use of natural resources through probabilistic models
-				- that predict supply and demand
-			- climate change mitigation
-				- better prediction and management of environmental impacts
-		- economic and social systems
-			- fairer markets
-				- reducing economic inequality through models
-				- that ensure fair distribution of resources and opportunities
-			- enhanced governance
-				- more transparent and participatory governance systems
-				- where decisions are made based on collective inputs and probabilistic assessments.
+		- [[improved public health]] based on disease modeling with personalized medicine
+		- more efficient supply and demand prediction for [[environmental sustainability]]
+		- fairer markets and reduced economic inequality
+		- enhanced governance where decisions are made based on collective inputs and probabilistic assessments
 	- scientific research
-		- accelerated discovery
-		- data-driven research
-			- using probabilistic models to analyze large datasets
-			- leading to faster scientific discoveries and innovations
-		- collaborative research
-			- enhancing collaboration among researchers
-			- by pooling data and resources in a probabilistic framework
-		- emergent behavior
-			- better understanding of complex systems and emergent behaviors
-			- through collective computations
-		- interdisciplinary insights
-			- integrating knowledge from various fields to address complex global challenges
-- challenges and considerations
-	- ethical implications
-		- bias and fairness
-			- ensuring that probabilistic models do not perpetuate biases and are used fairly
-		- privacy concerns
-			- managing data privacy and security in collective computation systems
-	- technical hurdles
-		- computational complexity: addressing the computational demands of probabilistic models
-		- data requirements: ensuring access to high-quality data for accurate modeling
+		- accelerated discovery through data-driven research
+		- enhanced collaboration in research
+		- collaborative research with interdisciplinary insights
+		- understanding complex systems through emergent behavior analysisemergent behavior
+- challenges
+	- ethical implications: bias, fairness and privacy concerns
+	- interpretability: results from probabilistic models can be difficult to interpret
+	- computational complexity coupled with enormous data requirements
+- solution
+	- [[relevance machine]] removes complexity of design and implementation
+	- [[cyb]] soft offer vast ecosystem with universal access
+	- [[bostrom]] blockchain ever grows to support needs of [[civilization]]
 - conclusion
+	- probabilistic collective computations
 	- represent a significant step forward in the evolution of technology and society
-	- by leveraging the collective intelligence of multiple agents and managing uncertainty
+	- by leveraging the collective intelligence of multiple [[agents]] and managing [[uncertainty]]
 	- these systems can lead to smarter, more adaptive, and more efficient solutions across various domains
 	- the future of [[civilization]] and [[computation]] may very well be shaped
 	- by the advancements and applications of these powerful probabilistic models
