@@ -1,4 +1,43 @@
 - [[cyber/energy]] pack for sale
+- [[anatomy of decision]]
+	- input
+		- [[amount]] of paying [[tokens]]
+	- output
+		- [[amount]] of bought [[$H]]
+		- [[amount]] of bought [[$A]]
+		- [[amount]] of bought [[$V]]
+- how much of value i can buy for 10 [[$USDT]]
+	- [[share]] among all neurons of [[will]], [[attention]] and [[fuel]]
+	- [[amount]] of cyberlinks per day i can create
+	- [[amount]] of transactions for [[$H]]
+		- or [[$USDT]] value of remaining $H for [[play]]
+- the process must allow to
+	- calculate benefits for input to output and vice versa
+	- ability to manually change input and output parameters
+	- ability to change parameters by sliders
+	- ability to change parameters by roles
+	- track all decisions through bridging
+- roles: change to custom on manual change
+	- thinker
+		- [[$A]]: 80%
+		- [[$V]]: 10%
+		- [[$H]]: 10%
+	- executor
+		- [[$V]]: 80%
+		- [[$H]]: 10%
+		- [[$A]]: 10%
+	- player:
+		- [[$H]]: 80%
+		- [[$A]]: 10%
+		- [[$V]]: 10%
+	- innovator
+		- [[$V]]: 40%
+		- [[$A]]: 40%
+		- [[$H]]: 20%
+	- strategist
+		- [[$H]]: 34%
+		- [[$V]]: 33%
+		- [[$A]]: 33%
 - key [[chakra]] of cyber project
 	- the levels of advancement
 	- TODO buy for tokens on bostrom

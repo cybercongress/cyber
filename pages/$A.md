@@ -1,6 +1,7 @@
 tags:: cyberlink, cyber
 alias:: amper
 
-- token of [[will]] in [[bostrom]]
+- [[token]] of [[attention]] in [[bostrom]]
+- part of [[cyber/energy]] pack
 -
-- TODO redesigned according to [[energy reform]]
+- TODO redesign during [[energy reform]]

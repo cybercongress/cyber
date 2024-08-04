@@ -12,3 +12,9 @@
 	- 35 [[pages]]
 	- TODO 23 [[features]]
 	- TODO count [[actions]]
+	- [[offline mode]] and [[online mode]]
+	- 3 types of [[robot]]: [[neuron]], [[avatar]] and [[prog]]
+	- complete features for [[desktop]] and [[mobile]]
+	- and unique flow for [[web]]
+	- two modes: [[energetic]] and [[alien]]
+	-

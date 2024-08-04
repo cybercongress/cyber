@@ -1,6 +1,14 @@
 alias:: my
 tags:: aip
 
+- opens [[great web]] access
+- configures [[spells]], [[avatars]], [[neurons]] and [[progs]]
+- give access to [[cyb/state]]
+- gives dedicated [[neuron]] for each [[device]]
+- supports basic operations on [[signals]]
+- replicate [[state]] across [[devices]]
+- allow to add [[features]] to [[cyb/mind]]
+- superfeature: ability to act as a group of [[avatars]], [[neurons]] and [[progs]]
 - [[pages]]
 	- [[brain]]
 		- [[graph]]
