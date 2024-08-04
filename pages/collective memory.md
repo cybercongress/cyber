@@ -2,7 +2,7 @@
 -
 - [[blockchain]] technology were adapted to store and process not just information, but unified [[knowledge]]
 - it could revolutionize the concept of collective memory
-- it could overcome [[collective amnesia]] for our [[civilization]]
+- allowing to overcome [[collective amnesia]] for our [[civilization]]
 -
 - such an [[enhanced blockchain]] function as
 - sophisticated, decentralized system that captures, organizes, and validates [[knowledge]]
