@@ -17,4 +17,4 @@
 	- complete features for [[desktop]] and [[mobile]]
 	- and unique flow for [[web]]
 	- two modes: [[energetic]] and [[alien]]
-	-
+	- [[avatar]] which can be both [[particle]] and [[neuron]]

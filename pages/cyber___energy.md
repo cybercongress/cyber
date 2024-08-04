@@ -1,3 +1,4 @@
+icon:: 🔋
 alias:: cyber energy
 
 - cyber energy is [[fuel]], [[will]] and [[attention]]
@@ -12,12 +13,11 @@ alias:: cyber energy
 	- [[$VIP]]: [[will]]
 	- [[$AM]]: [[attention]]
 - usually [[vimputers]] use one token for [[gas]] and the same token for [[security]]
-- [[consensus]] of [[cyber-sdk]] is different and is practically 4 tokens
+- [[consensus]] of [[cyber-sdk]] is different and is practically 4 [[consensus tokens]]
 	- have several computing resources
 	- both [[sequential and parallel]]
 	- also we [[decoupling security and gas]]
 	- hence require several [[tokens]] for operations
 - although such approach add some complexity
 - we can remove this cognitive stupor with good [[gamification]]
-- TODO [[buy energy]]
-	-
+- TODO [[buy energy]] in [[cyb]]

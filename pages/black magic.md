@@ -1,4 +1,4 @@
-alias:: objective function
+alias:: objective function, advanced algorithms
 
 - set of algorithms computed on [[gpu]] in [[consensus]] over [[cybergraph]] by [[rm]]
 	- TODO [[attention]] and [[will]] as learning tokens for [[collective ai]]

@@ -8,7 +8,7 @@
 		- [[amount]] of bought [[$V]]
 - how much of value i can buy for 10 [[$USDT]]
 	- [[share]] among all neurons of [[will]], [[attention]] and [[fuel]]
-	- [[amount]] of cyberlinks per day i can create
+	- [[amount]] of [[cyberlinks]] per day i can create
 	- [[amount]] of transactions for [[$H]]
 		- or [[$USDT]] value of remaining $H for [[play]]
 - the process must allow to

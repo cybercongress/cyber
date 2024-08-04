@@ -2,6 +2,7 @@ tags:: aip
 
 - [[cyb/oracle]]
 - [[oracle/product]]
+- provide [[context]] to [[cyb]]
 - seamless integration with [[studio]]
 - [[pages]]
 	- [[main]]: `~` [[oracle/ask]]
@@ -17,4 +18,3 @@ tags:: aip
 	- `@` [[cyb/avatar]] or [[neuron]]
 	- `/` [[cyb/brain]]
 - [[oracle/learn]]
--

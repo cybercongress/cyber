@@ -2,7 +2,9 @@ icon:: 🪙
 alias:: token theory
 tags:: cybernomics
 
-- think of tokens as numeric values stored in [[vimputer]] which can be computed according to some rules for [[neurons]]
+- think of tokens as numeric [[values]]
+- stored in [[vimputer]] which can be computed according to some rules for [[neurons]]
+-
 - could be
 	- fungible or unique
 	- movable or immovable

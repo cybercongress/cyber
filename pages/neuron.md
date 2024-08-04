@@ -1,5 +1,5 @@
 icon:: 🧠
-alias:: address, subject, agent, user, observer
+alias:: address, subject, agent, user, observer, actor
 tags:: cyber
 
 - [[subject]] of [[information]]
@@ -17,5 +17,7 @@ tags:: cyber
 - some software to create and use [[neurons]]
 	- [[kelpr]] in [[cosmos]] and [[cyber]]
 	- [[frame]] in [[ethereum]]
+- play with [[neuron/creation]] using plain old [iancoleman.io/bip39/](https://iancoleman.io/bip39/)
 - in [[cyb/portal]] you can connect any [[cyber]], [[ethereum]] and [[cosmos]] [[neuron]] to [[avatar]]
+-
 - discover all [[concepts]]

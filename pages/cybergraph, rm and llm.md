@@ -6,3 +6,9 @@
 	- [[knowledge graphs]] and [[llms]] are fundamentally different
 	- [[knowledge graphs]] and [[llms]] must interact in any [[intelligent]] system
 	- [[knowledge graphs]] and [[llms]] are the key to [[superintelligence]]
+- in the context of this article cybergraph describe
+	- topology of [[knowledge graph]] defined by [[cybergraph]]
+	- weights in [[knowledge graph]] computed by [[relevance machine]]
+- that practically means that
+	- [[probabilistic model]] produced by [[relevance machine]]
+	- is beautiful counterpart for [[llm]] in a modern [[soft3]] [[stack]]

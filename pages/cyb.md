@@ -29,7 +29,7 @@ tags:: cyb
 	- personal history and new [[time]]
 - [[features]] for [[mind]] extension of [[robot]]
 - [[cyb/architecture]]
-- [[aip]] definition
+- [[aip]]: powerful tool for [[autonomous agents]]
 - [[cyb/core]] [[aips]]
 - [[offline mode]]
 - [[portability]]

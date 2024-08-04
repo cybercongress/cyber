@@ -1,6 +1,6 @@
-- collection of primitive learning acts
+- collection of [[primitive learning acts]]
 - stored [[cyberlinks]] formates knowledge of [[neuron]]
-- consolidates [[information]] on
+- [[cybergraph]] consolidates [[information]] on
 	- [[who]]
 	- [[when]]
 	- [[what]]
