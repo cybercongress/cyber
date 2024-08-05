@@ -1,4 +1,5 @@
 - [[cyber/energy]] pack for sale
+- TODO design and implement [[cyb/portal/buy]]
 - [[anatomy of decision]]
 	- input
 		- [[amount]] of paying [[tokens]]
@@ -7,16 +8,16 @@
 		- [[amount]] of bought [[$A]]
 		- [[amount]] of bought [[$V]]
 - how much of value i can buy for 10 [[$USDT]]
-	- [[share]] among all neurons of [[will]], [[attention]] and [[fuel]]
+	- [[share]] in [[cap]] of [[will]], [[attention]] and [[fuel]]
 	- [[amount]] of [[cyberlinks]] per day i can create
 	- [[amount]] of transactions for [[$H]]
-		- or [[$USDT]] value of remaining $H for [[play]]
+		- or [[$USDT]] value of remaining [[$H]] for [[play]]
 - the process must allow to
 	- calculate benefits for input to output and vice versa
 	- ability to manually change input and output parameters
 	- ability to change parameters by sliders
 	- ability to change parameters by roles
-	- track all decisions through bridging
+	- track all decisions through bridging: the hardest part
 - roles: change to custom on manual change
 	- thinker
 		- [[$A]]: 80%
@@ -39,9 +40,9 @@
 		- [[$V]]: 33%
 		- [[$A]]: 33%
 - key [[chakra]] of cyber project
-	- the levels of advancement
-	- TODO buy for tokens on bostrom
-	- TODO buy for tokens of [[cosmos-sdk]] networks in [[hub]]
-	- TODO buy for [[$ETH]]
-	- TODO buy for [[$ETH]] [[coins]]
-	- TODO buy for [[$BTC]]
+	- levels of advancement
+		- TODO buy for tokens on bostrom
+		- TODO buy for tokens of [[cosmos-sdk]] networks in [[hub]]
+		- TODO buy for [[$ETH]]
+		- TODO buy for [[$ETH]] [[coins]]
+		- TODO buy for [[$BTC]]
