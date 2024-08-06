@@ -1,3 +1,4 @@
+icon:: ☯️
 tags:: cyber
 
 - [[neuron]] as universal model for the [[observer]]
@@ -5,10 +6,13 @@ tags:: cyber
 - [[particle]] as fundamental unit of [[information]]
 - [[token]] as fundamental unit of [[value]]
 - [[cyberlink]] as fundamental unit of [[knowledge]] and [[learning]]
-- [[cybergraph]]: datastructure for [[collective memory]]
-- TODO [[relevance machine]]: virtual machine for [[collective intelligence]]
-- TODO [[avatar]] with [[passport]], [[axons]], [[neural proofs]] and [[soul]]
-- TODO [[learning incentives]] based on [[yuma]]
+- [[cybergraph]]: essential data structure for [[collective memory]]
+- [[relevance machine]]: virtual machine for [[collective intelligence]]
+- [[cyber/energy]]: [[soft3]] usage package
+- [[avatar]] with [[features]]
+- [[learning incentives]] based on [[yuma]]
 - [[bootloader]] as research and development ground
+- [[cybergraph, rm and llm]]
 - [[cyb]] robot for interactions
+-
 - [[distributed neural network]] as foundation for [[superintelligence]]

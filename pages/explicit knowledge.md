@@ -1,3 +1,5 @@
+alias:: shared history
+
 - information that is directly stated and clearly represented in [[cybergraph]]
 - readily available just by traversing [[cybergraph]]
 - > something that is known and can be written down @nonaka and @takeuchi
@@ -6,4 +8,4 @@
 - in [[cyber-sdk]]
 	- can be created using [[cyberlink]] message type
 - in [[cyb-ts]]
-	- TODO can be created using [[cyberlink]] message type
+	- can be created using [[cyberlink]] message type

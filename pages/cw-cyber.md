@@ -1,0 +1,17 @@
+- [[cosmwasm]] fat protocol suite
+- integration of [[cyb]], [[aos]] and [[cyber]]
+- dependencies
+	- [[daodao]]
+	- [[neutron-sdk]]
+	- [[neutron-dex]]
+	- [[cybernet]]
+	- [[onchain-registry]]
+- [[progs]]
+	- [[avatar]]
+	- [[gift]]
+	- [[hub/networks]]
+	- [[hub/protocols]]
+	- [[hub/tokens]]
+	- [[hub/skills]]
+	- [[hub/progs]]
+	-

@@ -1,0 +1,21 @@
+- [[space]]
+- [atoms](xp/atoms)
+	- text/L
+	- images
+		- addresses
+			- big
+	-
+- [molecules](cyb/xp/molecules)
+	- [[neuron]]
+		- big
+			- hover
+			- play
+		- small
+			- hover-address
+			- small-hover
+			- small-hover-copied
+	- content
+		- text + icon-L
+- [[cells]]
+	-
+- [[aips]]

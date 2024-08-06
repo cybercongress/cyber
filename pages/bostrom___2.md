@@ -1,0 +1,24 @@
+-
+	- optimization of [[cybernomics]]
+		- [[burn gas in H]]
+		- [[explicit mint and burn of H]]
+		- [[fixed fee on H burn]]
+		- [[liquidity subsidy]]
+		- [[finalization of distribution]]
+	- flexibility of development
+		- [[using progs instead of modules]]
+		- [[black magic in consensus]]
+		- [[usable tokens]]
+		- [[daodao for senate]]
+		- [[neutron progs for warp]]
+		- [[create cyberlink twice]]
+	- [[close energy loop]]
+		- [[energy reform]]
+		-
+-
+-
+-
+-
+-
+-
+- [[daodao for senate]]

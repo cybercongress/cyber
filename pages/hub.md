@@ -1,0 +1,15 @@
+tags:: aip
+
+- [[network oriented aip]]
+- [[pages]]
+	- [[main]]: [[hub render]]
+	- [[signals]]
+	- [[signal]]
+	- [[step]]
+	- [[steps]]
+- [[features]]
+	- [[robot/networks]]
+	- [[robot/tokens]]
+	- [[robot/channels]]
+	- [[robot/axons]]
+	- [[progs]]

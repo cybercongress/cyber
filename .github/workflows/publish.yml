@@ -1,6 +1,6 @@
 on:
   push:
-    branches: 
+    branches:
       - master
 
 permissions:
@@ -11,13 +11,24 @@ jobs:
     name: Publish Logseq graph
     steps:
       - uses: actions/checkout@v3
-      - uses: logseq/publish-spa@v0.3.0
+      - uses: logseq/publish-spa@v0.3.1
         with:
+          version: 0.10.9
           theme-mode: dark
           accent-color: green
           output-directory: build
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/build/.nojekyll
+      - name: Replace logo file
+        run: cp assets/logo.png $GITHUB_WORKSPACE/build/static/img/logo.png
+
+      - name: Set execute permissions for scripts
+        run: chmod +x ./.github/scripts/modify_html/*.sh
+      - name: Add meta
+        run: ./.github/scripts/modify_html/add_meta.sh
+      - name: Add analytics script
+        run: ./.github/scripts/modify_html/add_analytics.sh
+
       - name: Deploy to Netlify
         uses: jsmrcaga/action-netlify-deploy@v2.2.0
         with:

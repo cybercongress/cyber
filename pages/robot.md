@@ -1,0 +1,54 @@
+alias:: my
+tags:: aip
+
+- offline value:: opens [[great web]] access
+	- core
+		- through the lense of [[file]] and [[link]]
+		- understand [[time]]
+		- store [[particles]] in [[drive]]
+		- solve [[tasks]]
+			- first task is to sync top 1000
+			- from [[cyber-sdk]] networks in [[hub]]
+		- configure [[spells]]
+		- explore your [[brain]]
+		- explore you [[sense]]
+		- improve you [[mind]]
+		- intro to [[oracle]]
+		- [[portal]]?
+	- configure [[neurons]]
+- online value
+	- publish and distribute data in [[drive]]
+- [[buy energy]]: sell
+	- immortality
+- , [[avatars]], and [[progs]]
+- give access to [[cyb/state]]
+- gives dedicated [[neuron]] for each [[device]]
+- supports basic operations on [[signals]]
+- replicate [[state]] across [[devices]]
+- allow to add [[features]] to [[cyb/mind]]
+- superfeature: ability to act as a group of [[avatars]], [[neurons]] and [[progs]]
+- [[pages]]
+	- [[brain]]
+		- [[graph]]
+		- [[heap]]
+		- [[list]]
+	- [[time]]
+	- [[mind]]
+	- [[sigma]]
+	- [[sense]]
+	- [[map]]
+- [[features]]
+	- default features
+		- [[drive]]
+		- [[tasks]]
+		- [[access]]
+		- [[spells]]
+		- [[neurons]]
+	- core features
+		- [[sigma]]
+		- [[sense]]
+		- [[time]]
+		- [[brain]]
+		- [[mind]]
+- [[actions]]
+	-

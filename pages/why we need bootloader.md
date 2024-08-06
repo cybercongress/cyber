@@ -13,7 +13,7 @@ tags:: cyber
 	- our opinion is that 32 byte [[particle]] space in longterm is not collusion resistant
 	- currently [[particles]] use [[cidv0]] which is based on [[sha256]]
 	- do you remember how one guy said that 640kb must be enough?
-	- we need significantly bigger [[particle]] space
+	- we need significantly bigger [[particle space]]
 	- quantum proof hashing in foundation requires simple and efficient algorithm
 	- [[cyber]] must be based on at least 64 byte [[particle]] space ensuring deep future
 	- our hardware just not ready yet for this
@@ -22,14 +22,14 @@ tags:: cyber
 	- we convinced that [[hash based signatures]] looks more simple
 	- but they are not yet advanced enough for blockchain in production
 - more efficient computing with [[8bit symbolic table]]
-	- basic encoding being ubiquitously used is utf8
-	- big problem with utf8 is that it is information inefficient
+	- basic encoding being ubiquitously used is [[utf8]]
+	- big problem with [[utf8]] is that it is information inefficient
 	- obviously utf8 contain so much excess information
 	- so practically if we came to 256 symbols which are universal and really important
 	- we could make computing at least one or two order of magnitude more efficient
-- stable [[zero knowledge]] and [[fully homomorphic encryption]] tech
+- stable [[zero knowledge]] and [[fully homomorphic encryption]] tech because [[privacy]] is fundamental
 - more stable computing paradigm with [[automatic parallelization]]
-- starting semantic core
+- starting [[semantic core]]
 	- in nature nearly all newborns have some starting semantics
 	- but it is not obvious which one must be there
 	- using [[bostrom]] allow us to build foundation for such semantic core

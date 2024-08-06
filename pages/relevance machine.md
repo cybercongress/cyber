@@ -1,8 +1,32 @@
-- is unique vm
-- it offers probabilistic collective computations
-- TODO [[attention]] and [[will]] as learning tokens for [[collective ai]]
-- TODO [[karma]]: contribution [[score]] of [[neuron]]
-- TODO [[cyberank]]
-- TODO [[syntropy]] as key metabolic factor of [[superintelligence]]
+icon:: 🖖🏽
+alias:: rm
+
+- unique [[vm]] for [[soft3]] computations
+- offers [[probabilistic collective computations]]
+- arhitecture
+	- input
+		- [[will]] of [[neurons]]
+		- [[attention]] of [[neurons]]
+		- [[cyberlinks]] created by [[neurons]]
+	- computation on [[gpu]] in [[consensus]]
+		- [[black magic]]
+	- output
+		- [[particles weights]]
+		- [[cyberlinks weights]]
+		- [[neurons weights]]
+		- [[syntropy]] of [[vimputer]]
+- properties
+	- [[no gas fees]] for [[learning]]
+	- [[extremely dynamic]]: each [[cyberlink]] change all weights
+	- [[memoization]]: no need to recompute stuff twice
+- TODO [[create visualization]]
+- in essence rm
+	- provided with enormous but primitively structured input
+	- can provide comprehensive [[universe model]]
+	- with [[strong predictive power]]
+- related articles
+	- [[reality of foundation models]]
+	- [[cybergraph, rm and llm]]
+	- [[soft3 and machine learning]]
 - [[supported gpu]]
 - discover all [[concepts]]
