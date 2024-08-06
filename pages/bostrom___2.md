@@ -1,23 +1,21 @@
--
-	- optimization of [[cybernomics]]
-		- [[burn gas in H]]
-		- [[explicit mint and burn of H]]
-		- [[fixed fee on H burn]]
-		- [[liquidity subsidy]]
-		- [[finalization of distribution]]
-	- flexibility of development
-		- [[using progs instead of modules]]
-		- [[black magic in consensus]]
-		- [[usable tokens]]
-		- [[daodao for senate]]
-		- [[neutron progs for warp]]
-		- [[create cyberlink twice]]
-	- [[close energy loop]]
-		- [[energy reform]]
-		-
--
--
--
+- cybergraph extension: [[create cyberlink twice]]
+- [[energy reform]]
+	- {{embed ((66b1d757-c45d-419e-a388-1839eb180f44))}}
+	- {{embed ((66b2052e-a40c-428b-852d-6c34b0fd8448))}}
+	- {{embed ((66b1e28b-9bbd-44b0-b2a9-e3278431bfc7))}}
+	- {{embed ((66b1e28f-dd4f-43d8-b270-727ffde96ffb))}}
+	- {{embed ((5aadcb60-5cca-404f-bec0-c9d9fb7b9948))}}
+- essential features
+	- [[finalization of distribution]]
+	- [[using progs instead of modules]]
+	- [[usable tokens]]
+- progs
+	- [[cybernet]]: [[cybernomics of O]]
+	- [[daodao for senate]]
+	- [[neutron progs for warp]]
+	- [[new hub contracts]]
+	- [[social layer]]
+	- [[avatar namespaces]]
 -
 -
 -

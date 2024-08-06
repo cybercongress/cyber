@@ -3,11 +3,8 @@ tags:: page
 - list of [[neurons]] from top [[1000]]
 - columns
 	- [[level]]
+	- [[energy]]
 	- [[sigma]]
 	- [[karma]]
-	- [[wisdom]]
 	- [[influence]]
-	- [[energy]]
-		- [[fuel]]
-		- [[will]]
-		- [[attention]]
+	- [[wisdom]]

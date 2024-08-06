@@ -1,6 +1,6 @@
 tags:: cybernomics
 
-- framework for efficient design, modeling and simulation of [[economics]] for [[token]] creators
+- framework for efficient design, modeling and simulation of [[cybernomics]] for [[token]] creators
 - plumb from first letters of [[basic token operations]]
 - {{embed [[basic token operations]]}}
 - what is plumb?

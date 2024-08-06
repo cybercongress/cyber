@@ -8,7 +8,7 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 - in an eternal journey to [[find truth]]
 -
 - [[concepts]]
-- [[buy energy]]
+- [[cyber/energy]]
 - [[aicosystem]]
 - [[reference]]
 -
