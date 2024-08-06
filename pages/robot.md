@@ -1,8 +1,26 @@
 alias:: my
 tags:: aip
 
-- opens [[great web]] access
-- configures [[spells]], [[avatars]], [[neurons]] and [[progs]]
+- offline value:: opens [[great web]] access
+	- core
+		- through the lense of [[file]] and [[link]]
+		- understand [[time]]
+		- store [[particles]] in [[drive]]
+		- solve [[tasks]]
+			- first task is to sync top 1000
+			- from [[cyber-sdk]] networks in [[hub]]
+		- configure [[spells]]
+		- explore your [[brain]]
+		- explore you [[sense]]
+		- improve you [[mind]]
+		- intro to [[oracle]]
+		- [[portal]]?
+	- configure [[neurons]]
+- online value
+	- publish and distribute data in [[drive]]
+- [[buy energy]]: sell
+	- immortality
+- , [[avatars]], and [[progs]]
 - give access to [[cyb/state]]
 - gives dedicated [[neuron]] for each [[device]]
 - supports basic operations on [[signals]]

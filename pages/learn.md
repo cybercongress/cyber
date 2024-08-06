@@ -2,7 +2,11 @@ icon:: 🍏
 alias:: learning, labeling
 
 - create best [[cyberlinks]] between [[particles]]
-- teach [[superintelligence]] and learn yourself at once
+-
+- [[empower everyone]]
+- [[learn yourself]]
+-
+- [[decentralized ai]] as simple as [[creating link]]
 -
 - you need [[cyber/energy]] to learn
 - or if you have [[cyber/energy]] go to [cyb.ai/oracle](https://cyb.ai/oracle)

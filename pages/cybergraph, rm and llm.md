@@ -2,13 +2,13 @@
 - [unifying large language models and knowledge graphs: a roadmap](https://cyb.ai/oracle/ask/QmdGEYVKo1sRURzbj83UMtr77EL6GHUB2taJbnpTynEQKT)
 - ![graphs and llms](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmZoAhUsB1KAEbnLCWcMAohtWsAXCDZuetJALrEe5JEnSC)
 - TODO [[create visualization]]
-- insights are the following
-	- [[knowledge graphs]] and [[llms]] are fundamentally different
-	- [[knowledge graphs]] and [[llms]] must interact in any [[intelligent]] system
-	- [[knowledge graphs]] and [[llms]] are the key to [[superintelligence]]
-- in the context of this article cybergraph describe
+- insights are the following that [[knowledge graphs]] and [[llms]] are
+	- fundamentally different
+	- must interact in any [[intelligent]] system
+	- key to [[superintelligence]]
+- in the context of this article
 	- topology of [[knowledge graph]] defined by [[cybergraph]]
 	- weights in [[knowledge graph]] computed by [[relevance machine]]
 - that practically means that
 	- [[probabilistic model]] produced by [[relevance machine]]
-	- is beautiful counterpart for [[llm]] in a modern [[soft3]] [[stack]]
+	- is beautiful counterpart for [[llm]] in a modern [[soft3 stack]]

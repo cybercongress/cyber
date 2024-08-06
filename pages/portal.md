@@ -5,7 +5,6 @@ tags:: aip
 - [[pages]]
 	- [[main]]: [[create avatar]]
 	- [[citizenship]]
-	- TODO [[upload brain]]
 	- TODO [[invite]]
 - [[actions]]
 	- [[buy energy]]

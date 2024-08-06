@@ -1,5 +1,6 @@
 tags:: aos
 alias:: spacepussy
+icon:: 🫦
 
 - [[cyber-sdk]] based memecoin with [[balls]] and [[vision]]
 - ![](https://ipfs.io/ipfs/Qmc7ANo78MJ9yDXUxmErnWuPZPL5y2baYRZpN4CV9axeym)

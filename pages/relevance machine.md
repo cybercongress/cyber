@@ -22,7 +22,7 @@ alias:: rm
 - TODO [[create visualization]]
 - in essence rm
 	- provided with enormous but primitively structured input
-	- can provide comprehensive model of the universe
+	- can provide comprehensive [[universe model]]
 	- with [[strong predictive power]]
 - related articles
 	- [[reality of foundation models]]

@@ -18,6 +18,7 @@
 	- ability to change parameters by sliders
 	- ability to change parameters by roles
 	- track all decisions through bridging: the hardest part
+-
 - roles: change to custom on manual change
 	- thinker
 		- [[$A]]: 80%
@@ -46,3 +47,9 @@
 		- TODO buy for [[$ETH]]
 		- TODO buy for [[$ETH]] [[coins]]
 		- TODO buy for [[$BTC]]
+- add [[space pussy]] to [[cyber/energy]] pack
+	- TODO redesign for multinetwork
+	- slider:
+		- i am serious: more [[bostrom]]
+		- normal: in half
+		- I'm a joker: more [[space pussy]]

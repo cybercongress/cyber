@@ -1,5 +1,7 @@
 tags:: page
 
+- graph file manager
+- TODO [[upload brain]]
 - state of [[cyb-ts]]: [[cyb/brain]]
 - pages
 	- [[graph]]

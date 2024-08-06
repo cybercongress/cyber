@@ -1,6 +1,5 @@
-- models incorporating randomness
-- are used to predict outcomes based on certain probabilities
-- examples
+- what is [[probabilistic model]]?
+- [[examples]]
 	- bayesian networks
 	- markov chains
 	- [[relevance machine]]

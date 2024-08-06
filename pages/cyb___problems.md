@@ -1,5 +1,7 @@
+- no easy way to [[buy energy]]
 - [[cyb/oracle]]
 	- [[standard inference]]
+	- [[surging does not work]]
 	- ....
 - [[cyb/brain]] is not usable for retention
 	- add list view sorted by last observed rank
@@ -14,7 +16,6 @@
 	- makeup as in [[cyb/sense]]
 	- no information on the new [[time]]
 - inconsistent [[offline mode]] work
-- no easy way to [[buy energy]]
 - TODO no actions in [[cyb/sense]] for
 	- love
 	- share
