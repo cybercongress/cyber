@@ -16,10 +16,10 @@ tags:: aip
 		- intro to [[oracle]]
 		- [[portal]]?
 	- configure [[neurons]]
-- online value
-	- publish and distribute data in [[drive]]
 - [[buy energy]]: sell
 	- immortality
+- online value
+	- publish and distribute data in [[drive]]
 - , [[avatars]], and [[progs]]
 - give access to [[cyb/state]]
 - gives dedicated [[neuron]] for each [[device]]
