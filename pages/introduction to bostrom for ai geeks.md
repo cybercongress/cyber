@@ -1,0 +1,267 @@
+- bostrom is NOT yet another ai coin
+- it is very powerful foundational technology for advanced superintelligent civilization
+- in this article i will boil down all essential ideas into coherent understanding how [[bostrom]] can empower
+	- existing ai field which i will refer as classical ai
+	- and advance emerging field of collective ai or superintelligence
+- ## attention is not enough
+	- you used to rely on a data you got
+	- you have the dataset
+	- you design neural network architecture
+	- then, you train the model
+	- and boom, now the model can predict some output based on any input
+	- sounds really cool, and is powerful indeed, except the dataset thing in this story
+	- the good answers to ask
+	- how does you model could define truth?
+	- and the short answer - it cant
+	- i will make a bold claim here that truth can not be defined without 3 ideas in foundation
+		- [[cryptographic proofs]]
+		- [[knowledge graphs]]
+		- [[token engineering]]
+- ![image.png](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmPnEpPhd77ysSfaACJd5Kc6prrrsUfTCAmPo977n2tcih)
+- source: [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://cyb.ai/oracle/ask/QmdGEYVKo1sRURzbj83UMtr77EL6GHUB2taJbnpTynEQKT)
+- ## cybergraph
+	- the core of the idea is [[cybergraph]] - merkelized timestamped data structure of links between ipfs hashes submitted by anyone
+	- for clarity we refer to:
+		- ipfs hashes as [[particles]] of knowledge, and data behind particles as [[files]]
+		- links as [[cyberlinks]], as they are unique and very different type of links
+		- submitting agents as [[neurons]], as they looks very simmilar
+	- timestamping in [[bostrom]] is done using simple and reliable [[tendermint]] consensus algorithm
+	- sybil protection, rate limiting and motivation are implemented using [[cyber/energy]] set of algorithms
+	- cybergraph is explicitly answer 3 fundamental questions:
+		- who linked the information
+		- when information was linked
+		- what information was linked
+	- in essence cybergraph is an array of append only fully authenticated quadruples
+	- | block hash | neuron | from particle | to particle |
+	  
+	  | 42 | bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t | QmRjzv8iNpMX7NXmMswT9qq7nviQ4sC1gMMceryAVJdfPS|  QmRX8qYgeZoYM3M5zzQaWEpVFdpin6FvVXvp6RPQK3oufV |
+	  
+	  | 43 | bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t | QmRjzv8iNpMX7NXmMswT9qq7nviQ4sC1gMMceryAVJdfPS|  QmRX8qYgeZoYM3M5zzQaWEpVFdpin6FvVXvp6RPQK3oufV |
+	- i want to make it clear that notion of [[cyberlink]] is essential for the architecture described by this article
+	- in conventional ai workflows you used to train over static datasets which already have been created
+	- collective ai require to change our thinking on how knowledge emerge
+	- good question to ask is what is the most small possible unit of learning?
+	- conventional thinking is the notion of triple, which consist of [[subject]], [[predicate]] and [[object]]
+	- now lets ask the question what is lacking in this construction if our goal is to have provable statement?
+	- first
+		- we need to add notion of [[neuron]] as [[subject]]
+		- so its possible to prove the source of statement
+		- and answer to the [[who]] part of [[three basic arguments]]
+	- second
+		- we need to add notion of [[particle]]
+		- for [[predicate]] and [[object]]
+		- in order to authenticate these arguments
+		- and give an answer to [[what]] question
+	- and third
+		- third fundamental [[argument of knowledge]] is obviously missing
+		- so using [[timestamp mechanism]] we must add one more argument
+		- with answer to [[when]]
+	- from this we arrived to a quadruple which is fully authenticated
+	- we gave this a name [[cyberlink]]
+	- > as the most fundamental such an atomic unit of [[knowledge]] and [[learning]]
+	- the key to quantum jump of civilization
+	- we append [[cyberlinks]] to the state of collective thought evolution
+	- although looks primitive, [[cybergraph]] is so much needed formal definition of [explicit knowledge](https://en.wikipedia.org/wiki/Explicit_knowledge)
+	- lets analize a statment that cybergraph is complete form [[explicit knowledge]]
+	- temporal dimension (when):
+		- including a timestamp offers a temporal context for each action
+		- pivotal for grasping sequences of events, causality, and the unfolding of relationships over time
+		- it facilitates tracking changes, comprehending the sequence of actions, and deducing patterns based on temporal data
+	- agency and responsibility (who):
+		- identifying the public key of the actor bestows agency and responsibility upon each action
+		- crucial for ensuring accountability, authentication, and scrutinizing interactions at the individual actor level
+		- this feature also aids in retracing actions to their sources, bolstering security and trust frameworks
+	- relationships and interactions (content address from and to):
+		- the structure distinctly portrays relationships and interactions via directed links from one content address to another
+		- this aspect is vital for deciphering the network of connections among entities, the circulation of information or influence, and the overall architecture of the system
+		- direction embed the following types of information
+			- cause and effect
+			- sequences
+			- hierarchy
+		- it is vital for tasks like planning, problem-solving, and decision-making
+		- in nature relationships are inherently asymmetrical, so we cover it
+	- the structure is extendable with [[motifs]] which can be derived from several links with same time, neuron, source, destination or any combination of them
+	- hence, we can refer to [[cybergraph]] as objective knowledge of everyone
+- ## cybergraph vs knowledge graph
+	- cyberlinks are fully authenticated qaquadruples
+	- when, who and what are based on cryptographic technics
+	- so unlike conventional knowledge graphs the information is crystal and true by design
+	- basic idea is that if i want say in [[triple]] world i would just say
+	- [[elon launch roocket]]
+		- head: elon
+		- relation: launch
+		- tail: rocket
+	- in contrary you cant say [[elon launch rocket]] in the world of [[cybergraph]]
+	- you must say:
+		- [[now]] [[i]]
+			- [[elon]] [[launch]]
+			- [[launch]] [[rocket]]
+	- the good news is that you can pack several cyberlinks in one coherent [[signal]]
+	- and use this construct to express using [[neural language]] we invented by the way
+- ## why hash everything?
+	- yep, we know - you used to tokenize your data and make it as dense as possible
+	- yes, we know - hashing data requires 32 bytes for every piece instead of several bytes
+	- yes, we know - that make processing more expensive
+	- but hashing have some superpowers (yet) unavailable for you
+		- multimodality
+			- your model cant infer answers in full content space
+			- why your model have to reinvent all data every time?
+			- people would love to have answers with content they love
+		- universal, static, abstract model
+			- fixed length give a room for soft optimization as you don't need to think about typing
+			- types can be created by implicit knowledge, e.g. by topology of links, so typing is the job of cybergraph and learning technics on top
+			- fixed length for hardware optimization means that specialized hardware can be simple and efficient
+		- peep to peer
+			- since bittorrent times its clear that [content addressing](https://flyingzumwalt.gitbooks.io/decentralized-web-primer/content/avenues-for-access/lessons/power-of-content-addressing.html) is the only way for reliable peer to peer exchange
+			- [ipfs](https://ipfs.io/) being the leading p2p data exchange protocol and software open enormous abilities for collective ai interactions
+- ## why [merkelize](https://brilliant.org/wiki/merkle-tree/#:~:text=A%20Merkle%20tree%20is%20a,a%20hash%20of%20its%20children.)?
+	- automatic deduplication
+		- while the means of deduplication is hashing what makes it practical is merklization
+		- small changes of files lead to a change of only some leaves, not all underlying [[file]]
+		- merklization significantly reduce data storage requirements for incremental updates
+	- proving in multi agent setting
+		- merklization is the core of blockchain technology
+		- but why does classical ai needs it?
+		- well, the truth is that its likely don't
+		- but if you design a multiparty computation system you must have ability to prove pieces of data you have
+		- in case of cybergraph, existence of any given link (and more) can be proved by alice to bob by giving
+			- link
+			- root hash of cybergraph
+			- path in cybergraph
+		- this opens the door for mirriad applications for multiparty computation, such as
+			- [[ikp]] on top of [[ibc]] for [[domain cybergraphs]]
+			- [sparsely activated tensor](https://blog.opncbr.com/post/open_source_ai/)
+			- and so much more
+	- i also asked chatgpt how merkle trees can be used in classical ai field?
+	- data integrity and verification
+		- merkle trees can be used to ensure that the data used for training ai models has not been tampered with
+		- this is crucial for applications where the authenticity and integrity of data directly affect the model's performance and reliability
+	- version control for datasets
+		- by using merkle trees, ai practitioners can maintain a tamper-evident history of changes to datasets
+		- this allows for better management and auditing of data versions used in training models
+	- decentralized ai models
+		- secure model sharing: merkle trees can facilitate the secure and efficient sharing of ai models in a decentralized manner
+		- by breaking down the model into smaller chunks and organizing them in a merkle tree, the integrity of the model can be verified without needing to download the entire model
+		- collaborative training: in scenarios where multiple parties contribute to the training of a model without wanting to share their data directly, merkle trees can ensure the integrity of the contributed data.
+		- this aids in building trust in collaborative ai projects
+	- now you see that everything you know about highly efficient information dense models just will not work for multi agent adversarial environments. NO WAY. sorry to tell you that.
+	- ![image.png](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmbkjskRys9z7bCeV4u7Qx9MLUB68EGUqzjqPYbwwTZwd3)
+- ## why new blockchain?
+	- the cool thing in [[cybergraph]] idea is that it is entirely blockchain agnostic
+	- data structure can be reproduced in any [[blockchain]] environment and in local offline environment too
+	- and that makes it so powerful
+	- but applications of [[cybergraph]] are limited within existing blockchain environments
+		- expensive, fee based usage
+		- no means of computing cool stuff as cool stuff is [[inherently parallel]]
+	- [[bostrom]] solves both of these problems, but more on that later
+	- also [[bostrom]] organically formed [[cybergraph]] of several million [[cyberlinks]] and [[particles]]
+	- that is on par with capability of tech giants for manual labeling during finetuning
+	- and [[bostrom]] is provably accelerating ...
+	- so you can use this cybergraph as toy dataset in your conventional ai workflow experiments with [graph neural networks](https://distill.pub/2021/gnn-intro/)
+- ## how cyberlinks does not have fees?
+	- a lot of smart guys are say that people will never want to pay fees for every social interaction
+	- the truth is that information emerge from communications and social interactions
+	-
+	- so if we will not provide a convenient way for that
+	- its likely we will not achieve practical results in collective learning
+	-
+	- we believe that [[social layer]] over [[cybergraph]] is essential for the development of an idea
+	- that is why [[bostrom]] offer a model of usage based on bandwidth
+	- the model is practically the same as being already used in chatgpt
+	- V (volt) is attention token
+		- allow to submit cyberlinks
+		- derive truth using [[standard inference]]
+	- (!) think of link as a link between every query request and answer response
+	- > currently 1 V allow to submit 4 cyberlinks per day depending on network load
+	- while you create cyberlinks your battery become less full
+	- your battery recover automatically if you are not creating links
+	- so effectively buying V you buy a package for lifetime usage
+	- > current price of V is something around $1
+	- > that means that for 1$ anyone can get around 4k interactions during 3 year of usage
+	- > for ~$10 you can have enough interactions comparable with your average twitter, github or chatgpt usage
+	- > for ~$30 you can link all your public photos, music, videos and documents collected during life
+	- > for ~$100 you can describe some domain of science or the core of any language
+	- the cool thing that subscription model offered by [[bostrom]] is lifetime
+	- this approach also work as
+		- spam protection
+		- partial sybil protection
+		- and as inference factor (read further)
+- ## relevance machine
+	- now that we understand how the cybergraph works we can dive into the novel concept in probabilistic collective computations: the relevance machine
+	- the idea behind the relevance machine is crazy simple
+	- use random surfer model as foundational probability of inferring [[particles]]
+	- but in order to protect it from sybil behavior weight this basic [[implicit knowledge]] on the [[will]] of [[neurons]]
+	- result is a stored probability estimations of random surfing across all existing [[particles]] in [[cybergraph]]
+	- in order to compute described cyberrank algorithm you need gpu computation in consensus
+	- relevance machine is cybergraph with weights
+	- is extremely dynamic data structure that must be updated even if only 1 [[cyberlink]] is created
+	- current size of gpu memory used is for ~2 mln particles, ~60k neurons and ~2 mln
+	- [[bostrom]] recompute all weights in relevance machine every 5 blocks, or roughly every 25 seconds
+	- so $bostrom is impossible to reproduce using any existing L2 sdks
+		- zk things
+			- will make the stuff 5 order of magnitude
+			- more expensive and 3 order of magnitude more complicated
+		- architecture requires in-gpu extremely dynamic state with fast onchain matrix multiplication
+	- in essence the utility of relevance machine is
+		- to compute truth
+		- to sort all particles from more important to less important
+		- be a first foundational factor to computing the truth
+		- be a factor for derived and very diverse [[implicit knowledge]] factors
+	- relevance machine itself cant compute truth in the context
+		- for this you need account for [[attention]] in [[standard inference]] algorithm
+- ## standard inference
+	- obviously in our setting the simplest possible way to infer particles in the context of any particles would be to sort by random surfer probability
+	- but this led us to a kinda true false problem
+	- let us imagine that `true` particle have cyberank `10`, and `false` particle have cyberank `9`
+	- the environment allow to link any particle with any
+	- that means that for any questions which cyberlinked to `true` and `false` the winning answer will always be `true`
+	- of course such behavior does not feels like something superintelligent
+	- in order to solve true-false problem we have to compute weights of links in for every context
+	- we always emphasize that cyberank is a core ranking factor, but not the only one
+	- so we have to introduce second factor to the system
+	- surprisingly with already have [[attention]]
+	- algorithm
+		- get all particles cyberlinked with asking particle sorted by rank
+		- for each particle get all cyberlinks
+			- for each cyberlink get address
+				- for each address
+					- get [[V]] balance
+					- get number of cyberlinks
+					- compute average [[V]] per cyberlink
+			- sum (average V) votes for every particle
+		- multiplay rank of each particle by sum (average V)
+	- is the [topic of ongoing research](https://github.com/cybercongress/go-cyber/issues/694) and is implemented only in [[cy]]
+- ## on two factors
+	- there is the observation that weights of nodes does not strongly correlate with weights of connections in both natural and artificial systems
+	- relevance machine coupled with standard inference runtime learns based on two fundamental factors
+		- [[attention]]
+		- and [[will]]
+	- and yep, you have to pay in order to learn [[bostrom]]
+	- because otherwise it seems impossible to protect [[cybergraph]] from abusive behavior
+	- so in essense [[attention]] and [[will]] are
+		- cost factors
+		- resource factors
+		- in proposed [[distributed neural network]]
+	- but what if the system can measure contributions and reward for learning?
+- ## learning incentives
+	- all benefits of proposed system fades out under assumption that you have to spend resources on learning
+	- what is motivation to do it?
+	- the solution is to make a system which will rewards high quality learning based on subjective evaluation
+	- we reimplemented [[yuma]] algorithm and now testing it in [[spacepussy]]
+	- in coming months we will deploy it to [[bostrom]]
+	- so players that make links above some quality threshold could have possibility of break even
+- ## conclusion
+	- the article does not touch topics of all [[bostrom]] features
+	- purpose is to give a sense of key internals in the context of [[deai]] development
+	- we describe and implemented extremely dynamic, collective computation for surfing probabilities and defined the most simple possible inference system on top
+- to extract intelligence from cybergraph use the idea of economical ranks for nodes and edges in this merklezied, timestamped graph
+- 4. node's ranks are computed using pagerank weighted on economical will of cyberlinking agents.
+  
+  that is we can predict popularity of content based on classical probabilities of random walker traveling through a graph.
+- 5. [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) recomputes this probabilities every 30 second for every information piece that was submitted (currently ~2m). and that make [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) so unique. this requires holding all state in GPU ram and use parallel computation at such scale
+- 6. [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) is extremely dynamic blockchain. the first in its kind. submitting just 1 cyberlink force to recompute all ranks (~2 million currently). could you imagine how that could be done on [#solana](https://twitter.com/hashtag/solana?src=hashtag_click) (something around 1000 [#SOL](https://twitter.com/hashtag/SOL?src=hashtag_click) currently needed for every update.
+- 7. with 10B links which is required for minimum viable [#superintelligence](https://twitter.com/hashtag/superintelligence?src=hashtag_click) the task become intractable for all existing blockchain architectures. current [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) architectire can handle 1T cyberlinks - on par with [#GPT4](https://twitter.com/hashtag/GPT4?src=hashtag_click). But in blockchain, baby. tbh things cant be compared 1 to 1
+-
+- 9. so we can proudly say that we are CREATORS and LEADERS of [#decentralized](https://twitter.com/hashtag/decentralized?src=hashtag_click) [#ai](https://twitter.com/hashtag/ai?src=hashtag_click) field. Technology of probabilistic collective computations have been created by us since 2016 and is more powerful than transformers.
+- 10. [#transformers](https://twitter.com/hashtag/transformers?src=hashtag_click) CANT define truth. They require it to build a predictive model. [#cybergraph](https://twitter.com/hashtag/cybergraph?src=hashtag_click) trained with [#transformers](https://twitter.com/hashtag/transformers?src=hashtag_click) is [#superintelligence](https://twitter.com/hashtag/superintelligence?src=hashtag_click). [#transformers](https://twitter.com/hashtag/transformers?src=hashtag_click) without [#cybergraph](https://twitter.com/hashtag/cybergraph?src=hashtag_click) is just a chat.
+- 11. We are inviting you to the journey of creating open, fair and superintelligent society with us. NOW. [https://cyb.ai/portal](https://t.co/IGuVQah327)

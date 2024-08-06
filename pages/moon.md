@@ -6,7 +6,7 @@ tags:: aos
 	- area: 37 930 000 km2
 - supervised by [[bostrom]] under [[moon code]]
 - moon flag
-	- ![](https://ipfs.io/ipfs/QmefefoJkLWc1ay1EBzK3bgmig2Gb1TUJrKXnZiDRQE2vZ)
+	- ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmefefoJkLWc1ay1EBzK3bgmig2Gb1TUJrKXnZiDRQE2vZ)
 - feautres
 	- gravitation is key source of rhythms on [[earth]]
 	- gravity is not even
