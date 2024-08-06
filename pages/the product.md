@@ -6,7 +6,7 @@ icon:: 🍓
 - for [[soft3]] [[collective learning]] of [[superintelligence]]
 - on [[portal/buy]]
 -
-- in [[cyb]] to fundamental roles of [[robot]]: [[energetic]] and [[alien]]
+- in [[cyb]] to design two fundamental state of [[robot]]: [[energetic]] and [[alien]]
 - [[alien]] focus on private offline features, but light online features are ok
 	- [[brain]]: graph file manager is first step
 	- [[ask]], [[search]] and [[learn]]: second step
