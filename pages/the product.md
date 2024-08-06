@@ -16,6 +16,7 @@ icon:: 🍓
 - after she [[buy energy]] robot become [[energetic]]
 	- can [[buy avatar]]
 	- able to use [[sense]] and [[log]] in full
-	- and much more
+	- [[learn]] in [[cyberver]] and get rewards
+	- and [[much more]]
 -
 - list of all software [[products]]
