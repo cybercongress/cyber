@@ -3,7 +3,7 @@ icon:: 🍓
 - how to consolidate [[bostrom]], [[cyber]] and [[cyb]] in one coherent product?
 -
 - bet on selling [[cyber/energy]] packages
-- for [[soft3]] [[collective learning]]
+- for [[soft3]] [[collective learning]] of [[superintelligence]]
 - on [[portal/buy]]
 -
 - in [[cyb]] to fundamental roles of [[robot]]: [[energetic]] and [[alien]]
@@ -14,7 +14,8 @@ icon:: 🍓
 	- [[neurons]] add features one by one
 	- continuously creating demand for publishing and popularity
 - after she [[buy energy]] robot become [[energetic]]
-	- and is able to use [[sense]] and [[log]] in full
+	- can [[buy avatar]]
+	- able to use [[sense]] and [[log]] in full
 	- and much more
 -
 - list of all software [[products]]

@@ -1,3 +1,4 @@
+icon:: 👽
 alias:: infer
 
 - [[decentralized ai]] is alive
