@@ -195,7 +195,6 @@
 	- in order to compute described cyberrank algorithm you need gpu computation in consensus
 	- relevance machine is cybergraph with weights
 	- is extremely dynamic data structure that must be updated even if only 1 [[cyberlink]] is created
-	- current size of gpu memory used is for ~2 mln particles, ~60k neurons and ~2 mln
 	- [[bostrom]] recompute all weights in relevance machine every 5 blocks, or roughly every 25 seconds
 	- so $bostrom is impossible to reproduce using any existing L2 sdks
 		- zk things
@@ -243,6 +242,17 @@
 		- resource factors
 		- in proposed [[distributed neural network]]
 	- but what if the system can measure contributions and reward for learning?
+- ## on speed
+	- [[bostrom]] is extremely dynamic [[blockchain]], the first in its kind
+	- recomputes this probabilities every 25 second for every information piece that was submitted (currently ~2m). and that make [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) so unique
+	- this requires holding all state in GPU ram and use parallel computation at such scale
+	- current size of gpu memory used is for ~2 mln particles, ~60k neurons and ~2 mln
+	- submitting just 1 cyberlink force to recompute all ranks (~2 million currently). could you imagine how that could be done on [#solana](https://twitter.com/hashtag/solana?src=hashtag_click) (something around 1000 [#SOL](https://twitter.com/hashtag/SOL?src=hashtag_click) currently needed for every update.
+	- with 10B links which i believe is required for minimum viable [[superintelligence]] the task become intractable for all existing blockchain architectures
+	- current [[bostrom]] architectire can handle 1T cyberlinks
+	- on par with [GPT4](https://twitter.com/hashtag/GPT4?src=hashtag_click) with 1T parametrs
+	- but in blockchain, baby
+	- to be honest things cant be compared 1 to 1, far from it
 - ## learning incentives
 	- all benefits of proposed system fades out under assumption that you have to spend resources on learning
 	- what is motivation to do it?
@@ -253,15 +263,15 @@
 - ## conclusion
 	- the article does not touch topics of all [[bostrom]] features
 	- purpose is to give a sense of key internals in the context of [[deai]] development
-	- we describe and implemented extremely dynamic, collective computation for surfing probabilities and defined the most simple possible inference system on top
-- to extract intelligence from cybergraph use the idea of economical ranks for nodes and edges in this merklezied, timestamped graph
-- 4. node's ranks are computed using pagerank weighted on economical will of cyberlinking agents.
-  
-  that is we can predict popularity of content based on classical probabilities of random walker traveling through a graph.
-- 5. [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) recomputes this probabilities every 30 second for every information piece that was submitted (currently ~2m). and that make [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) so unique. this requires holding all state in GPU ram and use parallel computation at such scale
-- 6. [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) is extremely dynamic blockchain. the first in its kind. submitting just 1 cyberlink force to recompute all ranks (~2 million currently). could you imagine how that could be done on [#solana](https://twitter.com/hashtag/solana?src=hashtag_click) (something around 1000 [#SOL](https://twitter.com/hashtag/SOL?src=hashtag_click) currently needed for every update.
-- 7. with 10B links which is required for minimum viable [#superintelligence](https://twitter.com/hashtag/superintelligence?src=hashtag_click) the task become intractable for all existing blockchain architectures. current [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) architectire can handle 1T cyberlinks - on par with [#GPT4](https://twitter.com/hashtag/GPT4?src=hashtag_click). But in blockchain, baby. tbh things cant be compared 1 to 1
+	- we describe and implemented extremely dynamic, collective computation architecture
+	- for predicting probability of information [[observation]]
+	- and defined the most simple possible inference system on top
+	- technology of probabilistic collective computations have been created by us since 2016
+	- and we can proudly say that we are creators and leaders of [[decentralized ai]] field
+	- we believe the thing we have born is powerful enough to bootstrap new kind of [[civilization]]
+	- so we inviting you to the journey of creating open, fair and superintelligent society with us
+- ## [[join]]
 -
-- 9. so we can proudly say that we are CREATORS and LEADERS of [#decentralized](https://twitter.com/hashtag/decentralized?src=hashtag_click) [#ai](https://twitter.com/hashtag/ai?src=hashtag_click) field. Technology of probabilistic collective computations have been created by us since 2016 and is more powerful than transformers.
-- 10. [#transformers](https://twitter.com/hashtag/transformers?src=hashtag_click) CANT define truth. They require it to build a predictive model. [#cybergraph](https://twitter.com/hashtag/cybergraph?src=hashtag_click) trained with [#transformers](https://twitter.com/hashtag/transformers?src=hashtag_click) is [#superintelligence](https://twitter.com/hashtag/superintelligence?src=hashtag_click). [#transformers](https://twitter.com/hashtag/transformers?src=hashtag_click) without [#cybergraph](https://twitter.com/hashtag/cybergraph?src=hashtag_click) is just a chat.
-- 11. We are inviting you to the journey of creating open, fair and superintelligent society with us. NOW. [https://cyb.ai/portal](https://t.co/IGuVQah327)
+-
+- cybergraph with [#transformers](https://twitter.com/hashtag/transformers?src=hashtag_click) is ). [#transformers](https://twitter.com/hashtag/transformers?src=hashtag_click) without [#cybergraph](https://twitter.com/hashtag/cybergraph?src=hashtag_click) is just a chat.
+- 11. [https://cyb.ai/portal](https://t.co/IGuVQah327)
