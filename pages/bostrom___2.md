@@ -1,10 +1,5 @@
 - cybergraph extension: [[create cyberlink twice]]
-- [[energy reform]]
-	- {{embed ((66b1d757-c45d-419e-a388-1839eb180f44))}}
-	- {{embed ((66b2052e-a40c-428b-852d-6c34b0fd8448))}}
-	- {{embed ((66b1e28b-9bbd-44b0-b2a9-e3278431bfc7))}}
-	- {{embed ((66b1e28f-dd4f-43d8-b270-727ffde96ffb))}}
-	- {{embed ((5aadcb60-5cca-404f-bec0-c9d9fb7b9948))}}
+- {{embed [[energy reform]]}}
 - essential features
 	- [[finalization of distribution]]
 	- [[using progs instead of modules]]

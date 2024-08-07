@@ -10,3 +10,5 @@ tags:: cip
 - any time [[neuron]] can unstake from [[particle]]
 - the pool collect fee from moving [[$A]]
 - any time [[neuron]] can collect rewards by burning pool tokens
+- effect is [[bandwidth]] and [[standard inference]] computation is based only on staking balances not liquid
+- proposed mechanism enable a lot of use cases related to custom weighting
