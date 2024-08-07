@@ -1,4 +1,4 @@
-alias:: app, application
+alias:: app, application, aipp
 
 - any [[avatar]] can become [[aip]]
 - [[avatar/name]]
@@ -9,7 +9,7 @@ alias:: app, application
 	- [[widget]]: using mdx
 	- [[paths]]
 	- [[actions]]
-	- [[advisor]]
+	- [[adviser]]
 	- [[goal]]
 	- [[widget]]
 - [[access]] rights

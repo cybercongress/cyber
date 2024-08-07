@@ -3,7 +3,7 @@ tags:: cyb
 
 - use at [cyb.ai](https://cyb.ai)
 - immortal robot for the [[great web]]
-	- designed as protocol
+	- designed as [[protocol]]
 	- for reliable and fun
 	- access to everything
 - [[cyb/philosophy]]
