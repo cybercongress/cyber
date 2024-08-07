@@ -1,8 +1,9 @@
-- bostrom is NOT yet another ai coin
-- it is very powerful foundational technology for advanced superintelligent civilization
+- [[bostrom]] is NOT yet another ai [[coin]]
+- it is very powerful foundational technology for advanced superintelligent [[civilization]]
 - in this article i will boil down all essential ideas into coherent understanding how [[bostrom]] can empower
 	- existing ai field which i will refer as classical ai
-	- and advance emerging field of collective ai or superintelligence
+	- and advance emerging field of collective ai
+	- as we believe its the only viable way to build [[superintelligence]]
 - ## attention is not enough
 	- you used to rely on a data you got
 	- you have the dataset
@@ -10,15 +11,34 @@
 	- then, you train the model
 	- and boom, now the model can predict some output based on any input
 	- sounds really cool, and is powerful indeed, except the dataset thing in this story
-	- the good answers to ask
-	- how does you model could define truth?
+	- now the good answers to ask: how does you model could define truth?
 	- and the short answer - it cant
 	- i will make a bold claim here that truth can not be defined without 3 ideas in foundation
-		- [[cryptographic proofs]]
 		- [[knowledge graphs]]
+		- [[cryptographic proofs]]
 		- [[token engineering]]
-- ![image.png](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmPnEpPhd77ysSfaACJd5Kc6prrrsUfTCAmPo977n2tcih)
-- source: [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://cyb.ai/oracle/ask/QmdGEYVKo1sRURzbj83UMtr77EL6GHUB2taJbnpTynEQKT)
+- ## knowledge graphs and llms
+	- jump for a second to this article: [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://cyb.ai/oracle/ask/QmdGEYVKo1sRURzbj83UMtr77EL6GHUB2taJbnpTynEQKT)
+	- ![image.png](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmPnEpPhd77ysSfaACJd5Kc6prrrsUfTCAmPo977n2tcih)
+	- {{embed ((66b2fb4e-c73b-4133-aab3-11df2e8d1436))}}
+	- the article explain why [[llm]] will never be enough to reach general [[intelligence]] alone
+	- in short [[knowledge graph]] advantage is
+		- easy to understand and structure as they are more about [[explicit knowledge]]
+		- possible to evolve because they are based on widely accepted [[triples]]
+		- essential to plan, make decisions and reason:
+	- so the claim is simple: [[knowledge graphs]] coupled with [[gnns]]
+	- are essential for the next generation of architectures and by this article we propose such architecture
+- ## cryptographic proofs and llms
+	- be believe that authenticity of models is a serious bottleneck for ai alignment and more
+	- its a shame that so technologically advanced industry in a broad sense
+	- still does not give a shit about possibilities of [[hashing]], [[pubkey cryptography]] and [[logical clocks]]
+	- its kinda impossible to build multiparty protocols without these primitives
+	- yep, i am ware about [zkml movement](https://github.com/worldcoin/awesome-zkml)
+	- but this is a drop in the ocean given the [[knowledge graphs and llms]] argument
+	- we need something foundational fully authenthicated knowledge graph tech
+	- if we want to significantly advance in the field of [[superintelligence]]
+- ## token engineering and llms
+	-
 - ## cybergraph
 	- the core of the idea is [[cybergraph]] - merkelized timestamped data structure of links between ipfs hashes submitted by anyone
 	- for clarity we refer to:
@@ -84,7 +104,7 @@
 	- hence, we can refer to [[cybergraph]] as objective knowledge of everyone
 - ## cybergraph vs knowledge graph
 	- cyberlinks are fully authenticated qaquadruples
-	- when, who and what are based on cryptographic technics
+	- [[when]], [[who]] and [[what]] are based on cryptographic technics
 	- so unlike conventional knowledge graphs the information is crystal and true by design
 	- basic idea is that if i want say in [[triple]] world i would just say
 	- [[elon launch roocket]]

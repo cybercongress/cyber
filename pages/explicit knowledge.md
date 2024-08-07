@@ -1,4 +1,4 @@
-alias:: shared history
+alias:: shared history, explicit
 
 - information that is directly stated and clearly represented in [[cybergraph]]
 - readily available just by traversing [[cybergraph]]

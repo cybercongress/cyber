@@ -1,0 +1,3 @@
+alias:: elon launch, launch rocket
+
+- ![elon launch rocket](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmSd59ndqbEjmP4hgQVFUN4rUrHHFGTugGpyCYY9mD46U7)

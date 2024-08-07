@@ -1,5 +1,7 @@
 tags:: bostrom
 
+- concepts
+	- [[knowledge graphs and llms]]
 - [[go-cyber]]
 	- TODO install cyber cli
 	- TODO sync node
