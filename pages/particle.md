@@ -1,5 +1,5 @@
 icon:: ⭕️ 
-alias:: particles, object, cid, content address, data
+alias:: particles, object, cid, content address, data, content
 tags:: cyber, cyb, page
 
 - [[object]] of [[information]]
