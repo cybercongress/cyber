@@ -1,10 +1,40 @@
 tags:: page
 
 - graph file manager
+- with [[sparks]] flexible viewer
+	- supported [[particle]] formats
+		- text::
+		- video::
+		- audio::
+		- image::
+		- pdf::
+		- epub::
+		- web2::
+		- TODO gltf::
+		- TODO
+		- aip::
+	- [[cyb/brain/sparks]]
+- dimension:: media formats for [[cybergraph]] discovery of [[page]] type
+	- graph:: 3d render with preview and discovery
+	- list:: classical table with powerful analytics
+	- heap:: 2d knowledge graph with preview and discovery
+	- stack:: vertical scrolling list
+	- hike:: current [[particle]] in the center
+- [[paths]]
+	- `#` [[cyb/brain/particle]]
+	- `!` [[cyb/brain/neuron]]
+	- `@` [[cyb/brain/avatar]]
+	- `~` [[cyb/brain/learn]]
+	- `/` [[cyb/brain/root]]
+- features
+	- offline first experience
+	- localhost interface
+	- static and dynamic linking
+	- publishing
+- actions
+	- [[oracle/ask]] or [[brain/ask]]
+	- [[oracle/search]] or [[oracle/ask]]
 - TODO [[upload brain]]
 - state of [[cyb-ts]]: [[cyb/brain]]
-- pages
-	- [[graph]]
-	- [[heap]]
-	- [[list]]
+-
 - ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/Qmc7ANo78MJ9yDXUxmErnWuPZPL5y2baYRZpN4CV9axeym)

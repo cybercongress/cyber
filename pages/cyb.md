@@ -14,7 +14,7 @@ tags:: cyb
 - what is cyb?
 	- just a piece of software - the interface
 	- but not usual
-	- someone can use cyb as a pure [[web3]] browser
+	- someone can use cyb as a pure [[web3]] browser with [[oracle]]
 	- someone can ride the [[age of superintelligence]] on cyb
 	- someone will reveal a [[portal]] to the world of [[blockchains]]
 	- someone will nourish her [[ai friend]]
@@ -25,7 +25,7 @@ tags:: cyb
 - personal [[robot]] with [[avatars]]
 	- new generation messaging [[sense]]
 	- crypto wallet [[sigma]]
-	- volumetric [[file]] manager [[brain]]
+	- volumetric graph [[file]] manager [[brain]]
 	- personal history and new [[time]]
 - [[features]] for [[mind]] extension of [[robot]]
 - [[cyb/architecture]]

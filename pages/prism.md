@@ -1,21 +1,100 @@
 - [[space]]
-- [atoms](xp/atoms)
-	- text/L
-	- images
-		- addresses
-			- big
-	-
+- [[atoms]]
 - [molecules](cyb/xp/molecules)
+	- [[particle]]
+		- [[1-molecules/content/H3+icon]]
+		- [[1-molecules/content/text+icon-L]]
+		- [[1-molecules/content/text+icon-LR]]
+		- [[1-molecules/content/text+icon-R]]
+		- [[1-molecules/content/number+indicator]]
 	- [[neuron]]
 		- big
-			- hover
-			- play
+			- [[1-molecules/neuron/big/default]]
+			- [[1-molecules/neuron/big/hover]]
+			- [[1-molecules/neuron/big/clicked]]
 		- small
-			- hover-address
-			- small-hover
-			- small-hover-copied
-	- content
-		- text + icon-L
+			- [[1-molecules/neuron/small/default]]
+			- [[1-molecules/neuron/small/hover]]
+			- [[1-molecules/neuron/small/clicked]]
+	- [[avatar]]
+		- [[1-molecules/avatar/2-line]]
+		- [[1-molecules/avatar/chooser]]
+	- [[aip]]
+		- [[1-molecules/aip/2-lines]]
+		- [[1-molecules/aip/3-lines]]
+		- [[1-molecules/aip/3-lines+menu]]
+	- [[adviser]]
+		- [[1-molecules/adviser/closed]]
+		- [[1-molecules/adviser/opened-positive]]
+		- [[1-molecules/adviser/opened-negative]]
+		- [[1-molecules/adviser/opened-neutral]]
+		- [[1-molecules/adviser/particle]]
+	- [[brain]]-map
+		- [[1-molecules/brain-map/default+stats]]
+		- [[1-molecules/brain-map/v2+stats]]
+	- [[button]]
+		- [[1-molecules/button/default]]
+		- [[1-molecules/button/double]]
+		- [[1-molecules/button/triple]]
+		- [[1-molecules/button/side]]
+	- [[display]]
+		- [[1-molecules/display/empty-0.62%]]
+		- [[1-molecules/display/highlight]]
+		- [[1-molecules/display/highlight-2-lines]]
+	- [[filter]]
+		- [[1-molecules/filter/3-items]]
+		- [[1-molecules/filter/wide]]
+	- [[input]]
+		- [[1-molecules/input/default/L]]
+		- [[1-molecules/input/default/R]]
+		- [[1-molecules/input/default/LR]]
+	- [[pill]]
+		- [[1-molecules/pill/green]]
+		- [[1-molecules/pill/white]]
+		- [[1-molecules/pill/blue]]
+		- [[1-molecules/pill/gray]]
+		- [[1-molecules/pill/red]]
+		- [[1-molecules/pill/border]]
+		- [[1-molecules/pill/avatar]]
+		- [[1-molecules/pill/bulb]]
+	- [[progress-bar]]
+		- [[1-molecules/progress-bar/horizontal]]
+		- [[1-molecules/progress-bar/m.horizontal]]
+		- [[1-molecules/progress-bar/descending]]
+	- [[saber]]+[[ion]]
+		- display
+			- [[1-molecules/saber+ion/display/1-sided]]
+			- [[1-molecules/saber+ion/display/bi-sided]]
+			- [[1-molecules/saber+ion/display/horizontal-1-sided]]
+		- button
+			- [[1-molecules/saber+ion/button/1-sided]]
+			- [[1-molecules/saber+ion/button/bi-sided]]
+		- input
+			- [[1-molecules/saber+ion/input/focus]]
+			- [[1-molecules/saber+ion/input/passive]]
+	- [[table]]
+		- [[1-molecules/table/line]]
+		- [[1-molecules/table/row-L]]
+		- sort
+			- [[1-molecules/input/sort/default]]
+			- [[1-molecules/input/sort/dropdown]]
+		- [[1-molecules/table/row-R]]
+	- [[tabs]]
+		- [[1-molecules/tabs/3-items]]
+		- [[1-molecules/tabs/4-items]]
+		- [[1-molecules/tabs/5-items]]
+		- [[1-molecules/tabs/m.3-items]]
+	- [[toggle]]
+		- [[1-molecules/toggle/on]]
+		- [[1-molecules/toggle/off]]
+		- [[1-molecules/toggle/star]]
+	- [[widgets]]
+		- [[1-molecules/widgets/sense]]
+		- [[1-molecules/widgets/sigma]]
+		- [[1-molecules/widgets/time]]
+		- [[1-molecules/widgets/m.sense]]
+		- [[1-molecules/widgets/m.sigma]]
+		- [[1-molecules/widgets/m.time]]
 - [[cells]]
 	-
 - [[aips]]

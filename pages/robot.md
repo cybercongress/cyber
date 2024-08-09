@@ -16,6 +16,10 @@ tags:: aip
 		- intro to [[oracle]]
 		- [[portal]]?
 	- configure [[neurons]]
+- localhost:
+	- ipfs gateway
+	- ipfs api
+	- brain
 - [[buy energy]]: sell
 	- immortality
 - online value

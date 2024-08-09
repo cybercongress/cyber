@@ -1,6 +1,7 @@
 tags:: bostrom
 
 - concepts
+	- [[introduction to bostrom for ai geeks]]
 	- [[knowledge graphs and llms]]
 - [[go-cyber]]
 	- TODO install cyber cli

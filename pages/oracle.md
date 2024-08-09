@@ -1,6 +1,7 @@
 tags:: aip
 
-- [[cyb/oracle]]
+- current state in [[cyb-ts]] at [[cyb/oracle]]
+-
 - [[oracle/product]]
 - provide [[context]] to [[cyb]]
 - seamless integration with [[studio]]
@@ -8,13 +9,8 @@ tags:: aip
 	- [[main]]: `~` [[oracle/ask]]
 	- [[oracle/search]]
 	- [[oracle/learn]]
-	- [[oracle/cyberlink]]
-	- `#` [[particle]]
-	- [[sparks]]
-	- [[particles]]
-	- [[neurons]]
-	- [[oracle/play]]
-	- [[cyb/raw]]
-	- `@` [[cyb/avatar]] or [[neuron]]
-	- `/` [[cyb/brain]]
-- [[oracle/learn]]
+	- charts
+		- [[oracle/particles]]: top ranked [[particles]]
+		- [[oracle/avatars]]: the most reputable [[avatars]]
+		- [[oracle/cyberlinks]]: recent [[cyberlinks]]
+	-
