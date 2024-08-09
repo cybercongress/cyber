@@ -1,0 +1,2 @@
+- TODO [[zero knowledge]]
+- TODO [[full knowledge]]
