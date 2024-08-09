@@ -1,4 +1,3 @@
--
 - good explanation on fundamental difference between [[knowledge graphs]] and [[llms]]
 - [unifying large language models and knowledge graphs: a roadmap](https://cyb.ai/oracle/ask/QmdGEYVKo1sRURzbj83UMtr77EL6GHUB2taJbnpTynEQKT)
 - TODO [[create visualization]]
@@ -10,7 +9,7 @@
   | interpretability          | high                     | low                      |
   | generalizability          | low                      | high                     |
   | factual accuracy          | high                     | low                 |
-  | reasoning         | symbolic                 | probabilistic            |
+  | reasoning         | symbolic and probabilistic                 | probabilistic            |
   | knowledge update          | easy              | hard                     |
   | decisiveness              | high                     | low                      |
   | unseen facts              | no                  | yes          |
