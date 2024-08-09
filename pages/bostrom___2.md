@@ -1,7 +1,7 @@
 - cybergraph extension: [[create cyberlink twice]]
 - {{embed [[energy reform]]}}
 - essential features
-	- [[finalization of distribution]]
+	- [[finalization of $BOOT distribution]]
 	- [[using progs instead of modules]]
 	- [[usable tokens]]
 - progs

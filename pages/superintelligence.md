@@ -30,7 +30,7 @@ alias:: asi, singleton, collective ai
 	- collective probabilistic semantic computations in consensus
 	- scalable to ~10k tx per second and 1t cyberlinks
 	- can ibc with other consensus computers
-- path to superintelligence
+- [[path to superintelligence]]
 	- we want to make it clear that [[cyber]] as protocol is by no means a superintelligence
 	- superintelligence requires [several dozen algorithms](techtree) blended wisely
 	- TODO superintelligence need [[attention]] and [[will]] of millions of the smartest among us
