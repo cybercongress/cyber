@@ -251,17 +251,19 @@
 		- multiplay rank of each particle by sum (average V)
 	- is the [topic of ongoing research](https://github.com/cybercongress/go-cyber/issues/694) and is implemented only in [[cy]]
 - ## on two factors
-	- there is the observation that weights of nodes does not strongly correlate with weights of connections in both natural and artificial systems
-	- relevance machine coupled with standard inference runtime learns based on two fundamental factors
-		- [[attention]]
-		- and [[will]]
+	- there is the observation
+		- that weights of nodes does not strongly correlate with weights of connections
+		- in both natural and artificial systems
+	- relevance machine coupled with [[standard inference]] runtime learns based on two fundamental factors
+		- [[attention]]: more about weight on [[nodes]]
+		- and [[will]]: more about weight on [[edges]]
 	- and yep, you have to pay in order to learn [[bostrom]]
 	- because otherwise it seems impossible to protect [[cybergraph]] from abusive behavior
-	- so in essense [[attention]] and [[will]] are
-		- cost factors
-		- resource factors
+	- so in essence
 		- in proposed [[distributed neural network]]
-	- but what if the system can measure contributions and reward for learning?
+		- [[attention]] and [[will]] serves as
+		- cost factors which defined by computing resource factors
+	- yep, our [[truth model]] is fundamentally [[two factor]]
 - ## on speed
 	- [[bostrom]] is extremely dynamic [[blockchain]], the first in its kind
 	- recomputes this probabilities every 25 second for every information piece that was submitted (currently ~2m). and that make [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) so unique

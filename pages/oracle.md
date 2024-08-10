@@ -5,6 +5,9 @@ tags:: aip
 - [[oracle/product]]
 - provide [[context]] to [[cyb]]
 - seamless integration with [[studio]]
+- two key mechanics
+	- [[cybergraph mining]]
+	- [[main loop]]
 - [[pages]]
 	- [[main]]: `~` [[oracle/ask]]
 	- [[oracle/search]]
