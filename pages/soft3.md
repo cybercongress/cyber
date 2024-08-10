@@ -6,7 +6,7 @@ alias:: soft3 stack
 - components
 	- [[cybergraph]]
 	- [[relevance machine]]
-	- [[neural language]]:
+	- [[neural language]]
 	- [[bootloader]]
 	- [[learning incentives]] based on [[yuma]]
 	- [[cyb]] the interface

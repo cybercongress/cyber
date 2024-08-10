@@ -4,6 +4,7 @@ tags:: cyber
 - [[neuron]]: universal model for the [[observer]]
 - [[particle]]: fundamental unit of [[information]]
 - [[cyberlink]]: fundamental unit of [[knowledge]] and [[learning]]
+- [[neural]]: language for semantic freedom for [[neurons]]
 - [[cybergraph]]: essential data structure for [[collective memory]]
 - [[relevance machine]]: virtual machine for [[collective intelligence]]
 - [[superintelligence]]: key challenge of humanity

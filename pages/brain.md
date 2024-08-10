@@ -3,7 +3,7 @@ tags:: page
 
 - graph file manager
 - addressed to close [[main loop]]
-- and as pain with all file managers
+- and to treat pain with all file managers
 - core [[aip]] of [[cyb]]
 - features::
 	- [[offline mode]] first

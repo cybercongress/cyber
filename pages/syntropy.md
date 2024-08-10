@@ -8,10 +8,9 @@ alias:: negentropy
 	- [[space pussy]]: [spacepussy.ai/oracle/stats](https://spacepussy.ai/oracle/stats)
 -
 - concept that emerges from different fields of science and mathematics, often contrasted with entropy
-- while entropy is associated with
-	- disorder, randomness, and the tendency of systems
-	- to move towards thermodynamic equilibrium
-	- syntropy is linked to the opposite—order, complexity
+- while entropy is associated with disorder, randomness
+	- and the tendency of systems to move towards thermodynamic equilibrium
+- syntropy is linked to the opposite—order, complexity
 	- and the tendency of systems to move towards [[organization]] and [[coherence]]
 - scientific perspectives
 	- thermodynamics
