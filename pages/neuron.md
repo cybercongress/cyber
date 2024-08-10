@@ -1,4 +1,4 @@
-icon:: 🧠
+icon:: 🤪
 alias:: address, subject, agent, user, observer, actor
 tags:: cyber
 

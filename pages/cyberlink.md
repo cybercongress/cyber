@@ -1,6 +1,6 @@
 icon:: 🔗
 tags:: cyber
-alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, essential learning ability, cyberlinking, primitive learning acts
+alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, essential learning ability, cyberlinking, primitive learning acts, creating link
 
 - directed link between two [[particles]] of [[information]] signed by [[neuron]] and recorded into [[cyber]] [[vimputer]]
 - primitive [[learning]] act
@@ -28,4 +28,5 @@ alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, ess
 	- link between two pieces of content particles there each content is addressed by its [[hash]]
 	- this makes information searchable through the spacetime
 - changing the way we [[learn]]
+- essentially work as [[view]] [[signal]] for the world
 - discover all [[concepts]]

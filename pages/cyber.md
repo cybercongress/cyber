@@ -19,7 +19,7 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 	- immortal robot [[cyb]]
 	- self fulfilling prophecy game [[aos]]
 	- [[moon]] network state
-	- and this just a tip of an iceberg
+	- and this just a tip of an [[deai]] iceberg
 -
 - TODO [[tutorials]]
 - TODO [[guides]]

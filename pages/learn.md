@@ -1,15 +1,19 @@
 icon:: 🍏
-alias:: learning, labeling
+alias:: learning, labeling, answer
 
-- create best [[cyberlinks]] between [[particles]]
+- [[create links]] between [[particles]]
+- in a joyful process of [[knowledge mining]]
 -
-- [[empower everyone]]
-- [[learn yourself]]
+- features::
+	- empower everyone, learn yourself
+	- [[decentralized ai]] as simple as [[creating link]]
 -
-- [[decentralized ai]] as simple as [[creating link]]
--
-- you need [[cyber/energy]] to learn
+- TODO [[cyb]] packed with all energy needed for [[personal learning]] of [[brain]]
+- you need [[cyber/energy]] for [[collective learning]] of [[bootloader]]
 - or if you have [[cyber/energy]] go to [cyb.ai/oracle](https://cyb.ai/oracle)
+-
+- TODO [[oracle/learn]]
+- TODO deep integration into [[main loop]] of [[cyb]]
 -
 - tools for learning
 	- [[go-cyber]]

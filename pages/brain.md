@@ -1,8 +1,21 @@
+icon:: 🧠
 tags:: page
 
 - graph file manager
-- with [[sparks]] flexible viewer
-	- supported [[particle]] formats
+- addressed to close [[main loop]]
+- and as pain with all file managers
+- core [[aip]] of [[cyb]]
+- features::
+	- [[offline mode]] first
+	- localhost interface
+	- graph query language: datalog
+	- powerful scripting: rune
+	- static and dynamic linking
+	- private and public linking
+	- publishing to [[ipfs]] and [[cybergraph]]
+	- flexible viewer based on [[sparks]] extensions
+	- supported 7 [[particle]] formats
+	  collapsed:: true
 		- text::
 		- video::
 		- audio::
@@ -11,29 +24,25 @@ tags:: page
 		- epub::
 		- web2::
 		- TODO gltf::
-		- TODO
-		- aip::
-	- [[cyb/brain/sparks]]
-- dimension:: media formats for [[cybergraph]] discovery of [[page]] type
+		- TODO aip::
+		- [[cyb/brain/sparks]]
+- tabs:: media formats for [[cybergraph]] discovery of [[page]] type
 	- graph:: 3d render with preview and discovery
+		- space::
 	- list:: classical table with powerful analytics
 	- heap:: 2d knowledge graph with preview and discovery
 	- stack:: vertical scrolling list
 	- hike:: current [[particle]] in the center
-- [[paths]]
+- paths::
 	- `#` [[cyb/brain/particle]]
 	- `!` [[cyb/brain/neuron]]
 	- `@` [[cyb/brain/avatar]]
 	- `~` [[cyb/brain/learn]]
 	- `/` [[cyb/brain/root]]
-- features
-	- offline first experience
-	- localhost interface
-	- static and dynamic linking
-	- publishing
-- actions
-	- [[oracle/ask]] or [[brain/ask]]
-	- [[oracle/search]] or [[oracle/ask]]
+- actions::
+	- [[brain/ask]] or [[oracle/ask]]
+	- [[brain/learn]] or [[oracle/learn]]
+	- [[brain/search]] or [[oracle/search]]
 - TODO [[upload brain]]
 - state of [[cyb-ts]]: [[cyb/brain]]
 -

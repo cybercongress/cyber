@@ -1,3 +1,5 @@
+alias:: knowledge mining
+
 - [[oas]] game mechanics
 - simple idea to gamify the process of [[cybergraph]] discovery by [[avatar]]
 -
@@ -12,7 +14,9 @@
 		- [[avatars]]
 - while [[avatars]] and [[neurons]] discover [[cybergraph]]
 - mining more and more data
-- they see the progress of [[cybergraph]] discovery completeness in %
+- we fap the progress of [[cybergraph]] discovery completeness
+	- in %
+	- in [[brain]]
 -
 - this simple mechanics is a source of healthy [[dophamine]]
 - leading to more intelligent [[avatars]]
