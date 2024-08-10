@@ -1,0 +1,20 @@
+- [[oas]] game mechanics
+- simple idea to visualize the process of [[cybergraph]] discovery by [[avatar]]
+- on a [[first visit]] [[cyb]] downloads in background
+	- fetch [[top 1000]] [[particles]] from each [[cyber-sdk]] [[vimputer]] in [[hub]]
+		- fetch [[neurons]] and [[avatars]] for this [[particles]]
+		- fetch [[files]] for this [[particles]]
+	- fetch last 100 [[cyberlinks]] from [[state]]
+	- compute [[scores]] of discovered amounts of unique
+		- [[particles]]
+		- [[cyberlinks]]
+		- [[avatars]]
+- while [[avatars]] and [[neurons]] discover [[cybergraph]]
+- they see the progress of complete [[cybergraph]] discovery
+- this simple mechanics is a source of healthy [[dophamine]]
+- leading to more intelligent [[avatars]]
+- implementation
+	- [[cyb/tasks]]
+	- [[oracle/particles]]
+	- [[oracle/avatars]]
+	- [[oracle/cyberlinks]]
