@@ -4,7 +4,7 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 
 - protocol for unified, provable, collective learning
 -
-- in short it allows to [[ask]], [[search]] and [[learn]] together
+- in short it allows to [[ask]] and [[learn]] together
 - in an eternal journey to [[find truth]]
 -
 - [[concepts]]
