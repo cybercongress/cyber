@@ -5,3 +5,6 @@ tags:: aip
 	- main: [[staking]]
 - [[features]]
 	- [[security]]
+	- access to endpoints
+- actions
+	- add skill

@@ -10,13 +10,13 @@ alias:: implicit
 - processed by [[relevance machine]]
 - [[relevance machine]] compute fundamental parameters of [[cybergraph]] model in [[consensus]]
 	- [[cyberank]] as weight of [[particles]]
-	- TODO [[karma]] as weight of [[neurons]]
-	- TODO [[syntropy]] as integral measure of [[superintelligence]]
+	- [[karma]] as weight of [[neurons]]
+	- [[syntropy]] as integral measure of [[superintelligence]]
 - in [[cyber-sdk]] implicit knowledge can be inferred using
-	- TODO [[standard inference]]
-	- TODO [[cosmwasm]] [[progs]]
-	- TODO autonomous [[thoughts]]
-	- TODO and queried over [[ibc]]
+	- [[standard inference]]
+	- [[cosmwasm]] [[progs]]
+	- autonomous [[thoughts]]
+	- and queried over [[ibc]]
 - in [[cybs-ts]] implicit knowledge can be infered using
 	- [[datalog]]: ai oriented query language
 	- [[rune]]: powerful dynamic scripting

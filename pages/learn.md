@@ -1,7 +1,7 @@
 icon:: 🍏
 alias:: learning, labeling, answer
 
-- [[create links]] between [[particles]]
+- [[create links]] between [[particles]] of [[information]]
 - in a joyful process of [[knowledge mining]]
 -
 - features::
