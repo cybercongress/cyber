@@ -231,7 +231,7 @@
 	- > for ~$10 you can have enough interactions comparable with your average twitter, github or chatgpt usage
 	- > for ~$30 you can link all your public photos, music, videos and documents collected during life
 	- > for ~$100 you can describe some domain of science or the core of any language
-	- the cool thing that subscription model offered by [[bostrom]] is lifetime
+	- you see how cool is lifetime subscription model of [[bostrom]]
 	- this approach also work as
 		- spam protection
 		- partial sybil protection
@@ -293,7 +293,7 @@
 		- cost factors which defined by computing resource factors
 	- yep, our [[truth model]] is fundamentally [[two factor]]
 - ## on speed
-	- [[bostrom]] is extremely dynamic [[blockchain]], the first in its kind
+	- [[bostrom]] is [[extremely dynamic]] [[blockchain]], the first in its kind
 	- recomputes this probabilities every 25 second for every information piece that was submitted (currently ~2m). and that make [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) so unique
 	- this requires holding all state in GPU ram and use parallel computation at such scale
 	- current size of gpu memory used is for ~2 mln particles, ~60k neurons and ~2 mln
@@ -317,7 +317,7 @@
 	- for predicting probability of information [[observation]]
 	- and defined the most simple possible inference system on top
 	- technology of probabilistic collective computations have been created by us since 2016
-	- and we can proudly say that we are creators and leaders of [[decentralized ai]] field
+	- and we can proudly say that we are leading [[decentralized ai]] field on [[cyber]] foundations
 	- we believe the thing we have born is powerful enough to bootstrap new kind of [[civilization]]
 	- so we inviting you to the journey of creating open, fair and superintelligent society with us
 - ## [[join]]
