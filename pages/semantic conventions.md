@@ -1,3 +1,3 @@
 - tweet
 - follow
-- cyberlink as particle
+- [[cyberlink as particle]]
