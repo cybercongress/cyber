@@ -5,11 +5,12 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 - protocol for unified, provable, collective learning
 -
 - in short it allows to [[ask]] and [[learn]] together
-- in an eternal journey to [[find truth]]
+- on an endless quest for [[truth]]
 -
 - [[concepts]]
 - [[cyber/energy]]
 - [[aicosystem]]
+- [[tutorials]]
 - [[reference]]
 -
 - some exciting ai applications
@@ -21,7 +22,6 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 	- [[moon]] network state
 	- and this just a tip of an [[deai]] iceberg
 -
-- TODO [[tutorials]]
 - TODO [[guides]]
 - TODO [[techtree]]
 - TODO [[unified theory]]

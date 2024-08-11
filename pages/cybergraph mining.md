@@ -1,6 +1,6 @@
 alias:: knowledge mining
 
-- [[oas]] game mechanics
+- [[aos]] game mechanics
 - simple idea to gamify the process of [[cybergraph]] discovery by [[avatar]]
 -
 - on a [[first visit]] [[cyb]] downloads in background

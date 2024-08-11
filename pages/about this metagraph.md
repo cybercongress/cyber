@@ -2,19 +2,28 @@ icon:: 🦄
 
 -
 - you are reading [[metagraph]] of [[cyber]]
+- [[cyber]] is [[root]] of this metagraph
+-
+- creator: [@master](https://cyb.ai/@master)
+- [source code](https://github.com/cybercongress/cyber) on github
+- the work is under [[cyber license]]
+-
 -
 - the work contain about 5k lines of [[logseq]] structured [[markdown]]
 - and several hundreds lines in [[python]] and [[edn]]
 -
 - this metagraph is the result of 8 years effort to create [[superintelligence]]
+- and still constantly changes
+- we have dream to freeze it eventually: [[metagraph comparison]]
 -
 - its multi purposed
 	- provide [[shelling point]] to [[cyber]] community and implementers
 	- formate basic [[semantic core]] for [[superintelligence]] self understanding
-	- fine tune you llms to understand your cyber better
+	- being used in context or for fine tuning of [[llms]]
 	- and many more
 -
 - we truly believe you [[will]] enjoy this body of [[knowledge]] foundations
 - living on intersection of [[cryptography]], [[computer science]], [[cybernetics]] and many more
+-
 -
 - happy [[learning]]!
