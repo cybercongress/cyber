@@ -21,13 +21,15 @@
 	- jump for a second to this article: [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://cyb.ai/oracle/ask/QmdGEYVKo1sRURzbj83UMtr77EL6GHUB2taJbnpTynEQKT)
 	- ![image.png](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmPnEpPhd77ysSfaACJd5Kc6prrrsUfTCAmPo977n2tcih)
 	- {{embed ((66b2fb4e-c73b-4133-aab3-11df2e8d1436))}}
-	- the article explain why [[llm]] will never be enough to reach general [[intelligence]] alone
+	- the article explain why [[llm]] will never be enough to reach [[general intelligence]] alone
 	- in short [[knowledge graph]] advantage is
 		- easy to understand and structure as they are more about [[explicit knowledge]]
 		- possible to evolve because they are based on widely accepted [[triples]]
 		- essential to plan, make decisions and reason:
-	- so the claim is simple: [[knowledge graphs]] coupled with [[gnns]]
-	- are essential for the next generation of architectures and by this article we propose such architecture
+	- so the claim is simple
+		- [[knowledge graphs]] coupled with [[gnns]] are essential
+		- for the next generation of architectures and
+		- by this article we propose example of such architecture
 - ## cryptographic proofs and llms
 	- be believe that authenticity of models is a serious bottleneck for ai alignment and more
 	- its a shame that so technologically advanced industry in a broad sense
@@ -35,10 +37,17 @@
 	- its kinda impossible to build multiparty protocols without these primitives
 	- yep, i am ware about [zkml movement](https://github.com/worldcoin/awesome-zkml)
 	- but this is a drop in the ocean given the [[knowledge graphs and llms]] argument
-	- we need something foundational fully authenthicated knowledge graph tech
 	- if we want to significantly advance in the field of [[superintelligence]]
+		- we need something foundational
+		- fully authenticated knowledge graph tech
+		- which is [[cybergraph]], but later on that
 - ## token engineering and llms
-	-
+	- [[rewarding]] is essential for [[machine learning]]
+	- we have ton shit of [[tokens]] with dogs, monkeys
+	- boost the power of your models using real cryptographic [[tokens]]
+	- not tokens you use
+	- ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmQTvZLqTxJNK7K7cFJTeBbKDDWTecXXeExHz4otJkjjfe)
+	- in reality they are [[particles]]
 - ## cybergraph
 	- the core of the idea is [[cybergraph]] - merkelized timestamped data structure of links between ipfs hashes submitted by anyone
 	- for clarity we refer to:

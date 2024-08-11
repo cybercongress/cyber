@@ -29,7 +29,7 @@ alias:: collective intelligence theory, collective artificial intelligence
 		- collaborative filtering
 		- ensemble learning
 		- network analysis
-- basic evidence which is interesting
+- basic evidence which is interesting proof of [[diversity]]
   collapsed:: true
 	- `c` as measure of collective intelligence
 	- according to woolley is not correlated with `c`
@@ -44,5 +44,5 @@ alias:: collective intelligence theory, collective artificial intelligence
 		- groups that are moderately diverse in [cognitive style](https://en.wikipedia.org/wiki/Cognitive_style)
 			- have higher collective intelligence
 			- than those who are very similar in cognitive style or very different
-- collective intelligence of [[bostrom]] and [[spacepussy]] offers simpler [[learning]]
+- [[bostrom]] and [[spacepussy]] offers simple [[collective learning]]
 - discover all [[concepts]]
