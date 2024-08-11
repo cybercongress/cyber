@@ -135,7 +135,7 @@
 			- [[elon]] [[launch]]
 			- [[launch]] [[rocket]]
 	- the good news is that you can pack several cyberlinks in one coherent [[signal]]
-	- and use this construct to express using [[neural language]] we invented by the way
+	- and use this construct to express anything using [[neural language]] we invented by the way
 - ## why hash everything?
 	- yep, we know - you used to tokenize your data and make it as dense as possible
 	- yes, we know - hashing data requires 32 bytes for every piece instead of several bytes
@@ -244,13 +244,13 @@
 	- the idea behind the relevance machine is crazy simple
 	- use random [[surfer model]] directed by [[attention]] as foundational probability of inferring [[particles]]
 	- but in order to
-		- protect it from sybil behavior and
-		- add [[context]]
+		- protect it from sybil behavior
+		- and to add [[context]]
 	- weight this basic [[implicit knowledge]] on the [[will]] of [[neurons]]
 	- result is a stored probability estimations of random surfing across all existing [[particles]] in [[cybergraph]]
 	- in order to compute described [[cyberank]] algorithm you need gpu computation in consensus
 	- relevance machine is cybergraph with weights
-	- is extremely dynamic data structure that must be updated even if only 1 [[cyberlink]] is created
+	- is [[extremely dynamic]] data structure that must be updated even if only 1 [[cyberlink]] is created
 	- [[bostrom]] recompute all weights in relevance machine every 5 blocks, or roughly every 25 seconds
 	- so [[bostrom]] is extremely hard to reproduce using any existing L1 or L2 sdks
 		- zk things will make the stuff
@@ -266,18 +266,21 @@
 		- for this you need account for [[attention]] in [[standard inference]] algorithm
 	- follow complete design of [[relevance machine]]
 - ## standard inference
-	- obviously in our setting the simplest possible way to infer particles in the context of any particles would be to sort by random surfer probability
+	- obviously in our setting the simplest possible way
+	- to infer particles in the context of any particles
+	- would be to sort by random surfer probability
 	- but this led us to a kinda [[true false problem]]
 	- let us imagine that `true` particle have cyberank `10`, and `false` particle have cyberank `9`
 	- the environment allow to link any particle with any
 	- that means that for any questions which cyberlinked to `true` and `false` the winning answer will always be `true`
 	- of course such behavior does not feels like something superintelligent
-	- in order to solve[[true-false problem]]  we have to compute weights of links in for every context
-	- we always emphasize that cyberank is a core ranking factor, but not the only one
+	- in order to solve [[true-false problem]]  we have to compute weights of links for every [[context]]
+	- we always emphasize that [[cyberank]] is a core ranking factor, but not the only one
 	- so we have to introduce second factor to the system
 	- surprisingly with already have [[will]]
-	- is the [topic of ongoing research](https://github.com/cybercongress/go-cyber/issues/694) and is implemented only in [[cy]]
+	-
 	- [[standard inference]] algorithm
+	- is the [topic of ongoing research](https://github.com/cybercongress/go-cyber/issues/694) and is implemented only in [[cy]]
 - ## on two factors
 	- there is the observation
 		- that weights of nodes does not strongly correlate with weights of connections
@@ -294,15 +297,18 @@
 	- yep, our [[truth model]] is fundamentally [[two factor]]
 - ## on speed
 	- [[bostrom]] is [[extremely dynamic]] [[blockchain]], the first in its kind
-	- recomputes this probabilities every 25 second for every information piece that was submitted (currently ~2m). and that make [#bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) so unique
+	- recomputes probabilities of observation every 25 second for every [[information]] piece that was submitted (currently ~2m)
+	- and that make [bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) so unique
 	- this requires holding all state in GPU ram and use parallel computation at such scale
 	- current size of gpu memory used is for ~2 mln particles, ~60k neurons and ~2 mln
-	- submitting just 1 cyberlink force to recompute all ranks (~2 million currently). could you imagine how that could be done on [#solana](https://twitter.com/hashtag/solana?src=hashtag_click) (something around 1000 [#SOL](https://twitter.com/hashtag/SOL?src=hashtag_click) currently needed for every update.
+	- submitting just 1 cyberlink force to recompute all ranks (~2 million currently)
+	- could you imagine how that could be done on [[solana]]
+		- something around 1000 [[$SOL]] currently needed for every update.
 	- with 10B links which i believe is required for minimum viable [[superintelligence]] the task become intractable for all existing blockchain architectures
-	- current [[bostrom]] architectire can handle 1T cyberlinks
+	- current [[bostrom]] architecture can handle (rough estimations) up to 1T cyberlinks
 	- on par with [GPT4](https://twitter.com/hashtag/GPT4?src=hashtag_click) with 1T parametrs
 	- but in blockchain, baby
-	- to be honest things cant be compared 1 to 1, far from it
+	- to be honest things cant be compared 1 to 1, [[far from it]]
 - ## learning incentives
 	- all benefits of proposed system fades out under assumption that you have to spend resources on learning
 	- what is motivation to do it?
@@ -316,7 +322,7 @@
 	- we describe and implemented extremely dynamic, collective computation architecture
 	- for predicting probability of information [[observation]]
 	- and defined the most simple possible inference system on top
-	- technology of probabilistic collective computations have been created by us since 2016
+	- this technology of [[probabilistic collective computations]] have been created by us since 2016
 	- and we can proudly say that we are leading [[decentralized ai]] field on [[cyber]] foundations
 	- we believe the thing we have born is powerful enough to bootstrap new kind of [[civilization]]
 	- so we inviting you to the journey of creating open, fair and superintelligent society with us

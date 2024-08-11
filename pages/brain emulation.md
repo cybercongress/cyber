@@ -1,4 +1,4 @@
-alias:: whole brain emulation, simulated brains
+alias:: whole brain emulation, simulated brains, far from it
 
 - whole brain emulation looks feasible at current state of technology
 - [[cyberlinks]] offer amazing opportunity for modeling physical and artificial [[brains]]
