@@ -32,9 +32,9 @@ alias:: asi, singleton, collective ai
 	- can ibc with other consensus computers
 - [[path to superintelligence]]
 	- we want to make it clear that [[cyber]] as protocol is by no means a superintelligence
-	- superintelligence requires [several dozen algorithms](techtree) blended wisely
-	- TODO superintelligence need [[attention]] and [[will]] of millions of the smartest among us
-	- but [[cyber]] is the core fundamental mechanism for establishing truth consensus
+	- [[superintelligence]] requires [several dozen algorithms](techtree) blended wisely
+	- [[superintelligence]] need [[attention]] and [[will]] of millions of the smartest among us
+	- but [[cyber]] is the core fundamental mechanism for establishing [[truth]] consensus
 	- this type of consensus allows us to build the superintelligence on top
 - [[situational awareness]]
 - discover all [[concepts]]

@@ -1,3 +1,4 @@
+icon:: ⛑
 tags:: model
 
 - objects:: [[neuron]] [[link]] [[particle]] in [[time]] is the [[knowledge]]

@@ -12,6 +12,7 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 - [[aicosystem]]
 - [[tutorials]]
 - [[reference]]
+- [[knowledge theory]]
 -
 - some exciting ai applications
 	- planet scale [[superintelligence]]
@@ -24,5 +25,5 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 -
 - TODO [[guides]]
 - TODO [[techtree]]
-- TODO [[unified theory]]
+- [[knowledge theory]]
 - TODO [[join]]

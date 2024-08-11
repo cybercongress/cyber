@@ -11,7 +11,8 @@ alias:: content oracle
 - cybergraph is technology of [[collective memory]]
 	- work as highly efficient onchain [[dht]]
 	- dynamic persistent global [[semantic core]] extended beyond mere words
-	- most cheap possible way to probabilistically [[store and distribute popular content]] with charge per file, not per bytes
+	- most cheap possible way to probabilistically [[store and distribute popular content]]
+		- with charge per file, not per bytes
 	- enable social information for p2p propagation and retrieval
 	- fine tune [[llms]] for uncensorable completely private [[offline inference]]
 	- and so much more ...
