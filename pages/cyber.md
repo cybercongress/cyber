@@ -25,7 +25,6 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 	- [[moon]] network state
 	- and this just a tip of an [[deai]] iceberg
 -
-- TODO [[guides]]
-- TODO [[techtree]]
-- [[knowledge theory]]
-- TODO [[join]]
+- [[guides]]
+- [[techtree]]
+- [[join]]

@@ -49,7 +49,7 @@
 	- boost the power of your models using real cryptographic [[tokens]]
 	- not tokens you use
 	- ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmQTvZLqTxJNK7K7cFJTeBbKDDWTecXXeExHz4otJkjjfe)
-	- in reality they are [[particles]]
+	- in [[cyberverse]] they are [[particles]]
 - ## cybergraph
 	- the core of the idea is [[cybergraph]]
 		- merkelized timestamped data structure
@@ -259,6 +259,7 @@
 		- be a factor for derived and very diverse [[implicit knowledge]] factors
 	- relevance machine itself cant compute truth in the context
 		- for this you need account for [[attention]] in [[standard inference]] algorithm
+	- follow complete design of [[relevance machine]]
 - ## standard inference
 	- obviously in our setting the simplest possible way to infer particles in the context of any particles would be to sort by random surfer probability
 	- but this led us to a kinda [[true false problem]]
@@ -266,21 +267,12 @@
 	- the environment allow to link any particle with any
 	- that means that for any questions which cyberlinked to `true` and `false` the winning answer will always be `true`
 	- of course such behavior does not feels like something superintelligent
-	- in order to solve true-false problem we have to compute weights of links in for every context
+	- in order to solve[[true-false problem]]  we have to compute weights of links in for every context
 	- we always emphasize that cyberank is a core ranking factor, but not the only one
 	- so we have to introduce second factor to the system
 	- surprisingly with already have [[will]]
-	- algorithm
-		- get all particles cyberlinked with asking particle sorted by rank
-		- for each particle get all cyberlinks
-			- for each cyberlink get address
-				- for each address
-					- get [[V]] balance
-					- get number of cyberlinks
-					- compute average [[V]] per cyberlink
-			- sum (average V) votes for every particle
-		- multiplay rank of each particle by sum (average V)
 	- is the [topic of ongoing research](https://github.com/cybercongress/go-cyber/issues/694) and is implemented only in [[cy]]
+	- [[standard inference]] algorithm
 - ## on two factors
 	- there is the observation
 		- that weights of nodes does not strongly correlate with weights of connections
