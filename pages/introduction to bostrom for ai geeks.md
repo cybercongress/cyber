@@ -92,7 +92,7 @@
 		- third fundamental [[argument of knowledge]] is obviously missing
 		- so we must add one more argument: [[timestamp mechanism]]
 		- with answer to [[when]]
-	- from this we arrived to a [[quadruple]] which is [[fully authenticated]]
+	- from this we arrived to a [[quadruple]] which is [[fully authenticated]] [[knowledge]]
 	- we gave this a name [[cyberlink]]
 	- > as the most fundamental such an atomic unit of [[knowledge]] and [[learning]]
 	- the key to quantum jump of civilization
@@ -118,6 +118,7 @@
 		- it is vital for tasks like planning, problem-solving, and decision-making
 		- in nature relationships are inherently asymmetrical, so we cover it
 	- the structure is extendable with [[motifs]] which can be constructed using [[signals]]
+	- [[semantic conventions]] add additional layer of flexibility
 	- hence, we can refer to [[cybergraph]] as objective knowledge of everyone
 - ## cybergraph vs knowledge graph
 	- cyberlinks are fully authenticated qaquadruples
@@ -238,11 +239,14 @@
 - ## relevance machine
 	- now that we understand how the cybergraph works
 		- we can dive into the novel concept
-		- in probabilistic collective computations:
-		- the relevance machine
+		- in [[probabilistic collective computations]]
+		- the [[relevance machine]]
 	- the idea behind the relevance machine is crazy simple
-	- use random surfer model projected by [[attention]] as foundational probability of inferring [[particles]]
-	- but in order to protect it from sybil behavior weight this basic [[implicit knowledge]] on the [[will]] of [[neurons]]
+	- use random [[surfer model]] directed by [[attention]] as foundational probability of inferring [[particles]]
+	- but in order to
+		- protect it from sybil behavior and
+		- add [[context]]
+	- weight this basic [[implicit knowledge]] on the [[will]] of [[neurons]]
 	- result is a stored probability estimations of random surfing across all existing [[particles]] in [[cybergraph]]
 	- in order to compute described [[cyberank]] algorithm you need gpu computation in consensus
 	- relevance machine is cybergraph with weights

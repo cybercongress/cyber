@@ -1,4 +1,4 @@
-alias:: random walking
+alias:: random walking, random surfer
 
 - process of simulating a [[neuron]] randomly navigating the [[cybergraph]]
 - by clicking on links from one page to another
