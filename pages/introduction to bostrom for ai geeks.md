@@ -1,3 +1,4 @@
+- [source code](https://github.com/cybercongress/cyber): [@mastercyb](https://cyb.ai/@mastercyb)
 - status of article: on review
 -
 - [[bostrom]] is NOT yet another ai [[coin]]

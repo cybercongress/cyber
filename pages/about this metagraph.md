@@ -4,10 +4,9 @@ icon:: 🦄
 - you are reading [[metagraph]] of [[cyber]]
 - [[cyber]] is [[root]] of this metagraph
 -
-- creator: [@master](https://cyb.ai/@master)
-- [source code](https://github.com/cybercongress/cyber) on github
-- the work is under [[cyber license]]
+- [source code](https://github.com/cybercongress/cyber): [@master](https://cyb.ai/@master)
 -
+- the work is under [[cyber license]]
 -
 - the work contain about 5k lines of [[logseq]] structured [[markdown]]
 - and several hundreds lines in [[python]] and [[edn]]
