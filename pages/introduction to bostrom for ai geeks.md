@@ -316,7 +316,3 @@
 	- we believe the thing we have born is powerful enough to bootstrap new kind of [[civilization]]
 	- so we inviting you to the journey of creating open, fair and superintelligent society with us
 - ## [[join]]
--
--
-- cybergraph with [#transformers](https://twitter.com/hashtag/transformers?src=hashtag_click) is ). [#transformers](https://twitter.com/hashtag/transformers?src=hashtag_click) without [#cybergraph](https://twitter.com/hashtag/cybergraph?src=hashtag_click) is just a chat.
-- 11. [https://cyb.ai/portal](https://t.co/IGuVQah327)
