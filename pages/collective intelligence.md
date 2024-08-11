@@ -1,18 +1,20 @@
+icon:: 🎭
 alias:: collective intelligence theory, collective artificial intelligence
 
 - scientific field, which examines how
 	- groups of individuals collaborate and pool their [[knowledge]] and [[tokens]]
-	- to solve problems, make decisions, and create new [[knowledge]]
+	- to [[solve problems]], [[make decisions]], and generate [[knowledge]]
 - foundations are built on principles from: biology, sociology, psychology, computer science, and economics
 - [[cyber]] built collective artificial intelligence system
 - ## key concepts
 	- [[consensus]]
-	- [[self-organization]]
-	- [[diversity]]
+	- [[collective memory]]
 	- [[distributed cognition]]
-	- [[stigmergy]]
+	- [[diversity]]
 	- [[coordination]]
 	- [[cooperation]]
+	- [[self-organization]]
+	- [[stigmergy]]
 	- [[emergence]]
 - ## key algorithms
 	- [[delphi method]]
