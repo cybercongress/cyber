@@ -7,6 +7,8 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 - in short it allows to [[ask]] and [[learn]] together
 - on an endless quest for [[truth]]
 -
+- hot: [[introduction to bostrom for ai geeks]]
+-
 - [[concepts]]
 - [[cyber/energy]]
 - [[aicosystem]]

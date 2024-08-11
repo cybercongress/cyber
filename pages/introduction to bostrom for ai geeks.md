@@ -1,3 +1,5 @@
+- status of article: on review
+-
 - [[bostrom]] is NOT yet another ai [[coin]]
 - it is very powerful foundational technology for advanced superintelligent [[civilization]]
 - in this article i will boil down all essential ideas into coherent understanding how [[bostrom]] can empower
@@ -49,17 +51,21 @@
 	- ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmQTvZLqTxJNK7K7cFJTeBbKDDWTecXXeExHz4otJkjjfe)
 	- in reality they are [[particles]]
 - ## cybergraph
-	- the core of the idea is [[cybergraph]] - merkelized timestamped data structure of links between ipfs hashes submitted by anyone
+	- the core of the idea is [[cybergraph]]
+		- merkelized timestamped data structure
+		- of links between ipfs hashes
+		- submitted by anyone
 	- for clarity we refer to:
-		- ipfs hashes as [[particles]] of knowledge, and data behind particles as [[files]]
-		- links as [[cyberlinks]], as they are unique and very different type of links
-		- submitting agents as [[neurons]], as they looks very simmilar
-	- timestamping in [[bostrom]] is done using simple and reliable [[tendermint]] consensus algorithm
-	- sybil protection, rate limiting and motivation are implemented using [[cyber/energy]] set of algorithms
+		- [[ipfs]] hashes as [[particles]] of knowledge, and data behind particles as [[files]]
+		- [[links]] as [[cyberlinks]], as they are unique and very different type of [[links]]
+		- submitting [[agents]] as [[neurons]], as they looks very similar
+	- notes on implementation
+		- timestamping in [[bostrom]] is done using simple and reliable [[tendermint]] consensus algorithm
+		- sybil protection, rate limiting and motivation are implemented using [[cyber/energy]] set of algorithms
 	- cybergraph is explicitly answer 3 fundamental questions:
-		- who linked the information
-		- when information was linked
-		- what information was linked
+		- [[who]] linked the [[information]]
+		- [[when]] [[information]] was linked
+		- [[what]] [[information]] was linked
 	- in essence cybergraph is an array of append only fully authenticated quadruples
 	- | block hash | neuron | from particle | to particle |
 	  
@@ -68,9 +74,9 @@
 	  | 43 | bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t | QmRjzv8iNpMX7NXmMswT9qq7nviQ4sC1gMMceryAVJdfPS|  QmRX8qYgeZoYM3M5zzQaWEpVFdpin6FvVXvp6RPQK3oufV |
 	- i want to make it clear that notion of [[cyberlink]] is essential for the architecture described by this article
 	- in conventional ai workflows you used to train over static datasets which already have been created
-	- collective ai require to change our thinking on how knowledge emerge
-	- good question to ask is what is the most small possible unit of learning?
-	- conventional thinking is the notion of triple, which consist of [[subject]], [[predicate]] and [[object]]
+	- [[collective memory]] require to change our thinking on how [[knowledge]] emerge
+	- good question to ask is what is the most small possible [[unit of learning]]?
+	- conventional thinking is the notion of [[triple]], which consist of [[subject]], [[predicate]] and [[object]]
 	- now lets ask the question what is lacking in this construction if our goal is to have provable statement?
 	- first
 		- we need to add notion of [[neuron]] as [[subject]]
@@ -83,24 +89,25 @@
 		- and give an answer to [[what]] question
 	- and third
 		- third fundamental [[argument of knowledge]] is obviously missing
-		- so using [[timestamp mechanism]] we must add one more argument
+		- so we must add one more argument: [[timestamp mechanism]]
 		- with answer to [[when]]
-	- from this we arrived to a quadruple which is fully authenticated
+	- from this we arrived to a [[quadruple]] which is [[fully authenticated]]
 	- we gave this a name [[cyberlink]]
 	- > as the most fundamental such an atomic unit of [[knowledge]] and [[learning]]
 	- the key to quantum jump of civilization
+	-
 	- we append [[cyberlinks]] to the state of collective thought evolution
-	- although looks primitive, [[cybergraph]] is so much needed formal definition of [explicit knowledge](https://en.wikipedia.org/wiki/Explicit_knowledge)
+	- although looks primitive, [[cybergraph]] is so much needed formal definition of [[explicit knowledge]]
 	- lets analize a statment that cybergraph is complete form [[explicit knowledge]]
-	- temporal dimension (when):
+	- temporal dimension: [[when]]
 		- including a timestamp offers a temporal context for each action
 		- pivotal for grasping sequences of events, causality, and the unfolding of relationships over time
 		- it facilitates tracking changes, comprehending the sequence of actions, and deducing patterns based on temporal data
-	- agency and responsibility (who):
+	- agency and responsibility [[who]]
 		- identifying the public key of the actor bestows agency and responsibility upon each action
 		- crucial for ensuring accountability, authentication, and scrutinizing interactions at the individual actor level
 		- this feature also aids in retracing actions to their sources, bolstering security and trust frameworks
-	- relationships and interactions (content address from and to):
+	- relationships and interactions [[what]]
 		- the structure distinctly portrays relationships and interactions via directed links from one content address to another
 		- this aspect is vital for deciphering the network of connections among entities, the circulation of information or influence, and the overall architecture of the system
 		- direction embed the following types of information
@@ -109,7 +116,7 @@
 			- hierarchy
 		- it is vital for tasks like planning, problem-solving, and decision-making
 		- in nature relationships are inherently asymmetrical, so we cover it
-	- the structure is extendable with [[motifs]] which can be derived from several links with same time, neuron, source, destination or any combination of them
+	- the structure is extendable with [[motifs]] which can be constructed using [[signals]]
 	- hence, we can refer to [[cybergraph]] as objective knowledge of everyone
 - ## cybergraph vs knowledge graph
 	- cyberlinks are fully authenticated qaquadruples
@@ -143,6 +150,12 @@
 		- peep to peer
 			- since bittorrent times its clear that [content addressing](https://flyingzumwalt.gitbooks.io/decentralized-web-primer/content/avenues-for-access/lessons/power-of-content-addressing.html) is the only way for reliable peer to peer exchange
 			- [ipfs](https://ipfs.io/) being the leading p2p data exchange protocol and software open enormous abilities for collective ai interactions
+	- saga on evm and price of computations
+		- there was foundational decision to start from 256 bits architecture
+		- everyone around say we were crazy
+		- but looking back i do believe it is very powerful decision of founders
+		- they will say you never want change your aka tokens for hashes
+		- but once you got it, you have no way back
 - ## why [merkelize](https://brilliant.org/wiki/merkle-tree/#:~:text=A%20Merkle%20tree%20is%20a,a%20hash%20of%20its%20children.)?
 	- automatic deduplication
 		- while the means of deduplication is hashing what makes it practical is merklization
@@ -186,7 +199,9 @@
 	- also [[bostrom]] organically formed [[cybergraph]] of several million [[cyberlinks]] and [[particles]]
 	- that is on par with capability of tech giants for manual labeling during finetuning
 	- and [[bostrom]] is provably accelerating ...
-	- so you can use this cybergraph as toy dataset in your conventional ai workflow experiments with [graph neural networks](https://distill.pub/2021/gnn-intro/)
+	- so you can use this [[cybergraph]]
+		- as toy dataset in your conventional ai workflow experiments
+		- with [graph neural networks](https://distill.pub/2021/gnn-intro/) too
 - ## how cyberlinks does not have fees?
 	- a lot of smart guys are say that people will never want to pay fees for every social interaction
 	- the truth is that information emerge from communications and social interactions
@@ -195,11 +210,15 @@
 	- its likely we will not achieve practical results in collective learning
 	-
 	- we believe that [[social layer]] over [[cybergraph]] is essential for the development of an idea
-	- that is why [[bostrom]] offer a model of usage based on bandwidth
+	- that is why [[bostrom]] offer a model of usage based on [[bandwidth]]
 	- the model is practically the same as being already used in chatgpt
-	- V (volt) is attention token
-		- allow to submit cyberlinks
-		- derive truth using [[standard inference]]
+	-
+	- [[$V]] or [[volt]] is [[attention]] token
+		- allow to create [[cyberlinks]]
+		- and derive [[truth]] using [[standard inference]]
+	-
+	- but the difference with openai is that [[$V]] give you lifetime subscription, not monthly
+	-
 	- (!) think of link as a link between every query request and answer response
 	- > currently 1 V allow to submit 4 cyberlinks per day depending on network load
 	- while you create cyberlinks your battery become less full
@@ -216,30 +235,33 @@
 		- partial sybil protection
 		- and as inference factor (read further)
 - ## relevance machine
-	- now that we understand how the cybergraph works we can dive into the novel concept in probabilistic collective computations: the relevance machine
+	- now that we understand how the cybergraph works
+		- we can dive into the novel concept
+		- in probabilistic collective computations:
+		- the relevance machine
 	- the idea behind the relevance machine is crazy simple
-	- use random surfer model as foundational probability of inferring [[particles]]
+	- use random surfer model projected by [[attention]] as foundational probability of inferring [[particles]]
 	- but in order to protect it from sybil behavior weight this basic [[implicit knowledge]] on the [[will]] of [[neurons]]
 	- result is a stored probability estimations of random surfing across all existing [[particles]] in [[cybergraph]]
-	- in order to compute described cyberrank algorithm you need gpu computation in consensus
+	- in order to compute described [[cyberank]] algorithm you need gpu computation in consensus
 	- relevance machine is cybergraph with weights
 	- is extremely dynamic data structure that must be updated even if only 1 [[cyberlink]] is created
 	- [[bostrom]] recompute all weights in relevance machine every 5 blocks, or roughly every 25 seconds
-	- so $bostrom is impossible to reproduce using any existing L2 sdks
-		- zk things
-			- will make the stuff 5 order of magnitude
-			- more expensive and 3 order of magnitude more complicated
+	- so [[bostrom]] is extremely hard to reproduce using any existing L1 or L2 sdks
+		- zk things will make the stuff
+			- 5 order of magnitude more expensive and
+			- 3 order of magnitude more complicated
 		- architecture requires in-gpu extremely dynamic state with fast onchain matrix multiplication
 	- in essence the utility of relevance machine is
 		- to compute truth
-		- to sort all particles from more important to less important
+		- to sort all [[particles]] from more important to less important
 		- be a first foundational factor to computing the truth
 		- be a factor for derived and very diverse [[implicit knowledge]] factors
 	- relevance machine itself cant compute truth in the context
 		- for this you need account for [[attention]] in [[standard inference]] algorithm
 - ## standard inference
 	- obviously in our setting the simplest possible way to infer particles in the context of any particles would be to sort by random surfer probability
-	- but this led us to a kinda true false problem
+	- but this led us to a kinda [[true false problem]]
 	- let us imagine that `true` particle have cyberank `10`, and `false` particle have cyberank `9`
 	- the environment allow to link any particle with any
 	- that means that for any questions which cyberlinked to `true` and `false` the winning answer will always be `true`
@@ -247,7 +269,7 @@
 	- in order to solve true-false problem we have to compute weights of links in for every context
 	- we always emphasize that cyberank is a core ranking factor, but not the only one
 	- so we have to introduce second factor to the system
-	- surprisingly with already have [[attention]]
+	- surprisingly with already have [[will]]
 	- algorithm
 		- get all particles cyberlinked with asking particle sorted by rank
 		- for each particle get all cyberlinks
