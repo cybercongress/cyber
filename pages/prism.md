@@ -7,6 +7,7 @@
 			- 1-molecules/brain/brain-widget/default
 			- [[1-molecules/brain/brain-widget/+memory]]
 		- [[adviser]]
+		  collapsed:: true
 			- closed
 			  collapsed:: true
 				- [[1-molecules/adviser/closed]]
@@ -19,6 +20,7 @@
 			  collapsed:: true
 				- [[1-molecules/adviser/particle]]
 		- [[aip]]
+		  collapsed:: true
 			- 2-lines
 			  collapsed:: true
 				- [[1-molecules/aip/2-lines/default]]
@@ -28,12 +30,27 @@
 				- [[1-molecules/aip/3-lines/default]]
 				- [[1-molecules/aip/3-lines/+menu]]
 		- [[avatar]]
+		  collapsed:: true
 			- 2-line
 			  collapsed:: true
 				- [[1-molecules/hud/avatar/2-line/default]]
 			- chooser
 			  collapsed:: true
 				- [[1-molecules/avatar/hud/chooser/default]]
+		- [[sense]]
+		  collapsed:: true
+			- [[1-molecules/hud/sense]]
+			- [[1-molecules/widgets/m.sense]]
+			-
+		- [[sigma]]
+		  collapsed:: true
+			- [[1-molecules/widgets/sigma]]
+			- [[1-molecules/widgets/m.sigma]]
+		- [[time]]
+		  collapsed:: true
+			- [[1-molecules/widgets/time]]
+			- [[1-molecules/widgets/m.time]]
+		- menu
 	- [[button]]
 		- default
 		  collapsed:: true
@@ -64,6 +81,23 @@
 		- video
 		- pdf
 		- audio
+		- avatar
+		  collapsed:: true
+			- [[1-molecules/particle/avatar]]
+		- [[pill]]
+		  collapsed:: true
+			- [[1-molecules/pill/green]]
+			- [[1-molecules/pill/white]]
+			- [[1-molecules/pill/blue]]
+			- [[1-molecules/pill/gray]]
+			- [[1-molecules/pill/red]]
+			- [[1-molecules/pill/border]]
+			- [[1-molecules/pill/bulb]]
+		- [[toggle]]
+		  collapsed:: true
+			- [[1-molecules/toggle/on]]
+			- [[1-molecules/toggle/off]]
+			- [[1-molecules/toggle/star]]
 	- [[display]]
 		- empty
 		  collapsed:: true
@@ -73,6 +107,7 @@
 			- [[1-molecules/display/highlight/default]]
 			- [[1-molecules/display/highlight/2-lines]]
 		- text
+		  collapsed:: true
 			- x0.62x0.62
 			  collapsed:: true
 				- 1-molecules/display/text/x0.62x0.62/default
@@ -99,11 +134,6 @@
 		- neuron
 		- token
 		- select
-	- sort
-	  collapsed:: true
-		- [[1-molecules/sort/default]]
-		- [[1-molecules/sort/dropdown]]
-		-
 	- [[neuron]]
 		- big
 		  collapsed:: true
@@ -115,63 +145,52 @@
 			- [[1-molecules/neuron/small/default]]
 			- [[1-molecules/neuron/small/hover]]
 			- [[1-molecules/neuron/small/clicked]]
-	- [[pill]]
-		- [[1-molecules/pill/green]]
-		- [[1-molecules/pill/white]]
-		- [[1-molecules/pill/blue]]
-		- [[1-molecules/pill/gray]]
-		- [[1-molecules/pill/red]]
-		- [[1-molecules/pill/border]]
-		- [[1-molecules/pill/avatar]]
-		- [[1-molecules/pill/bulb]]
-	- [[progress-bar]]
-		- [[1-molecules/progress-bar/horizontal]]
-		- [[1-molecules/progress-bar/m.horizontal]]
-		- [[1-molecules/progress-bar/descending]]
+	- slider
+		- progress
+		  collapsed:: true
+			- [[1-molecules/slider/progress/horizontal]]
+			- [[1-molecules/slider/progress/m.horizontal]]
+			- [[1-molecules/slider/progress/descending]]
 	- [[saber]]+[[ion]]
-		- display
-			- [[1-molecules/saber+ion/display/1-sided]]
+		- 1-sided
+		  collapsed:: true
+			- [[1-molecules/saber+ion/1-sided/default]]
+			- [[1-molecules/saber+ion/1-sided/button]]
+		- bi-sided
+		  collapsed:: true
 			- [[1-molecules/saber+ion/display/bi-sided]]
-			- [[1-molecules/saber+ion/display/horizontal-1-sided]]
-		- button
-			- [[1-molecules/saber+ion/button/1-sided]]
-			- [[1-molecules/saber+ion/button/bi-sided]]
-		- input
-			- [[1-molecules/saber+ion/input/focus]]
-			- [[1-molecules/saber+ion/input/passive]]
+			- [[1-molecules/saber+ion/bi-sided/button]]
+		- horizontal
+		  collapsed:: true
+			- input
+				- [[1-molecules/saber+ion/input/focus]]
+				- [[1-molecules/saber+ion/input/passive]]
+			- 1-sided
+				- [[1-molecules/saber+ion/horizontal/1-sided]]
 	- [[table]]
-		- [[1-molecules/table/line]]
-		- [[1-molecules/table/row-L]]
+		- line
+		  collapsed:: true
+			- [[1-molecules/table/line/default]]
+		- row
+		  collapsed:: true
+			- [[1-molecules/table/row-l]]
+			- [[1-molecules/table/row-r]]
 		- sort
+		  collapsed:: true
 			- [[1-molecules/input/sort/default]]
 			- [[1-molecules/input/sort/dropdown]]
-		- [[1-molecules/table/row-R]]
 	- [[tabs]]
-		- [[1-molecules/tabs/3-items]]
-		- [[1-molecules/tabs/4-items]]
-		- [[1-molecules/tabs/5-items]]
-		- [[1-molecules/tabs/m.3-items]]
-	- [[toggle]]
-		- [[1-molecules/toggle/on]]
-		- [[1-molecules/toggle/off]]
-		- [[1-molecules/toggle/star]]
-	- [[widgets]]
-		- [[1-molecules/widgets/sense]]
-		- [[1-molecules/widgets/sigma]]
-		- [[1-molecules/widgets/time]]
-		- [[1-molecules/widgets/m.sense]]
-		- [[1-molecules/widgets/m.sigma]]
-		- [[1-molecules/widgets/m.time]]
+		- 3-items
+		  collapsed:: true
+			- [[1-molecules/tabs/3-items/default]]
+			- [[1-molecules/tabs/3-items/mobile]]
+		- 4-items
+		  collapsed:: true
+			- [[1-molecules/tabs/4-items/default]]
+		- 5-items
+		  collapsed:: true
+			- [[1-molecules/tabs/5-items/default]]
 - [[cells]]
-	- [[cyb]]
-		- hud
-			- mind
-			- time
-			- brain
-			- aip
-			- advicer
-			- avatar
-			- menu
 	- [[portal]]
 		- citizenship
 		- gift
@@ -181,6 +200,7 @@
 		- cyb-map
 	- [[cyberver]]
 		- hud
+		  collapsed:: true
 			- aip
 		- mentors
 		  collapsed:: true
@@ -202,4 +222,4 @@
 	- warp
 	- hfr
 	- sense
-	-
+	- cyberver
