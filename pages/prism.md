@@ -2,26 +2,50 @@
 - [[atoms]]
 - [molecules](cyb/xp/molecules)
 	- [[adviser]]
-		- [[1-molecules/adviser/closed]]
-		- [[1-molecules/adviser/opened-positive]]
-		- [[1-molecules/adviser/opened-negative]]
-		- [[1-molecules/adviser/opened-neutral]]
-		- [[1-molecules/adviser/particle]]
+		- closed
+		  collapsed:: true
+			- [[1-molecules/adviser/closed]]
+		- opened
+		  collapsed:: true
+			- [[1-molecules/adviser/opened/positive]]
+			- [[1-molecules/adviser/opened/negative]]
+			- [[1-molecules/adviser/opened/neutral]]
+		- particle
+		  collapsed:: true
+			- [[1-molecules/adviser/particle]]
 	- [[aip]]
-		- [[1-molecules/aip/2-lines]]
-		- [[1-molecules/aip/3-lines]]
-		- [[1-molecules/aip/3-lines+menu]]
+		- 2-lines
+		  collapsed:: true
+			- [[1-molecules/aip/2-lines/default]]
+			- [[1-molecules/aip/2-lines/+menu]]
+		- 3-lines
+		  collapsed:: true
+			- [[1-molecules/aip/3-lines/default]]
+			- [[1-molecules/aip/3-lines/+menu]]
 	- [[avatar]]
-		- [[1-molecules/avatar/2-line]]
-		- [[1-molecules/avatar/chooser]]
-	- [[brain]]-map
-		- [[1-molecules/brain-map/default+stats]]
-		- [[1-molecules/brain-map/v2+stats]]
+		- 2-line
+		  collapsed:: true
+			- [[1-molecules/avatar/2-line/default]]
+		- chooser
+		  collapsed:: true
+			- [[1-molecules/avatar/chooser/default]]
+	- [[brain]]
+		- brain-widget
+		  collapsed:: true
+			- [[1-molecules/brain/brain-widget/+memory]]
 	- [[button]]
-		- [[1-molecules/button/default]]
-		- [[1-molecules/button/double]]
-		- [[1-molecules/button/triple]]
-		- [[1-molecules/button/side]]
+		- default
+		  collapsed:: true
+			- [[1-molecules/button/default]]
+		- double
+		  collapsed:: true
+			- [[1-molecules/button/double]]
+		- triple
+		  collapsed:: true
+			- [[1-molecules/button/triple]]
+		- side
+		  collapsed:: true
+			- [[1-molecules/button/side]]
 	- [[content]]
 		- [[1-molecules/content/H3+icon]]
 		- [[1-molecules/content/text+icon-L]]
@@ -32,17 +56,27 @@
 		- [[1-molecules/display/empty-0.62%]]
 		- [[1-molecules/display/highlight]]
 		- [[1-molecules/display/highlight-2-lines]]
+		- text
+			- 1-molecules/display/text/default-x0.62x0.62
+			- 1-molecules/display/text/+header-x0.62x0.62
+			- 1-molecules/display/text/+header+img-x0.62x0.62
+			- 1-molecules/display/text/+header+img-x0.62x0.62
+			- 1-molecules/display/text/+header-x0.62
 	- [[filter]]
 		- [[1-molecules/filter/3-items]]
 		- [[1-molecules/filter/wide]]
 	- [[input]]
-		- default
-			- [[1-molecules/input/default/L]]
-			- [[1-molecules/input/default/R]]
-			- [[1-molecules/input/default/LR]]
-		- sort
-			- [[1-molecules/input/sort/default]]
-			- [[1-molecules/input/sort/dropdown]]
+		- text
+			- [[1-molecules/input/text/L]]
+			- [[1-molecules/input/text/R]]
+			- [[1-molecules/input/text/LR]]
+		- neuron
+		- token
+		- select
+	- sort
+		- [[1-molecules/sort/default]]
+		- [[1-molecules/sort/dropdown]]
+		-
 	- [[neuron]]
 		- big
 			- [[1-molecules/neuron/big/default]]
@@ -97,5 +131,43 @@
 		- [[1-molecules/widgets/m.sigma]]
 		- [[1-molecules/widgets/m.time]]
 - [[cells]]
-	-
+	- [[cyb]]
+		- hud
+			- mind
+			- time
+			- brain
+			- aip
+			- advicer
+			- avatar
+			- menu
+	- [[portal]]
+		- citizenship
+		- gift
+		- hud
+		  collapsed:: true
+			- aip
+		- cyb-map
+	- [[cyberver]]
+		- hud
+			- aip
+		- mentors
+		  collapsed:: true
+			- header
+		- learner
+		- stats
+		- faculties
+		  collapsed:: true
+			- board
+			- faculty
+	- [[oracle]]
+		- aip
+		- mind
+		- particle
+		- content
 - [[aips]]
+	- teleport
+	- sphere
+	- warp
+	- hfr
+	- sense
+	-
