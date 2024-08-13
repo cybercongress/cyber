@@ -27,6 +27,6 @@ alias:: cyberlinks weight, cyberlinks weights, cip
 	- TODO [[oracle/ask]]
 -
 - continue to
-	- [[relevance machine]]
+	- [[truth machine]]
 	- [[soft3]]
 	- [[elon launch rocket]]

@@ -41,4 +41,4 @@ alias:: negentropy
 	- which is the source of [[intelligence]] counterbalancing the [[chaos]]
 - continue to
 	- [[black magic]] or
-	- [[relevance machine]]
+	- [[truth machine]]

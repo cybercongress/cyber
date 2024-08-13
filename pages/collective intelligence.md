@@ -6,6 +6,7 @@ alias:: collective intelligence theory, collective artificial intelligence
 	- to [[solve problems]], [[make decisions]], and generate [[knowledge]]
 - foundations are built on principles from: biology, sociology, psychology, computer science, and economics
 - [[cyber]] built collective artificial intelligence system
+- this short list of articles explain how [[cyber]] apply the most fundamental concepts observed in nature
 - ## key concepts
 	- [[consensus]]
 	- [[collective memory]]

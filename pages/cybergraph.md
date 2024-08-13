@@ -16,7 +16,7 @@ alias:: content oracle
 	- enable social information for p2p propagation and retrieval
 	- fine tune [[llms]] for uncensorable completely private [[offline inference]]
 	- and so much more ...
-- together with [[relevance machine]] and [[neural language]] become foundation for [[soft3]]
+- together with [[truth machine]] and [[neural language]] become foundation for [[soft3]]
 - teach & learn
 	- [[cyberlink]] and [[particle]]
 	- learn about [[neural language]]

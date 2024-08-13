@@ -21,6 +21,6 @@
 	- must interact in any [[intelligent]] system
 	- key to [[superintelligence]]
 - go on to dive into
-	- [[cybergraph]] and [[relevance machine]]
+	- [[cybergraph]] and [[truth machine]]
 	- as beautiful counterpart [[probabilistic model]] for [[llm]]
 	- in a modern [[soft3 stack]]

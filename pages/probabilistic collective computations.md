@@ -63,7 +63,7 @@
 	- interpretability: results from probabilistic models can be difficult to interpret
 	- computational complexity coupled with enormous data requirements
 - solution
-	- [[relevance machine]] removes complexity of design and implementation
+	- [[truth machine]] removes complexity of design and implementation
 	- [[cyb]] soft offer vast ecosystem with universal access
 	- [[bostrom]] blockchain ever grows to support needs of [[civilization]]
 - conclusion

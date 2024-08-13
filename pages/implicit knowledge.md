@@ -7,8 +7,8 @@ alias:: implicit
 	- if  `apple` is linked with `fruit`
 	- and `fruit` is linked with `food`
 	- then we can implicitly infer that `apple` somehow linked to `food`
-- processed by [[relevance machine]]
-- [[relevance machine]] compute fundamental parameters of [[cybergraph]] model in [[consensus]]
+- processed by [[truth machine]]
+- [[truth machine]] compute fundamental parameters of [[cybergraph]] model in [[consensus]]
 	- [[cyberank]] as weight of [[particles]]
 	- [[karma]] as weight of [[neurons]]
 	- [[syntropy]] as integral measure of [[superintelligence]]

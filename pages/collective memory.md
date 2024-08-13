@@ -12,7 +12,7 @@
   |--------------------------------------------|------------------------------------------|
   | [[cyberlink]]               | comprehensive [[learning]] based on fundamental [[unit of knowledge]] |
   | [[neural language]] | structured, interconnected collective memory with deep contextual understanding |
-  | [[relevance machine]] | sophisticated [[social cognitive process]] for computing complex [[knowledge]] |
+  | [[truth machine]] | sophisticated [[social cognitive process]] for computing complex [[knowledge]] |
   | [[standard inference]] | preserved historical narratives with capacity for contextual evolution |
   | [[soft3]]        | cognitive computing integration for collective memory |
 - processes and mechanisms

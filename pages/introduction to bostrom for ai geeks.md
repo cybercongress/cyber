@@ -240,7 +240,7 @@
 	- now that we understand how the cybergraph works
 		- we can dive into the novel concept
 		- in [[probabilistic collective computations]]
-		- the [[relevance machine]]
+		- the [[truth machine]]
 	- the idea behind the relevance machine is crazy simple
 	- use random [[surfer model]] directed by [[attention]] as foundational probability of inferring [[particles]]
 	- but in order to
@@ -264,7 +264,7 @@
 		- be a factor for derived and very diverse [[implicit knowledge]] factors
 	- relevance machine itself cant compute truth in the context
 		- for this you need account for [[attention]] in [[standard inference]] algorithm
-	- follow complete design of [[relevance machine]]
+	- follow complete design of [[truth machine]]
 - ## standard inference
 	- obviously in our setting the simplest possible way
 	- to infer particles in the context of any particles

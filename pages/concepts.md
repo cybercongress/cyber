@@ -6,7 +6,7 @@ tags:: cyber
 - [[cyberlink]]: fundamental unit of [[knowledge]] and [[learning]]
 - [[neural]]: language for semantic freedom for [[neurons]]
 - [[cybergraph]]: essential data structure for [[collective memory]]
-- [[relevance machine]]: virtual machine for [[collective intelligence]]
+- [[truth machine]]: virtual machine for [[collective intelligence]]
 - [[superintelligence]]: key challenge of humanity
 - [[soft3]]: stack for building your [[distributed neural network]]
 - [[cyber/energy]]: [[soft3]] usage package in [[bootloader]]

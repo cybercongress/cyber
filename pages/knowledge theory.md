@@ -9,6 +9,6 @@ tags:: model
 - [[intelligence]] as product of [[implicit knowledge]]
 - how [[knowledge graph]] become [[cybergraph]]?
 - [[knowledge mining]] is awesome!
-- understanding of [[knowledge energy]]
 - [[knowledge completeness]]
 - [[knowledge graphs and llms]]
+- [[knowledge energy]] as [[collective intelligence]] essense

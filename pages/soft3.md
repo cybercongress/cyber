@@ -5,7 +5,7 @@ alias:: soft3 stack
 - [video translation](https://www.youtube.com/watch?v=bd_PziPbl74&t=29810s)
 - components
 	- [[cybergraph]]
-	- [[relevance machine]]
+	- [[truth machine]]
 	- [[neural language]]
 	- [[bootloader]]
 	- [[learning incentives]] based on [[yuma]]
