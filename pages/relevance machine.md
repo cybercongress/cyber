@@ -26,7 +26,7 @@ alias:: rm
 	- with [[strong predictive power]]
 - related articles
 	- [[reality of foundation models]]
-	- [[cybergraph, rm and llm]]
+	- [[knowledge graphs and llms]]
 	- [[soft3 and machine learning]]
 - [[supported gpu]]
 - discover all [[concepts]]

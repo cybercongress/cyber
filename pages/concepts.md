@@ -12,7 +12,7 @@ tags:: cyber
 - [[avatar]] with [[features]]
 - [[learning incentives]] based on [[yuma]]
 - [[bootloader]] as research and development ground
-- [[cybergraph, rm and llm]]
+- [[knowledge graphs and llms]]
 - [[cyb]] robot for interactions
 -
 - [[distributed neural network]] as foundation for [[superintelligence]]
