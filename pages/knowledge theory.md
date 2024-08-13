@@ -1,6 +1,7 @@
 icon:: ⛑
 tags:: model
 
+- simplistic way to understand nature of [[information]] and [[intelligence]]
 - objects:: [[neuron]] [[link]] [[particle]] in [[time]] is the [[knowledge]]
 - [[observation]] connection to [[knowledge unit]]
 - [[three basic arguments]] of [[knowledge]]

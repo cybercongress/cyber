@@ -1,6 +1,6 @@
 icon:: 🔗
 tags:: cyber
-alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, essential learning ability, cyberlinking, primitive learning acts, creating link
+alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, essential learning ability, cyberlinking, primitive learning acts, creating link, knowledge unit, knowledge units
 
 - directed link between two [[particles]] of [[information]] signed by [[neuron]] and recorded into [[cyber]] [[vimputer]]
 - primitive [[learning]] act
