@@ -1,38 +1,39 @@
 - [[space]]
 - [[atoms]]
 - [molecules](cyb/xp/molecules)
-	- [[adviser]]
-		- closed
+	- hud
+		- [[brain]]
 		  collapsed:: true
-			- [[1-molecules/adviser/closed]]
-		- opened
-		  collapsed:: true
-			- [[1-molecules/adviser/opened/positive]]
-			- [[1-molecules/adviser/opened/negative]]
-			- [[1-molecules/adviser/opened/neutral]]
-		- particle
-		  collapsed:: true
-			- [[1-molecules/adviser/particle]]
-	- [[aip]]
-		- 2-lines
-		  collapsed:: true
-			- [[1-molecules/aip/2-lines/default]]
-			- [[1-molecules/aip/2-lines/+menu]]
-		- 3-lines
-		  collapsed:: true
-			- [[1-molecules/aip/3-lines/default]]
-			- [[1-molecules/aip/3-lines/+menu]]
-	- [[avatar]]
-		- 2-line
-		  collapsed:: true
-			- [[1-molecules/avatar/2-line/default]]
-		- chooser
-		  collapsed:: true
-			- [[1-molecules/avatar/chooser/default]]
-	- [[brain]]
-		- brain-widget
-		  collapsed:: true
+			- 1-molecules/brain/brain-widget/default
 			- [[1-molecules/brain/brain-widget/+memory]]
+		- [[adviser]]
+			- closed
+			  collapsed:: true
+				- [[1-molecules/adviser/closed]]
+			- opened
+			  collapsed:: true
+				- [[1-molecules/adviser/opened/positive]]
+				- [[1-molecules/adviser/opened/negative]]
+				- [[1-molecules/adviser/opened/neutral]]
+			- particle
+			  collapsed:: true
+				- [[1-molecules/adviser/particle]]
+		- [[aip]]
+			- 2-lines
+			  collapsed:: true
+				- [[1-molecules/aip/2-lines/default]]
+				- [[1-molecules/aip/2-lines/+menu]]
+			- 3-lines
+			  collapsed:: true
+				- [[1-molecules/aip/3-lines/default]]
+				- [[1-molecules/aip/3-lines/+menu]]
+		- [[avatar]]
+			- 2-line
+			  collapsed:: true
+				- [[1-molecules/hud/avatar/2-line/default]]
+			- chooser
+			  collapsed:: true
+				- [[1-molecules/avatar/hud/chooser/default]]
 	- [[button]]
 		- default
 		  collapsed:: true
@@ -46,27 +47,52 @@
 		- side
 		  collapsed:: true
 			- [[1-molecules/button/side]]
-	- [[content]]
-		- [[1-molecules/content/H3+icon]]
-		- [[1-molecules/content/text+icon-L]]
-		- [[1-molecules/content/text+icon-LR]]
-		- [[1-molecules/content/text+icon-R]]
-		- [[1-molecules/content/number+indicator]]
-	- [[display]]
-		- [[1-molecules/display/empty-0.62%]]
-		- [[1-molecules/display/highlight]]
-		- [[1-molecules/display/highlight-2-lines]]
+	- [[particle]]
+		- h3
+		  collapsed:: true
+			- [[1-molecules/content/H3/+icon]]
 		- text
-			- 1-molecules/display/text/default-x0.62x0.62
-			- 1-molecules/display/text/+header-x0.62x0.62
-			- 1-molecules/display/text/+header+img-x0.62x0.62
-			- 1-molecules/display/text/+header+img-x0.62x0.62
-			- 1-molecules/display/text/+header-x0.62
+		  collapsed:: true
+			- [[1-molecules/content/text/+icon-L]]
+			- [[1-molecules/content/text/+icon-LR]]
+			- [[1-molecules/content/text/+icon-R]]
+		- number
+		  collapsed:: true
+			- [[1-molecules/content/number/+indicator]]
+		- link
+		- picture
+		- video
+		- pdf
+		- audio
+	- [[display]]
+		- empty
+		  collapsed:: true
+			- [[1-molecules/display/empty/0.62%]]
+		- highlight
+		  collapsed:: true
+			- [[1-molecules/display/highlight/default]]
+			- [[1-molecules/display/highlight/2-lines]]
+		- text
+			- x0.62x0.62
+			  collapsed:: true
+				- 1-molecules/display/text/x0.62x0.62/default
+				- 1-molecules/display/text/x0.62x0.62/+header
+				- 1-molecules/display/text/x0.62x0.62/+header+img
+			- x0.62
+			  collapsed:: true
+				- 1-molecules/display/text/x0.62/default
+				- 1-molecules/display/text/x0.62/+header+img
+				- 1-molecules/display/text/x0.62/+header
 	- [[filter]]
-		- [[1-molecules/filter/3-items]]
-		- [[1-molecules/filter/wide]]
+		- 3-items
+		  collapsed:: true
+			- [[1-molecules/filter/3-items/default]]
+		- wide
+		  collapsed:: true
+			- [[1-molecules/filter/wide/default]]
 	- [[input]]
 		- text
+		  collapsed:: true
 			- [[1-molecules/input/text/L]]
 			- [[1-molecules/input/text/R]]
 			- [[1-molecules/input/text/LR]]
@@ -74,50 +100,21 @@
 		- token
 		- select
 	- sort
+	  collapsed:: true
 		- [[1-molecules/sort/default]]
 		- [[1-molecules/sort/dropdown]]
 		-
 	- [[neuron]]
 		- big
+		  collapsed:: true
 			- [[1-molecules/neuron/big/default]]
 			- [[1-molecules/neuron/big/hover]]
 			- [[1-molecules/neuron/big/clicked]]
 		- small
+		  collapsed:: true
 			- [[1-molecules/neuron/small/default]]
 			- [[1-molecules/neuron/small/hover]]
 			- [[1-molecules/neuron/small/clicked]]
-	- [[avatar]]
-		- [[1-molecules/avatar/2-line]]
-		- [[1-molecules/avatar/chooser]]
-	- [[aip]]
-		- [[1-molecules/aip/2-lines]]
-		- [[1-molecules/aip/3-lines]]
-		- [[1-molecules/aip/3-lines+menu]]
-	- [[adviser]]
-		- [[1-molecules/adviser/closed]]
-		- [[1-molecules/adviser/opened-positive]]
-		- [[1-molecules/adviser/opened-negative]]
-		- [[1-molecules/adviser/opened-neutral]]
-		- [[1-molecules/adviser/particle]]
-	- [[brain]]-map
-		- [[1-molecules/brain-map/default+stats]]
-		- [[1-molecules/brain-map/v2+stats]]
-	- [[button]]
-		- [[1-molecules/button/default]]
-		- [[1-molecules/button/double]]
-		- [[1-molecules/button/triple]]
-		- [[1-molecules/button/side]]
-	- [[display]]
-		- [[1-molecules/display/empty-0.62%]]
-		- [[1-molecules/display/highlight]]
-		- [[1-molecules/display/highlight-2-lines]]
-	- [[filter]]
-		- [[1-molecules/filter/3-items]]
-		- [[1-molecules/filter/wide]]
-	- [[input]]
-		- [[1-molecules/input/default/L]]
-		- [[1-molecules/input/default/R]]
-		- [[1-molecules/input/default/LR]]
 	- [[pill]]
 		- [[1-molecules/pill/green]]
 		- [[1-molecules/pill/white]]

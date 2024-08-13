@@ -1,5 +1,7 @@
+tags:: decision
+
 - [[cyber/energy]] pack for sale
-- TODO design and implement [[cyb/portal/buy]]
+- TODO design and implement [[portal/buy]]
 - [[anatomy of decision]]
 	- input
 		- [[amount]] of paying [[tokens]]
