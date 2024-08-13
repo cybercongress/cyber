@@ -34,7 +34,7 @@
 		- for the next generation of architectures and
 		- by this article we propose example of such architecture
 - ## cryptographic proofs and llms
-	- be believe that authenticity of models is a serious bottleneck for ai alignment and more
+	- we believe that authenticity of models is a serious bottleneck for ai alignment and more
 	- its a shame that so technologically advanced industry in a broad sense
 	- still does not give a shit about possibilities of [[hashing]], [[pubkey cryptography]] and [[logical clocks]]
 	- its kinda impossible to build multiparty protocols without these primitives
@@ -47,10 +47,11 @@
 - ## token engineering and llms
 	- [[rewarding]] is essential for [[machine learning]]
 	- we have ton shit of [[tokens]] with dogs, monkeys
-	- boost the power of your models using real cryptographic [[tokens]]
+	- you can boost the power of your models using real cryptographic [[tokens]]
 	- not tokens you use
 	- ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmQTvZLqTxJNK7K7cFJTeBbKDDWTecXXeExHz4otJkjjfe)
-	- in [[cyberverse]] they are [[particles]]
+	- tokens you use in [[cyberverse]] are [[particles]]
+	- and [[tokens]] are units of [[value]]
 - ## cybergraph
 	- the core of the idea is [[cybergraph]]
 		- merkelized timestamped data structure
@@ -97,7 +98,9 @@
 	- > as the most fundamental such an atomic unit of [[knowledge]] and [[learning]]
 	- the key to quantum jump of civilization
 	-
-	- we append [[cyberlinks]] to the state of collective thought evolution
+	- you append [[cyberlinks]] to the state of collective thought evolution
+	- introducing delete of [[cyberlink]] make indexing a complex task
+	- also its obviously not how nature works: you just cant forget by wish, they forgotten itself
 	- although looks primitive, [[cybergraph]] is so much needed formal definition of [[explicit knowledge]]
 	- lets analize a statment that cybergraph is complete form [[explicit knowledge]]
 	- temporal dimension: [[when]]
@@ -121,15 +124,16 @@
 	- [[semantic conventions]] add additional layer of flexibility
 	- hence, we can refer to [[cybergraph]] as objective knowledge of everyone
 - ## cybergraph vs knowledge graph
-	- cyberlinks are fully authenticated qaquadruples
+	- cyberlinks are fully authenticated quadruples
 	- [[when]], [[who]] and [[what]] are based on cryptographic technics
-	- so unlike conventional knowledge graphs the information is crystal and true by design
+	- so unlike conventional [[knowledge graphs]] the information is crystal and true by design
 	- basic idea is that if i want say in [[triple]] world i would just say
 	- [[elon launch roocket]]
 		- head: elon
 		- relation: launch
 		- tail: rocket
 	- in contrary you cant say [[elon launch rocket]] in the world of [[cybergraph]]
+	- because you are not elon, you must speak only for youself
 	- you must say:
 		- [[now]] [[i]]
 			- [[elon]] [[launch]]
@@ -168,7 +172,7 @@
 		- but why does classical ai needs it?
 		- well, the truth is that its likely don't
 		- but if you design a multiparty computation system you must have ability to prove pieces of data you have
-		- in case of cybergraph, existence of any given link (and more) can be proved by alice to bob by giving
+		- in case of cybergraph, existence of any given [[link]] (and more) can be proved by alice to bob by giving
 			- link
 			- root hash of cybergraph
 			- path in cybergraph
@@ -196,7 +200,7 @@
 	- and that makes it so powerful
 	- but applications of [[cybergraph]] are limited within existing blockchain environments
 		- expensive, fee based usage
-		- no means of computing cool stuff as cool stuff is [[inherently parallel]]
+		- no means of computing [[cool stuff]] in [[consensus]] as cool stuff is [[inherently parallel]]
 	- [[bostrom]] solves both of these problems, but more on that later
 	- also [[bostrom]] organically formed [[cybergraph]] of several million [[cyberlinks]] and [[particles]]
 	- that is on par with capability of tech giants for manual labeling during finetuning
@@ -236,34 +240,34 @@
 		- spam protection
 		- partial sybil protection
 		- and as inference factor (read further)
-- ## relevance machine
+- ## truth machine
 	- now that we understand how the cybergraph works
 		- we can dive into the novel concept
 		- in [[probabilistic collective computations]]
 		- the [[truth machine]]
-	- the idea behind the relevance machine is crazy simple
+	- the idea behind the [[truth machine]] is crazy simple
 	- use random [[surfer model]] directed by [[attention]] as foundational probability of inferring [[particles]]
 	- but in order to
 		- protect it from sybil behavior
 		- and to add [[context]]
 	- weight this basic [[implicit knowledge]] on the [[will]] of [[neurons]]
 	- result is a stored probability estimations of random surfing across all existing [[particles]] in [[cybergraph]]
-	- in order to compute described [[cyberank]] algorithm you need gpu computation in consensus
-	- relevance machine is cybergraph with weights
+	- in order to compute described [[cyberank]] algorithm you need [[gpu computation]] in [[consensus]]
+	- [[truth machine]] is [[cybergraph]] with weights
 	- is [[extremely dynamic]] data structure that must be updated even if only 1 [[cyberlink]] is created
-	- [[bostrom]] recompute all weights in relevance machine every 5 blocks, or roughly every 25 seconds
+	- [[bostrom]] recompute all weights in truth machine every 5 blocks, or roughly every 25 seconds
 	- so [[bostrom]] is extremely hard to reproduce using any existing L1 or L2 sdks
 		- zk things will make the stuff
 			- 5 order of magnitude more expensive and
 			- 3 order of magnitude more complicated
 		- architecture requires in-gpu extremely dynamic state with fast onchain matrix multiplication
-	- in essence the utility of relevance machine is
-		- to compute truth
-		- to sort all [[particles]] from more important to less important
-		- be a first foundational factor to computing the truth
-		- be a factor for derived and very diverse [[implicit knowledge]] factors
-	- relevance machine itself cant compute truth in the context
-		- for this you need account for [[attention]] in [[standard inference]] algorithm
+	- in essence the utility of truth machine is
+		- compute [[truth]]: simplistic [[two factor]] model of universe
+		- sort all [[particles]] from more probable to less probable
+		- [[standard inference]] for consensus on relevance in context
+		- input for derived and very diverse [[implicit knowledge]] factors
+			- [[knowledge graphs and llms]]
+	- [[neurons]] need  [[attention]] in [[standard inference]] algorithm to compute [[truth]]
 	- follow complete design of [[truth machine]]
 - ## standard inference
 	- obviously in our setting the simplest possible way

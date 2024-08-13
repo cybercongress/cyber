@@ -1,6 +1,6 @@
 - process by which [[avatars]] or [[neurons]] within a [[collective intelligence]]
-- align their actions, decisions, and behaviors
-- to achieve a common goal or objective
+- align their [[actions]], [[decisions]], and [[behaviors]]
+- to achieve a [[common goal]] with a help of [[game theory]]
 -
 - this involves
 	- organizing and synchronizing efforts
@@ -16,12 +16,15 @@
 	- efficiently and effectively
 	- minimizing conflicts and redundancies
 -
-- key algorithms
+- key algorithms used in [[cyberverse]]
 	- [[consensus]]
-	- [[game theory]]
 	- [[market makers]]
+-
+- TODO algorithms to research for coordination breakthroughs
 	- [[coordination graphs]]
 	- [[swarm intelligence algorithms]]
 	- [[reinforcement learning]]
 	- [[consensus clustering]]
 	- [[distributed constraint optimization]]
+-
+- dive into [[collective intelligence]]

@@ -44,3 +44,4 @@
 	- offering a new paradigm for how societies remember and interpret their past
 -
 - learn more [[concepts]]
+- or dive into [[collective intelligence]]

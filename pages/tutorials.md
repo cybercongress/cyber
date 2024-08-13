@@ -3,6 +3,7 @@ tags:: bostrom
 - concepts
 	- [[introduction to bostrom for ai geeks]]
 	- [[knowledge graphs and llms]]
+	- [[soft3 and machine learning]]
 - [[go-cyber]]
 	- TODO install cyber cli
 	- TODO sync node

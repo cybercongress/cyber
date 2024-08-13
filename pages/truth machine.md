@@ -1,5 +1,5 @@
+alias:: relevance machine, truth medium, rm, tm
 icon:: 🖖🏽
-alias:: rm
 
 - unique [[vm]] for [[soft3]] computations
 - offers [[probabilistic collective computations]]

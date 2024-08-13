@@ -19,6 +19,7 @@ alias:: collective intelligence theory, collective artificial intelligence
 	- [[emergence]]
 - ## key algorithms
 	- [[delphi method]]
+	- [[random walk]]
 	- [[trust systems]]
 	- [[cooperative games]]
 	- [[prediction markets]]
@@ -31,7 +32,7 @@ alias:: collective intelligence theory, collective artificial intelligence
 		- ensemble learning
 		- network analysis
 - basic evidence which is interesting proof of [[diversity]]
-  collapsed:: true
+  id:: 66bae09d-886c-418a-aac3-ddaf68864fd9
 	- `c` as measure of collective intelligence
 	- according to woolley is not correlated with `c`
 		- team cohesion
