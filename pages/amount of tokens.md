@@ -1,4 +1,4 @@
-tags:: prysm
+tags:: prism
 
 - [[tokens]] with [[amount]]
 	- [[chooser]]

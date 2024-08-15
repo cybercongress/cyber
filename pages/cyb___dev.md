@@ -12,7 +12,7 @@
 	- 35 [[pages]]
 	- TODO 23 [[features]]
 	- 100 [[actions]]
-	- [[prysm]] with [[atoms]], [[molecules]] and [[cells]]
+	- [[prism]] with [[atoms]], [[molecules]] and [[cells]]
 	- [[offline mode]] and [[online mode]]
 	- 10 [[sparks]]
 	- 3 types of [[robot]]: [[neuron]], [[avatar]] and [[prog]]

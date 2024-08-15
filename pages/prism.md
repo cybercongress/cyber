@@ -3,7 +3,55 @@
 	- [[glass]]
 		- [[0-atoms/glass/plane]]
 		- [[0-atoms/glass/side-button]]
+	- address
+		- 0-atoms/address/big
+		- 0-atoms/address/small
+	- indicator
+		- 0-atoms/indicator/50%
+		- 0-atoms/indicator/full
+	- ion
+		- 0-atoms/ion/centric
+		- 0-atoms/ion/horizontal
+		- 0-atoms/ion/input
+		- 0-atoms/ion/ion
+		- 0-atoms/ion/ion-star
+		- 0-atoms/ion/trapezoid
+	- saber
+		- 0-atoms/saber/1px
+		- 0-atoms/saber/2px
+		- 0-atoms/saber/horizontal
+		- 0-atoms/saber/horizontal-2px
+	- slider
+		- 0-atoms/slider/20%
+		- 0-atoms/slider/50%
+		- 0-atoms/slider/80%
+	- text
+		- 0-atoms/text/center
+		- 0-atoms/text/image
+		- 0-atoms/text/left
+		- 0-atoms/text/paragraph
+		- 0-atoms/text/right
+	- [[button]]
+		- default
+		  collapsed:: true
+			- [[1-molecules/button/default]]
+		- double
+		  collapsed:: true
+			- [[1-molecules/button/double]]
+		- triple
+		  collapsed:: true
+			- [[1-molecules/button/triple]]
+		- side
+		  collapsed:: true
+			- [[1-molecules/button/side]]
+	- [[counter]]
+	- [[toggle]]
+	  collapsed:: true
+		- [[1-molecules/toggle/on]]
+		- [[1-molecules/toggle/off]]
+		- [[1-molecules/toggle/star]]
 	- [[images]]
+	  collapsed:: true
 		- [[0-atoms/images/16x16/accept]]
 		- [[0-atoms/images/32x32/AKASH]]
 		- [[0-atoms/images/32x32/ALGORIC]]
@@ -175,46 +223,14 @@
 		- 0-atoms/images/20x20/wallet
 		- 0-atoms/images/96x96/warp
 		- 0-atoms/images/32x32/WETH
-	- address
-	  collapsed:: true
-		- 0-atoms/address/big
-		- 0-atoms/address/small
-	- indicator
-	  collapsed:: true
-		- 0-atoms/indicator/50%
-		- 0-atoms/indicator/full
-	- ion
-	  collapsed:: true
-		- 0-atoms/ion/centric
-		- 0-atoms/ion/horizontal
-		- 0-atoms/ion/input
-		- 0-atoms/ion/ion
-		- 0-atoms/ion/ion-star
-		- 0-atoms/ion/trapezoid
-	- saber
-	  collapsed:: true
-		- 0-atoms/saber/1px
-		- 0-atoms/saber/2px
-		- 0-atoms/saber/horizontal
-		- 0-atoms/saber/horizontal-2px
-	- slider
-	  collapsed:: true
-		- 0-atoms/slider/20%
-		- 0-atoms/slider/50%
-		- 0-atoms/slider/80%
-	- text
-	  collapsed:: true
-		- 0-atoms/text/center
-		- 0-atoms/text/image
-		- 0-atoms/text/left
-		- 0-atoms/text/paragraph
-		- 0-atoms/text/right
 - [molecules](cyb/xp/molecules)
 	- hud
 		- [[brain]]
 		  collapsed:: true
+			- [[menu]]
 			- 1-molecules/brain/brain-widget/default
 			- [[1-molecules/brain/brain-widget/+memory]]
+		- [[mind]]
 		- [[adviser]]
 		  collapsed:: true
 			- closed
@@ -228,7 +244,7 @@
 			- particle
 			  collapsed:: true
 				- [[1-molecules/adviser/particle]]
-		- [[aip]]
+		- [[object]]: [[particle]], [[neuron]], [[avatar]], [[aip]]
 		  collapsed:: true
 			- 2-lines
 			  collapsed:: true
@@ -238,7 +254,7 @@
 			  collapsed:: true
 				- [[1-molecules/aip/3-lines/default]]
 				- [[1-molecules/aip/3-lines/+menu]]
-		- [[avatar]]
+		- [[subject]]: [[neuron]], [[avatar]]
 		  collapsed:: true
 			- 2-line
 			  collapsed:: true
@@ -259,24 +275,25 @@
 		  collapsed:: true
 			- [[1-molecules/widgets/time]]
 			- [[1-molecules/widgets/m.time]]
-		- menu
-	- [[button]]
-		- default
+	- [[neuron]]
+		- big
 		  collapsed:: true
-			- [[1-molecules/button/default]]
-		- double
+			- [[1-molecules/neuron/big/default]]
+			- [[1-molecules/neuron/big/hover]]
+			- [[1-molecules/neuron/big/clicked]]
+		- small
 		  collapsed:: true
-			- [[1-molecules/button/double]]
-		- triple
-		  collapsed:: true
-			- [[1-molecules/button/triple]]
-		- side
-		  collapsed:: true
-			- [[1-molecules/button/side]]
+			- [[1-molecules/neuron/small/default]]
+			- [[1-molecules/neuron/small/hover]]
+			- [[1-molecules/neuron/small/clicked]]
 	- [[particle]]
-		- h3
+		- h1: key information
+		- h2:
+		- h3:
 		  collapsed:: true
 			- [[1-molecules/content/H3/+icon]]
+		- h4:
+		- h5:
 		- text
 		  collapsed:: true
 			- [[1-molecules/content/text/+icon-L]]
@@ -293,20 +310,6 @@
 		- avatar
 		  collapsed:: true
 			- [[1-molecules/particle/avatar]]
-		- [[pill]]
-		  collapsed:: true
-			- [[1-molecules/pill/green]]
-			- [[1-molecules/pill/white]]
-			- [[1-molecules/pill/blue]]
-			- [[1-molecules/pill/gray]]
-			- [[1-molecules/pill/red]]
-			- [[1-molecules/pill/border]]
-			- [[1-molecules/pill/bulb]]
-		- [[toggle]]
-		  collapsed:: true
-			- [[1-molecules/toggle/on]]
-			- [[1-molecules/toggle/off]]
-			- [[1-molecules/toggle/star]]
 	- [[display]]
 		- empty
 		  collapsed:: true
@@ -343,17 +346,6 @@
 		- neuron
 		- token
 		- select
-	- [[neuron]]
-		- big
-		  collapsed:: true
-			- [[1-molecules/neuron/big/default]]
-			- [[1-molecules/neuron/big/hover]]
-			- [[1-molecules/neuron/big/clicked]]
-		- small
-		  collapsed:: true
-			- [[1-molecules/neuron/small/default]]
-			- [[1-molecules/neuron/small/hover]]
-			- [[1-molecules/neuron/small/clicked]]
 	- slider
 		- progress
 		  collapsed:: true
