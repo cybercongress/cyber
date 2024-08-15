@@ -1,4 +1,4 @@
-- soft3 can significantly enhance various machine learning tasks
+- [[soft3]] can significantly enhance various machine learning tasks
 - classification
 	- ensemble methods
 		- probabilistic ensemble
@@ -7,7 +7,7 @@
 			- using collective probabilities to weigh the votes of different classifiers
 			- making the final decision based on the highest aggregate probability
 	- bayesian classifiers
-		- bayesian networks
+		- [[bayesian networks]]
 			- constructing a bayesian network to model the relationships between features and classes, allowing for probabilistic inference and classification.
 		- posterior probabilities
 			- using the posterior probabilities of classes given the input features to make classification decisions
@@ -24,7 +24,7 @@
 		- posterior distribution
 			- estimating the posterior distribution of the regression coefficients, allowing for probabilistic predictions
 	- gaussian processes
-		- gaussian process regression (gpr)
+		- gaussian process regression
 			- using a gaussian process to model the distribution over functions
 			- providing a flexible, probabilistic approach to regression
 		- uncertainty estimates
@@ -55,7 +55,7 @@
 			- can adapt to the data, determining the appropriate number of clusters
 - anomaly detection
 	- probabilistic anomaly detection
-		- **bayesian networks**: using bayesian networks to model normal behavior and detect deviations as anomalies.
+		- [[bayesian networks]]: using bayesian networks to model normal behavior and detect deviations as anomalies.
 		- posterior probability
 			- computing the posterior probability of an observation given the model, with low probabilities indicating anomalies.
 	- gaussian processes

@@ -7,5 +7,3 @@ alias:: liquid energy, liquid fuel
 	- [[$H]] in [[bostrom]]
 	- [[$CUM]] in [[spacepussy]]
 	- [[$ETH]] in [[ethereum]]
--
--

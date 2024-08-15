@@ -6,7 +6,7 @@ alias:: volt, millivolt, volts, millivolts
 - TODO [[plumb]]
 	- [[pay]]: cut 1% on every transfer to [[staking on cyberlinks]] pool
 	- [[lock]]: [[staking on cyberlinks]]
-	- [[mint]]: [[hourly english auction for A and V]]
+	- [[mint]]: [[daily english auction for A and V]]
 	- [[burn]]: [[eternal cyberlinks]]
 -
 - TODO redesig during [[energy reform]]

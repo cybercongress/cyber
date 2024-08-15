@@ -1,2 +1,4 @@
 - emphasizes that cognitive processes can be distributed across members of a group and mediated by tools and technologies
 - theory leverages distributed cognition to enhance problem-solving and decision-making
+-
+- or dive into [[collective intelligence]]

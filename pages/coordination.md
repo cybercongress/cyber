@@ -1,0 +1,30 @@
+- process by which [[avatars]] or [[neurons]] within a [[collective intelligence]]
+- align their [[actions]], [[decisions]], and [[behaviors]]
+- to achieve a [[common goal]] with a help of [[game theory]]
+-
+- this involves
+	- organizing and synchronizing efforts
+	- sharing information
+	- making decisions
+- leverages the collective knowledge, skills, and resources of the group
+- effective coordination enhances the groups ability to
+	- solve complex problems
+	- innovate, and
+	- adapt to changing circumstances
+- ensure that
+	- members work together
+	- efficiently and effectively
+	- minimizing conflicts and redundancies
+-
+- key algorithms used in [[cyberverse]]
+	- [[consensus]]
+	- [[market makers]]
+-
+- TODO algorithms to research for coordination breakthroughs
+	- [[coordination graphs]]
+	- [[swarm intelligence algorithms]]
+	- [[reinforcement learning]]
+	- [[consensus clustering]]
+	- [[distributed constraint optimization]]
+-
+- dive into [[collective intelligence]]

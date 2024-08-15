@@ -27,4 +27,5 @@ tags:: cyber
 - protocol extension: subnetwork is about learning particle's subgraph
 - technical preview of webapp for exploring and setting weights: [spacepussy.ai/cybernet](https://spacepussy.ai/cybernet)
 - TODO [[daodao]] integration
-- TODO enrich original [docs](https://docs.spacepussy.ai/) of the project
+- TODO move docs from [docs.spacepussy.ai](https://docs.spacepussy.ai/) to [[cyber]]
+-

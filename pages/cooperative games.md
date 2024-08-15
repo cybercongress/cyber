@@ -11,5 +11,6 @@ alias:: feedback provided
 	- algorithms like the nash bargaining solution determine fair agreements in cooperative settings
 	- where parties negotiate to maximize their collective utility
 - cooperative games is basics for [[learning incentives]]
-	- experimentally deployed in [[space pussy]]
 	- [[cybernet]], [[cybertensor]] and [[cyberver]] [[products]]
+	- experimentally deployed in [[space pussy]]
+	- production grade in [[bittensor]] and its [[subnets]]

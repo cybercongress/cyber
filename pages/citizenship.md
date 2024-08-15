@@ -1,9 +1,27 @@
 tags:: page
 
 - translate idea of [[moon passport]]
-- [[flag]]
-- [[code]]
-- [[area]]
-- [[population]]
-- [[citizens]]
-- [[services]]
+	- [[moon/flag]]
+	- [[moon/code]]
+	- [[moon/area]]
+	- [[population]]: amount of [[avatars]]
+	- [[citizens]]: [[avatars]] of [[aos]]
+- if [[energetic]]
+	-
+- if [[alien]]
+	-
+- if [[neuron]] have [[avatars]]
+	- display [[my avatars]]
+	- display best [[services]] from [[map]]
+	- display best [[avatars]]
+	- display recent [[avatars]]
+	- display best [[particles]]
+- if [[neuron]] does not have [[avatars]]
+	- does not display [[my avatars]] from previous list
+- actions
+	- button:: [[check name]]
+		- text input
+			-
+		- button:: [[create avatar]]
+			-
+			-

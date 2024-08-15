@@ -1,5 +1,5 @@
 tags:: cyberlink, cyber
-alias:: amper
+alias:: amper, milliamper, ampers, milliampers
 
 - [[token]] of [[attention]] in [[bostrom]]
 - part of [[cyber/energy]] pack
@@ -9,7 +9,7 @@ alias:: amper
 - TODO [[plumb]]
 	- [[pay]]: cut 1% on every transfer to [[staking on cyberlinks]] pool
 	- [[lock]]: [[staking on particles]]
-	- [[mint]]: [[hourly english auction for A and V]]
+	- [[mint]]: [[daily english auction for A and V]]
 	- [[burn]]: [[eternal particles]]
 -
 - TODO redesign during [[energy reform]]
