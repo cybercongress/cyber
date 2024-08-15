@@ -17,9 +17,9 @@
 	- now the good answers to ask: how does you model could define truth?
 	- and the short answer - it cant
 	- i will make a bold claim here that truth can not be defined without 3 ideas in foundation
-		- [[knowledge graphs]]
-		- [[cryptographic proofs]]
-		- [[token engineering]]
+		- knowledge graphs
+		- cryptographic proofs
+		- token engineering
 - ## knowledge graphs and llms
 	- jump for a second to this article: [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://cyb.ai/oracle/ask/QmdGEYVKo1sRURzbj83UMtr77EL6GHUB2taJbnpTynEQKT)
 	- ![image.png](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmPnEpPhd77ysSfaACJd5Kc6prrrsUfTCAmPo977n2tcih)
@@ -94,13 +94,14 @@
 		- so we must add one more argument: [[timestamp mechanism]]
 		- with answer to [[when]]
 	- from this we arrived to a [[quadruple]] which is [[fully authenticated]] [[knowledge]]
-	- we gave this a name [[cyberlink]]
+	- we gave this a name: [[cyberlink]]
 	- > as the most fundamental such an atomic unit of [[knowledge]] and [[learning]]
 	- the key to quantum jump of civilization
 	-
 	- you append [[cyberlinks]] to the state of collective thought evolution
-	- introducing delete of [[cyberlink]] make indexing a complex task
-	- also its obviously not how nature works: you just cant forget by wish, they forgotten itself
+	- introducing [[cyberlink/delete]] make indexing a complex task
+	- also its obviously not how nature works: you just cant forget in your head by wish, they forgotten by itself
+	-
 	- although looks primitive, [[cybergraph]] is so much needed formal definition of [[explicit knowledge]]
 	- lets analize a statment that cybergraph is complete form [[explicit knowledge]]
 	- temporal dimension: [[when]]
@@ -138,7 +139,9 @@
 		- [[now]] [[i]]
 			- [[elon]] [[launch]]
 			- [[launch]] [[rocket]]
-	- the good news is that you can pack several cyberlinks in one coherent [[signal]]
+	- these statement is example of complete [[explicit knowledge]]
+	- the good news is that if you are elon, you can just say [[NOW]] [[elon launch rocket]]
+	- you can pack several [[cyberlinks]] in one coherent [[signal]] so expressions are rich
 	- and use this construct to express anything using [[neural language]] we invented by the way
 - ## why hash everything?
 	- yep, we know - you used to tokenize your data and make it as dense as possible
@@ -160,8 +163,8 @@
 		- there was foundational decision to start from 256 bits architecture
 		- everyone around say we were crazy
 		- but looking back i do believe it is very powerful decision of founders
-		- they will say you never want change your aka tokens for hashes
-		- but once you got it, you have no way back
+		- > they will say: you never want exchange aka tokens for hashes
+		- > but once you got it, you have no way back
 - ## why [merkelize](https://brilliant.org/wiki/merkle-tree/#:~:text=A%20Merkle%20tree%20is%20a,a%20hash%20of%20its%20children.)?
 	- automatic deduplication
 		- while the means of deduplication is hashing what makes it practical is merklization
@@ -213,7 +216,7 @@
 	- the truth is that information emerge from communications and social interactions
 	-
 	- so if we will not provide a convenient way for that
-	- its likely we will not achieve practical results in collective learning
+	- its likely we will not achieve practical results in [[collective learning]]
 	-
 	- we believe that [[social layer]] over [[cybergraph]] is essential for the development of an idea
 	- that is why [[bostrom]] offer a model of usage based on [[bandwidth]]
@@ -229,7 +232,7 @@
 	- > currently 1 V allow to submit 4 cyberlinks per day depending on network load
 	- while you create cyberlinks your battery become less full
 	- your battery recover automatically if you are not creating links
-	- so effectively buying V you buy a package for lifetime usage
+	- so effectively buying [[$V]] you buy a package for lifetime usage
 	- > current price of V is something around $1
 	- > that means that for 1$ anyone can get around 4k interactions during 3 year of usage
 	- > for ~$10 you can have enough interactions comparable with your average twitter, github or chatgpt usage
@@ -241,17 +244,24 @@
 		- partial sybil protection
 		- and as inference factor (read further)
 - ## truth machine
-	- now that we understand how the cybergraph works
+	- now that we understand how the [[cybergraph]] works
 		- we can dive into the novel concept
 		- in [[probabilistic collective computations]]
 		- the [[truth machine]]
 	- the idea behind the [[truth machine]] is crazy simple
-	- use random [[surfer model]] directed by [[attention]] as foundational probability of inferring [[particles]]
+		- minimum input factors
+		- simple but powerful algorithms available for gpu consensus computations
+		- simple but powerful output as abstract, flexible model of the universe
+		- with potential [[strong predictive power]], especially after [[emergence]]
+	- use random [[surfer model]] directed by [[attention]]
+	- as foundational global probability of inferring [[particles]]
 	- but in order to
-		- protect it from sybil behavior
-		- and to add [[context]]
-	- weight this basic [[implicit knowledge]] on the [[will]] of [[neurons]]
-	- result is a stored probability estimations of random surfing across all existing [[particles]] in [[cybergraph]]
+		- protect it from [[sybil behavior]]
+		- and to add [[context]] factor
+	- use [[will]] of [[neurons]] as second factor for computing probability in [[context]]
+	- result is a
+		- stored [[observation probability]] of random surfer across all existing [[particles]] in [[cybergraph]]
+		- and context weight on edges which are inferred on request
 	- in order to compute described [[cyberank]] algorithm you need [[gpu computation]] in [[consensus]]
 	- [[truth machine]] is [[cybergraph]] with weights
 	- is [[extremely dynamic]] data structure that must be updated even if only 1 [[cyberlink]] is created
@@ -267,7 +277,7 @@
 		- [[standard inference]] for consensus on relevance in context
 		- input for derived and very diverse [[implicit knowledge]] factors
 			- [[knowledge graphs and llms]]
-	- [[neurons]] need  [[attention]] in [[standard inference]] algorithm to compute [[truth]]
+	- [[neurons]] need [[attention]] in [[standard inference]] algorithm to compute [[truth]]
 	- follow complete design of [[truth machine]]
 - ## standard inference
 	- obviously in our setting the simplest possible way
@@ -317,7 +327,7 @@
 	- all benefits of proposed system fades out under assumption that you have to spend resources on learning
 	- what is motivation to do it?
 	- the solution is to make a system which will rewards high quality learning based on subjective evaluation
-	- we reimplemented [[yuma]] algorithm and now testing it in [[spacepussy]]
+	- we reimplemented [[yuma]], a [[coordination consensus]] and now testing it in [[spacepussy]]
 	- in coming months we will deploy it to [[bostrom]]
 	- so players that make links above some quality threshold could have possibility of break even
 - ## conclusion

@@ -1,7 +1,7 @@
 alias:: relevance machine, truth medium, rm, tm
 icon:: 🖖🏽
 
-- unique [[vm]] for [[soft3]] computations
+- collective [[vm]] for [[soft3]] computations
 - offers [[probabilistic collective computations]]
 - arhitecture
 	- input

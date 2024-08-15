@@ -9,7 +9,7 @@ alias:: asi, singleton, collective ai
 	- genetic engineering
 	- [[whole brain emulation]]
 	- [[collective intelligence]]
-- [[cyber]] blend all paths in [[one simple protocol]] with strong focus on collaboration
+- [[cyber]] blend all paths in [[one simple protocol]] with strong focus on [[coordination]]
 - [[cyber]] is a protocol
 	- for [[collective learning]]
 	- of [[simulated brains]]
@@ -34,8 +34,8 @@ alias:: asi, singleton, collective ai
 	- we want to make it clear that [[cyber]] as protocol is by no means a superintelligence
 	- [[superintelligence]] requires [several dozen algorithms](techtree) blended wisely
 	- [[superintelligence]] need [[attention]] and [[will]] of millions of the smartest among us
-	- but [[cyber]] is the core fundamental mechanism for establishing [[truth]] consensus
-	- this type of consensus allows us to build the superintelligence on top
+	- but [[cyber]] is the core fundamental mechanism for establishing consensus on [[truth]]
+	- we believe this type of consensus allows us to build the superintelligence on top
 - [[situational awareness]]
 - discover all [[concepts]]
 - [[why we need bootloader]]

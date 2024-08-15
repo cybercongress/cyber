@@ -24,7 +24,7 @@ icon:: 🦄
 	- and [[much more]]
 -
 - we truly believe you [[will]] enjoy this body of [[knowledge]] foundations
-- living on intersection of [[cryptography]], [[computer science]], [[game theory]], [[cybernetics]] and [[much more]]
+- living on intersection of [[cryptography]], [[computer science]], [[game theory]], [[cybernetics]], [[nueroscience]] and [[much more]]
 -
 -
 - happy [[learning]]!
