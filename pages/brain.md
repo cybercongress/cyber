@@ -1,10 +1,49 @@
+icon:: 🧠
 tags:: page
 
 - graph file manager
+- addressed to close [[main loop]]
+- and to treat pain with all file managers
+- core [[aip]] of [[cyb]]
+- features::
+	- [[offline mode]] first
+	- localhost interface
+	- graph query language: datalog
+	- powerful scripting: rune
+	- static and dynamic linking
+	- private and public linking
+	- publishing to [[ipfs]] and [[cybergraph]]
+	- flexible viewer based on [[sparks]] extensions
+	- supported 7 [[particle]] formats
+	  collapsed:: true
+		- text::
+		- video::
+		- audio::
+		- image::
+		- pdf::
+		- epub::
+		- web2::
+		- TODO gltf::
+		- TODO aip::
+		- [[cyb/brain/sparks]]
+- tabs:: media formats for [[cybergraph]] discovery of [[page]] type
+	- graph:: 3d render with preview and discovery
+		- space::
+	- list:: classical table with powerful analytics
+	- heap:: 2d knowledge graph with preview and discovery
+	- stack:: vertical scrolling list
+	- hike:: current [[particle]] in the center
+- paths::
+	- `#` [[cyb/brain/particle]]
+	- `!` [[cyb/brain/neuron]]
+	- `@` [[cyb/brain/avatar]]
+	- `~` [[cyb/brain/learn]]
+	- `/` [[cyb/brain/root]]
+- actions::
+	- [[brain/ask]] or [[oracle/ask]]
+	- [[brain/learn]] or [[oracle/learn]]
+	- [[brain/search]] or [[oracle/search]]
 - TODO [[upload brain]]
 - state of [[cyb-ts]]: [[cyb/brain]]
-- pages
-	- [[graph]]
-	- [[heap]]
-	- [[list]]
-- ![](https://ipfs.io/ipfs/Qmc7ANo78MJ9yDXUxmErnWuPZPL5y2baYRZpN4CV9axeym)
+-
+- ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/Qmc7ANo78MJ9yDXUxmErnWuPZPL5y2baYRZpN4CV9axeym)

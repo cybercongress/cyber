@@ -5,6 +5,7 @@ tags:: page
 	- spark of particle
 	- creator
 	- time
+	- [[xp]]
 	- size
-	- rank
+	- [[cyberank]]
 - table must be sortable by any field

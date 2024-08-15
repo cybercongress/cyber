@@ -2,4 +2,4 @@
 - [[examples]]
 	- bayesian networks
 	- markov chains
-	- [[relevance machine]]
+	- [[truth machine]]

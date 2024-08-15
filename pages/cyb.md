@@ -2,11 +2,18 @@ icon:: 🤖
 tags:: cyb
 
 - use at [cyb.ai](https://cyb.ai)
+- TODO [[prism]] design system
+- personal [[robot]] with [[avatars]]
+	- new generation messaging [[sense]]
+	- crypto wallet [[sigma]]
+	- volumetric graph [[file]] manager [[brain]]
+	- personal history and new [[time]]
+- [[cyb/core]] [[aips]]
+- [[cyb/philosophy]]
 - immortal robot for the [[great web]]
-	- designed as [[protocol]]
+	- designed as protocol
 	- for reliable and fun
 	- access to everything
-- [[cyb/philosophy]]
 - [[cyb/dev]]
 	- [[cyb/current]]
 	- [[cyb/problems]]
@@ -14,7 +21,7 @@ tags:: cyb
 - what is cyb?
 	- just a piece of software - the interface
 	- but not usual
-	- someone can use cyb as a pure [[web3]] browser
+	- someone can use cyb as a pure [[web3]] browser with [[oracle]]
 	- someone can ride the [[age of superintelligence]] on cyb
 	- someone will reveal a [[portal]] to the world of [[blockchains]]
 	- someone will nourish her [[ai friend]]
@@ -22,18 +29,11 @@ tags:: cyb
 	- every cyb robot is unique like any [[human]]
 	- what we know for sure is that
 	- cyb is a new thing we love to use and build
-- personal [[robot]] with [[avatars]]
-	- new generation messaging [[sense]]
-	- crypto wallet [[sigma]]
-	- volumetric [[file]] manager [[brain]]
-	- personal history and new [[time]]
-- [[features]] for [[mind]] extension of [[robot]]
 - [[cyb/architecture]]
-- [[aip]]: powerful tool for [[autonomous agents]]
-- [[cyb/core]] [[aips]]
-- [[offline mode]]
-- [[portability]]
-- [[prism]] design system
+- TODO [[features]]: [[mind]] extension of [[robot]]
+- TODO [[aip]]: powerful tool for [[autonomous agents]]
+- TODO [[offline mode]]
+- TODO [[portability]]
 - [[play games]] in [[aos]]
 - everything you read about cyb here are design and vision docs
 	- reality on [cyb.ai](https://cyb.ai) could be different

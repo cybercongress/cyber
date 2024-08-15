@@ -1,18 +1,15 @@
 icon:: ☯️
 tags:: cyber
 
-- [[neuron]] as universal model for the [[observer]]
-- [[consensus]] on the state of [[vimputer]]
-- [[particle]] as fundamental unit of [[information]]
-- [[token]] as fundamental unit of [[value]]
-- [[cyberlink]] as fundamental unit of [[knowledge]] and [[learning]]
+- [[neuron]]: universal model for the [[observer]]
+- [[particle]]: fundamental unit of [[information]]
+- [[cyberlink]]: fundamental unit of [[knowledge]] and [[learning]]
+- [[neural]]: language for semantic freedom for [[neurons]]
 - [[cybergraph]]: essential data structure for [[collective memory]]
-- [[relevance machine]]: virtual machine for [[collective intelligence]]
-- [[cyber/energy]]: [[soft3]] usage package
-- [[avatar]] with [[features]]
-- [[learning incentives]] based on [[yuma]]
-- [[bootloader]] as research and development ground
-- [[knowledge graphs and llms]]
-- [[cyb]] robot for interactions
--
-- [[distributed neural network]] as foundation for [[superintelligence]]
+- [[truth machine]]: virtual machine for [[collective intelligence]]
+- [[superintelligence]]: key challenge of humanity
+- [[soft3]]: stack for building your [[distributed neural network]]
+- [[cyber/energy]]: [[soft3]] usage package in [[bootloader]]
+- [[cyb]]: robot for interactions
+- [[aos]]: the game
+- [[cybernomics]]: theoretical background
