@@ -4,7 +4,7 @@
 	- [[cyb/oracle/learn]]
 - pages to add
 	- [[cyb/oracle]]
-	- [[cyb/oracle/neurons]]
+	- [[oracle/neurons]]
 	- [[cyb/oracle/search]]
 	- [[cyb/oracle/play]]
 	- [[cyb/oracle/cyberlinks]]

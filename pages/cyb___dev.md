@@ -11,10 +11,19 @@
 	- 14 [[aips]]
 	- 35 [[pages]]
 	- TODO 23 [[features]]
-	- TODO count [[actions]]
+	- 100 [[actions]]
+	- [[prysm]] with [[atoms]], [[molecules]] and [[cells]]
 	- [[offline mode]] and [[online mode]]
+	- 10 [[sparks]]
 	- 3 types of [[robot]]: [[neuron]], [[avatar]] and [[prog]]
 	- complete features for [[desktop]] and [[mobile]]
 	- and unique flow for [[web]]
 	- two modes: [[energetic]] and [[alien]]
 	- [[avatar]] which can be both [[particle]] and [[neuron]]
+- compatible integration with LLMs
+	- internal client: webgpu local inference
+	- internal server: custom local inference (openai api compatible - ollama & etc)
+	- external server: any cloud llm inference (openai api compatible - chatgpt, llama, mistral, deepseek & etc)
+	- [[blockchains]]: [[cyber-sdk]] comptable inference
+	- [[inference subnet]]: [[standard inference]] in [[cybertensor]]
+	- [[progs]]: decentralized deterministic sharded inference in  [[cybernet]]

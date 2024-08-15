@@ -12,7 +12,7 @@ alias:: enhanced blockchain
 	- [[will minting]]
 	- [[bandwidth limiting]]
 	- [[adaptive pricing]]
-- [[truth machine]]
+- [[relevance machine]]
 	- [[attention minting]]
 	- [[energy routing]]
 	- [[karma]]
