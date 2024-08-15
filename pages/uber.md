@@ -2,4 +2,4 @@
 - key type in [[plumb]]
 - [[cyberlink]] is probably the only known example
 	- does not change balance of [[neurons]]
-	- operated using [[relevance machine]]
+	- operated using [[truth machine]]

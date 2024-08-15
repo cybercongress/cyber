@@ -3,3 +3,5 @@
 - [[llm]] is excellent case of emergence
 - [[vimputer]] is a good example of emergent behaviors in collective setting
 - in [[bostrom]] we expect emergence happens on a scale of 10^12 [[cyberlinks]]
+-
+- [[collective intelligence]] is the thing!

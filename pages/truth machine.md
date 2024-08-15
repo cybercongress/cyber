@@ -1,5 +1,5 @@
+alias:: relevance machine, truth medium, rm, tm
 icon:: 🖖🏽
-alias:: rm
 
 - unique [[vm]] for [[soft3]] computations
 - offers [[probabilistic collective computations]]
@@ -26,7 +26,7 @@ alias:: rm
 	- with [[strong predictive power]]
 - related articles
 	- [[reality of foundation models]]
-	- [[cybergraph, rm and llm]]
+	- [[knowledge graphs and llms]]
 	- [[soft3 and machine learning]]
 - [[supported gpu]]
 - discover all [[concepts]]

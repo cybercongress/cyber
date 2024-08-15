@@ -4,13 +4,17 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 
 - protocol for unified, provable, collective learning
 -
-- in short it allows to [[ask]], [[search]] and [[learn]]
-- in an eternal journey to [[find truth]]
+- in short it allows to [[ask]] and [[learn]] together
+- on an endless quest for [[truth]]
+-
+- hot: [[introduction to bostrom for ai geeks]]
 -
 - [[concepts]]
-- [[buy energy]]
+- [[cyber/energy]]
 - [[aicosystem]]
+- [[tutorials]]
 - [[reference]]
+- [[knowledge theory]]
 -
 - some exciting ai applications
 	- planet scale [[superintelligence]]
@@ -19,10 +23,8 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 	- immortal robot [[cyb]]
 	- self fulfilling prophecy game [[aos]]
 	- [[moon]] network state
-	- and this just a tip of an iceberg
+	- and this just a tip of an [[deai]] iceberg
 -
-- TODO [[tutorials]]
-- TODO [[guides]]
-- TODO [[techtree]]
-- TODO [[unified theory]]
-- TODO [[join]]
+- [[guides]]
+- [[techtree]]
+- [[join]]

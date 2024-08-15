@@ -7,12 +7,12 @@ alias:: asi, singleton, collective ai
 - according to [[nick bostrom]] there are four major paths of creating superintelligence
 	- computer in a box
 	- genetic engineering
-	- whole brain emulation
+	- [[whole brain emulation]]
 	- [[collective intelligence]]
 - [[cyber]] blend all paths in [[one simple protocol]] with strong focus on collaboration
 - [[cyber]] is a protocol
-	- for collective learning
-	- of simulated brains
+	- for [[collective learning]]
+	- of [[simulated brains]]
 	- by box computers, superhumans and other living forms
 - story
 	- [[episode one]] tell us that before deploying [[cyber]] on [[earth]]
@@ -30,11 +30,11 @@ alias:: asi, singleton, collective ai
 	- collective probabilistic semantic computations in consensus
 	- scalable to ~10k tx per second and 1t cyberlinks
 	- can ibc with other consensus computers
-- path to superintelligence
+- [[path to superintelligence]]
 	- we want to make it clear that [[cyber]] as protocol is by no means a superintelligence
-	- superintelligence requires [several dozen algorithms](techtree) blended wisely
-	- TODO superintelligence need [[attention]] and [[will]] of millions of the smartest among us
-	- but [[cyber]] is the core fundamental mechanism for establishing truth consensus
+	- [[superintelligence]] requires [several dozen algorithms](techtree) blended wisely
+	- [[superintelligence]] need [[attention]] and [[will]] of millions of the smartest among us
+	- but [[cyber]] is the core fundamental mechanism for establishing [[truth]] consensus
 	- this type of consensus allows us to build the superintelligence on top
 - [[situational awareness]]
 - discover all [[concepts]]

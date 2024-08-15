@@ -1,10 +1,10 @@
 tags:: aip
 
-- [[cyb/portal]]
+- current state on [[cyb/portal]]
 - place for onboarding
 - [[pages]]
 	- [[main]]: [[create avatar]]
-	- [[citizenship]]
+	- [[map]]
 	- TODO [[invite]]
 - [[actions]]
 	- [[buy energy]]
@@ -22,3 +22,4 @@ tags:: aip
 	- [[robot/passport]]
 	- [[robot/karma]]
 	- [[robot/levels]]
+-

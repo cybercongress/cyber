@@ -4,5 +4,5 @@
 - foundational idea behind [[cyber]]
 	- [[cyberlinks]]: works as opinions of experts
 	- [[cybergraph]]: works as database of opinions
-	- [[relevance machine]]: provide feedback as [[cyberank]], [[karma]] and [[syntropy]]
+	- [[truth machine]]: provide feedback as [[cyberank]], [[karma]] and [[syntropy]]
 	- [[cybernet]]: rewards [[cooperation]]

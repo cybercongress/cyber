@@ -1,6 +1,6 @@
 icon:: 🪆
 tags:: aos, cyber
-alias:: age of superintelligence, the game, self fulfilling prophecy game
+alias:: age of superintelligence, the game, self fulfilling prophecy game, much more, many more
 
 - ## welcome to the [[age of superintelligence]]
 	- :[eɪo] massively collaborative, positive sum, open source, self fulfilling prophecy game in [[seven episodes]]
@@ -22,3 +22,4 @@ alias:: age of superintelligence, the game, self fulfilling prophecy game
 - ## [[game theory]]
 - ## [[cyber/techtree]]
 - technically aos is a public good [[service layer]] between [[vimputers]] and [[cyb]]
+	- [[avatar]] with [[features]]

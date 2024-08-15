@@ -9,6 +9,8 @@ tags:: cip
 	- [[mint fuel]]: mint $H, increase [[frozen]] $BOOT
 	- [[burn fuel]]: burn $H, decrease [[frozen]] $BOOT
 - by doing so we gain atomic functional unit for [[value extraction]]
+- we suggest to add new token to simplify implementation: [[$STL]]
+- [[$STL]] is short for [[staking loan position]]
+- suggested that [[$STL]] will be minted automatically the same way current [[$H]] is minted
+- in order to remove complexity and free margin trade [[$STL]] must be non transferable
 - [[fixed fee on H burn]] discussing extension of this idea
--
--
