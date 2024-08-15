@@ -1,5 +1,3 @@
-alias:: implicit
-
 - [[information]] that is not directly stated
 - but can be inferred from the [[explicit knowledge]] in the [[cybergraph]]
 - orthogonal to [[explicit knowledge]]
@@ -7,16 +5,16 @@ alias:: implicit
 	- if  `apple` is linked with `fruit`
 	- and `fruit` is linked with `food`
 	- then we can implicitly infer that `apple` somehow linked to `food`
-- processed by [[truth machine]]
-- [[truth machine]] compute fundamental parameters of [[cybergraph]] model in [[consensus]]
+- processed by [[relevance machine]]
+- [[relevance machine]] compute fundamental parameters of [[cybergraph]] model in [[consensus]]
 	- [[cyberank]] as weight of [[particles]]
-	- [[karma]] as weight of [[neurons]]
-	- [[syntropy]] as integral measure of [[superintelligence]]
+	- TODO [[karma]] as weight of [[neurons]]
+	- TODO [[syntropy]] as integral measure of [[superintelligence]]
 - in [[cyber-sdk]] implicit knowledge can be inferred using
-	- [[standard inference]]
-	- [[cosmwasm]] [[progs]]
-	- autonomous [[thoughts]]
-	- and queried over [[ibc]]
+	- TODO [[standard inference]]
+	- TODO [[cosmwasm]] [[progs]]
+	- TODO autonomous [[thoughts]]
+	- TODO and queried over [[ibc]]
 - in [[cybs-ts]] implicit knowledge can be infered using
 	- [[datalog]]: ai oriented query language
 	- [[rune]]: powerful dynamic scripting

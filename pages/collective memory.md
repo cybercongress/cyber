@@ -12,7 +12,7 @@
   |--------------------------------------------|------------------------------------------|
   | [[cyberlink]]               | comprehensive [[learning]] based on fundamental [[unit of knowledge]] |
   | [[neural language]] | structured, interconnected collective memory with deep contextual understanding |
-  | [[truth machine]] | sophisticated [[social cognitive process]] for computing complex [[knowledge]] |
+  | [[relevance machine]] | sophisticated [[social cognitive process]] for computing complex [[knowledge]] |
   | [[standard inference]] | preserved historical narratives with capacity for contextual evolution |
   | [[soft3]]        | cognitive computing integration for collective memory |
 - processes and mechanisms
@@ -26,7 +26,7 @@
 		- [[blockchain]] nodes compute [[knowledge]]
 		- through [[advanced algorithms]] considering [[relevance]] and [[context]]
 		- communities achieve deeper [[consensus]] on complex [[knowledge]]
-		- through refined  [[sociocognitive processes]]
+		- through refined  [[social and cognitive processes]]
 	- maintaining integrity
 		- the integrity of [[knowledge]] is maintained through
 		- [[semantic conventions]] and [[social peer to peer]]
@@ -34,14 +34,9 @@
 - conclusion
 	- conceptualizing collective memory through an [[enhanced blockchain]]
 	- capable of storing and processing unified knowledge presents a transformative vision
-	- offered approach would enable a more sophisticated, accurate and interconnected
-		- understanding of shared histories
+	- offered approach would enable a more sophisticated, accurate, and interconnected understanding of shared histories
 	- leveraging advanced technologies to maintain and evolve collective memory in [[extremely dynamic]] fasion
-	- while challenges remain
-		- the potential benefits
-		- for preserving and enriching collective knowledge
-		- are profound
+	- while challenges remain, the potential benefits for preserving and enriching collective knowledge are profound
 	- offering a new paradigm for how societies remember and interpret their past
 -
 - learn more [[concepts]]
-- or dive into [[collective intelligence]]

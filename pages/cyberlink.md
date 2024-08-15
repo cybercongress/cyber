@@ -1,6 +1,6 @@
 icon:: 🔗
 tags:: cyber
-alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, essential learning ability, cyberlinking, primitive learning acts, creating link, knowledge unit, knowledge units
+alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, essential learning ability, cyberlinking, primitive learning acts
 
 - directed link between two [[particles]] of [[information]] signed by [[neuron]] and recorded into [[cyber]] [[vimputer]]
 - primitive [[learning]] act
@@ -9,7 +9,7 @@ alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, ess
 	  | 42 | bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t | QmRjzv8iNpMX7NXmMswT9qq7nviQ4sC1gMMceryAVJdfPS|  QmRX8qYgeZoYM3M5zzQaWEpVFdpin6FvVXvp6RPQK3oufV |
 	  | 43 | bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t | QmRjzv8iNpMX7NXmMswT9qq7nviQ4sC1gMMceryAVJdfPS|  QmRX8qYgeZoYM3M5zzQaWEpVFdpin6FvVXvp6RPQK3oufV |
 - foundation of [[cybergraph]]
-- basic [[truth machine]] instruction
+- basic [[relevance machine]] instruction
 - example
 	- [who](neuron) linked the data: e.g. [@mastercyb](https://cyb.ai/@mastercyb)
 	- [when](consensus computer) data was linked: e.g. [txid](https://cyb.ai/network/bostrom/tx/1D0E26540FE9AFB5F9113826F7BCF650802A010392E22D51F158B1522A958BA1)
@@ -28,5 +28,4 @@ alias:: cyberlinks, unit of knowledge, simple interactions, expert opinions, ess
 	- link between two pieces of content particles there each content is addressed by its [[hash]]
 	- this makes information searchable through the spacetime
 - changing the way we [[learn]]
-- essentially work as [[view]] [[signal]] for the world
 - discover all [[concepts]]
