@@ -1,13 +1,25 @@
 tags:: page
 
-- table of active [[avatar]] [[particles]] sorted by [[cyberank]] by default
+- 3 indicators in the head
+	- left:
+	- center: total size of brain in bytes
+	- right:
+- table of [[particles]] cyberlinked by active [[neuron]] sorted by [[cyberank]] by default
 - during surfing all ranks must be stored locally and updated during next visit
-- this data is the source of data to list
+- unique particles with last seen ranks is the source of raw list
 - fields
-	- spark: render of [[particle]]
-	- creator: [[neuron]] with first cyberlink
-	- time: when created by this [[neuron]]
-	- size
+	- [[spark]]: render of [[particle]]
+	- [[creator]]: [[neuron]] with first [[cyberlink]]
+	- [[time]]: how long time ago created by active [[neuron]]
+		- not the first who [[cyberlink]]
+	- [[size]]: amount of bytes
 	- [[probability of observation]]
-	- amount of links: sum of incoming and outgoing cyberlinks to [[particle]]
-- table must be sortable by any field
+	- [[views]]: sum of incoming and outgoing cyberlinks to [[particle]]
+- table must be
+	- sortable by [[creator]], [[time]], [[size]], [[probability of observation]], [[views]] in both directions
+	- at least 21 rows on the screen
+		- managing 1000 positions is impossible if i see 7-10 on screen
+	- view index
+		- every page during surfing must store last index of row and state of analytics bar
+		- must change parameter in url
+		- i must be able to see exact position fast in previous view after hitting back
