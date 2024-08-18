@@ -1,5 +1,6 @@
 tags:: page
 
+- table render of [[brain]]
 - 3 indicators in the head
 	- left:
 	- center: total size of brain in bytes
