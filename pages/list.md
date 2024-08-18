@@ -1,11 +1,13 @@
 tags:: page
 
-- table of particles sorted by rank by defaule
+- table of active [[avatar]] [[particles]] sorted by [[cyberank]] by default
+- during surfing all ranks must be stored locally and updated during next visit
+- this data is the source of data to list
 - fields
-	- spark of particle
-	- creator
-	- time
-	- [[xp]]
+	- spark: render of [[particle]]
+	- creator: [[neuron]] with first cyberlink
+	- time: when created by this [[neuron]]
 	- size
-	- [[cyberank]]
+	- [[probability of observation]]
+	- amount of links: sum of incoming and outgoing cyberlinks to [[particle]]
 - table must be sortable by any field
