@@ -222,7 +222,7 @@
 	- that is why [[bostrom]] offer a model of usage based on [[bandwidth]]
 	- the model is practically the same as being already used in chatgpt
 	-
-	- [[$V]] or [[volt]] is [[attention]] token
+	- [[$V]] or [[volt]] is [[will]] token
 		- allow to create [[cyberlinks]]
 		- and derive [[truth]] using [[standard inference]]
 	-
