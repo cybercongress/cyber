@@ -314,12 +314,14 @@
 	- recomputes probabilities of observation every 25 second for every [[information]] piece that was submitted (currently ~2m)
 	- and that make [bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) so unique
 	- this requires holding all state in GPU ram and use parallel computation at such scale
-	- current size of gpu memory used is for ~2 mln particles, ~60k neurons and ~2 mln
+	- current size of gpu memory used for ~2 mln particles, ~60k neurons and ~2 mln cyberlinks is ~150mb
 	- submitting just 1 cyberlink force to recompute all ranks (~2 million currently)
 	- could you imagine how that could be done on [[solana]]
 		- something around 1000 [[$SOL]] currently needed for every update.
-	- with 10B links which i believe is required for minimum viable [[superintelligence]] the task become intractable for all existing blockchain architectures
-	- current [[bostrom]] architecture can handle (rough estimations) up to 1T cyberlinks
+	- with 10B links
+		- which i believe is required for minimum viable [[superintelligence]]
+		- the task become intractable for all existing blockchain architectures
+	- current [[bostrom]] architecture can handle (rough optimistic estimations) up to 1T cyberlinks
 	- on par with [GPT4](https://twitter.com/hashtag/GPT4?src=hashtag_click) with 1T parametrs
 	- but in blockchain, baby
 	- to be honest things cant be compared 1 to 1, [[far from it]]
