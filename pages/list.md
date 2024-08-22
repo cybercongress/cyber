@@ -36,7 +36,7 @@ tags:: page
 	- multilink
 		- choose several particles
 		- button for cyberlink with two options: in or out
-	- delete link
+	- aka delete particle
 		- create cyberlink: [[particle]] -> `delete`
 		- do not display deleted particles except on `delete` particle page globally
 	- LATER: custom sorting
