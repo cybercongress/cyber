@@ -17,7 +17,7 @@ tags:: page
 	- [[creator]]: [[neuron]] with first [[cyberlink]]
 	- [[time]]: how long time ago created by active [[neuron]]
 		- not the first who [[cyberlink]]
-	- [[size]]: amount of bytes
+	- [[size]]: amount of bytes - must provide pin / unpin action
 	- [[probability of observation]]
 	- [[views]]: sum of incoming and outgoing cyberlinks to [[particle]]
 		- on hover: who saw this particle? 5 random avatars in
@@ -30,3 +30,13 @@ tags:: page
 		- every page during surfing must store last index of row and state of analytics bar
 		- must change parameter in url
 		- i must be able to see exact position fast in previous view after hitting back
+- actions
+	- default button: add one particle
+		- on add create a cyberlink [[particle]] -> `like`
+	- multilink
+		- choose several particles
+		- button for cyberlink with two options: in or out
+	- delete link
+		- create cyberlink: [[particle]] -> `delete`
+		- do not display deleted particles except on `delete` particle page globally
+	- LATER: custom sorting
