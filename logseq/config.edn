@@ -71,7 +71,7 @@
 
  ;; Enable whiteboards.
  ;; Default value: true
- :feature/enable-whiteboards? false
+ :feature/enable-whiteboards? true
 
  ;; Disable the journal's built-in 'Scheduled tasks and deadlines' query.
  ;; Default value: false

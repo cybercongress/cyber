@@ -2,6 +2,7 @@ icon:: 🧠
 tags:: page
 
 - graph file manager
+  id:: 66c601a9-024a-4466-978e-afccd41f64ad
 - addressed to close [[main loop]]
 - and to treat pain with all file managers
 - core [[aip]] of [[cyb]]

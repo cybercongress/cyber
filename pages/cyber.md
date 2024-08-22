@@ -15,6 +15,7 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 - [[tutorials]]
 - [[reference]]
 - [[knowledge theory]]
+- [[techtree]]
 -
 - some exciting ai applications
 	- planet scale [[superintelligence]]
@@ -26,5 +27,4 @@ alias:: [[the new, yet to be born, force]], one simple protocol
 	- and this just a tip of an [[deai]] iceberg
 -
 - [[guides]]
-- [[techtree]]
 - [[join]]

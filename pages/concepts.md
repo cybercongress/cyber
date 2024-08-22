@@ -7,7 +7,7 @@ tags:: cyber
 - [[token]] as fundamental unit of [[value]]
 - [[cyberlink]] as fundamental unit of [[knowledge]] and [[learning]]
 - [[cybergraph]]: essential data structure for [[collective memory]]
-- [[relevance machine]]: virtual machine for [[collective intelligence]]
+- [[truth machine]] : virtual machine for [[collective intelligence]]
 - [[cyber/energy]]: [[soft3]] usage package
 - [[avatar]] with [[features]]
 - [[learning incentives]] based on [[yuma]]
