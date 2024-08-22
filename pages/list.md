@@ -3,8 +3,12 @@ tags:: page
 - table render of [[brain]]
 - 3 indicators in the head
 	- left:
+		- amount of avatars particles
+		- battery like indicator displaying % of discovery: `avatar particles / cybergraph particles`
 	- center: total size of brain in bytes
 	- right:
+		- amount of avatars cyberlinks
+		- battery like indicator displaying % of discovery: `avatar cyberlinks / cybergraph cyberlinks`
 - table of [[particles]] cyberlinked by active [[neuron]] sorted by [[cyberank]] by default
 - during surfing all ranks must be stored locally and updated during next visit
 - unique particles with last seen ranks is the source of raw list
