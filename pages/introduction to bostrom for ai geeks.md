@@ -1,8 +1,8 @@
 - [source code](https://github.com/cybercongress/cyber): [@mastercyb](https://cyb.ai/@mastercyb)
 - status of article: on review
 -
-- [[bostrom]] is NOT yet another ai [[coin]]
-- it is very powerful foundational technology for advanced superintelligent [[civilization]]
+- [[bostrom]] is NOT yet another ai coin
+- it is very powerful foundational technology for advanced superintelligent civilization
 - in this article i will boil down all essential ideas into coherent understanding how [[bostrom]] can empower
 	- existing ai field which i will refer as classical ai
 	- and advance emerging field of collective ai
@@ -24,19 +24,19 @@
 	- jump for a second to this article: [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://cyb.ai/oracle/ask/QmdGEYVKo1sRURzbj83UMtr77EL6GHUB2taJbnpTynEQKT)
 	- ![image.png](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmPnEpPhd77ysSfaACJd5Kc6prrrsUfTCAmPo977n2tcih)
 	- {{embed ((66b2fb4e-c73b-4133-aab3-11df2e8d1436))}}
-	- the article explain why [[llm]] will never be enough to reach [[general intelligence]] alone
+	- the article explain why [[llm]] will never be enough to reach general intelligence alone
 	- in short [[knowledge graph]] advantage is
 		- easy to understand and structure as they are more about [[explicit knowledge]]
 		- possible to evolve because they are based on widely accepted [[triples]]
 		- essential to plan, make decisions and reason:
 	- so the claim is simple
-		- [[knowledge graphs]] coupled with [[gnns]] are essential
+		- [[knowledge graphs]] coupled with [[graph neural networks]] are essential
 		- for the next generation of architectures and
 		- by this article we propose example of such architecture
 - ## cryptographic proofs and llms
 	- we believe that authenticity of models is a serious bottleneck for ai alignment and more
 	- its a shame that so technologically advanced industry in a broad sense
-	- still does not give a shit about possibilities of [[hashing]], [[pubkey cryptography]] and [[logical clocks]]
+	- still does not give a shit about possibilities of [[hashing]], [[pubkey]] cryptography and [[logical clock]]
 	- its kinda impossible to build multiparty protocols without these primitives
 	- yep, i am ware about [zkml movement](https://github.com/worldcoin/awesome-zkml)
 	- but this is a drop in the ocean given the [[knowledge graphs and llms]] argument
@@ -45,7 +45,7 @@
 		- fully authenticated knowledge graph tech
 		- which is [[cybergraph]], but later on that
 - ## token engineering and llms
-	- [[rewarding]] is essential for [[machine learning]]
+	- rewarding is essential for machine learning
 	- we have ton shit of [[tokens]] with dogs, monkeys
 	- you can boost the power of your models using real cryptographic [[tokens]]
 	- not tokens you use
@@ -228,7 +228,7 @@
 	-
 	- but the difference with openai is that [[$V]] give you lifetime subscription, not monthly
 	-
-	- (!) think of link as a link between every query request and answer response
+	- think of link as a link between every query request and answer response
 	- > currently 1 V allow to submit 4 cyberlinks per day depending on network load
 	- while you create cyberlinks your battery become less full
 	- your battery recover automatically if you are not creating links
@@ -248,22 +248,22 @@
 		- we can dive into the novel concept
 		- in [[probabilistic collective computations]]
 		- the [[truth machine]]
+	- [[truth machine]] is [[cybergraph]] with weights
 	- the idea behind the [[truth machine]] is crazy simple
 		- minimum input factors
 		- simple but powerful algorithms available for gpu consensus computations
 		- simple but powerful output as abstract, flexible model of the universe
 		- with potential [[strong predictive power]], especially after [[emergence]]
-	- use random [[surfer model]] directed by [[attention]]
+	- we use random [[surfer model]] directed by [[attention]]
 	- as foundational global probability of inferring [[particles]]
 	- but in order to
 		- protect it from [[sybil behavior]]
 		- and to add [[context]] factor
-	- use [[will]] of [[neurons]] as second factor for computing probability in [[context]]
+	- we use [[will]] of [[neurons]] as second factor for computing probability in [[context]]
 	- result is a
 		- stored [[observation probability]] of random surfer across all existing [[particles]] in [[cybergraph]]
 		- and context weight on edges which are inferred on request
 	- in order to compute described [[cyberank]] algorithm you need [[gpu computation]] in [[consensus]]
-	- [[truth machine]] is [[cybergraph]] with weights
 	- is [[extremely dynamic]] data structure that must be updated even if only 1 [[cyberlink]] is created
 	- [[bostrom]] recompute all weights in truth machine every 5 blocks, or roughly every 25 seconds
 	- so [[bostrom]] is extremely hard to reproduce using any existing L1 or L2 sdks
@@ -277,7 +277,6 @@
 		- [[standard inference]] for consensus on relevance in context
 		- input for derived and very diverse [[implicit knowledge]] factors
 			- [[knowledge graphs and llms]]
-	- [[neurons]] need [[attention]] in [[standard inference]] algorithm to compute [[truth]]
 	- follow complete design of [[truth machine]]
 - ## standard inference
 	- obviously in our setting the simplest possible way
@@ -339,7 +338,7 @@
 	- for predicting probability of information [[observation]]
 	- and defined the most simple possible inference system on top
 	- this technology of [[probabilistic collective computations]] have been created by us since 2016
-	- and we can proudly say that we are leading [[decentralized ai]] field on [[cyber]] foundations
+	- and we can proudly say that we are leading decentralized ai field on [[cyber]] foundations
 	- we believe the thing we have born is powerful enough to bootstrap new kind of [[civilization]]
 	- so we inviting you to the journey of creating open, fair and superintelligent society with us
 - ## [[join]]
