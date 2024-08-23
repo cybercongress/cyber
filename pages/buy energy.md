@@ -16,8 +16,14 @@ tags:: decision
 		- or [[$USDT]] value of remaining [[$H]] for [[play]]
 - the process must allow to
 	- calculate benefits for input to output and vice versa
-	- ability to manually change input and output parameters
-	- ability to change parameters by sliders
+		- on input amount change
+			- recompute all output amounts
+			- proportionally to chosen percentages of energy tokens
+		- on output amount change
+			- recompute input needed
+			- change percentage of energy tokens accordingly
+	- ability to manually change input and output amounts
+	- ability to change percentages by sliders
 	- ability to change parameters by roles
 	- track all decisions through bridging: the hardest part
 -
