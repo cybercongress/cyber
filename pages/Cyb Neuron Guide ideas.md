@@ -1,0 +1,63 @@
+- Format
+	- 24-32 pages
+	- A5 - horizontal view
+- Our Product
+	- Decentralized knowledge graph
+	- Content distribution
+	- Alignment is our product
+	- Your power to teach AI with your data
+	- Your power to create your own AI Avatar
+	- Your power to distribute your AI
+	- Cyb & cyber-sdk for network states
+	- Decentralised datasets curation
+	- Decentralised AI training
+	- Cybergraph as GIT
+	- Information DEX
+	- Prediction markets
+	- AI governance
+	- to continue...
+- General
+	- IPFS
+	- cyberlink
+	- particle
+	- cybergraph
+	- cyb
+	- moon citizenship
+	- network state
+	- episodes (1+2)
+	- manifest?
+	- moon constitution?
+	- tokens
+		- BOOT
+		- HYDROGEN
+			- liquid staking
+			- *add note about migration to SLP
+		- VOLTS
+		- AMPERES
+- Apps
+	- robot
+	- oracle
+	- portal
+	- teleport
+	- warp
+	- sphere
+	- senate
+	- nebula
+	- HFT
+	- grid
+	- drive
+	- soul
+- LLMs integration
+	- cloud
+	- local
+	- Progs
+- Cyber
+	- cyber-sdk
+- Cyb & Cyber
+	- integrated solution for network states
+- cyber~Congress
+	- mission
+	- values
+	- team
+-
+	-
