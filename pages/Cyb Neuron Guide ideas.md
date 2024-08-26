@@ -1,6 +1,7 @@
 - Format
 	- 24-32 pages
 	- A5 - horizontal view
+	- colors (black/white/green)
 - Our Product
 	- Decentralized knowledge graph
 	- Content distribution
@@ -56,6 +57,7 @@
 - Cyb & Cyber
 	- integrated solution for network states
 - cyber~Congress
+	- dao
 	- mission
 	- values
 	- team
