@@ -5,6 +5,7 @@
 - Our Product
 	- Decentralized knowledge graph
 	- Content distribution
+	- Decentralized search engine
 	- Alignment is our product
 	- Your power to teach AI with your data
 	- Your power to create your own AI Avatar
@@ -25,6 +26,8 @@
 	- cyb
 	- moon citizenship
 	- network state
+	- cyber rank
+	- search
 	- episodes (1+2)
 	- manifest?
 	- moon constitution?
