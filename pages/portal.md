@@ -3,9 +3,11 @@ tags:: aip
 - current state on [[cyb/portal]]
 - place for onboarding
 - [[pages]]
-	- [[main]]: [[create avatar]]
+	- [[main]]: [[buy energy]]
+	- [[create avatar]]
 	- [[map]]
 	- TODO [[invite]]
+	- [[gift]]
 - [[actions]]
 	- [[buy energy]]
 	- [[spell/api]]

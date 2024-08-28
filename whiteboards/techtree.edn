@@ -1522,7 +1522,70 @@
 :parentId "66c6bbc1-5c39-422e-b18e-29bb1fe39cb4"
 :nonce 1724314107187
 :italic false}}
-:block/updated-at 1724314115197})
+:block/updated-at 1724314115197} 
+{:block/created-at 1724567641511
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke "red"
+:rotation 0
+:collapsed true
+:borderRadius 8
+:index 47
+:scale [1 1]
+:pageId "move passport to H"
+:scaleLevel "md"
+:fill "red"
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [192 40]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f1191fe0-62ab-11ef-905c-bfece1b6ee24"
+:noFill false
+:point [4888 2400]
+:parentId "66c6bbc1-5c39-422e-b18e-29bb1fe39cb4"
+:collapsedHeight 107
+:nonce 1724567609845}}
+:block/updated-at 1724567641511} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 48
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "073c6432-62ac-11ef-905c-bfece1b6ee24"
+:fontWeight 400
+:noFill true
+:point [4994.7 1756]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 643]
+:bindingId "073c6430-62ac-11ef-905c-bfece1b6ee24"}
+:end 
+{:id "end"
+:canBind true
+:point [327.67 0]
+:bindingId "073c6431-62ac-11ef-905c-bfece1b6ee24"}}
+:decorations 
+{:end "arrow"}
+:parentId "66c6bbc1-5c39-422e-b18e-29bb1fe39cb4"
+:nonce 1724567646833
+:italic false}}
+:block/updated-at 1724567647633})
 :pages (
 {:block/uuid #uuid "66c6bbc1-5c39-422e-b18e-29bb1fe39cb4"
 :block/properties 
@@ -1616,6 +1679,14 @@
 :type "line"
 :fromId "8ddf0a02-6041-11ef-905c-bfece1b6ee24"
 :toId "406c8f70-603e-11ef-905c-bfece1b6ee24"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:073c6430-62ac-11ef-905c-bfece1b6ee24 
+{:id "073c6430-62ac-11ef-905c-bfece1b6ee24"
+:type "line"
+:fromId "073c6432-62ac-11ef-905c-bfece1b6ee24"
+:toId "f1191fe0-62ab-11ef-905c-bfece1b6ee24"
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
@@ -1786,6 +1857,14 @@
 :toId "7a14f4c0-603d-11ef-905c-bfece1b6ee24"
 :handleId "end"
 :point [0.3 0.39]
+:distance 4}
+:073c6431-62ac-11ef-905c-bfece1b6ee24 
+{:id "073c6431-62ac-11ef-905c-bfece1b6ee24"
+:type "line"
+:fromId "073c6432-62ac-11ef-905c-bfece1b6ee24"
+:toId "7a14f4c0-603d-11ef-905c-bfece1b6ee24"
+:handleId "end"
+:point [0.34 0.45]
 :distance 4}
 :13e5f3c1-6042-11ef-905c-bfece1b6ee24 
 {:id "13e5f3c1-6042-11ef-905c-bfece1b6ee24"
@@ -1973,9 +2052,9 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("8a46ebf0-603d-11ef-905c-bfece1b6ee24" "ac32b2d0-603d-11ef-905c-bfece1b6ee24" "bc8c7d50-603d-11ef-905c-bfece1b6ee24" "cedf58b0-603d-11ef-905c-bfece1b6ee24" "f2710760-603d-11ef-905c-bfece1b6ee24" "00c42c70-603e-11ef-905c-bfece1b6ee24" "17365410-603e-11ef-905c-bfece1b6ee24" "1e42ae20-603e-11ef-905c-bfece1b6ee24" "2e64c6d0-603e-11ef-905c-bfece1b6ee24" "35ec6b60-603e-11ef-905c-bfece1b6ee24" "406c8f70-603e-11ef-905c-bfece1b6ee24" "505e4950-603e-11ef-905c-bfece1b6ee24" "9bda2b60-603e-11ef-905c-bfece1b6ee24" "b45ac0a0-603e-11ef-905c-bfece1b6ee24" "c3d108f0-603e-11ef-905c-bfece1b6ee24" "7a14f4c0-603d-11ef-905c-bfece1b6ee24" "37599a80-603f-11ef-905c-bfece1b6ee24" "20c79962-6040-11ef-905c-bfece1b6ee24" "26d966d2-6040-11ef-905c-bfece1b6ee24" "784bc622-6040-11ef-905c-bfece1b6ee24" "901b33d2-6040-11ef-905c-bfece1b6ee24" "9f126110-6040-11ef-905c-bfece1b6ee24" "a9b74b30-6040-11ef-905c-bfece1b6ee24" "cf1aaca0-6040-11ef-905c-bfece1b6ee24" "f3b82602-6040-11ef-905c-bfece1b6ee24" "3bba2391-6041-11ef-905c-bfece1b6ee24" "40457812-6041-11ef-905c-bfece1b6ee24" "7cd63ad2-6041-11ef-905c-bfece1b6ee24" "81fee0c0-6041-11ef-905c-bfece1b6ee24" "8ddf0a02-6041-11ef-905c-bfece1b6ee24" "918c0c72-6041-11ef-905c-bfece1b6ee24" "95fe33a2-6041-11ef-905c-bfece1b6ee24" "98ff65b0-6041-11ef-905c-bfece1b6ee24" "a158d932-6041-11ef-905c-bfece1b6ee24" "cd830030-6041-11ef-905c-bfece1b6ee24" "e7b452b2-6041-11ef-905c-bfece1b6ee24" "eb3ba4b2-6041-11ef-905c-bfece1b6ee24" "ee342432-6041-11ef-905c-bfece1b6ee24" "63e2fbb0-6043-11ef-905c-bfece1b6ee24" "76d26530-6043-11ef-905c-bfece1b6ee24" "87eb6100-6043-11ef-905c-bfece1b6ee24" "6becc9c0-605d-11ef-905c-bfece1b6ee24" "7996dd92-605d-11ef-905c-bfece1b6ee24" "9127e2b2-605d-11ef-905c-bfece1b6ee24" "98e27e22-605d-11ef-905c-bfece1b6ee24" "b2ea9dc2-605d-11ef-905c-bfece1b6ee24" "b5d2a282-605d-11ef-905c-bfece1b6ee24")}}
+:shapes-index ("8a46ebf0-603d-11ef-905c-bfece1b6ee24" "ac32b2d0-603d-11ef-905c-bfece1b6ee24" "bc8c7d50-603d-11ef-905c-bfece1b6ee24" "cedf58b0-603d-11ef-905c-bfece1b6ee24" "f2710760-603d-11ef-905c-bfece1b6ee24" "00c42c70-603e-11ef-905c-bfece1b6ee24" "17365410-603e-11ef-905c-bfece1b6ee24" "1e42ae20-603e-11ef-905c-bfece1b6ee24" "2e64c6d0-603e-11ef-905c-bfece1b6ee24" "35ec6b60-603e-11ef-905c-bfece1b6ee24" "406c8f70-603e-11ef-905c-bfece1b6ee24" "505e4950-603e-11ef-905c-bfece1b6ee24" "9bda2b60-603e-11ef-905c-bfece1b6ee24" "b45ac0a0-603e-11ef-905c-bfece1b6ee24" "c3d108f0-603e-11ef-905c-bfece1b6ee24" "7a14f4c0-603d-11ef-905c-bfece1b6ee24" "37599a80-603f-11ef-905c-bfece1b6ee24" "20c79962-6040-11ef-905c-bfece1b6ee24" "26d966d2-6040-11ef-905c-bfece1b6ee24" "784bc622-6040-11ef-905c-bfece1b6ee24" "901b33d2-6040-11ef-905c-bfece1b6ee24" "9f126110-6040-11ef-905c-bfece1b6ee24" "a9b74b30-6040-11ef-905c-bfece1b6ee24" "cf1aaca0-6040-11ef-905c-bfece1b6ee24" "f3b82602-6040-11ef-905c-bfece1b6ee24" "3bba2391-6041-11ef-905c-bfece1b6ee24" "40457812-6041-11ef-905c-bfece1b6ee24" "7cd63ad2-6041-11ef-905c-bfece1b6ee24" "81fee0c0-6041-11ef-905c-bfece1b6ee24" "8ddf0a02-6041-11ef-905c-bfece1b6ee24" "918c0c72-6041-11ef-905c-bfece1b6ee24" "95fe33a2-6041-11ef-905c-bfece1b6ee24" "98ff65b0-6041-11ef-905c-bfece1b6ee24" "a158d932-6041-11ef-905c-bfece1b6ee24" "cd830030-6041-11ef-905c-bfece1b6ee24" "e7b452b2-6041-11ef-905c-bfece1b6ee24" "eb3ba4b2-6041-11ef-905c-bfece1b6ee24" "ee342432-6041-11ef-905c-bfece1b6ee24" "63e2fbb0-6043-11ef-905c-bfece1b6ee24" "76d26530-6043-11ef-905c-bfece1b6ee24" "87eb6100-6043-11ef-905c-bfece1b6ee24" "6becc9c0-605d-11ef-905c-bfece1b6ee24" "7996dd92-605d-11ef-905c-bfece1b6ee24" "9127e2b2-605d-11ef-905c-bfece1b6ee24" "98e27e22-605d-11ef-905c-bfece1b6ee24" "b2ea9dc2-605d-11ef-905c-bfece1b6ee24" "b5d2a282-605d-11ef-905c-bfece1b6ee24" "f1191fe0-62ab-11ef-905c-bfece1b6ee24" "073c6432-62ac-11ef-905c-bfece1b6ee24")}}
 :block/journal? false
-:block/updated-at 1724314159860
+:block/updated-at 1724567647633
 :block/created-at 1724300225974
 :block/type "whiteboard"
 :block/name "techtree"

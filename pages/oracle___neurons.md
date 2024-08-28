@@ -1,6 +1,6 @@
 tags:: page
 
-- list of [[neurons]] from top [[1000]]
+- list of [[neurons]] from [[top 1000]]
 - columns
 	- [[level]]
 	- [[energy]]

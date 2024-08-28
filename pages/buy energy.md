@@ -26,28 +26,35 @@ tags:: decision
 	- ability to change percentages by sliders
 	- ability to change parameters by roles
 	- track all decisions through bridging: the hardest part
--
-- roles: change to custom on manual change
-	- thinker
-		- [[$A]]: 80%
-		- [[$V]]: 10%
-		- [[$H]]: 10%
-	- executor
-		- [[$V]]: 80%
-		- [[$H]]: 10%
-		- [[$A]]: 10%
-	- player:
-		- [[$H]]: 80%
-		- [[$A]]: 10%
-		- [[$V]]: 10%
-	- innovator
-		- [[$V]]: 40%
-		- [[$A]]: 40%
-		- [[$H]]: 20%
-	- strategist
-		- [[$H]]: 34%
-		- [[$V]]: 33%
-		- [[$A]]: 33%
+- features
+	- free
+		- private brain
+		- p2p publishing
+	- $V
+		- onchain publishing
+	-
+- packages
+	- ghost: create a lot, never publish
+	- energy balance
+		- influencer: say less, impact more
+			- [[$A]]: 90%
+			- [[$V]]: 10%
+		- enlightened: say it as it is
+			- [[$A]]: 50%
+			- [[$V]]: 50%
+		- scientist: say more, fame will follow
+			- [[$V]]: 90%
+			- [[$A]]: 10%
+	- liquidity balance
+		- player: play games, learn less
+			- [[$H]]: 80%
+			- [[$V]]+[[$A]]: 20%
+		- learner: enjoy balance
+			- [[$H]]: 50%
+			- [[$V]]+[[$A]]: 50%
+		- worker: learn hard
+			- [[$V]]+[[$A]]: 80%
+			- [[$H]]: 20%
 - key [[chakra]] of cyber project
 	- levels of advancement
 		- TODO buy for tokens on bostrom
