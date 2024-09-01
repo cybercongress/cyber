@@ -2,7 +2,7 @@ tags:: cip
 status:: draft
 
 - most of [[$BOOT]] stake is unstaked due to complexities related to multisig management
-- we need a tool for [[staking]] outsourcing to [[prog]]
+- we need a tool for [[stake]] outsourcing to [[prog]]
 - successful deployment remove 2/3 of selling pressure from the market
 - details in [[finalization of $BOOT distribution]]
 - architecture of staking pools
@@ -16,13 +16,20 @@ status:: draft
 		- deposit to pool
 			- adds deposit to contract balance
 			- mints pool [[coin]]: fungible and transferable token
+			- add deposit position to prog state
 			- increase `current deposit reserve`
 		- withdraw from pool
 			- burns pool coin
 			- increase `current withdraw reserve`
-			- add withdrawal position to [[prog state]]
+			- add withdrawal position to prog state
 			- when time comes
 				- subtract contract balance
+	- every strategy is standalone [[prog]] with strictly defined interface
+		- input: empty call
+		- output: array of validators with weights
+	- [[prog]] have params according to which it self executes using [[dmn]]
+		- `execution window` in blocks
+		- `max rebalance actions`
 	- on every execution step [[prog]]
 		- [[claim rewards]]
 		- calls each strategy
@@ -47,12 +54,6 @@ status:: draft
 			- compute diff between current and target
 			- sort list by the most impactful differences
 			- execute top amount of [[redelegate]] limited by `max rebalance actions`
-	- [[prog]] have several params according to which it self executes using [[dmn]]
-		- `execution window` in blocks
-		- `max rebalance actions`
-	- every strategy is standalone [[prog]] with strictly defined interface
-		- input: empty call
-		- output: array of validators with weights
 - list of default strategies
 	- specific validator
 		- ability to assign some relative percent to specific validator by pool owner
