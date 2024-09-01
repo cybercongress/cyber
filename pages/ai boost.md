@@ -1,0 +1,21 @@
+- page to gather experience of [[cybercongress]] team related to cutting edge ai tools
+  title:: ai boost
+-
+- automated context generation
+	- [loghub](https://github.com/mastercyb/loghub): from github issues and pull requests
+	- TODO from logseq graphs
+	- TODO from all cybercongress repos
+	- TODO regular automated build of context
+- [chatgpt](https://chatgpt.com/): powerful chat and api
+- [cursor](https://www.cursor.com/features): editor on steroids
+- [copilot](https://github.com/features/copilot): github assistant for vscode
+- [ollama](https://ollama.com/): local models
+- [lmstudio](https://www.google.com/search?q=llm+studio): interface for query pipelining
+- [midjourney](https://www.midjourney.com/home): image creation
+- [runway](https://runwayml.com/product): image animation
+- [luma](https://lumalabs.ai/dream-machine): video creation
+- [mutable](https://mutable.ai/): ai generated docs
+	- [cyber](https://wiki.mutable.ai/cybercongress/cyber)
+	- [go-cyber](https://wiki.mutable.ai/cybercongress/go-cyber)
+	- [cyb-ts](https://wiki.mutable.ai/cybercongress/cyb-ts)
+- TODO [[cyb]]: personal data aware assitant
