@@ -28,10 +28,11 @@
 	- in short [[knowledge graph]] advantage is
 		- easy to understand and structure as they are more about [[explicit knowledge]]
 		- possible to evolve because they are based on widely accepted [[triples]]
-		- essential to plan, make decisions and reason:
+		- essential to plan, make decisions and reason
+	- that is why knowledge graph is foundation for [symbolic part](https://arxiv.org/pdf/2002.06177) in [[neuro-symbolic]] movement
 	- so the claim is simple
-		- [[knowledge graphs]] coupled with [[graph neural networks]] are essential
-		- for the next generation of architectures and
+		- [[knowledge graphs]] coupled with [[graph neural networks]] are [essential](https://huggingface.co/blog/intro-graphml) for [[deep understanding]]
+		- by a next generation of architectures and
 		- by this article we propose example of such architecture
 - ## cryptographic proofs and llms
 	- we believe that authenticity of models is a serious bottleneck for ai alignment and more
@@ -50,7 +51,7 @@
 	- you can boost the power of your models using real cryptographic [[tokens]]
 	- not tokens you use
 	- ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmQTvZLqTxJNK7K7cFJTeBbKDDWTecXXeExHz4otJkjjfe)
-	- tokens you use in [[cyberverse]] are [[particles]]
+	- tokens you use we call [[particles]] in [[cyberverse]]
 	- and [[tokens]] are units of [[value]]
 - ## cybergraph
 	- the core of the idea is [[cybergraph]]
