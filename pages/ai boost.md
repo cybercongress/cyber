@@ -4,8 +4,8 @@
 - automated context generation
 	- [loghub](https://github.com/mastercyb/loghub): from github issues and pull requests
 	- TODO from logseq graphs
-	- TODO from all cybercongress repos
 	- TODO regular automated build of context
+	- TODO from all cybercongress repos
 - [chatgpt](https://chatgpt.com/): powerful chat and api
 - [cursor](https://www.cursor.com/features): editor on steroids
 - [copilot](https://github.com/features/copilot): github assistant for vscode
@@ -14,6 +14,8 @@
 - [midjourney](https://www.midjourney.com/home): image creation
 - [runway](https://runwayml.com/product): image animation
 - [luma](https://lumalabs.ai/dream-machine): video creation
+- [perplexity.ai](http://perplexity.ai/discover): ai search
+- [grok:](https://x.com/grok?lang=en): twitter assistant
 - [mutable](https://mutable.ai/): ai generated docs
 	- [cyber](https://wiki.mutable.ai/cybercongress/cyber)
 	- [go-cyber](https://wiki.mutable.ai/cybercongress/go-cyber)
