@@ -29,4 +29,5 @@ icon:: 🖖🏽
 	- [[knowledge graphs and llms]]
 	- [[soft3 and machine learning]]
 - [[supported gpu]]
+- [[limitations of tm]]
 - discover all [[concepts]]

@@ -9,12 +9,18 @@ tags:: page
 - features::
 	- [[offline mode]] first
 	- localhost interface
-	- graph query language: datalog
-	- powerful scripting: rune
-	- static and dynamic linking
-	- private and public linking
-	- publishing to [[ipfs]] and [[cybergraph]]
+	- support of several renders
+		- [[space]]
+		- [[shadow]]
+		- [[heap]]
+		- [[list]]
 	- flexible viewer based on [[sparks]] extensions
+	- graph query language: [[datalog]]
+	- support of full [[cozodb]] api
+	- powerful scripting: [[rune]]
+	- static and dynamic [[linking]]
+	- private and public [[linking]]
+	- publishing to [[ipfs]] and [[cybergraph]]
 	- supported 7 [[particle]] formats
 	  collapsed:: true
 		- text::

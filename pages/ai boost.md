@@ -14,6 +14,7 @@
 - [lmstudio](https://www.google.com/search?q=llm+studio): interface for query pipelining
 - [midjourney](https://www.midjourney.com/home): image creation
 - [antropic](https://www.anthropic.com/): llm optimized for code
+- [suno](https://suno.com/): great music
 - [runway](https://runwayml.com/product): image animation
 - [luma](https://lumalabs.ai/dream-machine): video creation
 - [perplexity.ai](http://perplexity.ai/discover): ai search

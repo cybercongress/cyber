@@ -1,4 +1,4 @@
-- [[cosmwasm]] fat protocol suite
+- [[cosmwasm]] fat protocol suite for network states and beyond
 - integration of [[cyb]], [[aos]] and [[cyber]]
 - dependencies
 	- [[daodao]]
@@ -14,4 +14,7 @@
 	- [[hub/tokens]]
 	- [[hub/skills]]
 	- [[hub/progs]]
+	- [[staking pools]]
+	- [[kv store]]
+- randomness
 	-
