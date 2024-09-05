@@ -1,5 +1,0 @@
-tags:: aip
-
-- [[progs]]
-- [[libs]]
--
