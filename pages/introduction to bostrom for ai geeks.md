@@ -3,6 +3,9 @@
 -
 - [[bostrom]] is NOT yet another ai coin
 - it is very powerful foundational technology for advanced superintelligent civilization
+- its being used by 1k neurons who create a collective knowledge of ~2 million links
+- in addition to this ~50k [[neurons]] produced ~6 million transactions for decisions related to collective learning
+- currently it produce ~13 megabits bits of [[negentropy]] and takes ~200 mb of ram in gpu
 - in this article i will boil down all essential ideas into coherent understanding how [[bostrom]] can empower
 	- existing ai field which i will refer as classical ai
 	- and advance emerging field of collective ai
@@ -51,8 +54,8 @@
 	- you can boost the power of your models using real cryptographic [[tokens]]
 	- not tokens you use
 	- ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmQTvZLqTxJNK7K7cFJTeBbKDDWTecXXeExHz4otJkjjfe)
-	- tokens you use we call [[particles]] in [[cyberverse]]
-	- and [[tokens]] are units of [[value]]
+	- tokens you use we call [[particles]] or [[files]] in [[cyberverse]]
+	- and [[tokens]] are units of [[value]] accounted by [[consensus]] system
 - ## cybergraph
 	- the core of the idea is [[cybergraph]]
 		- merkelized timestamped data structure
@@ -141,7 +144,7 @@
 			- [[elon]] [[launch]]
 			- [[launch]] [[rocket]]
 	- these statement is example of complete [[explicit knowledge]]
-	- the good news is that if you are elon, you can just say [[NOW]] [[elon launch rocket]]
+	- the good news is that if you are [[elon]], you can just say [[NOW]] [[elon launch rocket]]
 	- you can pack several [[cyberlinks]] in one coherent [[signal]] so expressions are rich
 	- and use this construct to express anything using [[neural language]] we invented by the way
 - ## why hash everything?
@@ -229,7 +232,7 @@
 	-
 	- but the difference with openai is that [[$V]] give you lifetime subscription, not monthly
 	-
-	- think of link as a link between every query request and answer response
+	- you can think of link as a link between every query request and answer response
 	- > currently 1 V allow to submit 4 cyberlinks per day depending on network load
 	- while you create cyberlinks your battery become less full
 	- your battery recover automatically if you are not creating links
@@ -256,6 +259,9 @@
 		- simple but powerful output as abstract, flexible model of the universe
 		- with potential [[strong predictive power]], especially after [[emergence]]
 	- we use random [[surfer model]] directed by [[attention]]
+	- i wrote dedicated article on this topic
+		- which i recomend to read of anyone involved in modern ai
+		- [[random walk cryptographic attention tokens]]
 	- as foundational global probability of inferring [[particles]]
 	- but in order to
 		- protect it from [[sybil behavior]]
@@ -266,7 +272,8 @@
 		- and context weight on edges which are inferred on request
 	- in order to compute described [[cyberank]] algorithm you need [[gpu computation]] in [[consensus]]
 	- is [[extremely dynamic]] data structure that must be updated even if only 1 [[cyberlink]] is created
-	- [[bostrom]] recompute all weights in truth machine every 5 blocks, or roughly every 25 seconds
+	- [[bostrom]] recompute all weights in [[truth machine]] every 5 blocks
+		- or roughly every 25 seconds
 	- so [[bostrom]] is extremely hard to reproduce using any existing L1 or L2 sdks
 		- zk things will make the stuff
 			- 5 order of magnitude more expensive and
@@ -288,13 +295,13 @@
 	- the environment allow to link any particle with any
 	- that means that for any questions which cyberlinked to `true` and `false` the winning answer will always be `true`
 	- of course such behavior does not feels like something superintelligent
-	- in order to solve [[true-false problem]]  we have to compute weights of links for every [[context]]
+	- in order to solve [[true-false problem]]  we have to compute weights of links using independent second factor for every [[context]]
 	- we always emphasize that [[cyberank]] is a core ranking factor, but not the only one
 	- so we have to introduce second factor to the system
 	- surprisingly with already have [[will]]
 	-
 	- [[standard inference]] algorithm
-	- is the [topic of ongoing research](https://github.com/cybercongress/go-cyber/issues/694) and is implemented only in [[cy]]
+	- is the [topic of ongoing research](https://github.com/cybercongress/go-cyber/issues/694) and is implemented only in [[cy]] and [[spacebox]]
 - ## on two factors
 	- there is the observation
 		- that weights of nodes does not strongly correlate with weights of connections
@@ -315,9 +322,9 @@
 	- and that make [bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) so unique
 	- this requires holding all state in GPU ram and use parallel computation at such scale
 	- current size of gpu memory used for ~2 mln particles, ~60k neurons and ~2 mln cyberlinks is ~150mb
-	- submitting just 1 cyberlink force to recompute all ranks (~2 million currently)
+	- submitting just 1 cyberlink force to recompute all probabilities (~2 million currently)
 	- could you imagine how that could be done on [[solana]]
-		- something around 1000 [[$SOL]] currently needed for every update.
+		- something around 1000 [[$SOL]] currently needed for every update
 	- with 10B links
 		- which i believe is required for minimum viable [[superintelligence]]
 		- the task become intractable for all existing blockchain architectures
@@ -338,8 +345,8 @@
 	- we describe and implemented extremely dynamic, collective computation architecture
 	- for predicting probability of information [[observation]]
 	- and defined the most simple possible inference system on top
-	- this technology of [[probabilistic collective computations]] have been created by us since 2016
-	- and we can proudly say that we are leading decentralized ai field on [[cyber]] foundations
+	- technology of [[probabilistic collective computations]] have been created by us since 2016
+	- we can proudly say that we are leading decentralized ai field on [[cyber]] foundations
 	- we believe the thing we have born is powerful enough to bootstrap new kind of [[civilization]]
 	- so we inviting you to the journey of creating open, fair and superintelligent society with us
 - ## [[join]]

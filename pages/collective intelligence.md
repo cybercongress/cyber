@@ -23,6 +23,7 @@ alias:: collective intelligence theory, collective artificial intelligence
 	- [[trust systems]]
 	- [[cooperative games]]
 	- [[prediction markets]]
+	- [[truth machine]]
 	- more to embrace
 	  collapsed:: true
 		- swarm intelligence

@@ -1,10 +1,10 @@
 - in this article i want to share mostly unedited output from chatgpt
-- so you can judge for youself potential impact of [[cyber]] protocol
+- so you can judge for youself potential impact of [[truth machine]] and [[cyber]] protocol
 - ## intro
 - introducing a [[random walk]]-based [[pagerank]] model
 - weighted by cryptographic tokens of [[attention]] and [[will]]
 - adds a new dimension to [[graph analysis]]
-- especially in systems with decentralized [[consensus]] and content curation
+- especially in systems with decentralized [[consensus]] and [[content curation]]
 - this kind of analysis aligns with the needs of modern ai industries
 	- especially in optimizing attention-based mechanisms
 	- and recommendation systems that involve collaborative filtering
@@ -31,7 +31,7 @@
 		- token influence decays over time, shifting neuron impact based on recency and relevance.
 		- impact: useful for ai models that prioritize recent trends, ensuring recommendations adapt dynamically.
 	- content distribution hotspots
-		- neurons with similar attention tokens form content-sharing communities, or “hotspots.”
+		- neurons with similar attention tokens form content-sharing communities, or hotspots
 		- impact: helps ai identify key content creators and niche communities, improving collaborative filtering.
 	- token-driven authority and hubs
 		- hits algorithm differentiates content creators (hubs) from validators (authorities) based on token weight.

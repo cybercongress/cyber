@@ -17,9 +17,11 @@
 	- minimizing conflicts and redundancies
 -
 - key algorithms used in [[cyberverse]]
-	- [[consensus]]
-	- [[market makers]]
--
+	- [[consensus]]: coordination on establishing single sequence of events
+	- [[amm]]: coordination on value measurements
+	- [[auction]]: coordination on value establishment
+	- [[yuma]]: cooperative incentives for optimizing for win to win actions
+	- [[prediction markets]]: cooperative positive sum decisions with zero sum elements
 - TODO algorithms to research for coordination breakthroughs
 	- [[coordination graphs]]
 	- [[swarm intelligence algorithms]]
