@@ -6,7 +6,7 @@ if (document.querySelector("html").getAttribute("data-theme") === "light") {
   document.querySelector("body").classList.remove("white-theme");
   document.querySelector("body").classList.add("dark-theme");
 
-  localStorage.setItem("theme", "dark");
+  localStorage.setItem("theme", '"dark"');
 }
 
 document.querySelector(".journals-nav .flex-1").innerHTML = "Blog";
