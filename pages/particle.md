@@ -1,11 +1,11 @@
 icon:: ⭕️ 
-alias:: particles, object, cid, content address
-tags:: cyber, cyb
+alias:: particles, object, cid, content address, data, content
+tags:: cyber, cyb, page
 
 - [[object]] of [[information]]
 - [[neurons]] measure [[information]] by computing [[particle]] from [[file]]
 - particle is a format for content identification of data
-- essentially, particle, or content address is web3 link
+- essentially, particle, or content address is [[web3]] link
 - instead of using the location on the server:
 - ```
   https://bitcoin.org/bitcoin.pdf

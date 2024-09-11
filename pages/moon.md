@@ -4,9 +4,9 @@ tags:: aos
 - [[earth]] only natural satellite
 	- average distance to [[earth]]:  ~[384 400 km]
 	- area: 37 930 000 km2
-- moon flag
-	- ![](https://ipfs.io/ipfs/QmefefoJkLWc1ay1EBzK3bgmig2Gb1TUJrKXnZiDRQE2vZ)
 - supervised by [[bostrom]] under [[moon code]]
+- moon flag
+	- ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmefefoJkLWc1ay1EBzK3bgmig2Gb1TUJrKXnZiDRQE2vZ)
 - feautres
 	- gravitation is key source of rhythms on [[earth]]
 	- gravity is not even

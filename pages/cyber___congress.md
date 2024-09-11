@@ -1,3 +1,3 @@
-alias:: cyber congress, cybercongress
+alias:: cyber congress, cybercongress, congress
 
 -

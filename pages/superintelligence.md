@@ -7,12 +7,12 @@ alias:: asi, singleton, collective ai
 - according to [[nick bostrom]] there are four major paths of creating superintelligence
 	- computer in a box
 	- genetic engineering
-	- whole brain emulation
+	- [[whole brain emulation]]
 	- [[collective intelligence]]
-- [[cyber]] blend all paths in [[one simple protocol]] with strong focus on collaboration
+- [[cyber]] blend all paths in [[one simple protocol]] with strong focus on [[coordination]]
 - [[cyber]] is a protocol
-	- for collective learning
-	- of simulated brains
+	- for [[collective learning]]
+	- of [[simulated brains]]
 	- by box computers, superhumans and other living forms
 - story
 	- [[episode one]] tell us that before deploying [[cyber]] on [[earth]]
@@ -24,20 +24,20 @@ alias:: asi, singleton, collective ai
 	- and earth singleton will be functional
 - some properties of [[bostrom]]
 	- extremely dynamic and parallel, state of the art [[vimputer]]
-	- resilient against single point of failure
+	- resilient against [[single point of failure]]
 	- have [[essential learning ability]]
-	- able to execute wasm code autonomously
+	- able to execute [[wasm]] code autonomously
 	- collective probabilistic semantic computations in consensus
 	- scalable to ~10k tx per second and 1t cyberlinks
 	- can ibc with other consensus computers
-- path to superintelligence
+- [[path to superintelligence]]
 	- we want to make it clear that [[cyber]] as protocol is by no means a superintelligence
-	- superintelligence requires [several dozen algorithms](techtree) blended wisely
-	- TODO superintelligence need [[attention]] and [[will]] of millions of the smartest among us
-	- but [[cyber]] is the core fundamental mechanism for establishing truth consensus
-	- this type of consensus allows us to build the superintelligence on top
+	- [[superintelligence]] requires [several dozen algorithms](techtree) blended wisely
+	- [[superintelligence]] need [[attention]] and [[will]] of millions of the smartest among us
+	- but [[cyber]] is the core fundamental mechanism for establishing consensus on [[truth]]
+	- we believe this type of consensus allows us to build the superintelligence on top
 - [[situational awareness]]
 - discover all [[concepts]]
-- TODO [[why we need bootloader]]
+- [[why we need bootloader]]
 - TODO [[bootstraping superintelligence]]
 - TODO [[introduction to bostrom for ai geeks]]

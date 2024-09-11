@@ -1,5 +1,6 @@
 tags:: bostrom, spacepussy
 
+- TODO
 - fundamentals
 	- asset management
 	- understanding state
