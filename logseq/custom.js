@@ -10,3 +10,12 @@ if (document.querySelector("html").getAttribute("data-theme") === "light") {
 }
 
 document.querySelector(".journals-nav .flex-1").innerHTML = "Blog";
+
+// Override the pushState method for correct hashchange event (for analytics)
+// seems router issue
+const originalPushState = history.pushState;
+
+history.pushState = function (state, title, url) {
+  originalPushState.apply(history, arguments);
+  window.dispatchEvent(new Event("hashchange"));
+};
