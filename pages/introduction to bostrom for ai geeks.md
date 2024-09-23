@@ -39,8 +39,8 @@
 		- by this article we propose example of such architecture
 - ## cryptographic proofs and llms
 	- we believe that authenticity of models is a serious bottleneck for ai alignment and more
-	- its a shame that so technologically advanced industry in a broad sense
-	- still does not give a shit about possibilities of [[hashing]], [[pubkey]] cryptography and [[logical clock]]
+	- its quite strange that so technologically advanced industry in a broad sense
+	- still have not advanced to possibilities behind, [[hashing]], [[pubkey]] cryptography, [[merklization]] and [[logical clock]]
 	- its kinda impossible to build multiparty protocols without these primitives
 	- yep, i am ware about [zkml movement](https://github.com/worldcoin/awesome-zkml)
 	- but this is a drop in the ocean given the [[knowledge graphs and llms]] argument
@@ -52,9 +52,8 @@
 	- rewarding is essential for machine learning
 	- we have ton shit of [[tokens]] with dogs, monkeys
 	- you can boost the power of your models using real cryptographic [[tokens]]
-	- not tokens you use
 	- ![](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmQTvZLqTxJNK7K7cFJTeBbKDDWTecXXeExHz4otJkjjfe)
-	- tokens you use we call [[particles]] or [[files]] in [[cyberverse]]
+	- tokens which are being used in ai field we call [[particles]] or [[files]] in [[cyberverse]]
 	- and [[tokens]] are units of [[value]] accounted by [[consensus]] system
 - ## cybergraph
 	- the core of the idea is [[cybergraph]]
@@ -73,7 +72,7 @@
 		- [[when]] [[information]] was linked
 		- [[what]] [[information]] was linked
 	- in essence cybergraph is an array of append only fully authenticated quadruples
-	- | block hash | neuron | from particle | to particle |
+	- | block height | neuron | from particle | to particle |
 	  
 	  | 42 | bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t | QmRjzv8iNpMX7NXmMswT9qq7nviQ4sC1gMMceryAVJdfPS|  QmRX8qYgeZoYM3M5zzQaWEpVFdpin6FvVXvp6RPQK3oufV |
 	  
@@ -137,6 +136,8 @@
 		- head: elon
 		- relation: launch
 		- tail: rocket
+	- however this does not means that elon launch rocket
+	- this claim require verification
 	- in contrary you cant say [[elon launch rocket]] in the world of [[cybergraph]]
 	- because you are not elon, you must speak only for youself
 	- you must say:
@@ -322,7 +323,7 @@
 	- and that make [bostrom](https://twitter.com/hashtag/bostrom?src=hashtag_click) so unique
 	- this requires holding all state in GPU ram and use parallel computation at such scale
 	- current size of gpu memory used for ~2 mln particles, ~60k neurons and ~2 mln cyberlinks is ~150mb
-	- submitting just 1 cyberlink force to recompute all probabilities (~2 million currently)
+	- submitting just 1 cyberlink force to recompute all probabilities (~3f million currently)
 	- could you imagine how that could be done on [[solana]]
 		- something around 1000 [[$SOL]] currently needed for every update
 	- with 10B links
