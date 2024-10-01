@@ -22,7 +22,6 @@ tags:: page
 	- private and public [[linking]]
 	- publishing to [[ipfs]] and [[cybergraph]]
 	- supported 7 [[particle]] formats
-	  collapsed:: true
 		- text::
 		- video::
 		- audio::
