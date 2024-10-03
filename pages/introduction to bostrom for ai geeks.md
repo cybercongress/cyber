@@ -24,6 +24,7 @@
 		- cryptographic proofs
 		- token engineering
 - ## knowledge graphs and llms
+  collapsed:: true
 	- jump for a second to this article: [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://cyb.ai/oracle/ask/QmdGEYVKo1sRURzbj83UMtr77EL6GHUB2taJbnpTynEQKT)
 	- ![image.png](https://emerald-raw-leopon-384.mypinata.cloud/ipfs/QmPnEpPhd77ysSfaACJd5Kc6prrrsUfTCAmPo977n2tcih)
 	- {{embed ((66b2fb4e-c73b-4133-aab3-11df2e8d1436))}}
@@ -38,6 +39,7 @@
 		- by a next generation of architectures and
 		- by this article we propose example of such architecture
 - ## cryptographic proofs and llms
+  collapsed:: true
 	- we believe that authenticity of models is a serious bottleneck for ai alignment and more
 	- its quite strange that so technologically advanced industry in a broad sense
 	- still have not advanced to possibilities behind, [[hashing]], [[pubkey]] cryptography, [[merklization]] and [[logical clock]]
@@ -49,6 +51,7 @@
 		- fully authenticated knowledge graph tech
 		- which is [[cybergraph]], but later on that
 - ## token engineering and llms
+  collapsed:: true
 	- rewarding is essential for machine learning
 	- we have ton shit of [[tokens]] with dogs, monkeys
 	- you can boost the power of your models using real cryptographic [[tokens]]
