@@ -29,6 +29,9 @@ jobs:
       - name: Add analytics script
         run: ./.github/scripts/modify_html/add_analytics.sh
 
+      - name: Install Netlify CLI
+        run: npm install -g netlify-cli
+
       - name: Deploy to Netlify
         uses: jsmrcaga/action-netlify-deploy@v2.2.0
         with:
