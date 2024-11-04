@@ -1,4 +1,5 @@
 tags:: cip
+status:: draft
 
 - add to 2 consensus [[params]]
 - charge fee on every [[$A]] and [[$V]] transfer

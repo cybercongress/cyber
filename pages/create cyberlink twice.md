@@ -1,4 +1,5 @@
 tags:: cip
+status:: accepted
 
 - in current [[go-cyber]] implementation there is one property
 - which significantly limits utility of [[cybergraph]]

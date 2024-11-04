@@ -1,5 +1,6 @@
 icon:: 🍄
-tags:: cyber
+tags:: cyber, cip
+status:: tested
 
 - experimental [[learning incentives]] layer for [[cyber]] using [[cosmwasm]] [[progs]]
 - effort to incentivize [[soft3]] learning

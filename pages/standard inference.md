@@ -1,4 +1,4 @@
-alias:: cyberlinks weight, cyberlinks weights, cip
+alias:: cyberlinks weight, cyberlinks weights
 
 -
 - algorithm addressed to solve [[true false problem]] for inference of truthful [[answers]] from [[cybergraph]]

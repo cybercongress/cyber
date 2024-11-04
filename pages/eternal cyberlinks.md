@@ -1,4 +1,5 @@
 tags:: cip
+status:: draft
 
 - allow [[neuron]] to burn [[$V]] for increasing popularity of [[cyberlinks]]
 - input

@@ -1,4 +1,5 @@
 tags:: cip
+status:: accepted
 
 - [[daodao]] is amazing [[prog]] which is widely adopted in [[cosmos]]
 - we must migrate legacy governance [[module]] of [[cosmos-sdk]]

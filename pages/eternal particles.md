@@ -1,4 +1,5 @@
 tags:: cip
+status:: draft
 
 - allow [[neuron]] to burn [[$A]] for increasing popularity of [[particles]]
 - input

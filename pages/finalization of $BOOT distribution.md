@@ -1,4 +1,5 @@
 tags:: cip
+status:: draft
 
 - in [[bostrom/genesis]] we allocated 70% of $BOOT and $CYB for [[cybergift]]
 - current state of public affairs:

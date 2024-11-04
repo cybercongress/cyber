@@ -1,5 +1,8 @@
 tags:: cip
+status:: rejected
 
+- reason for rejection: better alternative [[energy mint using curve]]
+-
 - new [[mint]] function of [[will]] and [[attention]]
 - every day [[english auction]] starts
 - [[neurons]] burn [[$A]] or [[$V]]
@@ -8,3 +11,4 @@ tags:: cip
 - depending on
 	- how many [[$A]] or [[$V]] neurons wish to [[burn]]
 	- how many [[$A]] or [[$V]] is allocated for an hour
+-

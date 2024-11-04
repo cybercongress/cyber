@@ -1,4 +1,5 @@
 tags:: cip
+status:: draft
 
 - allow [[neuron]] to stake on [[cyberlinks]] and gain rewards
 - staking

@@ -1,4 +1,5 @@
 tags:: cip
+status:: draft
 
 - initially we allocated 70% from [[bostrom/genesis]]
 - result in 27 months

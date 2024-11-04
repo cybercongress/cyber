@@ -1,4 +1,5 @@
 tags:: cip
+status:: draft
 
 - propose simple mechanism for optimization of [[cyber/energy]] [[tokens]] [[value]]
 - idea
