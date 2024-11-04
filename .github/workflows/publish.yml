@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Publish Logseq graph
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4.2.0
       - uses: logseq/publish-spa@v0.3.1
         with:
           version: 0.10.9
@@ -28,6 +28,9 @@ jobs:
         run: ./.github/scripts/modify_html/add_meta.sh
       - name: Add analytics script
         run: ./.github/scripts/modify_html/add_analytics.sh
+
+      - name: Install Netlify CLI
+        run: npm install -g netlify-cli
 
       - name: Deploy to Netlify
         uses: jsmrcaga/action-netlify-deploy@v2.2.0
