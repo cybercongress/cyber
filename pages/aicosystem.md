@@ -61,6 +61,7 @@ alias:: awesome cyber, cyber ecosystem
 	- [monitor.bronbro.io/d/bostrom-stats](https://monitor.bronbro.io/d/bostrom-stats/bostrom-stats?orgId=2) - monitor bronbro
 	- [metrics.cyb.ai/cyb.ai](https://metrics.cyb.ai/cyb.ai) - public analytics of usage
 	- [metrics.cyb.ai/docs.cyb.ai](https://metrics.cyb.ai/docs.cyb.ai) - public analytics of usage
+	- celatone.cyb.ai - explorer
 - osmosis
 	- [[$BOOT]] on [pro.osmosis.zone](https://pro.osmosis.zone/osmosis/trade/analytics/tokens/ibc%252FFE2CD1E6828EC0FAB8AF39BAC45BC25B965BA67CCBC50C13A14BD610B0D1E2C4?from=uosmo&to=ibc%2F498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4&market=Osmosis)
 - dashboards
